@@ -1,0 +1,510 @@
+﻿source,category,split,records
+afamily,Du lịch - Ẩm thực,train,85
+afamily,Du lịch - Ẩm thực,train_human_subset,27
+afamily,Du lịch - Ẩm thực,dev,6
+afamily,Du lịch - Ẩm thực,test_seen,4
+afamily,Du lịch - Ẩm thực,reserve,21
+afamily,Giáo dục,train,272
+afamily,Giáo dục,train_human_subset,87
+afamily,Giáo dục,dev,19
+afamily,Giáo dục,test_seen,14
+afamily,Giáo dục,reserve,64
+afamily,Giải trí - Văn hóa,train,475
+afamily,Giải trí - Văn hóa,train_human_subset,152
+afamily,Giải trí - Văn hóa,dev,33
+afamily,Giải trí - Văn hóa,test_seen,24
+afamily,Giải trí - Văn hóa,reserve,112
+afamily,Khác,train,4
+afamily,Khác,train_human_subset,1
+afamily,Khác,dev,1
+afamily,Khác,test_seen,0
+afamily,Khác,reserve,1
+afamily,Kinh tế - Tài chính,train,203
+afamily,Kinh tế - Tài chính,train_human_subset,65
+afamily,Kinh tế - Tài chính,dev,14
+afamily,Kinh tế - Tài chính,test_seen,10
+afamily,Kinh tế - Tài chính,reserve,48
+afamily,Làm đẹp - Thời trang,train,200
+afamily,Làm đẹp - Thời trang,train_human_subset,64
+afamily,Làm đẹp - Thời trang,dev,14
+afamily,Làm đẹp - Thời trang,test_seen,10
+afamily,Làm đẹp - Thời trang,reserve,48
+afamily,Sức khỏe,train,290
+afamily,Sức khỏe,train_human_subset,93
+afamily,Sức khỏe,dev,20
+afamily,Sức khỏe,test_seen,15
+afamily,Sức khỏe,reserve,68
+afamily,Thời sự - Xã hội,train,368
+afamily,Thời sự - Xã hội,train_human_subset,118
+afamily,Thời sự - Xã hội,dev,26
+afamily,Thời sự - Xã hội,test_seen,18
+afamily,Thời sự - Xã hội,reserve,88
+afamily,Đời sống - Gia đình,train,603
+afamily,Đời sống - Gia đình,train_human_subset,193
+afamily,Đời sống - Gia đình,dev,42
+afamily,Đời sống - Gia đình,test_seen,30
+afamily,Đời sống - Gia đình,reserve,143
+2sao,Công nghệ - Khoa học,train,128
+2sao,Công nghệ - Khoa học,train_human_subset,41
+2sao,Công nghệ - Khoa học,dev,9
+2sao,Công nghệ - Khoa học,test_seen,7
+2sao,Công nghệ - Khoa học,reserve,32
+2sao,Giải trí - Văn hóa,train,546
+2sao,Giải trí - Văn hóa,train_human_subset,175
+2sao,Giải trí - Văn hóa,dev,38
+2sao,Giải trí - Văn hóa,test_seen,27
+2sao,Giải trí - Văn hóa,reserve,140
+2sao,Làm đẹp - Thời trang,train,320
+2sao,Làm đẹp - Thời trang,train_human_subset,102
+2sao,Làm đẹp - Thời trang,dev,22
+2sao,Làm đẹp - Thời trang,test_seen,16
+2sao,Làm đẹp - Thời trang,reserve,82
+2sao,Thời sự - Xã hội,train,539
+2sao,Thời sự - Xã hội,train_human_subset,172
+2sao,Thời sự - Xã hội,dev,38
+2sao,Thời sự - Xã hội,test_seen,27
+2sao,Thời sự - Xã hội,reserve,137
+2sao,Tử vi - Phong thủy,train,443
+2sao,Tử vi - Phong thủy,train_human_subset,142
+2sao,Tử vi - Phong thủy,dev,31
+2sao,Tử vi - Phong thủy,test_seen,22
+2sao,Tử vi - Phong thủy,reserve,112
+2sao,Đời sống - Gia đình,train,524
+2sao,Đời sống - Gia đình,train_human_subset,168
+2sao,Đời sống - Gia đình,dev,37
+2sao,Đời sống - Gia đình,test_seen,26
+2sao,Đời sống - Gia đình,reserve,133
+eva,Du lịch - Ẩm thực,train,229
+eva,Du lịch - Ẩm thực,train_human_subset,73
+eva,Du lịch - Ẩm thực,dev,16
+eva,Du lịch - Ẩm thực,test_seen,12
+eva,Du lịch - Ẩm thực,reserve,47
+eva,Giải trí - Văn hóa,train,261
+eva,Giải trí - Văn hóa,train_human_subset,83
+eva,Giải trí - Văn hóa,dev,18
+eva,Giải trí - Văn hóa,test_seen,13
+eva,Giải trí - Văn hóa,reserve,54
+eva,Khác,train,173
+eva,Khác,train_human_subset,55
+eva,Khác,dev,12
+eva,Khác,test_seen,9
+eva,Khác,reserve,35
+eva,Làm đẹp - Thời trang,train,237
+eva,Làm đẹp - Thời trang,train_human_subset,76
+eva,Làm đẹp - Thời trang,dev,17
+eva,Làm đẹp - Thời trang,test_seen,12
+eva,Làm đẹp - Thời trang,reserve,48
+eva,Sức khỏe,train,200
+eva,Sức khỏe,train_human_subset,64
+eva,Sức khỏe,dev,14
+eva,Sức khỏe,test_seen,10
+eva,Sức khỏe,reserve,42
+eva,Thời sự - Xã hội,train,645
+eva,Thời sự - Xã hội,train_human_subset,207
+eva,Thời sự - Xã hội,dev,45
+eva,Thời sự - Xã hội,test_seen,32
+eva,Thời sự - Xã hội,reserve,136
+eva,Tử vi - Phong thủy,train,146
+eva,Tử vi - Phong thủy,train_human_subset,47
+eva,Tử vi - Phong thủy,dev,10
+eva,Tử vi - Phong thủy,test_seen,7
+eva,Tử vi - Phong thủy,reserve,31
+eva,Đời sống - Gia đình,train,609
+eva,Đời sống - Gia đình,train_human_subset,195
+eva,Đời sống - Gia đình,dev,43
+eva,Đời sống - Gia đình,test_seen,30
+eva,Đời sống - Gia đình,reserve,126
+kenh14,(không có category),train,0
+kenh14,(không có category),train_human_subset,0
+kenh14,(không có category),dev,0
+kenh14,(không có category),test_seen,0
+kenh14,(không có category),reserve,4
+kenh14,Công nghệ - Khoa học,train,150
+kenh14,Công nghệ - Khoa học,train_human_subset,48
+kenh14,Công nghệ - Khoa học,dev,10
+kenh14,Công nghệ - Khoa học,test_seen,8
+kenh14,Công nghệ - Khoa học,reserve,38
+kenh14,Du lịch - Ẩm thực,train,124
+kenh14,Du lịch - Ẩm thực,train_human_subset,40
+kenh14,Du lịch - Ẩm thực,dev,9
+kenh14,Du lịch - Ẩm thực,test_seen,6
+kenh14,Du lịch - Ẩm thực,reserve,32
+kenh14,Giáo dục,train,170
+kenh14,Giáo dục,train_human_subset,55
+kenh14,Giáo dục,dev,12
+kenh14,Giáo dục,test_seen,9
+kenh14,Giáo dục,reserve,43
+kenh14,Giải trí - Văn hóa,train,384
+kenh14,Giải trí - Văn hóa,train_human_subset,123
+kenh14,Giải trí - Văn hóa,dev,27
+kenh14,Giải trí - Văn hóa,test_seen,19
+kenh14,Giải trí - Văn hóa,reserve,97
+kenh14,Khác,train,5
+kenh14,Khác,train_human_subset,2
+kenh14,Khác,dev,0
+kenh14,Khác,test_seen,0
+kenh14,Khác,reserve,2
+kenh14,Kinh tế - Tài chính,train,126
+kenh14,Kinh tế - Tài chính,train_human_subset,40
+kenh14,Kinh tế - Tài chính,dev,9
+kenh14,Kinh tế - Tài chính,test_seen,6
+kenh14,Kinh tế - Tài chính,reserve,32
+kenh14,Làm đẹp - Thời trang,train,85
+kenh14,Làm đẹp - Thời trang,train_human_subset,27
+kenh14,Làm đẹp - Thời trang,dev,6
+kenh14,Làm đẹp - Thời trang,test_seen,4
+kenh14,Làm đẹp - Thời trang,reserve,22
+kenh14,Sức khỏe,train,307
+kenh14,Sức khỏe,train_human_subset,98
+kenh14,Sức khỏe,dev,22
+kenh14,Sức khỏe,test_seen,15
+kenh14,Sức khỏe,reserve,78
+kenh14,Thế giới,train,241
+kenh14,Thế giới,train_human_subset,77
+kenh14,Thế giới,dev,17
+kenh14,Thế giới,test_seen,12
+kenh14,Thế giới,reserve,61
+kenh14,Thể thao,train,164
+kenh14,Thể thao,train_human_subset,52
+kenh14,Thể thao,dev,11
+kenh14,Thể thao,test_seen,8
+kenh14,Thể thao,reserve,42
+kenh14,Thời sự - Xã hội,train,435
+kenh14,Thời sự - Xã hội,train_human_subset,139
+kenh14,Thời sự - Xã hội,dev,30
+kenh14,Thời sự - Xã hội,test_seen,22
+kenh14,Thời sự - Xã hội,reserve,111
+kenh14,Đời sống - Gia đình,train,309
+kenh14,Đời sống - Gia đình,train_human_subset,99
+kenh14,Đời sống - Gia đình,dev,22
+kenh14,Đời sống - Gia đình,test_seen,16
+kenh14,Đời sống - Gia đình,reserve,77
+cafef,Bất động sản,train,269
+cafef,Bất động sản,train_human_subset,86
+cafef,Bất động sản,dev,19
+cafef,Bất động sản,test_seen,14
+cafef,Bất động sản,reserve,65
+cafef,Công nghệ - Khoa học,train,121
+cafef,Công nghệ - Khoa học,train_human_subset,39
+cafef,Công nghệ - Khoa học,dev,8
+cafef,Công nghệ - Khoa học,test_seen,6
+cafef,Công nghệ - Khoa học,reserve,30
+cafef,Khác,train,27
+cafef,Khác,train_human_subset,9
+cafef,Khác,dev,2
+cafef,Khác,test_seen,1
+cafef,Khác,reserve,7
+cafef,Kinh tế - Tài chính,train,814
+cafef,Kinh tế - Tài chính,train_human_subset,260
+cafef,Kinh tế - Tài chính,dev,57
+cafef,Kinh tế - Tài chính,test_seen,41
+cafef,Kinh tế - Tài chính,reserve,200
+cafef,Thế giới,train,228
+cafef,Thế giới,train_human_subset,73
+cafef,Thế giới,dev,16
+cafef,Thế giới,test_seen,11
+cafef,Thế giới,reserve,57
+cafef,Thời sự - Xã hội,train,224
+cafef,Thời sự - Xã hội,train_human_subset,72
+cafef,Thời sự - Xã hội,dev,16
+cafef,Thời sự - Xã hội,test_seen,11
+cafef,Thời sự - Xã hội,reserve,55
+cafef,Đời sống - Gia đình,train,817
+cafef,Đời sống - Gia đình,train_human_subset,261
+cafef,Đời sống - Gia đình,dev,57
+cafef,Đời sống - Gia đình,test_seen,41
+cafef,Đời sống - Gia đình,reserve,201
+thanhnien,Bất động sản,train,22
+thanhnien,Bất động sản,train_human_subset,7
+thanhnien,Bất động sản,dev,2
+thanhnien,Bất động sản,test_seen,1
+thanhnien,Bất động sản,reserve,6
+thanhnien,Công nghệ - Khoa học,train,122
+thanhnien,Công nghệ - Khoa học,train_human_subset,39
+thanhnien,Công nghệ - Khoa học,dev,8
+thanhnien,Công nghệ - Khoa học,test_seen,6
+thanhnien,Công nghệ - Khoa học,reserve,32
+thanhnien,Du lịch - Ẩm thực,train,38
+thanhnien,Du lịch - Ẩm thực,train_human_subset,12
+thanhnien,Du lịch - Ẩm thực,dev,3
+thanhnien,Du lịch - Ẩm thực,test_seen,2
+thanhnien,Du lịch - Ẩm thực,reserve,10
+thanhnien,Giáo dục,train,137
+thanhnien,Giáo dục,train_human_subset,44
+thanhnien,Giáo dục,dev,10
+thanhnien,Giáo dục,test_seen,7
+thanhnien,Giáo dục,reserve,35
+thanhnien,Giải trí - Văn hóa,train,204
+thanhnien,Giải trí - Văn hóa,train_human_subset,65
+thanhnien,Giải trí - Văn hóa,dev,14
+thanhnien,Giải trí - Văn hóa,test_seen,10
+thanhnien,Giải trí - Văn hóa,reserve,54
+thanhnien,Khác,train,33
+thanhnien,Khác,train_human_subset,11
+thanhnien,Khác,dev,2
+thanhnien,Khác,test_seen,2
+thanhnien,Khác,reserve,9
+thanhnien,Kinh tế - Tài chính,train,294
+thanhnien,Kinh tế - Tài chính,train_human_subset,94
+thanhnien,Kinh tế - Tài chính,dev,21
+thanhnien,Kinh tế - Tài chính,test_seen,15
+thanhnien,Kinh tế - Tài chính,reserve,76
+thanhnien,Làm đẹp - Thời trang,train,61
+thanhnien,Làm đẹp - Thời trang,train_human_subset,20
+thanhnien,Làm đẹp - Thời trang,dev,4
+thanhnien,Làm đẹp - Thời trang,test_seen,3
+thanhnien,Làm đẹp - Thời trang,reserve,16
+thanhnien,Pháp luật,train,64
+thanhnien,Pháp luật,train_human_subset,20
+thanhnien,Pháp luật,dev,4
+thanhnien,Pháp luật,test_seen,3
+thanhnien,Pháp luật,reserve,17
+thanhnien,Sức khỏe,train,142
+thanhnien,Sức khỏe,train_human_subset,45
+thanhnien,Sức khỏe,dev,10
+thanhnien,Sức khỏe,test_seen,7
+thanhnien,Sức khỏe,reserve,37
+thanhnien,Thế giới,train,239
+thanhnien,Thế giới,train_human_subset,76
+thanhnien,Thế giới,dev,17
+thanhnien,Thế giới,test_seen,12
+thanhnien,Thế giới,reserve,62
+thanhnien,Thể thao,train,317
+thanhnien,Thể thao,train_human_subset,102
+thanhnien,Thể thao,dev,22
+thanhnien,Thể thao,test_seen,16
+thanhnien,Thể thao,reserve,83
+thanhnien,Thời sự - Xã hội,train,644
+thanhnien,Thời sự - Xã hội,train_human_subset,206
+thanhnien,Thời sự - Xã hội,dev,45
+thanhnien,Thời sự - Xã hội,test_seen,32
+thanhnien,Thời sự - Xã hội,reserve,170
+thanhnien,Xe,train,33
+thanhnien,Xe,train_human_subset,11
+thanhnien,Xe,dev,2
+thanhnien,Xe,test_seen,2
+thanhnien,Xe,reserve,9
+thanhnien,Đời sống - Gia đình,train,150
+thanhnien,Đời sống - Gia đình,train_human_subset,48
+thanhnien,Đời sống - Gia đình,dev,11
+thanhnien,Đời sống - Gia đình,test_seen,7
+thanhnien,Đời sống - Gia đình,reserve,40
+tuoitre,Bất động sản,train,54
+tuoitre,Bất động sản,train_human_subset,17
+tuoitre,Bất động sản,dev,4
+tuoitre,Bất động sản,test_seen,3
+tuoitre,Bất động sản,reserve,14
+tuoitre,Công nghệ - Khoa học,train,77
+tuoitre,Công nghệ - Khoa học,train_human_subset,25
+tuoitre,Công nghệ - Khoa học,dev,5
+tuoitre,Công nghệ - Khoa học,test_seen,4
+tuoitre,Công nghệ - Khoa học,reserve,21
+tuoitre,Du lịch - Ẩm thực,train,68
+tuoitre,Du lịch - Ẩm thực,train_human_subset,22
+tuoitre,Du lịch - Ẩm thực,dev,5
+tuoitre,Du lịch - Ẩm thực,test_seen,3
+tuoitre,Du lịch - Ẩm thực,reserve,19
+tuoitre,Giáo dục,train,118
+tuoitre,Giáo dục,train_human_subset,38
+tuoitre,Giáo dục,dev,8
+tuoitre,Giáo dục,test_seen,6
+tuoitre,Giáo dục,reserve,33
+tuoitre,Giải trí - Văn hóa,train,233
+tuoitre,Giải trí - Văn hóa,train_human_subset,74
+tuoitre,Giải trí - Văn hóa,dev,16
+tuoitre,Giải trí - Văn hóa,test_seen,12
+tuoitre,Giải trí - Văn hóa,reserve,64
+tuoitre,Khác,train,68
+tuoitre,Khác,train_human_subset,22
+tuoitre,Khác,dev,5
+tuoitre,Khác,test_seen,3
+tuoitre,Khác,reserve,19
+tuoitre,Kinh tế - Tài chính,train,321
+tuoitre,Kinh tế - Tài chính,train_human_subset,103
+tuoitre,Kinh tế - Tài chính,dev,22
+tuoitre,Kinh tế - Tài chính,test_seen,16
+tuoitre,Kinh tế - Tài chính,reserve,90
+tuoitre,Pháp luật,train,165
+tuoitre,Pháp luật,train_human_subset,53
+tuoitre,Pháp luật,dev,12
+tuoitre,Pháp luật,test_seen,8
+tuoitre,Pháp luật,reserve,45
+tuoitre,Sức khỏe,train,109
+tuoitre,Sức khỏe,train_human_subset,35
+tuoitre,Sức khỏe,dev,8
+tuoitre,Sức khỏe,test_seen,6
+tuoitre,Sức khỏe,reserve,30
+tuoitre,Thế giới,train,283
+tuoitre,Thế giới,train_human_subset,91
+tuoitre,Thế giới,dev,20
+tuoitre,Thế giới,test_seen,14
+tuoitre,Thế giới,reserve,79
+tuoitre,Thể thao,train,317
+tuoitre,Thể thao,train_human_subset,101
+tuoitre,Thể thao,dev,22
+tuoitre,Thể thao,test_seen,16
+tuoitre,Thể thao,reserve,88
+tuoitre,Thời sự - Xã hội,train,545
+tuoitre,Thời sự - Xã hội,train_human_subset,174
+tuoitre,Thời sự - Xã hội,dev,38
+tuoitre,Thời sự - Xã hội,test_seen,27
+tuoitre,Thời sự - Xã hội,reserve,152
+tuoitre,Xe,train,63
+tuoitre,Xe,train_human_subset,20
+tuoitre,Xe,dev,4
+tuoitre,Xe,test_seen,3
+tuoitre,Xe,reserve,18
+tuoitre,Đời sống - Gia đình,train,79
+tuoitre,Đời sống - Gia đình,train_human_subset,25
+tuoitre,Đời sống - Gia đình,dev,6
+tuoitre,Đời sống - Gia đình,test_seen,4
+tuoitre,Đời sống - Gia đình,reserve,22
+dantri,Bất động sản,train,75
+dantri,Bất động sản,train_human_subset,24
+dantri,Bất động sản,dev,5
+dantri,Bất động sản,test_seen,4
+dantri,Bất động sản,reserve,21
+dantri,Công nghệ - Khoa học,train,100
+dantri,Công nghệ - Khoa học,train_human_subset,32
+dantri,Công nghệ - Khoa học,dev,7
+dantri,Công nghệ - Khoa học,test_seen,5
+dantri,Công nghệ - Khoa học,reserve,28
+dantri,Du lịch - Ẩm thực,train,65
+dantri,Du lịch - Ẩm thực,train_human_subset,21
+dantri,Du lịch - Ẩm thực,dev,5
+dantri,Du lịch - Ẩm thực,test_seen,3
+dantri,Du lịch - Ẩm thực,reserve,18
+dantri,Giáo dục,train,122
+dantri,Giáo dục,train_human_subset,39
+dantri,Giáo dục,dev,8
+dantri,Giáo dục,test_seen,6
+dantri,Giáo dục,reserve,34
+dantri,Giải trí - Văn hóa,train,95
+dantri,Giải trí - Văn hóa,train_human_subset,30
+dantri,Giải trí - Văn hóa,dev,7
+dantri,Giải trí - Văn hóa,test_seen,5
+dantri,Giải trí - Văn hóa,reserve,26
+dantri,Khác,train,1
+dantri,Khác,train_human_subset,0
+dantri,Khác,dev,0
+dantri,Khác,test_seen,0
+dantri,Khác,reserve,1
+dantri,Kinh tế - Tài chính,train,259
+dantri,Kinh tế - Tài chính,train_human_subset,83
+dantri,Kinh tế - Tài chính,dev,18
+dantri,Kinh tế - Tài chính,test_seen,13
+dantri,Kinh tế - Tài chính,reserve,72
+dantri,Làm đẹp - Thời trang,train,9
+dantri,Làm đẹp - Thời trang,train_human_subset,3
+dantri,Làm đẹp - Thời trang,dev,1
+dantri,Làm đẹp - Thời trang,test_seen,1
+dantri,Làm đẹp - Thời trang,reserve,2
+dantri,Pháp luật,train,269
+dantri,Pháp luật,train_human_subset,86
+dantri,Pháp luật,dev,19
+dantri,Pháp luật,test_seen,13
+dantri,Pháp luật,reserve,74
+dantri,Sức khỏe,train,128
+dantri,Sức khỏe,train_human_subset,41
+dantri,Sức khỏe,dev,9
+dantri,Sức khỏe,test_seen,6
+dantri,Sức khỏe,reserve,35
+dantri,Thế giới,train,265
+dantri,Thế giới,train_human_subset,85
+dantri,Thế giới,dev,18
+dantri,Thế giới,test_seen,13
+dantri,Thế giới,reserve,73
+dantri,Thể thao,train,216
+dantri,Thể thao,train_human_subset,69
+dantri,Thể thao,dev,15
+dantri,Thể thao,test_seen,11
+dantri,Thể thao,reserve,60
+dantri,Thời sự - Xã hội,train,709
+dantri,Thời sự - Xã hội,train_human_subset,227
+dantri,Thời sự - Xã hội,dev,50
+dantri,Thời sự - Xã hội,test_seen,35
+dantri,Thời sự - Xã hội,reserve,197
+dantri,Xe,train,77
+dantri,Xe,train_human_subset,25
+dantri,Xe,dev,5
+dantri,Xe,test_seen,4
+dantri,Xe,reserve,21
+dantri,Đời sống - Gia đình,train,110
+dantri,Đời sống - Gia đình,train_human_subset,35
+dantri,Đời sống - Gia đình,dev,8
+dantri,Đời sống - Gia đình,test_seen,6
+dantri,Đời sống - Gia đình,reserve,29
+saostar,Công nghệ - Khoa học,test_unseen,7
+saostar,Công nghệ - Khoa học,reserve,4
+saostar,Du lịch - Ẩm thực,test_unseen,7
+saostar,Du lịch - Ẩm thực,reserve,5
+saostar,Giáo dục,test_unseen,3
+saostar,Giáo dục,reserve,1
+saostar,Giải trí - Văn hóa,test_unseen,197
+saostar,Giải trí - Văn hóa,reserve,132
+saostar,Kinh tế - Tài chính,test_unseen,8
+saostar,Kinh tế - Tài chính,reserve,6
+saostar,Làm đẹp - Thời trang,test_unseen,4
+saostar,Làm đẹp - Thời trang,reserve,3
+saostar,Thế giới,test_unseen,17
+saostar,Thế giới,reserve,12
+saostar,Thể thao,test_unseen,23
+saostar,Thể thao,reserve,15
+saostar,Thời sự - Xã hội,test_unseen,34
+saostar,Thời sự - Xã hội,reserve,22
+yan,Giải trí - Văn hóa,test_unseen,195
+yan,Giải trí - Văn hóa,reserve,130
+yan,Khác,test_unseen,56
+yan,Khác,reserve,38
+yan,Làm đẹp - Thời trang,test_unseen,49
+yan,Làm đẹp - Thời trang,reserve,32
+vietnamnet,Bất động sản,test_unseen,6
+vietnamnet,Bất động sản,reserve,4
+vietnamnet,Công nghệ - Khoa học,test_unseen,16
+vietnamnet,Công nghệ - Khoa học,reserve,10
+vietnamnet,Du lịch - Ẩm thực,test_unseen,5
+vietnamnet,Du lịch - Ẩm thực,reserve,4
+vietnamnet,Giáo dục,test_unseen,16
+vietnamnet,Giáo dục,reserve,11
+vietnamnet,Giải trí - Văn hóa,test_unseen,29
+vietnamnet,Giải trí - Văn hóa,reserve,19
+vietnamnet,Khác,test_unseen,7
+vietnamnet,Khác,reserve,4
+vietnamnet,Kinh tế - Tài chính,test_unseen,35
+vietnamnet,Kinh tế - Tài chính,reserve,24
+vietnamnet,Pháp luật,test_unseen,19
+vietnamnet,Pháp luật,reserve,13
+vietnamnet,Sức khỏe,test_unseen,19
+vietnamnet,Sức khỏe,reserve,13
+vietnamnet,Thế giới,test_unseen,19
+vietnamnet,Thế giới,reserve,12
+vietnamnet,Thể thao,test_unseen,42
+vietnamnet,Thể thao,reserve,28
+vietnamnet,Thời sự - Xã hội,test_unseen,65
+vietnamnet,Thời sự - Xã hội,reserve,43
+vietnamnet,Xe,test_unseen,10
+vietnamnet,Xe,reserve,6
+vietnamnet,Đời sống - Gia đình,test_unseen,12
+vietnamnet,Đời sống - Gia đình,reserve,9
+nhandan,Công nghệ - Khoa học,test_unseen,10
+nhandan,Công nghệ - Khoa học,reserve,7
+nhandan,Du lịch - Ẩm thực,test_unseen,5
+nhandan,Du lịch - Ẩm thực,reserve,3
+nhandan,Giáo dục,test_unseen,7
+nhandan,Giáo dục,reserve,4
+nhandan,Giải trí - Văn hóa,test_unseen,18
+nhandan,Giải trí - Văn hóa,reserve,12
+nhandan,Khác,test_unseen,6
+nhandan,Khác,reserve,4
+nhandan,Kinh tế - Tài chính,test_unseen,32
+nhandan,Kinh tế - Tài chính,reserve,20
+nhandan,Pháp luật,test_unseen,10
+nhandan,Pháp luật,reserve,7
+nhandan,Sức khỏe,test_unseen,6
+nhandan,Sức khỏe,reserve,4
+nhandan,Thế giới,test_unseen,29
+nhandan,Thế giới,reserve,18
+nhandan,Thể thao,test_unseen,13
+nhandan,Thể thao,reserve,8
+nhandan,Thời sự - Xã hội,test_unseen,164
+nhandan,Thời sự - Xã hội,reserve,104

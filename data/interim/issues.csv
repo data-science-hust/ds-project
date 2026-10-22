@@ -1,0 +1,600 @@
+﻿record_id,source,issue,field,decision,reason
+d1cad646f3eb3c6581f93ab323d79fffb0863cd1af502d188ef2417caf796de8,afamily,missing_sapo,sapo,report,kept; counted in funnel
+71073e5559de783bd9bd85a2b8020ea68f4e9a9d30ba5eff57b335c893f6575b,afamily,missing_sapo,sapo,report,kept; counted in funnel
+c75b85cb1f8494d9a119d93c47bbef3ac9b050f78624b6e0c9b9c65c949f10b0,afamily,missing_sapo,sapo,report,kept; counted in funnel
+051ebecc14d3b7640516ab70709fc2e1ec4fca624ddae3384f95f37e9d2ddc66,afamily,missing_sapo,sapo,report,kept; counted in funnel
+d6ce5039a14e36d4b426cfd152fb06cb5168fdebf374517f44f428c71cc8fa74,2sao,missing_sapo,sapo,report,kept; counted in funnel
+3240ce1e551fad4d7f297af0f02b5484d8ba271836642d456f27885ac4717c83,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+4170695002f33e3a2ef0c86eb3ccc0a8c59ca93bcc0c3d12f12e20867c084d70,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+d9c1509b78429d7a8e4ca8daa620dc23b571fd785ee7adfb643e57aeffce4426,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+9904bedf82e63e6a167ada12d489149c6e9c4e2cea58556af3a19bfaedad2c83,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+2798f0827a5581095844a9c0977b214478cc5168aef9994f376bd1333bae10c0,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+36bfbe89dcfc73971325f9cd1bd327de77cf71597f7da1bd05c0ebfca158944f,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+8b91bbf5a1dbe9b5df2fca20f2d49c2be8410b7b5d850dfc7f49766e22475bc4,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+cc080e08e8d05faf646692f80be19b9b57f7849fc709af4f90ecfc244af6c03a,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+dc432ad757fbb2a56d423915606ffeb5f69dc2fde5623ba2c2dc24d2c7e6b8b1,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+6a76f44adde969ded5099f854f89dab67afb4023579f51b3ce4b85c6817f166c,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+4966a970b4509a2d4c546d8328b2e61d22398f00b21b507d699196c191b8fb77,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+bbadf903bfe991e33662eb5c3a73fe9c2da582a9a1f73119c1659526ea47677f,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+409b1f8a4fa4e513abdc859ef9bc2141b9bc6aadc2a077964251c3e63f266f3d,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+487236ab67f6bcb5c517160d3be2e79a33e60b9dc60961fbd18db9de8d938a73,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+aa7f7782f7b4922cdf35b4ae9c31898e8ee723e39c69436875bcebf9e40bdd98,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+07accb57e6b4e9fed99a1c13270887f89d00e7b71ef6a242f8308467b8146887,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+9fc5ab2ca2bf435b115253f419f59be20b069da098e3d060b4c5c064a69a9054,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+402727900bf8f96bbec843d7404fb744b35fe6fb4fd408c28f6cfffeaceee29a,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+fea5d974912318f16d970b848688a1e32bfe4b4a6277cbe0d072dba4744b80a9,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+7d7fd7f8ae5be1125c833a75acc8a6e5ec9cd83f68f4e950c40bc7f34d9e2641,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+982f77a369d1068f413cddcd7281a9f607072922c57d2e30ff661f8102fcda9b,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+042bf9f4cff7593cab931af0fac74ddfbb6d71bbb35d01dce0567add0eca8d19,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+b42bbe3af1c242254cce4acde6574cb177b5d1a0bd9d1fec2df54436d8c2d623,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+6e9a26b36329e4892d397aa33e2760bb82dc5a5de54fde8c2e07e8ac4251df8f,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+ed60f86d1e3ac8254b77b70810838f6cbbf38678e782dd21e59fab0b5e403205,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+5b96043d67dd5b7d27e6619cca02508dbb84a7f1f298bead8de919f9d0c27203,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+fb544badc094933ce17bbda2a4af01c74d23a07083c1d202168e89795f4c831d,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+10021fe4b550f6a050dbef9dd27a3be4f77e6bfb3c3c4bce6291ff6a997eaede,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+99e7e2add401316cec62e9d868748961fa90569ec0968a6860a4a633af54701f,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+b591a8e67d9a17c1bd2710255e40b269c7f2d9d243fd74e61036f1c6b9e835aa,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+25af5b95aa14907e8fe3539589ccbad7fd80ca361a626289836e91fccac0bbb8,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+873ea42b5e55ced1fc2b5e9763437caa00842dc309a0f011d4c78ff3dc37cad3,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+e56b3424bba05aca053847fbb504a2fe49851b3013701fc024e1c2e59f9446d1,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+0a0ecea70e0c574825f04497ec7579b37f6943a664d6c3caed5a715bddd8b9e2,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+af478e653605e6d9ddd247a8dd4f8c10cc3d3f8891bbad2107eab80270a5717b,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+ffaec4895fa2ac7856bc53187f1b7828cf579c74fa34866a8f6a979c4c5c87b5,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+ce80dc53834d2c14005ef23a2f3bf087853da0972b62d002b5e956874da09db8,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+2e43ecc9232e3eac51a5b4a9fcd51979192ee31be5f7a847f1b80c8233eac9b4,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+e0291e3014b7815592628297db1703a50703f9972f0c5c1e109c874dfb9bfd56,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+3e45ba1901e8b97c0a493c5017c27241a2510859aea4bb1411a8bdbebb360eb0,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+69695ee6f01cb9e9c603846e0091ee03474ed78bed09c050bdb161cc0370fc8a,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+c9c1a134d9a965abfa3d24d1618795210bbcdc250b91674e9f628330479b5856,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+9eb000cfb6f297d92b706afecdd873601f2e345962e8632bc35235722edf12e2,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+c69854e77f38f1887296c59417b1adfaffefa23ca3c6f30cd7d5198f94e9d826,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+8d9d5aac6c4d04727803b6fc84d24bb275471111975f8a35fd20dbda0d3735da,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+23db50b87221557bdaec5723e828a9c69a95814011b85c470b418b187e48a3b7,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+cb8102cc9135b542df4eeb1c97ddbbb9eebe83332ce4bc6e7104090c422cda40,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+09841d60c525951fabd5bf9385cea159f622db51cb564bea785b40f4c67e0999,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+60f848b60814e21abb5ca224023694776f1cdc60f1cd31c86f8256407ebe04fd,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+852772b6b2a6684b362df4dbbcd771d387e281775a046464472cfe08145582ce,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+8ca77927238051a70cb2fc47fe7425eded6ff5d48d35b35b80b47c02654aad34,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+25eb461ad587b7bbc6cf00b3e3bba0e3ac20bbb1024a61570325afcf8b9ac392,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+1f84a0000dce2aa847f7ba7665c6eb0a0c4df88be79abee87aba38f8fa744bca,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+914228bdb06287d005615d4706c72a37937c82b94cb630b8f95fb69d6042043f,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+7a83cce9f5c4cd6a501c5279443476f77aea307a006fad7f267902c1710c0492,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+f40f0c13d54168d7398ebbe4677034b0cd5b1f216938f1e8efedc94ffe85c453,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+41d76f335cac25ed845fe5e8c7b7ba493b2ec812da5336ac7c03b6f783773103,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+f2f19608140a8597e644d280b49e80dacfe56e0b3fc3313cb22001cad79752ed,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+b9808e63818fc38d0ad57b36e4454874bde54f868eb90dc19bfb6e7e5701d2b8,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+5f7f1f6d3fc064aaa5ffded959ea2d1cd2df7499110bd446d18d656d1b21f397,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+eb9f1787a6c2b0574257c62fe558941e25acd2bdc7e52e795e10817c8ee69208,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+d3b818dc9daee2cf3102e63e9d8e4700dbabe3cbfffd828583538f3aac3f5b32,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+364751773adb35c985fba96e250469d9d6f84cece9603ceb679be648a5135041,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+1b037e357bcce9108af6033f98a72ff1ee23a665dcf760f57abb518fdc1f335d,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+560d9ae5522dbed0e5386a58aceadd3208ab0f53a2a0ae371c4b045eab48295b,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+738f4df8a1cad7fc900c2383d83650545ed92860b37409342f25de7b7bf11915,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+a4e8458a205329b42f7a975783bf48d32638987c47e6550b8d5bdbe74aa3e40a,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+4127d556ea3b62d0dc996d3b0b585e65bb92861ceacfed753b04662b2e389b34,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+65898b6bb5be05dc4f138533c31414b542da82405eb6eadc3c8cb880e9c410a9,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+b48af9171f851431097503518f2f687ec599c3d8cc55399a0cb5b1db75ba21d2,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+fb4130da6cdd17c2bb7643619e4e6e753fb3d65480bfbafafe30b37b2be83099,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+c442b43c8f8ff68b2d79c08030cbc1a31524cc2511e6880d996944e5b63ec3b4,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+7054035116e66e5284d2b8bd575d2f6eeed346d1c04d5dd9def362775ccb2876,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+0d0caacd01d1c8849dacfc9b833afbba7052f92e99a555c1847b577958ac6318,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+b9641785f2261466ccd2716d957440f01ee9754c54c9906f5b0855ff72c0ee5f,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+493a6a6323b7ce663f85d1bbb6b642de9350038be3fdce09cb784dbbc4fa9ffe,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+3d4f52c117323cc257e741fcf787fd3faa4ee046714c6b8b64e6e53119c60002,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+8bf10558676e5cbe838dfb9688b36c7aef4b2732f527a590d6b1cf48b58af495,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+229ed7836e6ee2c228107187de2dc8ad0a04b4073ec007ce0391de84b10771bc,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+40c3a9e2f203d2317bdfd74d198a936a4e85c62b0c21c6f1123a2dad426455a4,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+b4dd2923e6580b831679069b1e4ba39f4b8218aaa8f7f283f92f1b3ab96b18f8,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+205d7941337ea70c97424f15af112915714048e82e609d353acbca3eb16215b4,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+1794c998c83d70745df5d170c48d13d80ba7c7e464602067b6eef32498efd20e,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+c99be7a2c01522b469d03e8b39d9b9603aba0d3b6dd45d1e6a8504d46bf1470b,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+022ad84badd7b86cc39e6db4e233accc3b148f0eacd9c4d68148f5b8d661fbbb,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+8208cc9c484d1ff4de489d0cc57066a536749c986499261bf7a30029af4805cf,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+806865f67322d9d34245b690c56170fee47da6fb4bf168e8f857b6db1aa7c4f1,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+3ee46e3380b676db8f8d0c2a769b38008fbf37dbc42ff6f44222fd92bb891361,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+1cb51d49883472bba650c2119eecc538a1a4f09cdbf52ba89014580fc9f51dad,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+40f8342e242e6ef3dd075178bcdd33a8086d98f4df58fc99f730c20d6aeb769f,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+34abac5088412adc48386f1c278e7a63387d68397b7031fb23a1fbd508f4f2b5,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+f58a294b18ba3281ab9512db687959a1f66486175d28e56ebe19c714d448cbdd,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+2227a80acd58cf737a6fb3344a09a28fe6c59fa06a20930fe184e2bdac791519,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+3f73467794ab43d438ba525f869edf3ab26723b9be85d8d1466921b703b957c4,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+4cee198ff092b0a10627edee62f976e5e0553ea541a5b0a28c0535e8ad9ac684,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+79c2282cfe1a050c66342f356a53a8f99abd8fe4258559ea49b9c06a97ce5239,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+a08041e338e679e7bb7ecaf5914d4b04d6291617728ac3713886f50e0b4d27d3,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+d32c43af906cb4e11de1e3f8e0270be85f1b9c8117d0fb7e0ffad65896c78e10,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+66d11410bacf9057d97af221832fae6b4b94a31425474c9a1d22b827e1ab9687,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+421aa8227e0cd4f5c0d998cdf1d6086169fcd28cae5055d4216ef5aa30605655,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+7a8dc2246d612a7f07444d7a09543287676c7ca57419e1ffde1b886c481fa21d,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+b34d937a060f6f441434688f7a9b8c2e239306c18586b9203f969d6da9476f38,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+fbedc47f35684bb2216a454568999bd7e88aa58f65ee77a75251f40acb8f16a2,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+cd4fd6a0a83bcc5e978b4930bdcd7f5cc582bd1af24e07888a1b757e8bf147ee,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+5b4b76799a5c3d372293e5562cb273edeff2b36ec4a99cbc59dd6544b75bb2b7,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+f859e868bc4e9323586699edc137a816dedb6724fcfe5b10197a8f840ecc059a,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+f4361d9d6375308032e62dce86f3bcb254f2f47a8fd2893258875fad47787c48,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+b42332d8172cf8cb1f5a1b799e9a1007c7326cded9479f88063054ca1e6d5af1,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+0393966e2361ba316eb898f421c26cc9463314c5856e161a34690260faf82a08,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+d79544635966d3b2f1817280b838b5f00d800d5fe12b1fa2593f417184e043c2,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+60bece752ac7abff8caa6e5b7dd0833ff2a7a798d512b0ce8e1c46017c48da57,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+d025a6678d9070b86462d3f7327113736a914cf0c36365d25fb7ac03b1bd310c,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+db89234d37c9026b08be30b9e5f5c549dd69443ff0101d326063749a43d65d93,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+ecceb2f7d0775fefa02141a8816594c8e7ee9fdf5fa66bb9a6166fa0bd60d1f8,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+61d58682cc1130454a6f73f619285865b561db92df6a9410c04bf62cffb40644,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+77e052039c32b6e467533dbf96dc98659c6af3295f718e2f1f8670649e3a9e07,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+dcd46a8ff1a2d8cc4d1174b7952ab22b69e9339bccfe6cd275e8036480b7f52c,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+ab983f3b453fd0f2157896cf653a5967f6c6117cb0553cea3873708ef43c3d9c,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+9ba3b66d03abcd1874e175b43b6a31129da4c674bd674bf24ef155cc699daa2b,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+65d70d1f848e1f5026fc203eb2b0b513fbdb583741c26f5c8df1989b518a6712,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+a897ec7d84dee2c2d907910bf8a9626cbbe68aac65bdb44fb7fc638364ccab0f,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+80e8bdbda4adb2d9b855611e65648dcf3d8dc8ffeb12863ec1b2ca9fe4d9945d,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+d33b03e355bc19d629498acbcef4ccfea32e12c788fa986c0582437db252c6cb,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+567b5f15c2bbebc9af72d3481ff23e6335efabefb499a8fd9a6c3bef2b33c696,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+007693ebf3a953e42d4f22b7dad8441d44ed3e8a0c201ed180cf32adfaabe348,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+ad1ab6cf1809e5063508cfe414a0ca184c1929527944d24c6d8a9d4f14505e52,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+509f23e7286a4652abec8971fe0911eee7e4726646ed0eaca5b5305b3ff9cfb6,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+d8fdf68ea9fa86823b07616bbfdd0e1363c7e2a879ae1df1f7417be7c75088c6,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+fe9df83f0b95596fe336ba7eafa113047833ca1b9fd3541ee139a34f3314d303,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+7149caaba4fbe7ea78b947936032edd991479f7ac0f4a5ace0f9d9cc125dffdb,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+a5086f6c612f6d67b19a0fd41b4e86d5f94272c175fae5155368f50e92867cc8,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+b5a1256eb9fa0c41b3abfcd08d044c5bb79e1f56d4096a70e7360c5082e217cf,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+8ae4f9b51425c674c9e95b152f49f69a20622b4db95b2ea9bdcba08dedda7c45,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+203c9d2e879a52cc08b234128dacaca6040630171670ea4ff9bd061e54b58f47,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+9de6573952b9dbcefaaa187e623d13c4a17c32626974df723833eb0521785b49,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+d23d7c8658e6248ed92ed8d46258e61366aa8163298c20c677db4a3ff282f07c,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+a65f4e7f8b5ce842b108ce8a0ee33b6d47baf773ceb16574f72b98c8a3db113c,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+c66d9e66b67b24589b5496a7e7fa0c279aef63630f5527b0b901f443f5728865,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+221b5e4a252bef221974cf6167658c1006e8390055637b081563a52436526d1e,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+b7cb7e0b3206897703e78c1f194557e9f630f4a7faaf13fe7631804908ed7719,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+797b2aaf51c0cd56b88dd27841d2f1680a415ed71a6e63ec55121eadfdd1923f,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+919fcd18833bc1e9ea77b76028404eacb6a2e6702462b4abcfa4c2ab4100cbc1,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+9192b6c8dbb1988d529ede1c25ef1611cf31e7bdbd0b0f36388d28f1fe62df28,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+359b9433eff80246f281fb98a59934b0b9ad82ded8adc028984809378e102a3a,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+f914eceb2c38c89537037e64fb7e43bc681c93cf1fec1410264800971fa5b2cd,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+674cd148d67d686f2d29f551b3dffaf54539c98250fb19a0cdab85acc3abc1de,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+208742fb4fe6106f772d10d40022452997a55f6053706dd82b8d4dcec627b911,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+14b8b1024a1b2ac74e26c6e2c6a4fff37b86a7a3dbe01571fc4919bc288bf405,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+cee8581bffb52a925b61276734a0709dc5cec5bc8d62ccf1cf901f9650c44da1,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+be6e9d118c4c9bd17720d93c6e2aed3a94f54f65db44ccb05a747f84320330aa,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+d482145fd9690a13258f7c44c9e7dad261efe0b5b0b616ca9a5dff19682993de,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+9af8fa40da7640ab9372219a7dcdbe76e1179e03b7cf9d8cb148e841b1ff5f90,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+366440b87a1e726d9457cec947d9df05268787fc36c42c009dfe11d9791b964f,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+ad9e74929d80968bfc887027a4e54f82c4868e7b1b395fb3b5bd6926638eeea3,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+0abcb62d6e6c87492a766208217f0289cd5c66c27dc4b1d9dfe69fb53d1fe6bf,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+d67d53501f58b1ceabad3f6ccf10b008930b9070eb6fc2cb841c3892a91214ee,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+3ec1220a76d24fe397de74bcb9cb78d9b5a7ef3e7db625832cb1679fdc42536f,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+4b34f70e1839383b6a31074364cd48d7189daca9854367fca631d86435d979db,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+5ee1d9df7f8f8de1c063ef23413c6fd2435b3e76fbc01da36f99f3a367b7c85d,eva,missing_sapo_policy,sapo,reject,eva_missing_sapo: group decision 2026-10-23: Eva records without a visible sapo (mostly photo-gallery pages) are excluded so every Eva record has title + sapo
+e01ae1397dfdc18e12a7c2ef8d4c0cfe5f6751410911832dbbd4b87fa4a16880,kenh14,missing_sapo,sapo,report,kept; counted in funnel
+7ab3e76d9174fbc63c64cbb90b2b9bba0715777cce075dd7054d204c570f3474,kenh14,category_unmapped,category,report,missing category_raw
+cde8c2eda46719afb5e32738b9481ce7a641d87060d58322796125a644918f1e,kenh14,missing_sapo,sapo,report,kept; counted in funnel
+474c650f236542fab31335cb0c63a13f45fad61583b077e14f4b1cc2c714da14,kenh14,category_unmapped,category,report,missing category_raw
+1e4629819c934c408f91041c75d604dd50214693fcff3015740205691dc35eab,kenh14,missing_sapo,sapo,report,kept; counted in funnel
+02030e77d0f4983e687c845a708ab362190f8dff55df4716a866e22501403c00,kenh14,category_unmapped,category,report,missing category_raw
+4092fe3e3972a7daa9877713de7e77c124aa121070ec315ed40f37b3030294f6,kenh14,missing_sapo,sapo,report,kept; counted in funnel
+69f339c9163ca5793e994c809fd2352674a90f78782ffdf7b7b144a9f4f70026,kenh14,missing_sapo,sapo,report,kept; counted in funnel
+a80ddb2c297bb45d44e655d0ad638853fe5aa0620b1b608a1f2983172fd3b998,kenh14,missing_sapo,sapo,report,kept; counted in funnel
+72f0a2b4633d479faaf5b6c0e4dac3fa65f65ba77613fb9576687798348007a4,kenh14,missing_sapo,sapo,report,kept; counted in funnel
+98f0dfd6d4873d1b4c80bbd02ea9da886aec5f72b2b184e0a27aaef62cb12d2f,kenh14,missing_sapo,sapo,report,kept; counted in funnel
+182bd85c3c04b52a26fef1178f1623dd9334121b0a574218177bf467384a453c,kenh14,missing_sapo,sapo,report,kept; counted in funnel
+6b1d2573f7171ec1c26647fb886cfc77d5b66a8eb033b5018c2cffe2dba3de2d,kenh14,category_unmapped,category,report,missing category_raw
+475a2be08bb9cfbfd0c306236d42b5d779843ef1da74181f41ae8f969ba026d4,kenh14,missing_sapo,sapo,report,kept; counted in funnel
+d396ae8ddbe9207ba1bd53d2a80a483e93ca02f1392b2d8cd582e2254a863521,kenh14,missing_sapo,sapo,report,kept; counted in funnel
+61ffbedd9acc48e3335ecff152923f5e4ce6a1ebed971511c51f0a9984cf4dc4,cafef,non_headline_title,title,reject,lottery_vietlott_date: Vietlott result listing (Vietlott dd/mm - ...)
+c90568c376ddacfd640ee120c5a0f5bc434ff7a58f6b0812df5357a372302d04,cafef,non_headline_title,title,reject,lottery_code_date: lottery result listing (XSMN/XSMB/XSMT dd/mm - ...)
+31fbc22438277276eec4c448893e8651ae487ff07d1179ef98a5a441ee6024e2,cafef,non_headline_title,title,reject,lottery_code_date: lottery result listing (XSMN/XSMB/XSMT dd/mm - ...)
+88a21e4205e12736e0b998060fe5fed6d76067796bbb9b99765bda43b9bffec7,cafef,non_headline_title,title,reject,lottery_code_date: lottery result listing (XSMN/XSMB/XSMT dd/mm - ...)
+74961084677ca54319a96c788c4b8f3f31e86ceac64dacbfdc4f9f6e9577b580,cafef,non_headline_title,title,reject,lottery_result_today_date: lottery result listing (Kết quả xổ số ... dd-mm: provinces)
+8d93f3766856d936a2d6db8b2e4f2e457a5446a81ccb3f2ed177996c68b55813,cafef,non_headline_title,title,reject,lottery_code_date: lottery result listing (XSMN/XSMB/XSMT dd/mm - ...)
+6e258e7cb39fc77a8a6fc8bdd780bb48463cc6c8ca26d4a6ecbf2966e812ac87,cafef,non_headline_title,title,reject,lottery_code_date: lottery result listing (XSMN/XSMB/XSMT dd/mm - ...)
+202210281ce952de85b268400368d10d4755a57abe5b361403462d8af0ba82fe,cafef,missing_sapo,sapo,report,kept; counted in funnel
+3f4cc70d2154d33cbe8320862e4300ccc6c54d8ce0b445f64c7b19cc3dcbae7a,cafef,missing_sapo,sapo,report,kept; counted in funnel
+8f651d4c49ae0c969e32c915cd244d8495f6be6ce50b5edd243a6b429f5bc5dc,cafef,non_headline_title,title,reject,lottery_code_date: lottery result listing (XSMN/XSMB/XSMT dd/mm - ...)
+4579286771e616d4f41cfae8da4b8fd8b15b81e74175eec1428277f79c2ada71,cafef,non_headline_title,title,reject,lottery_code_date: lottery result listing (XSMN/XSMB/XSMT dd/mm - ...)
+c850cb2644948f3d30d2d6a1f355a0b5e7f1722e46d0ceb367593008d418f234,cafef,non_headline_title,title,reject,lottery_result_today_date: lottery result listing (Kết quả xổ số ... dd-mm: provinces)
+624764269251afde87b29696127d90952a816f1cdd0067c06e92568aea9e9fe5,cafef,non_headline_title,title,reject,lottery_code_date: lottery result listing (XSMN/XSMB/XSMT dd/mm - ...)
+dae77534e217118904a0a244279752df5725a20fd90de3380811bb33de8d63d8,cafef,non_headline_title,title,reject,lottery_result_today_date: lottery result listing (Kết quả xổ số ... dd-mm: provinces)
+b82939a09c5ed2fa621fc97d6927656dcf005c8efbee735852df0ac090b3f900,cafef,non_headline_title,title,reject,lottery_vietlott_date: Vietlott result listing (Vietlott dd/mm - ...)
+203abdc2fa8ec0370d3626daceb3c50bc0f8017d61a93a175a53c8e510b20323,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+a9c3f6c5ae533094ec34ef2688dfc801439ef441d2f9af748ffd3ca0ad93a7dd,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+5a4f581841985a6b5c8066a190ce665a7fbc3454e698e4ac6d1e510b7da143dc,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+f60482c5307df9ffa44fe5d4552d442f581a77d49641c4b7c67d7aa8f18f76bd,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+85ac35003eefdffc1bfded8236185d7eca69a4cf5edb813dbcca047bc81a1bfb,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+9c9868f54380b9d82fbb821cbc7ba5ab013f7a9baab387fd2f8f52aa91e498be,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+5cce0ac7da6512e2ec005184d9d86525c3b702c2fcfc7f886ad68c3de1d8fa36,thanhnien,non_headline_title,title,reject,lottery_vietlott_result: Vietlott draw result title
+109324f359c6ce5d15aff70e23c55e967ecd54f5805f057b7ade1029c44dc3c3,thanhnien,missing_sapo,sapo,report,kept; counted in funnel
+753a474685e82631e4d7da6258ca00fc45ef29e458d512368b12426e257eb8b1,thanhnien,missing_sapo,sapo,report,kept; counted in funnel
+33bc39325c07b87462e4aae5b4918f154e6ef414c637b648b58b5e16432aab53,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+ec9280c33b756ccd9beb59561bbb0fa2134445f18c6855a8fc1482ccb647ce2b,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+41f9286e1cf574a8b96e7ecaa510c46ae4e50a4467ef00e978d676c85db6ec27,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+f70e3661c494bfa69fa9baa029d6539ca1af198e5d57fec76cf9ebe46d0d7337,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+179c34792ada1374c3f51f9d682fcc61e78b8846497f9b51d42c6d41edb29f2e,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+de0a3f42fdc9d217fd469dac2d8ccd0e740ea0f79093507984809bf7210834d8,thanhnien,non_headline_title,title,reject,lottery_vietlott_result: Vietlott draw result title
+f14cd9a4c51d90676a18c952e78ad5cc72c7a4ab02618b711d35b4d36e861ab2,thanhnien,missing_sapo,sapo,report,kept; counted in funnel
+9a9be1bf21b3b688c9c59e528892946c0d6a3aa422aab7d9862a1b662352c2c5,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+b0342a310c64911018dfc1f24c3ac87e443c1c063601e17e63fef3eb61e7bd58,thanhnien,non_headline_title,title,reject,lottery_vietlott_result: Vietlott draw result title
+a3ddceffdc289dcbc4e6b880cb1300b9d55bb994523ae7973f3e3fa4b399d1c8,thanhnien,non_headline_title,title,reject,lottery_vietlott_result: Vietlott draw result title
+b91db555428f5d2f2bed7e4a1d5a93cdf5b392551089be426e7bcae5ea50685b,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+822474e5ece700315be4d960dc9825ed76d503cc37881575c63d47c8d556a287,thanhnien,non_headline_title,title,reject,lottery_vietlott_result: Vietlott draw result title
+933ac38e440cf6be1cc0eae7d776791a1706654ef17e7be2b0eecb9bf0457d8c,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+357bb04413fe9b5e337002ad1545c886c6fb5985ac7bdeba79d74e1a98b45f20,thanhnien,missing_sapo,sapo,report,kept; counted in funnel
+fc2e1eeee54213d2e6a5eacda482faee13cc3ef33dd248e15e02e82f72653588,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+0815067cb8d4803903c44047a94e53047f05b373f9e660ac33f65543e64d3297,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+1a49b5b72ffac47e85af60a11accff1067c91b35831fee06a2b6891ea30b6b00,thanhnien,non_headline_title,title,reject,lottery_vietlott_result: Vietlott draw result title
+f68b39f325f9557598cdd32f465e4965375eb284570eb8d7b78f41008bb7a47f,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+59682e1ed1af5501c47c7b4a44b8e98f719224f6c83e66840f9163e67f50c8c7,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+276739b16e0084226e2a4b01ec4f8e6350a1df6211d44587f7711f4f8f1dd70e,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+6dadc5d9ee9d630127fea37f81e48bba2566335394c5dbdb00f6e0facf744fd8,thanhnien,missing_sapo,sapo,report,kept; counted in funnel
+00a881d0e3634bf00b974e422cef6ae6d800ede837eb8e8612f080cbbdbf3c9f,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+1b48768e8a8f658a0c4f008a92801a26315660509acd38b052453cc88ae0a359,thanhnien,missing_sapo,sapo,report,kept; counted in funnel
+89685b8c7d82fbf9048ae46354de3e9f301a06b3a01397cfb9a453a423e95ede,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+a06f7911b5461f670d7b286dc24f899ae3497aea29469ea9d47c1faa33cc3d77,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+4a550bd35ebca5deea2f43dfac88d5e6fee24ef6e124f2e86c25d7d3c54709ed,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+f7d6319462ffb857f2db80e46d98b50eff21a6335a0717e225688a8aee2518bd,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+0a407e15ff74e3a519b8b0b36977476437c0499b0b2bbf92b16033a6824dd037,thanhnien,missing_sapo,sapo,report,kept; counted in funnel
+4405f331e05677be16c6fb11918517bda8a0075c68d180b14de386a77891c8e9,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+6c1dc5e0e3ef1aac339f996fd7b680a863c518258fafe844fd47e03fc14de9e7,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+70d8bdbace34473c84a47fb87f9a3bbd79cce34bb608bddfe7c1dcb62845619d,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+1cb8380d682f3559a78ac5f134f8175833d4c1488de08a19844169be23363461,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+b687273176a9000198c7f440c278e3ea267cc4e7ff2f1274ce9907885be750cf,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+982d673f69514d8b87ee1cd6e62067d24ead940c351f9d5282f4af166db2bbd0,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+602a177bf193466d9f8cc79d730e36f9f216e291ebacac41718179aac13cc245,thanhnien,non_headline_title,title,reject,lottery_region_day_result: lottery result listing (Xổ số miền ... ngày d tháng m - Kết quả xổ số hôm nay ...)
+1b16bd0c73667b790c3ceaf48e890917a3ec8ffa6cdaee98a56090b0895c181d,thanhnien,non_headline_title,title,reject,lottery_vietlott_result: Vietlott draw result title
+7ce5905d08c0bc6b9b06026b6e939859c4aed2f25c1716a94086b0debd4088cd,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+c6ed84af0a32b4ec2ebccdca54c1b5fd518774c9dc1504aa83b0d5b3b77cee71,thanhnien,non_headline_title,title,reject,"thanhnien_print_edition_digest: daily print-edition digest, not a headline"
+c559c1077c72971a6653eabc360d07ca068c2f4b7b035a3e067addaa8149fdd6,thanhnien,missing_sapo,sapo,report,kept; counted in funnel
+f55649452cd2b077052011d007d7f9dc1f227f965f5a8dca100af78287db3516,tuoitre,missing_sapo,sapo,report,kept; counted in funnel
+9fd9f084ebfed95fc7c19d29e9f2d59a04370659df69e905cb601e5a3a89f791,tuoitre,missing_sapo,sapo,report,kept; counted in funnel
+b0486c2eed87bb640b73f43ab51c5d81a40612664e9f1bc9e33a1f60c011cda2,tuoitre,missing_sapo,sapo,report,kept; counted in funnel
+ff23e1f5266f4bd50491ad3f7221df6965eb462633cd37eb6579d3c0999f8274,dantri,missing_sapo,sapo,report,kept; counted in funnel
+12b42b588b8d2680bcb1d3892bd0548d81a8f33b8735c1d22484134e421d6c47,dantri,missing_sapo,sapo,report,kept; counted in funnel
+9e04f32bdcc0ead58d1db8e8283e8d8b6e58f2939ecb5c4a29e3af2a8099496d,dantri,missing_sapo,sapo,report,kept; counted in funnel
+3bb5ca9cca7e2d674f1d78553e3df7dd4d8f493bff189d116808c972a8ee7972,dantri,missing_sapo,sapo,report,kept; counted in funnel
+e39ad7033ff91e4adc0de400424cb4acda41144fdfba273aa5fd2def462b8981,dantri,missing_sapo,sapo,report,kept; counted in funnel
+a48149744927e87982311233a634f8aae14e87041d5b68f34b87d73cf9c3c442,dantri,missing_sapo,sapo,report,kept; counted in funnel
+557a65a4302cf740a771d2beb987292729a400534c6d44ad8bc6a8baa405e6f7,dantri,missing_sapo,sapo,report,kept; counted in funnel
+b599c9edcb4fdcd95383c4d5c77e95a3ce1c6120b25cb99d36f72399a0b8cbf8,dantri,missing_sapo,sapo,report,kept; counted in funnel
+ca1aea0ac92201e182d78a4ff98131258ee2b50174d391cf977f78d6920ea341,dantri,missing_sapo,sapo,report,kept; counted in funnel
+5ee6043bc2dc906bed85f74154d7d9714a0bf23d3e58a4a7da737713ce648c5e,dantri,missing_sapo,sapo,report,kept; counted in funnel
+1cc91a476ac649349fb91062b295dccc2d39f9d5e60d26609de2efe2704a8e5e,dantri,missing_sapo,sapo,report,kept; counted in funnel
+63aaa297366f6b9ba1c56c89d0fe032ce21553251aad7e20203e091307a49fd7,dantri,missing_sapo,sapo,report,kept; counted in funnel
+7872640dd30bb8957d7d4ceba0e7f05bca4dc6ef4ea06ffc030a5c554683e17d,dantri,missing_sapo,sapo,report,kept; counted in funnel
+74ed956273b95f929f018e6a8565d34a1bde3b8bfdcde605086d1b0796630e07,dantri,missing_sapo,sapo,report,kept; counted in funnel
+e385c92046c8fc5c5db6bff4025470e5dc7e5b1baa7acebbffc4134fe2abc6be,dantri,non_headline_title,title,reject,"correction_apology_notice: whole title is a correction/apology notice label (e.g. dantri 'Cáo lỗi'), not a headline"
+d69913d0b0777a4b72dddca2dfa1bf3e044859b4d8679dcdbaa817b43ecdfca4,dantri,non_headline_title,title,reject,"correction_apology_notice: whole title is a correction/apology notice label (e.g. dantri 'Cáo lỗi'), not a headline"
+9f9de575dcc500134fdb6486739d981ceeede8b3dc661e3246ca4a8e0db3e0f6,dantri,missing_sapo,sapo,report,kept; counted in funnel
+b1d0b9ad9367e60e922d22d443686caaf642c552c8016bd5182f82004eaf1bc9,dantri,missing_sapo,sapo,report,kept; counted in funnel
+97276090e0ef51bb29aaa8670e9692c958b01e869675efd0454daa050825723c,dantri,missing_sapo,sapo,report,kept; counted in funnel
+cb49e35fb98fd2debf0848e59322be03ac57620b90273d57c88e7e57ca192432,dantri,missing_sapo,sapo,report,kept; counted in funnel
+ce40c1c8bed4388a92b7d83ce099afabaa7e5c6fdeb759f87c76c17d95ff2ca5,dantri,missing_sapo,sapo,report,kept; counted in funnel
+8b0f60562aba41d3e2516d30adb3b3a299ec37cafb22522bef4e893da13c7d2d,dantri,missing_sapo,sapo,report,kept; counted in funnel
+5420c69a50dd44ea2ca5a3a51d38549e01ab31ebd827c3589d790d7151ab09b1,dantri,missing_sapo,sapo,report,kept; counted in funnel
+3f7592f5bfda61c579f3132f876e94d1f65122fe3f925cd58a359b31f50e4428,dantri,missing_sapo,sapo,report,kept; counted in funnel
+c2373bcc5228b8a3c22fa73efec8cebc9b9d184d09a405207c66ba84d11632c3,dantri,missing_sapo,sapo,report,kept; counted in funnel
+d69463691e424c677f1613274319d68650f1d7f8a77ae0a004be5af93ac0e3b6,dantri,missing_sapo,sapo,report,kept; counted in funnel
+5ff09c8801e25731067d3c239408e27813133f1cb69b312f2499178573e48511,dantri,missing_sapo,sapo,report,kept; counted in funnel
+1a36b28fc246dccf06c87e8a09ada91ea57c3fe4aed1766c84ec9925bf424e01,yan,missing_sapo,sapo,report,kept; counted in funnel
+e8dd33e046f20b05827326262f32af07d43db40aceecdcdb7f2ac554f914f329,yan,missing_sapo,sapo,report,kept; counted in funnel
+89dfeed684fc8d0b094b7402b0f344a0fbb881056e8f3565d3479e3d4585b151,yan,missing_sapo,sapo,report,kept; counted in funnel
+425b64ccf93e4715abdf9754c0199e0ba730f86e3d8f308365fe9d20b5432cc5,yan,missing_sapo,sapo,report,kept; counted in funnel
+c2d902183bb52b1169c2564927330aa0345929d4c5c55dbbb18e9057422922cd,yan,missing_sapo,sapo,report,kept; counted in funnel
+c755794e231505962f538d0e25a166b576b19376b8249f006114104567f7d5ff,yan,missing_sapo,sapo,report,kept; counted in funnel
+f47b71ddc961e3538d20cbc2071d1616e2e62bb21dbf29763324fd863e08f36e,yan,missing_sapo,sapo,report,kept; counted in funnel
+b06c41560f1b9d4bd9666cc0471e9bee695e080c31b3cfcada7724d11e005a43,yan,mojibake_suspected,title,flag,pattern only; review
+b06c41560f1b9d4bd9666cc0471e9bee695e080c31b3cfcada7724d11e005a43,yan,mojibake_suspected,sapo,flag,pattern only; review
+b58882a86a5ecd393e69e8cd7d843008a0f305cde6738bb709faa5bc2ddfab18,yan,missing_sapo,sapo,report,kept; counted in funnel
+d81bef30f2db2633baa759ba31e73077e61588b97ec98d9ba1431afb0f0ba322,yan,missing_sapo,sapo,report,kept; counted in funnel
+e1ebfc40a98dff4dee3738c85f832d922280b2aded6bcf7db468293db2386e9f,yan,missing_sapo,sapo,report,kept; counted in funnel
+972479b57f0e57e7dbde40df1058c47fc97337effd8459f5d354d325cffa8809,yan,missing_sapo,sapo,report,kept; counted in funnel
+263ba6dae43f2fe6041c020e0d18555d57d3b45db32d17d4be13520251f56581,yan,missing_sapo,sapo,report,kept; counted in funnel
+dc41e4b34ab0337c86532cd877a39610e8161c4b3cae3a540d7df9a3022ba20c,yan,missing_sapo,sapo,report,kept; counted in funnel
+771cb504d5301bace4eb00642e4c8ca08a6c09f3441f8b87a7b9e11d290b3cbd,yan,missing_sapo,sapo,report,kept; counted in funnel
+5e7037283b51f663179157c51066b67ee874e9054416625ebe0b091596496ac7,yan,missing_sapo,sapo,report,kept; counted in funnel
+07afe28bd81ac58072d2a18d66cc1c8f84cf99bb12879b3cdd0beba9817eb5f2,yan,missing_sapo,sapo,report,kept; counted in funnel
+7d46d967388766909df0f9b3bd2b353d97cf00f874bf910b3d9f0f76d859e7d9,yan,missing_sapo,sapo,report,kept; counted in funnel
+cf9badc1849d8df49f4c8057614fdf503c4c10f21e92f78658f16dd220e2094b,yan,missing_sapo,sapo,report,kept; counted in funnel
+94c4a35aa84dc53e4c129badd97e370a1809bdd2f690202f64581f0ab2650e6f,yan,missing_sapo,sapo,report,kept; counted in funnel
+8a4f380c9fb559028692763aedfe164155456d46bf779d8ef62b96d8b279e707,yan,missing_sapo,sapo,report,kept; counted in funnel
+c10cebf31e725e5d4e2b098e44317085b1f49c6572ac1f6de70797e68984b78b,yan,missing_sapo,sapo,report,kept; counted in funnel
+762cc0689e528c4d016a19f4752d2878f2905ba42d6ae0725c336dee56db4cd7,yan,missing_sapo,sapo,report,kept; counted in funnel
+aa59390122b7e66cc148c4d3a6281fa1c96eaac4690ea9e091cf64161b8883ad,yan,missing_sapo,sapo,report,kept; counted in funnel
+824226a3831a2624fa22d708333b0af3ed762ba8471defb9820949d0103a2fe5,yan,missing_sapo,sapo,report,kept; counted in funnel
+00bfd7973883092a0c92874ba8eae58ab84578dd18449a193011232b3a628d31,yan,missing_sapo,sapo,report,kept; counted in funnel
+ef668802292679cd0c731bc6a9d4e7116ca3f4e2829f888756619a5e33bfdf17,yan,missing_sapo,sapo,report,kept; counted in funnel
+ee0c643183ca778a4979ebfd952f49be496b4611aaa96df7299d456b07d3e89b,yan,missing_sapo,sapo,report,kept; counted in funnel
+2e37c347f4ad30a94e0f325963bf33f004e0fc0918eefe30ac38ef90deed636e,yan,missing_sapo,sapo,report,kept; counted in funnel
+b58f25e79e048eb5584c30373cb262a60cd88b6270e22fef4c729449acd69b30,yan,missing_sapo,sapo,report,kept; counted in funnel
+d20a1613a50f791f8e6f17244109df3d42b2c74c2863a5751c13fc98f3930b6d,yan,missing_sapo,sapo,report,kept; counted in funnel
+bd3009906ec5d8fd1767e258c666d5efd976d16889887664f03b4ca5eeaa0fc2,yan,missing_sapo,sapo,report,kept; counted in funnel
+0af71f34014d27efa2551963aa6058032d7bb450bf7fefcef22ea0344e8ecde3,yan,missing_sapo,sapo,report,kept; counted in funnel
+718831bc41df3c4aedc011a3bc7456154f30a085608d5857c6cfc8c965489270,yan,missing_sapo,sapo,report,kept; counted in funnel
+711a8d3fd89658881a3bce2554671ecbe05cc4d140e8e373d01859c47c8d4829,yan,missing_sapo,sapo,report,kept; counted in funnel
+e1f73c6242f17d72de0797741665772e509ee1eaa03c23c6aaa1b69bad672b86,yan,missing_sapo,sapo,report,kept; counted in funnel
+754de21d467a15c69e6a0597ffe59d2a588f6b00f04c2a0fdc58bc529063c6fb,yan,missing_sapo,sapo,report,kept; counted in funnel
+a2e9c6f44b41a8fd1a9dcb27dc182167e0b95b85da62fa5fa2b65fb07bd2b08e,yan,missing_sapo,sapo,report,kept; counted in funnel
+33e24aeeb0f7b6aa4ee6ffc57836adba0da6037927782ea5b73b7374520846fd,yan,missing_sapo,sapo,report,kept; counted in funnel
+a253ca640a547b7e2f135b8751f8ffa6dfa043ad8b95e68fde0feac16dba0665,yan,missing_sapo,sapo,report,kept; counted in funnel
+61b3c4a89828df629c0f6abdd50bb0ab3ea5b85e37d264f88547b51fb33f775e,yan,missing_sapo,sapo,report,kept; counted in funnel
+6a0cf24e3aa503e3bbd144a0e51939bdce87c570c0b4c9905941f4d7a03d1301,yan,missing_sapo,sapo,report,kept; counted in funnel
+7063864745f99de48419daf07066a6fab97844a4d29c4861e1a59144b71c571a,yan,missing_sapo,sapo,report,kept; counted in funnel
+f16e8f6db679ad7dd82b2cbd245afcbaacdee21c4e99fe958fdbef7520d670bb,yan,missing_sapo,sapo,report,kept; counted in funnel
+0d44cbd403d052a974396f638f3bba03c916c6bf7b96ad39872dcd0dd50389e8,yan,missing_sapo,sapo,report,kept; counted in funnel
+a53911176090f75673f2ef8a4fb90ae42d98bbea0ac831f15be6fe6daebc079b,yan,missing_sapo,sapo,report,kept; counted in funnel
+f3c9221a353b818bbc72473694f8656cd513258bb11b2fe8b5a4f49e74b9a141,yan,missing_sapo,sapo,report,kept; counted in funnel
+be952c72e823c3e6c02fe43773091babde565f6cb454b8b0f15b42b619750d5d,yan,missing_sapo,sapo,report,kept; counted in funnel
+f41089d86ecc9114f96e92d2401c87c6b0357dccf248ad42d3712b3c406a08de,yan,missing_sapo,sapo,report,kept; counted in funnel
+e7a4dc43e2ead20ec03ff40a9b2594f453de3a84317137897163bf6acf3c0b8a,yan,missing_sapo,sapo,report,kept; counted in funnel
+88ca778df797e465600d9087b609cd95b7dd703b341540fdcad523332f65f974,yan,missing_sapo,sapo,report,kept; counted in funnel
+5422e582da8aa16214563e2334eefb08ed0eb24f61e6ebc66ff416e6de19ff4d,yan,missing_sapo,sapo,report,kept; counted in funnel
+cd557b5f429ac43588ff06cdfc4f0b88c04afeb3d1ec535a37e82fbea1aa9da4,yan,missing_sapo,sapo,report,kept; counted in funnel
+4ad0fbac7a59fe42c20423675077121ad40fcada33291d4594d99afb07eb4a96,yan,missing_sapo,sapo,report,kept; counted in funnel
+7fe772debadc7b0341c15cf20566def761bb86b80d05932a7c17989a53e14f84,yan,missing_sapo,sapo,report,kept; counted in funnel
+abe5f1eadc25ca41267e339481fe8561a34ee43b009745bb990b0a1b302f28b7,yan,missing_sapo,sapo,report,kept; counted in funnel
+10bb4e312448ace9508b83d07fa82f65eda332de4c56426af06e3c7e89d45629,yan,missing_sapo,sapo,report,kept; counted in funnel
+1e13f0bd2a02b3ac06f66d7392e38bfab58b666caedc0bb52c7ca35228c68e92,yan,missing_sapo,sapo,report,kept; counted in funnel
+4a1437bc4226fdbf3314e9118467f6522a276200c68514e2f9e474d11e30247d,yan,missing_sapo,sapo,report,kept; counted in funnel
+d8669486dfa8d323f22ad42fbc32f514204b6028950092da0093da3ce0de8da7,yan,missing_sapo,sapo,report,kept; counted in funnel
+4457e285410e7df87df6042511f237337690616eaaed262f8e9ceffee9524240,yan,missing_sapo,sapo,report,kept; counted in funnel
+f8be123cbdba0c4ee8b36d1f92c6d6ec17e0ba7a6d51cefec46913cfa2df1f21,yan,missing_sapo,sapo,report,kept; counted in funnel
+239196ebdfdf9c713f8eb554e1921ae897d1de60e6c5149266d67bb1a9c94443,yan,missing_sapo,sapo,report,kept; counted in funnel
+85f17b42689aec938ffd11197092447ec82a7d9d91f3a1fd17981f11b5b8d345,yan,missing_sapo,sapo,report,kept; counted in funnel
+6425756c0048b300cbb3b3dd7c6d87bf7743e8b39c5468be03c1cde02f0a0155,yan,missing_sapo,sapo,report,kept; counted in funnel
+1fdaf5432e9fd4b982ec5b91d8d8f568e1a4afd7b42214a87dca35e4adde02cb,yan,missing_sapo,sapo,report,kept; counted in funnel
+ddfe6d910a41cc8cd20d0358c055bf89b1f4d6f5ae4a8d593fc23f93ffdea940,yan,missing_sapo,sapo,report,kept; counted in funnel
+15cd21a74c550fa998e70f7ca1ca2462852fddcf111e2e3c04029edc386b284b,yan,missing_sapo,sapo,report,kept; counted in funnel
+4da626766b85394e2b4f50bbfa3b023d18e2d7e615fd15acc2b3746f10a05080,yan,missing_sapo,sapo,report,kept; counted in funnel
+f5e5194e367ca2b250465e2e29964cb7d6236cf3274a3694e7f11a2a34e50b34,yan,missing_sapo,sapo,report,kept; counted in funnel
+d4a81a4baf9d9d3b37dbb6fc667217220664c22c2f85ef39b0622cb91995661e,yan,missing_sapo,sapo,report,kept; counted in funnel
+2fe8cb4df60e8b0010f102283fe30aa2733c38488b48c30b4a39e6cced050754,yan,missing_sapo,sapo,report,kept; counted in funnel
+a1a661159043b30be71fc359a3fd72cbd9fdcf6160809911bdc4327a979b4f9e,yan,missing_sapo,sapo,report,kept; counted in funnel
+326c35e38b4d81010520cd9485f05967db1a33dc31a44df1c0dfe0210acc4eae,yan,missing_sapo,sapo,report,kept; counted in funnel
+78f57c130b71d6031692e71d3ec7d98682d030a4648859ac18b767a3791886f0,yan,missing_sapo,sapo,report,kept; counted in funnel
+4b013fa1c004a416a11ba5e3a94b737ee8c1b23632498bb687eb1f1aa7fec127,yan,missing_sapo,sapo,report,kept; counted in funnel
+dae56884c2b1ff81192d7bb351d5b5afc1b7df48b88f4db44dc36429fb20cbf6,yan,missing_sapo,sapo,report,kept; counted in funnel
+bd0f080b287eaf0591e4511467a1c60099846f79ad8e9203114f7eb31c2ad613,yan,missing_sapo,sapo,report,kept; counted in funnel
+9e6c506afef645038e7c45efa22ed6dae5d06e07d62eecf43cf6d53ef08ed46d,yan,missing_sapo,sapo,report,kept; counted in funnel
+4dddd5f821ac902b1c494b0cafd39581650c865c765c96e8edc865fa914c2e65,yan,missing_sapo,sapo,report,kept; counted in funnel
+f6d68565140b6553f57d99cc6876886733fa1b80776a6f98f18773b24bbe4885,yan,missing_sapo,sapo,report,kept; counted in funnel
+842d9ec55d62fc902b06d6dd98f3fe32b282bc24df9ce904c541ff274fb53449,yan,missing_sapo,sapo,report,kept; counted in funnel
+55a040221a41102cf9e2cfd6a26aa0217244364fb5f03ab445d25595b3faa813,yan,missing_sapo,sapo,report,kept; counted in funnel
+53360fc969169d853ff713c1af31708124078d7f35abfe387b3a29215398ddfb,yan,missing_sapo,sapo,report,kept; counted in funnel
+33e7e50bb611ee0bc0ae28f0cab3055795d78e266eaa4f30b7cb94c6963e86cd,yan,missing_sapo,sapo,report,kept; counted in funnel
+3cb7a6ea9c974b298a30a31bb9421ddb494cd0bb6f64cf142e1bf8233bc6de8d,yan,missing_sapo,sapo,report,kept; counted in funnel
+82221525f799c04afaa624091a93f37f31c97e358ad59b3555808d22795642ad,yan,missing_sapo,sapo,report,kept; counted in funnel
+c6e58b821ab5c172912a59cb9474ed8efa2ad1fde8e2c4b65f8bc46ea0ff1cfc,yan,missing_sapo,sapo,report,kept; counted in funnel
+ab2a377a61d50b7b743929070e1ff78cbc253e18ab9ac9102421054f012db389,yan,missing_sapo,sapo,report,kept; counted in funnel
+85bcfbd82a835a61289fb6de29da1a626b8d0e8149f893d14846185be58e4aba,yan,missing_sapo,sapo,report,kept; counted in funnel
+f49645b438ab2096516f46ea29c8595c869c00be671c041d7b7149e8f58c76fc,yan,missing_sapo,sapo,report,kept; counted in funnel
+675ff2428f7fda35f857cf33f215dfa6ca589f1565339e02d92eb02493bc0f1e,yan,missing_sapo,sapo,report,kept; counted in funnel
+5bdbe6ffb9094cd8c5ed72a28dfcc97cb974ce88195bb9343f43a57c0540c699,yan,missing_sapo,sapo,report,kept; counted in funnel
+60c1dd83347e397a77d477bedf4f4e5f28932f5341f29e6da038044249823250,yan,missing_sapo,sapo,report,kept; counted in funnel
+0e1143af4ad1a63783d6000ca488284cc4b9c332382a24da7e38285282215578,yan,missing_sapo,sapo,report,kept; counted in funnel
+e33626c52902605b0855769274b42dcd8213119c88b19753ea9ea0fae4bdb9ca,yan,missing_sapo,sapo,report,kept; counted in funnel
+b7ff54c5d961d7ecee9c4e7bb95d80993e92d9cf581443a44c2b800e0c2bfb57,yan,missing_sapo,sapo,report,kept; counted in funnel
+e82a338673a617d3a72dce3ff11cebc074ac7fd6a247fc823215a62975a90b50,yan,missing_sapo,sapo,report,kept; counted in funnel
+8fa62ebfd7276431d39a74b01d344d2b7865b7eb0b9bac413d2de6e0c02dda11,yan,missing_sapo,sapo,report,kept; counted in funnel
+4b00e5ec28749778101aca426059a9e515f5eda0f2e0ba0c2bfea07d681429fc,yan,missing_sapo,sapo,report,kept; counted in funnel
+943adeee62abf837a77f434ab4de2c2e56e52d3714a9f414fed72220f4c507d7,yan,missing_sapo,sapo,report,kept; counted in funnel
+159fc9a63b40b98b8f96f2f37454afafdd6377657fcab0e1a174e91a2345f6c9,yan,missing_sapo,sapo,report,kept; counted in funnel
+29b2b2dec91c1e2398ab7c97799177ba8a027b01b58d93ec884ae01bd72115d6,yan,missing_sapo,sapo,report,kept; counted in funnel
+5327321dbb1b1caf59ce0396b8dbfbbfb6faeb63d308561a4431e41168749387,yan,missing_sapo,sapo,report,kept; counted in funnel
+701c8a3bc1dfb3ddfe25a323032e2eb81540f566063dab3e5a9c72aeb246ea74,yan,missing_sapo,sapo,report,kept; counted in funnel
+77f9d1a07208c857107c503280dc6a84b010f9105db35b8e7ef5c3174549a40f,yan,missing_sapo,sapo,report,kept; counted in funnel
+6953ce315edd266eb24a680a35f6c3278b3bfa80fea6bd19c196415c079bc5d8,yan,missing_sapo,sapo,report,kept; counted in funnel
+bffa55ec579e5498c3d3dab6f360555eecfd6ca857b85ab9be5bd0741f2692b8,yan,missing_sapo,sapo,report,kept; counted in funnel
+1433985936a3d88bd223794b9b04a73c6d7f3045134216e38a0d682885248cda,yan,missing_sapo,sapo,report,kept; counted in funnel
+e0f03d237c57c9b59a2c64b0bc6d90b3b9532ca88845e8a2034159fc6abea1a8,yan,missing_sapo,sapo,report,kept; counted in funnel
+f0f2445f490eccc75c2eb9f6a68f308e4dd3e89ca3aba49246de081ce1ada5b4,yan,missing_sapo,sapo,report,kept; counted in funnel
+42780e14df54c192d4436922dc23ae16b4a41b8e061489c9013580b28faf050f,yan,missing_sapo,sapo,report,kept; counted in funnel
+540c9fe0a5a88eaefe3da89b353157b0eebf3a40a15bb771dd5a337f9aa64342,yan,missing_sapo,sapo,report,kept; counted in funnel
+8ea93bead2ff288fc2450c0f69a94ad57be9b9f46c6752df9bf9d4f8808a3490,yan,missing_sapo,sapo,report,kept; counted in funnel
+859e973b9c741ef08f803a90cdc4a7a9b494f5769b67fff8d8695b28b656a3b2,yan,missing_sapo,sapo,report,kept; counted in funnel
+c9584c2c45db89fd15d5b8bb5d35f2a6715de9727f4a64ea25b15443ab244664,yan,missing_sapo,sapo,report,kept; counted in funnel
+ba01fb8324b69d859af890b09cfbde0f35505551d80916ff330ada03e286e7de,yan,missing_sapo,sapo,report,kept; counted in funnel
+4932d71e9ea5b674568c1c69fb6829193be11ea482c19a223e2a2bb9ce775194,yan,missing_sapo,sapo,report,kept; counted in funnel
+1266c14ea43c32f17bfb6373ecf5d3a20c57076eee095c9b3140a6f725e1e2b6,yan,missing_sapo,sapo,report,kept; counted in funnel
+b7c7c9dab33be87608bf08151fe40b90034e50089e6d585e2dc0dd0e3aa08d3a,yan,missing_sapo,sapo,report,kept; counted in funnel
+3aa4d107143b8f5495133e37849f8b197d57725766827f9076c2964189fe2910,yan,missing_sapo,sapo,report,kept; counted in funnel
+062308e3e2ce984ec1077147aeac0504728272de94428de92cc00d05ab8fb07d,yan,missing_sapo,sapo,report,kept; counted in funnel
+1f20942c7b1eef62e43161c35619c945ac90683c9b195e2f5c561f152d05b1af,yan,missing_sapo,sapo,report,kept; counted in funnel
+2ea12805d29b68a74fb5260790b86ab650686a37bcd2d5b4a5b14faf71c0269a,yan,missing_sapo,sapo,report,kept; counted in funnel
+9a4023a8388b898873bb5d2cc3e943f578cdc526442fe5e56b56a6e0c4dce7a5,yan,missing_sapo,sapo,report,kept; counted in funnel
+878549b5a4d5bcc001fdced6b55ba3438374b7f33b6933cddc126e235d84dd18,yan,missing_sapo,sapo,report,kept; counted in funnel
+103519ff02640aaa94f12b2ffaf72c02025ef2ad733d726c735dfeeac104de66,yan,missing_sapo,sapo,report,kept; counted in funnel
+fbc5fb13d2ae9b78a913dedeba4e733a2e62a9764cb62e6dbef453a21b99fb36,yan,missing_sapo,sapo,report,kept; counted in funnel
+43ac64f6834a9e7c33389042861007904c9586483c14d0b15c0d6400f93d9340,yan,missing_sapo,sapo,report,kept; counted in funnel
+9aa82893efa492784405a5efb2ae7f7bb4992d991e8a8bff2a1716786dce5d4f,yan,missing_sapo,sapo,report,kept; counted in funnel
+dc1d4b439bbfc41aaf5db9222895925fcef93b96bdfee8f3f840a4bd0a5c7fc3,yan,missing_sapo,sapo,report,kept; counted in funnel
+89d1a4f1aa8952cbf0b755f15ef0bf3cc316874e12780563f1e3020175ca8e76,yan,missing_sapo,sapo,report,kept; counted in funnel
+104a0ad33180c1670316af0e1496522044059157fc434397823355468aa6c09b,yan,missing_sapo,sapo,report,kept; counted in funnel
+f6d5ed60b47ed1fd3304559b0131449dfebd537080b35038760cc54271090ae1,yan,missing_sapo,sapo,report,kept; counted in funnel
+dc68c39e0aa7abae0a63b72942f896f40a7736d9c3279db72600493a8e1752a5,yan,missing_sapo,sapo,report,kept; counted in funnel
+5a3e74ff5e6a3a7213cbcd1081c5d9a3898d9b2b41e82a93899a89adf6cd9fcf,yan,missing_sapo,sapo,report,kept; counted in funnel
+cfb8393542e0e328449b6747ea6a4bbe00abbd45d4a7e296144d70e89359b9e6,yan,missing_sapo,sapo,report,kept; counted in funnel
+2a7643a0d11057291bbb2cec11ee0b3d70242b9875665d8b41791037603475bb,yan,missing_sapo,sapo,report,kept; counted in funnel
+b513a87f2a3a1e9a173f1e6b237e502f2dc979d660c35b6e5f56f130e7ad9ee6,yan,missing_sapo,sapo,report,kept; counted in funnel
+a46ba3829dee2028a4470664f23b27d839988785384247ebe53108d1ce9a5463,yan,missing_sapo,sapo,report,kept; counted in funnel
+8b6914adcc8036d648b1acce7a61d8d15c1be3bbf46ad2c18078b1f84a7c39fd,yan,missing_sapo,sapo,report,kept; counted in funnel
+f68a08877e2300bde56aa758ca3ed8e154f47b156132e8f00874b7c4f062ccc1,yan,missing_sapo,sapo,report,kept; counted in funnel
+8735b0a926f59b9116eca029295df338a0a84766b74d1a9eea423e23adb675e9,yan,missing_sapo,sapo,report,kept; counted in funnel
+c36c3b735a1d2f4b95ad7782b059705075666673e52536f1be01665f89826bb6,yan,missing_sapo,sapo,report,kept; counted in funnel
+0b2b9395fb55232f9fdfb94918c850089e352884fd06d31fbbada121f8c1115d,yan,missing_sapo,sapo,report,kept; counted in funnel
+ac2e2c64e98df746bd3fcdb23ac2f01b3badf6659020758ac900f1bc1d6c41c2,yan,missing_sapo,sapo,report,kept; counted in funnel
+e6995f192ac24c462de1aa534d8b2f89c36dfef27e27bfe8b3127bf39934cc74,yan,missing_sapo,sapo,report,kept; counted in funnel
+85dad46bf857ea8100c3e85c92f25680d6895a2a9df2695c609f85d6311c4b21,yan,missing_sapo,sapo,report,kept; counted in funnel
+148ca4506781b996b3f17443fe4c1c062232f1e98b96ae47276075cd2b9e92c4,yan,missing_sapo,sapo,report,kept; counted in funnel
+8e8353eeb48f00857a950eb0e69751c67fb54a63f9f2e2525757766fdd6fd6cf,yan,missing_sapo,sapo,report,kept; counted in funnel
+f169ca32410d418fde149bd77e9f181fc2d86afc698abb9a1bdbc11a4fd11bc5,yan,missing_sapo,sapo,report,kept; counted in funnel
+dd7966733d55feacc5015ac6f4ae383d024eab77a65d0406eb4b3e9534dd30c4,yan,missing_sapo,sapo,report,kept; counted in funnel
+8b5214f465e4e414519b8d228f0fa699f4c09e46783e3bc80a05ad3508973dc1,yan,missing_sapo,sapo,report,kept; counted in funnel
+609999be902d60f2d8a33195d9fc84e67ca1a99401735c7b7d1c65ef49a6ea37,yan,missing_sapo,sapo,report,kept; counted in funnel
+6ec68a208a548d6531c453558dd99876dd988b5f58363834d981b84e272883ee,yan,missing_sapo,sapo,report,kept; counted in funnel
+767103c2089b500f8aeb36d5a083ad4ad5cf6c76bacb7e64060c7631b504a31d,yan,missing_sapo,sapo,report,kept; counted in funnel
+db4163dd3adf2736e8b1026a2c96611c9ec47dfd8ccd21e2e97d4fb4cc9d229a,yan,missing_sapo,sapo,report,kept; counted in funnel
+e8f768398a3d04c5a29ae2193bc795e4fe4513b3d1a3fec929d82b4be6573c50,yan,missing_sapo,sapo,report,kept; counted in funnel
+69f130e9cc99fd93559e170cc093e496b79953a5acd87996e6f7616bb30c2d4f,yan,missing_sapo,sapo,report,kept; counted in funnel
+356ebcedfee208e2c91f5f87c08d230d82edd83c6cc647dea115defb8306ed3d,yan,missing_sapo,sapo,report,kept; counted in funnel
+973ead3b0f05e0adbf683cbdc3473826d0bdd5c0d9b7b88cfd3c9c7738cb19b1,yan,missing_sapo,sapo,report,kept; counted in funnel
+086c88cb7af399beb4fa9f808d991b64e3d71780aed1fd16e304152abd095737,yan,missing_sapo,sapo,report,kept; counted in funnel
+2a4f079504d9557b7a834a50269c3e8b0b64f1a3aeed7b3c1486240bb5da6c3f,yan,missing_sapo,sapo,report,kept; counted in funnel
+5b4fdec55d5a09d7de3671129056acef60f78fe0d2a48190b8239a860dd4b197,yan,missing_sapo,sapo,report,kept; counted in funnel
+b4bba79b61381ca15f9c8e8a5db09453d9cba9b6c1302c90074ad995ca48ecca,yan,missing_sapo,sapo,report,kept; counted in funnel
+6ee12d49e21a84584a0b915a1b0c34022d2fd943c712d717a2962caa18ab6734,yan,missing_sapo,sapo,report,kept; counted in funnel
+fe64cd4e0d21681fc8f76785b8ca6fb06a2737e7e8a39dd11eac1deebbc713f0,yan,missing_sapo,sapo,report,kept; counted in funnel
+4bfd4ae53a3f9d2af8d1acc70e54c5a0128ded36e1766c40739091f494a415a0,yan,missing_sapo,sapo,report,kept; counted in funnel
+03103a77ff3313b67e4731ae848a6d24f8539bf45075a9c4979e1e3db0577dcb,yan,missing_sapo,sapo,report,kept; counted in funnel
+f4fd2cb34f0017f14d125ea9b8c89a55120a102f884010c70bb98bebb5fe2b9d,yan,missing_sapo,sapo,report,kept; counted in funnel
+ae900bfb80b0f2d98ace5b645fd55813064f661d203df821a3e5eaed05513646,yan,missing_sapo,sapo,report,kept; counted in funnel
+9328c34f5465cdad327a8cab181fd4ea719b5d54dc6a98f40296b43f29fd4e68,yan,missing_sapo,sapo,report,kept; counted in funnel
+523ba858da4329d285edb6f8555cb36875eddceff28b12a119eee82436e875f4,yan,missing_sapo,sapo,report,kept; counted in funnel
+278ac1e521e8b47d523cbb3cb6b4d7590871f591d1d302c5948a86c54e5c86b4,yan,missing_sapo,sapo,report,kept; counted in funnel
+a21768ba430cf68602bb53716ec02a91d08635cabde860d4eb266f4654520965,yan,missing_sapo,sapo,report,kept; counted in funnel
+ab7fd0384bb28fae69f3182bce00c539caeddb83c430e8f9fd13b5143b73a141,yan,missing_sapo,sapo,report,kept; counted in funnel
+d30b143e7fedf96e0fac594099c241ee524fcd84711acc2e360b2d99659f5540,yan,missing_sapo,sapo,report,kept; counted in funnel
+c2d47bce809aa16f3f8385c23274ebdc22594b3ae71228a378fee71193301e15,yan,missing_sapo,sapo,report,kept; counted in funnel
+5025994b9d533bd69e7b628afbaa155b64b2ab2f764ebb6b49c54c9afa29bbdc,yan,missing_sapo,sapo,report,kept; counted in funnel
+884631374163998ff9aefc69b2cdec927ecc8aacd6083235a03ba5d38110687d,yan,missing_sapo,sapo,report,kept; counted in funnel
+4505f1add153ed2f69f9e6f8aec76b5c0651d3ab72eaceb555f8846966f3c123,yan,missing_sapo,sapo,report,kept; counted in funnel
+9a8dc25ca68485aa8c98005f29d7ee123c63112f714f1098ea0cd45b281682e0,yan,missing_sapo,sapo,report,kept; counted in funnel
+f21d92d04434e9cefd7f75d12381d4a269d6114f72659e743b6c05fbc8ef8cd9,yan,missing_sapo,sapo,report,kept; counted in funnel
+a8445700d6e34a7d025f32db26f82e12cf0697b0e1563efc63f651a2163cab04,yan,missing_sapo,sapo,report,kept; counted in funnel
+aa6dbd2b019b254f385e77c940fbc56967c6edf23a32f1d6b4a9a13f6eae7d23,yan,missing_sapo,sapo,report,kept; counted in funnel
+ec41fa597d059a831de421ddb988ef151f41fb5b8c68d9d0b520d772d9dd330a,yan,missing_sapo,sapo,report,kept; counted in funnel
+fc44fb751f03e0fa4b2fa6e3d1b613c1521064d9a8748901fc672dbbd3723665,yan,missing_sapo,sapo,report,kept; counted in funnel
+f834f7a315a4c34b94cc11b29c51305c60a65103c2a4bc50b05f9caaa4d04380,yan,missing_sapo,sapo,report,kept; counted in funnel
+0cd14be116dd78a22557fb048fbdbcdbd3cd32a0dfed7294ee2565cfcce8c619,yan,missing_sapo,sapo,report,kept; counted in funnel
+1c0e34b5f4964efed63e2c0e82fb6fbf90b84e190439d1eded3401c1613508d2,yan,missing_sapo,sapo,report,kept; counted in funnel
+8d6c8ca01b9f3178d0f0b23d0559bff37e9b56efb07a7928291a3f7c33fffb09,yan,missing_sapo,sapo,report,kept; counted in funnel
+f2518c2eded83af514e2dd5b2bfac5b391b8871b1e5e93d4bcb9576045d161ca,yan,missing_sapo,sapo,report,kept; counted in funnel
+a458a08d65268e51da3783dc77b911fd22cb3b47ccc3eda624e1d0e47c758e91,yan,missing_sapo,sapo,report,kept; counted in funnel
+2411d4288fabf52439548ccc4608f1008eb7c49662e371216bf4101e3a10ed73,yan,missing_sapo,sapo,report,kept; counted in funnel
+0c80777f7262bf4c6da0898c86f086451bc98dc938aeb724f9f7f3305cca49de,yan,missing_sapo,sapo,report,kept; counted in funnel
+b664962f917ed83836f2617e9dd91ece283a7177d069c25553236c522d560dde,yan,missing_sapo,sapo,report,kept; counted in funnel
+17d8c27435fe69e84beb0576d2b675c0f5f9fa047396d5e003aede85cae6e8db,yan,missing_sapo,sapo,report,kept; counted in funnel
+b75401acb7b6b61fe52436d568363cd725da24b559b3ee53c35b0e1b8bd46007,yan,missing_sapo,sapo,report,kept; counted in funnel
+7f7dcede3374e89448512f006ec284efc3da2338bb65035cfde2e7538dd36bef,yan,missing_sapo,sapo,report,kept; counted in funnel
+cad31c59645663424a31b5d5291edfe59b6513a346caf79986e3b1c952dca100,yan,missing_sapo,sapo,report,kept; counted in funnel
+edeeaf45c4587f04092691d9b667c9ad7c4b715b4e285e6f799a4c56ee6c9f81,yan,missing_sapo,sapo,report,kept; counted in funnel
+e51f2db16d5a44c2b2ad419ac0426d05d2201f079b3e597ed1185436173df799,yan,missing_sapo,sapo,report,kept; counted in funnel
+e78f7c791ed2aadf812ba3beee6823492153fabb0afccb56266d9e89cb0a25f2,yan,missing_sapo,sapo,report,kept; counted in funnel
+b08582906d2b650d6709ed88b0b7aca3b2473786ce29e1c56a3a10f3121a567a,yan,missing_sapo,sapo,report,kept; counted in funnel
+5c5b0316e869c07dd4ac4bc6f2b4167f85eac5ea6b616f760a3e1394d5bdaecd,yan,missing_sapo,sapo,report,kept; counted in funnel
+5909aed745c2013c08d2ab5958d3eff618f7960f49df562ce128a83b726b4ca7,yan,missing_sapo,sapo,report,kept; counted in funnel
+b64b588c07f01ded72d6a045802c44d9a5f0fcdbc1bc32ce908c5c2eb868b403,yan,missing_sapo,sapo,report,kept; counted in funnel
+e640144751fb43af6fec4b9860768ac353158496c97e0b5e206fdff1f9517b63,yan,missing_sapo,sapo,report,kept; counted in funnel
+dc9636a8b326ded3f2e5e604079c5b3b6d33a5d89870f069a2b74c29d6f78104,yan,missing_sapo,sapo,report,kept; counted in funnel
+6299b672a41f938d508a7d7347f64b6178eef141f9c0430db227d26ea7f92c5d,yan,missing_sapo,sapo,report,kept; counted in funnel
+7473ca84ca6b9c53ffa97f40adae6ecda6f277c08b1accde4f7c9a18b1f1b741,yan,missing_sapo,sapo,report,kept; counted in funnel
+6e8e4e9156dee7d91697a13afc402e4fe1c6d7224fe72f60f54aefcb887dd349,yan,missing_sapo,sapo,report,kept; counted in funnel
+e99ce28764daf981c7ab754bbc6e086216b5c320e02ad9b4663530be9e492c17,yan,missing_sapo,sapo,report,kept; counted in funnel
+e29d25de3191ac35b5b0382b2f998d9d6b5ad5b8b31cbe1ff1054f739abaadb7,yan,missing_sapo,sapo,report,kept; counted in funnel
+f151dc39fee5f1829a0d3a3f1f49d693d61460f18ab386ebec7e2d61b2936c15,yan,missing_sapo,sapo,report,kept; counted in funnel
+86d947c9d251fa75f32c04925fbef8d0fd31209aad83654014db9d0da76ea542,yan,missing_sapo,sapo,report,kept; counted in funnel
+504e7a3d76b121982cfcc868af323427dd730d2f9adf079babd22b27e2e06a9b,yan,missing_sapo,sapo,report,kept; counted in funnel
+eb7e0bf1c91c15709ce44a9a1bc318bee7ad87cf1e91a19fe129289f582ca2e4,yan,missing_sapo,sapo,report,kept; counted in funnel
+79b4e13604c235917698d79c6c3b33163e5b1fb1a8ea18fe2ba4801a03baad85,yan,missing_sapo,sapo,report,kept; counted in funnel
+59666a95d6516a89919a0487f5e496f938444060f81ddd3ac0a30443b2b549e1,yan,missing_sapo,sapo,report,kept; counted in funnel
+0aa7960c4a26238744a2b1cfc0c3ae8204f37f04288e44e5537974c9c8a02390,yan,missing_sapo,sapo,report,kept; counted in funnel
+0ef6ec0cfb84f56c25497da41fe62530fc7b2277b0205cb97761ae815a070456,yan,missing_sapo,sapo,report,kept; counted in funnel
+a93bcf6eb90f95474144cc3bb5df154faa890f663a879ef9b1d959882ce01979,yan,missing_sapo,sapo,report,kept; counted in funnel
+91c5369a2c8bb4319194464dd9b1fb1dbd238a91b9f14d1a8e12a78c00b1235a,yan,missing_sapo,sapo,report,kept; counted in funnel
+01c617301821aaf7d496fe72ce3a067e2bebeb067cc7e1009cf17e4dcc79ec70,yan,missing_sapo,sapo,report,kept; counted in funnel
+44aa4e3cd9a0e96759538087d6240239b1c44b3074d93f7ca0fdd8b17cf2b8d0,yan,missing_sapo,sapo,report,kept; counted in funnel
+0b0996799c31e8a50d1a6c2aaaec4152c544f33cb33488306af0abbb50c994a6,yan,missing_sapo,sapo,report,kept; counted in funnel
+cbe09b9b0e76f3e6c068a45bf4a06b4ffcc4123b1ef9acb726a82b2a531e7e0f,yan,missing_sapo,sapo,report,kept; counted in funnel
+fc1979a9f8e9e86c2bb1576dd169a48f76e2c10d36aeb278805f252f364a790e,yan,missing_sapo,sapo,report,kept; counted in funnel
+66404a83538ede8b7ae1bc508e65f5748c8113a619b6ef779e22c1d61ce1f918,yan,missing_sapo,sapo,report,kept; counted in funnel
+6b4d7886aeb4da71e334573e5a874778e1a185d9f90da4e4915b98fffd6a5289,yan,missing_sapo,sapo,report,kept; counted in funnel
+8b1f9d9eda71eee0fd69d6cf2e9384e681b0db59dd3dd168882d1cacd11bef4d,yan,missing_sapo,sapo,report,kept; counted in funnel
+3c883f736913e05e7bbaa2a3efa77b31777e68232d9bc6d3927dd3d69d2a4bb0,yan,missing_sapo,sapo,report,kept; counted in funnel
+a7c0cb610aea9f4c2be889460d55eee542ab93f47889a230c0eb6ca0389dc54e,yan,missing_sapo,sapo,report,kept; counted in funnel
+02d4c38b47dd65508aca1c2ac73239ef6426f6d699e9c359133f64f38da595a8,yan,missing_sapo,sapo,report,kept; counted in funnel
+c7fc84cba09e545452f68e252d7ac4225bda137739824d29d4df648d43fb7069,yan,missing_sapo,sapo,report,kept; counted in funnel
+caa1fe44fb4ed3b630e14d84fd48436e61758fb4496f13a79a1e8337a54dea3c,yan,missing_sapo,sapo,report,kept; counted in funnel
+1012a52e73f6d1774d9f245a0277efd95c61586dd214470b75a098bf5363343a,yan,missing_sapo,sapo,report,kept; counted in funnel
+904fd42dea93edb426ad604bd8d31779b6e3532184decf6f0ddcbaac0478ea47,yan,missing_sapo,sapo,report,kept; counted in funnel
+02ad2b61b39f53d1f6f8dfb25f6052d18a45d811ff2c119c9b5af6e517e1eba7,yan,missing_sapo,sapo,report,kept; counted in funnel
+587044463e627b45d6773595e1c7e57110204675c179fb775d357c109568e896,yan,missing_sapo,sapo,report,kept; counted in funnel
+99ffb7d9eeb66ed85c20c1998c490e7924660cb1a01859b36b84b7cd4d7ac7e1,yan,missing_sapo,sapo,report,kept; counted in funnel
+a0500edfec10122ed84fb49a40a12820913ba43009bcb2213053218968a73539,yan,missing_sapo,sapo,report,kept; counted in funnel
+16ec48e6c2335b730e30b3811d427685216736ccd5732119b954b47c90d38f18,yan,missing_sapo,sapo,report,kept; counted in funnel
+d3e27ba2b088612f5a41361f54f437f430a38301e74385c97fb3b316a299ca30,yan,missing_sapo,sapo,report,kept; counted in funnel
+634c7cacc3477478141fe200178ce042f62e060d7ad6d427f3660434fe02e279,yan,missing_sapo,sapo,report,kept; counted in funnel
+d251cbfd9bb7ccec49fb435b232f8b31dd60b2d6c3478c1a7316d3cd7362a6ca,yan,missing_sapo,sapo,report,kept; counted in funnel
+602efc4f36088d901727b72b534c7910c97a461ca942b4d7060f65e0d15cba23,yan,missing_sapo,sapo,report,kept; counted in funnel
+12b6385c44d619e9a8bfdd97afdd6028e82ce9edf66825161ca3506dcc31af79,yan,missing_sapo,sapo,report,kept; counted in funnel
+e8e43d91924d8b55d9d5e11a6f007dfc7dc1c5fb7453b16178bddc1eab176998,yan,missing_sapo,sapo,report,kept; counted in funnel
+8b6808a8f99c1ca92153ecfb5abbeaff43d17ec553300fb4947c38adad917d58,yan,missing_sapo,sapo,report,kept; counted in funnel
+0b1b8a7c15d9ca29fb16cf4356b2fa26b1820ad64fcf27a0a96e6fce1ad1f31a,yan,missing_sapo,sapo,report,kept; counted in funnel
+e2b9c23ee638d75dae650476529e1177e0490b97c0ed160b3fac75bc4e324cf7,yan,missing_sapo,sapo,report,kept; counted in funnel
+eec74653c8ebf052c837fd3bc61139a5300cc84da08615e9f56d4d9131ff7a4b,yan,missing_sapo,sapo,report,kept; counted in funnel
+0dd26cdcf9299f65168432407e446e2c31252a0496927dc900e6d80cd397e97c,yan,missing_sapo,sapo,report,kept; counted in funnel
+ad1d82b921d7355a7e370eb7830209d46aa371080f9f601a84f082c78967ed5e,yan,missing_sapo,sapo,report,kept; counted in funnel
+82e5491a5ee6a11f2c74bc7977b628db8d8be703b02058c0f686e0afe20f06d1,yan,missing_sapo,sapo,report,kept; counted in funnel
+888b5e8a5816c8e8b2375dc15b45a7232b039b63f02e3ff4d9fb24ec9d6f90b6,yan,missing_sapo,sapo,report,kept; counted in funnel
+64500ba38699a5447a7e5afdafc93c8f8c1187ad7b5192b97a15ff154d068eca,yan,missing_sapo,sapo,report,kept; counted in funnel
+66e4bcbde9dcf644a83b2c84251a9dcddd03069a137faa149dda6020c5d6563e,yan,missing_sapo,sapo,report,kept; counted in funnel
+70b35c53624a479cf19b19ff4f02af57f4c28ef04df930278716493a18d9051b,yan,missing_sapo,sapo,report,kept; counted in funnel
+d83d2fd0102d516472d3895e6aa2d7083a1a65e615ab57646b866b88f98e060a,yan,missing_sapo,sapo,report,kept; counted in funnel
+d3bb2338b6d1ea4ced65de4e9aa1a8b11b684bd2a4504a7f6868d961d829f315,yan,missing_sapo,sapo,report,kept; counted in funnel
+6893ef1a9f868f965b5257430ca73d8d3b70b25286e5f4d4385ff15e8d804d62,yan,missing_sapo,sapo,report,kept; counted in funnel
+6b34f5590430c427fb2988d9fb914b905e207fdbe732ac77a1b98eb64e044d70,yan,missing_sapo,sapo,report,kept; counted in funnel
+ec4e5be19388994002d37b960267f7ff5eb944840da59e4eb574c5092acf747d,yan,missing_sapo,sapo,report,kept; counted in funnel
+7efa82c8612e7770c23f0fca303f09538a3b87b7989f0bdcaed62a4000f248e5,yan,missing_sapo,sapo,report,kept; counted in funnel
+56b8cb462091713c8b93dac406f6ff3374c79469d9ffef8e10ea6be0cd1046a5,yan,missing_sapo,sapo,report,kept; counted in funnel
+9add4d2c99361b962f8f56238823f831c7b3577c4f54fbb45ea7895fe123d814,yan,missing_sapo,sapo,report,kept; counted in funnel
+f99d412f23670953bffa58f9f317f10ecf50f4b98e53b58a52211cad89937432,yan,missing_sapo,sapo,report,kept; counted in funnel
+dbfe9a813fed8abc2bdffd2b1e68b8b5bf4c0ae6ade26971ac48cf5512875710,yan,missing_sapo,sapo,report,kept; counted in funnel
+9085261b054eee2b40c2271e1de7124a081f9476f82b55f620647755334b987b,yan,missing_sapo,sapo,report,kept; counted in funnel
+83eda3bae4185a016c2447e912eb2197108c506770a9d2899c4412c822654512,yan,missing_sapo,sapo,report,kept; counted in funnel
+6187d0f2691a645bbcafd18df4daaf979ee58d1c190dd44b01a40699479c1f9e,yan,missing_sapo,sapo,report,kept; counted in funnel
+db1a047be12e541d75b729594c6cbd5f826c4651fb2a4e8842e56d3c90a7e3aa,yan,missing_sapo,sapo,report,kept; counted in funnel
+06f19fdb17a490c57d326bf363a3a5a1531ab830b33d08e9990e7c144ba51ddc,yan,missing_sapo,sapo,report,kept; counted in funnel
+5175b5e9ff92a33d667df020b77b86cd813ab7234d4a53c319167300ab491878,yan,missing_sapo,sapo,report,kept; counted in funnel
+519b553d2439fbe0ec0902084539eeb5ca96eedd630cdda53ed447993c911277,yan,missing_sapo,sapo,report,kept; counted in funnel
+568b36a0cc3a9062081e81e41242dee07a334d2fd346f9c352f0f76a444d352a,yan,missing_sapo,sapo,report,kept; counted in funnel
+a591df04b4a6ae4a050ddc14251d6fee038e17b1b75df450ef3505e4915838d4,yan,missing_sapo,sapo,report,kept; counted in funnel
+1e22fd04bad4deea8ec68031fdfb4d64f7534b72432c6a314b26ca4fe9ef153e,yan,missing_sapo,sapo,report,kept; counted in funnel
+35f4f73a13ae0c412bbc7d78c67575b98ae8d0229b1e55aa84f29a2f71afe482,yan,missing_sapo,sapo,report,kept; counted in funnel
+3faed4775a4d70d8772a6e60477121e64191a62cfddabb809fca2b182f783787,yan,missing_sapo,sapo,report,kept; counted in funnel
+32ed10348e9758e2479db76389f434f6c96efa7e76156a13e69bb6d99cbe276a,yan,missing_sapo,sapo,report,kept; counted in funnel
+ad98b90b1e73f21ec96763ca45dd68aed95c88567880f10b61cea9f8e1b0b324,vietnamnet,missing_sapo,sapo,report,kept; counted in funnel
+abe810f4a740c220fd132042650eb190b1658447f6df632458265cbba7c02c4f,vietnamnet,missing_sapo,sapo,report,kept; counted in funnel
+790b359373db0a9b8fa2c2d0040599043904bd27631032a177f302a05dac9eac,vietnamnet,missing_sapo,sapo,report,kept; counted in funnel
+13a374b9a52cf320ec2077c52a8fe603a54c88fa8f6dc28435f14051d14fb5c5,vietnamnet,missing_sapo,sapo,report,kept; counted in funnel
+9dfce6b8d147d553c3f3d981045a8fe0c2d1de31343194384e9cb14507562173,vietnamnet,missing_sapo,sapo,report,kept; counted in funnel
+65e5717ea4ca2c5dc53e4acbf33e3eb9fb46d2c6c282bdf68f17bc6880973b1d,vietnamnet,missing_sapo,sapo,report,kept; counted in funnel
+28a51f62f0513f8555a4804e441f9a34265ac03d6592458771e28dd578fff5ad,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+8b0594bcec0476fb0611f457e2be6939d2d714eb4656ae04b4ad2958c9c94360,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+0caccfa55c7abf49d5ebb34a47baffa9b09552374bcfc9a9bc4b3f215a5f0b22,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+c90f8142ed2bcaa5ef559f451b43bda4b78273bf0300411f58be8f5bfa2ac1bc,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+79183de160d494ff0914e1903bdd8a814bfe7698c383166d246c58f597f83b05,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+c4c9434de5cabd76cc18f38d32a4f31c64ef2870ea95883a64253c58720ff308,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+fc47732feb0d74d7da434da38c23ca31e0e9dcc2a85ee1f523592a71d7ee6a55,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+400bb641604c1da1d5adb1ea3a445c30b603a9221a433441af70ae359c56c34c,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+24e960021411ee9d8e7942b97408b33a4e093f2328764c43c88458b1cf5ce000,nhandan,non_headline_title,title,reject,"nhandan_generic_title: generic page title 'Tin tức', not a headline"
+24e960021411ee9d8e7942b97408b33a4e093f2328764c43c88458b1cf5ce000,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+cb1d94326732533c48d6f6727923263c361e44450d67578ffbe78b54db3dcdaa,nhandan,non_headline_title,title,reject,"nhandan_print_edition_index: print-edition index page, not an article"
+cb1d94326732533c48d6f6727923263c361e44450d67578ffbe78b54db3dcdaa,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+b8478c57d1a4e7eba5a7abd7347cec39a19aec1af2e269496bf027a9722a1447,nhandan,non_headline_title,title,reject,"nhandan_notice_generic_title: generic notice-board title (court/official notices), not a headline"
+a3ad4e3bd7e0bfb1eec33aa3fdbf9e5a49b62befcfdb29783c83c1bda59ddf80,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+e7010f0d23cea3152614465ae2f97eae9a882f7c60f7c5a41372d9effd07010a,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+96e6662d704b04141208ebe32914fee86425ef0c4382aa5b74c2b4e029d7983f,nhandan,non_headline_title,title,reject,"nhandan_generic_title: generic page title 'Tin tức', not a headline"
+a48bab6155cd7935772a81602f5585ac15b54b819244d263c8dca763c07f733a,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+ad3e061bc848e5644b55e5f29d1abb6e38737fa09989ddd410c8cfdbbcdbe495,nhandan,non_headline_title,title,reject,"nhandan_print_edition_index: print-edition index page, not an article"
+ad3e061bc848e5644b55e5f29d1abb6e38737fa09989ddd410c8cfdbbcdbe495,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+3ccbd1f6ffe540db7caa0c23a0ad7901d7f29a85c0026948197e70e4ca8162af,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+3add111a4a64905d456f73fa43557a97af43007b00ce7fad5cc6294e7db925a7,nhandan,non_headline_title,title,reject,"nhandan_generic_title: generic page title 'Tin tức', not a headline"
+eee87cb0192b87a83e086f1b032ba2368223e7601c2a744eac9265089d5eeb8b,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+dcdcae0bb97ea9b8fd8481b8279a704b1252176287765befd35aa53b5457cedc,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+bd1c51291c874a8bf9bdc3e44406251c33dfe454cbe1700a2c39e9ebedde9535,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+e8845a8e3738177658fcb07ffc0fbe484bc9d9049f32d3f994b71e046000cd78,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+4d37ab732e5b4f748e2a1e7f46f2d70ed0222cbe9bb9033b04246d8b9d95a175,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+f5ca7f860237c609fa8ea0e71375b61ddb5a9655e846ffe0e35c508802cd2b1a,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+55a40bfb9326dc099c436765f8415627eee2481f3ea680c8fd6f7b6058efb788,nhandan,non_headline_title,title,reject,"nhandan_generic_title: generic page title 'Tin tức', not a headline"
+047402372c9483b9031d1ab2d2ec76f21403b161f102440f789c0ad29598bce6,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+b62b533495ff09ae2bb86a0ee0cfead1e69fd2d243f942b4707412de144ee109,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+8af5af889ca2926cad4e8d7bba8b07e4cdc16e3b785b339ed51b489c8d9fb6f1,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+273e689d63eee7a54bfec5b00ab1c69ecf0904e8988f2b6b7f83d270eed4a4bc,nhandan,non_headline_title,title,reject,"nhandan_print_edition_index: print-edition index page, not an article"
+273e689d63eee7a54bfec5b00ab1c69ecf0904e8988f2b6b7f83d270eed4a4bc,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+decbffdffd690c9599cce2024d87ff0cfa5376155146be48802d849417872305,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+5e0f94245a357ee15bf138b0c05b700af63db8aeb57e85124b0af4c2c0621c2e,nhandan,missing_sapo,sapo,report,kept; counted in funnel
+6cbf68fb2b85f2240c693056109bd7246be3bfc7a0299e303bd6ec5594097a13,nhandan,non_headline_title,title,reject,"nhandan_generic_title: generic page title 'Tin tức', not a headline"

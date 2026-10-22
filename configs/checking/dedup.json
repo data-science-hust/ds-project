@@ -1,0 +1,14 @@
+{
+  "description": "Title near-dedup: char-3gram Jaccard (JC3) on normalized titles (NFC, lower, punctuation -> space, collapse). Exact normalized titles always link. Near auto link: JC3 >= cross_source_link for a cross-source record pair, or JC3 >= any_source_link for any pair, only without a number conflict and with |published_at gap| <= near_link_max_days. Links are applied exact first, then by JC3 desc; a link that would put two records with a number conflict (or a manual 'separate' pair) into one group is refused (transitive_conflict) and sent to review.",
+  "floor": 0.6,
+  "cross_source_link": 0.7,
+  "any_source_link": 0.9,
+  "review_low": 0.6,
+  "template_series_min": 0.7,
+  "near_link_max_days": 7,
+  "review_auto_link_below": 0.8,
+  "number_conflict": "both_sides",
+  "number_pattern": "\\d+(?:[.,/:\\-]\\d+)*",
+  "chunk_size": 500,
+  "notes": "number_conflict=both_sides (dedup4 pilot): a pair is blocked when each raw title has a number token the other lacks; either_side: any unmatched number token blocks (stricter, -14 auto links on the 2026-10-23 provisional pool). Team decision pending; record it here. near_link_max_days=7 added after review found ~30 cross-source auto links between different articles published weeks/months apart (recurring templates); near pairs outside the window go to dedup_review.csv as date_gap. review_auto_link_below: applied near links with JC3 below this are also listed in dedup_review.csv (auto_link_check) for spot checks. Auto-link precision has not been measured; review before freeze."
+}
