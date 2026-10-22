@@ -1,0 +1,13 @@
+﻿source,outlet_group,run_id,downloaded,downloaded_without_title,selected,valid,rejected,dedup_excluded,after_dedup,with_sapo,min_clean_articles,shortfall
+afamily,seen,metadata_2024_20261021,3500,3,3500,3500,0,107,3393,3389,2800,0
+2sao,seen,metadata_2024_20261021,3720,3739,3500,3500,0,64,3436,3435,2800,0
+eva,seen,metadata_fix_20261023,3500,2,3500,3341,159,22,3319,3319,2800,0
+kenh14,seen,metadata_2024_20261021,3500,3,3500,3500,0,61,3439,3428,2800,0
+cafef,seen,metadata_2024_20261021,3500,6,3500,3487,13,72,3415,3413,2800,0
+thanhnien,seen,metadata_2024_20261021,3500,7,3500,3460,40,4,3456,3448,2800,0
+tuoitre,seen,metadata_2024_20261021,3500,6,3500,3500,0,6,3494,3491,2800,0
+dantri,seen,metadata_2024_20261021,3501,100,3500,3498,2,7,3491,3466,2800,0
+saostar,unseen,metadata_2024_20261021,500,4,500,500,0,0,500,500,300,0
+yan,unseen,metadata_fix_20261023,2181,0,500,500,0,0,500,217,300,0
+vietnamnet,unseen,metadata_fix_20261023,2160,21,500,500,0,0,500,494,300,0
+nhandan,unseen,metadata_recovery_nhandan_20261022,500,0,500,491,9,0,491,468,300,0
