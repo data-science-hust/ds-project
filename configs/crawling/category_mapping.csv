@@ -1,0 +1,648 @@
+source,category_raw,category,review_status,notes
+2sao,Xã Hội,Thời sự - Xã hội,approved,
+2sao,Đời sống,Đời sống - Gia đình,approved,"approved 2026-10-23: Broad human-interest hub (sports, showbiz, social stories); no topic reaches ~35%. The approved plan keeps big catch-all sections in Đời sống, flagged as noisy."
+2sao,Mật ngữ,Tử vi - Phong thủy,approved,approved 2026-10-23: Nearly every title is a con giáp/Thần Tài fortune piece; astro_share 0.98. This is the core section of the new Tử vi group.
+2sao,Showbiz,Giải trí - Văn hóa,approved,
+2sao,Đẹp+,Làm đẹp - Thời trang,approved,"approved 2026-10-23: Plurality is looks/body/beauty ('nhan sắc', 'vóc dáng', hair/skin tips), even when celebrity-framed. Pageant items are a minority."
+2sao,Sành,Công nghệ - Khoa học,approved,"approved 2026-10-23: About 11 of 15 titles are phones/tech/science (iPhone 18, Galaxy S26, Apple-Intel, telescope); cars are about 4 of 15."
+2sao,Sao,Giải trí - Văn hóa,approved,
+2sao,Phim,Giải trí - Văn hóa,approved,
+2sao,Nhạc,Giải trí - Văn hóa,approved,
+afamily,Hậu trường,Giải trí - Văn hóa,approved,
+afamily,Xã hội,Thời sự - Xã hội,approved,
+afamily,Sức khỏe,Sức khỏe,approved,
+afamily,Lifestyle,Đời sống - Gia đình,approved,"approved 2026-10-23: Mixed hub across 30 titles: celebs/royals about 35%, horoscope plus spiritual customs about 27%, life essays the rest. No clear plurality, so it stays in Đời sống like the other Lifestyle hubs. Flag as noisy."
+afamily,Giáo dục,Giáo dục,approved,"approved 2026-10-23: Most titles are exams, admissions, schools or teachers; parenting pieces are a minority."
+afamily,Tiêu dùng,Kinh tế - Tài chính,approved,"approved 2026-10-23: Plurality (about 1/3) is personal-finance/spending stories (thu nhập, chi tiêu, gửi tiền). Con giáp/feng shui is about 25-30% and home tips about 23%. Borderline; flag as noisy."
+afamily,Đẹp,Làm đẹp - Thời trang,approved,
+afamily,Tâm sự - Gia đình,Đời sống - Gia đình,approved,
+afamily,Mẹ và bé,Đời sống - Gia đình,approved,
+afamily,Ăn ngon,Du lịch - Ẩm thực,approved,
+afamily,Xem - ăn - chơi,Du lịch - Ẩm thực,approved,
+afamily,40S CLUB,Đời sống - Gia đình,approved,
+afamily,Học đường,Giáo dục,approved,
+afamily,Tin tổng hợp,Khác,approved,"approved 2026-10-23: All 6 titles are brand PR (FWD, Trip.com, Sharp, Yamaha): advertorial."
+afamily,Giải trí,Giải trí - Văn hóa,approved,
+afamily,Dạy con,Đời sống - Gia đình,approved,approved 2026-10-23: Parenting/family-values titles; consistent with eva 'Nuôi con IQ EQ'.
+afamily,Fashion,Làm đẹp - Thời trang,approved,
+afamily,Thị trường,Kinh tế - Tài chính,approved,"approved 2026-10-23: n=1 consumer shopping tip; kept with the consumer-market group (afamily Tiêu dùng, cafef Thị trường). Negligible."
+cafef,Sống,Đời sống - Gia đình,approved,"approved 2026-10-23: Lifestyle hub mixing health tips, household tips, education notices and money advice; no plurality. The approved plan keeps it in Đời sống as a noisy group."
+cafef,Lifestyle,Đời sống - Gia đình,approved,"approved 2026-10-23: The approved plan names CafeF Lifestyle as a catch-all kept in Đời sống. Caveat: celebrity titles are about 40-50% of samples (Mỹ Tâm, Phương Nhi, Quang Hải); flag as noisy."
+cafef,Bất động sản,Bất động sản,approved,
+cafef,Xã hội,Thời sự - Xã hội,approved,"approved 2026-10-23: Domestic news: police cases, weather, traffic, party discipline, BHXH notices."
+cafef,Tài chính quốc tế,Thế giới,approved,"approved 2026-10-23: About 2/3 of 30 titles are geopolitics or foreign news (Iran-Hormuz, CIA, Nga-Ukraine, Trump, FlyDubai). Finance (Fed, gold) is a minority. Consistent with kenh14 Thế Giới Đó Đây."
+cafef,Thị trường,Kinh tế - Tài chính,approved,"approved 2026-10-23: Plurality is market, commodity and trade news (coffee, silver, thanh long exports, fuel prices). Cars and phones are secondary."
+cafef,Kinh tế vĩ mô - Đầu tư,Kinh tế - Tài chính,approved,
+cafef,Thị trường chứng khoán,Kinh tế - Tài chính,approved,
+cafef,Doanh nghiệp,Kinh tế - Tài chính,approved,
+cafef,Kinh tế số,Công nghệ - Khoa học,approved,"approved 2026-10-23: Plurality is AI, big tech and apps (Musk/OpenAI, Meta fine, robots, AgentMail). Scam and e-gov notices are a secondary cluster."
+cafef,Tài chính - ngân hàng,Kinh tế - Tài chính,approved,
+cafef,Smart Money,Kinh tế - Tài chính,approved,
+cafef,Doanh nghiệp giới thiệu,Khác,approved,approved 2026-10-23: Advertorial/PR brand and project promotions.
+dantri,Thời sự,Thời sự - Xã hội,approved,
+dantri,Pháp luật,Pháp luật,approved,
+dantri,Thế giới,Thế giới,approved,
+dantri,"Thể thao, Bóng đá",Thể thao,approved,
+dantri,"Thời sự, Chính trị",Thời sự - Xã hội,approved,
+dantri,"Kinh doanh, Tài chính",Kinh tế - Tài chính,approved,
+dantri,Sức khỏe,Sức khỏe,approved,
+dantri,Giáo dục,Giáo dục,approved,
+dantri,"Thế giới, Quân sự",Thế giới,approved,
+dantri,"Thời sự, Giao thông",Thời sự - Xã hội,approved,
+dantri,"Kinh doanh, Doanh nghiệp",Kinh tế - Tài chính,approved,
+dantri,"Giải trí, Hậu trường",Giải trí - Văn hóa,approved,
+dantri,"Thời sự, Môi trường",Thời sự - Xã hội,approved,
+dantri,"Kinh doanh, Tiêu dùng",Kinh tế - Tài chính,approved,
+dantri,Bất động sản,Bất động sản,approved,
+dantri,"Công nghệ, Sản phẩm & Cộng đồng",Công nghệ - Khoa học,approved,
+dantri,Lao động - Việc làm,Thời sự - Xã hội,approved,"approved 2026-10-23: Labor policy and social stories (unemployment insurance, unions, holidays, worker housing)."
+dantri,"Giáo dục, Tuyển sinh",Giáo dục,approved,
+dantri,Đời sống,Đời sống - Gia đình,approved,
+dantri,Nội vụ,Thời sự - Xã hội,approved,"approved 2026-10-23: Civil service, administrative restructuring, elections: domestic public affairs."
+dantri,"Đời sống, Cộng đồng",Đời sống - Gia đình,approved,
+dantri,Kinh doanh,Kinh tế - Tài chính,approved,
+dantri,"Thể thao, World Cup",Thể thao,approved,
+dantri,Du lịch,Du lịch - Ẩm thực,approved,
+dantri,"Du lịch, Tin tức",Du lịch - Ẩm thực,approved,
+dantri,"Nội vụ, An sinh",Thời sự - Xã hội,approved,"approved 2026-10-23: Pensions, war-martyr remains, welfare payments: social policy news."
+dantri,"Ô tô - Xe máy, Thị trường xe",Xe,approved,
+dantri,"Tình yêu - Giới tính, Chuyện của tôi",Đời sống - Gia đình,approved,
+dantri,"Pháp luật, Hồ sơ vụ án",Pháp luật,approved,
+dantri,"Ô tô - Xe máy, Diễn đàn xe",Xe,approved,
+dantri,"Bất động sản, Dự án",Bất động sản,approved,
+dantri,"Giải trí, Âm nhạc",Giải trí - Văn hóa,approved,
+dantri,Tâm điểm,Thời sự - Xã hội,approved,"approved 2026-10-23: Opinion column on domestic social issues (taxes, flooding, expressways, exams)."
+dantri,"Tấm lòng nhân ái, Nhịp cầu nhân ái",Thời sự - Xã hội,approved,approved 2026-10-23: Charity reports and donation notices; same group as the other charity sections.
+dantri,"Pháp luật, Pháp đình",Pháp luật,approved,
+dantri,"Công nghệ, AI & Internet",Công nghệ - Khoa học,approved,
+dantri,"Bạn đọc, Tư vấn pháp luật",Pháp luật,approved,
+dantri,Thời tiết,Thời sự - Xã hội,approved,
+dantri,Ô tô - Xe máy,Xe,approved,
+dantri,"Kinh doanh, Chứng khoán",Kinh tế - Tài chính,approved,
+dantri,"Bất động sản, Thị trường",Bất động sản,approved,
+dantri,"Giải trí, Điện ảnh",Giải trí - Văn hóa,approved,
+dantri,"Thời sự, Bầu cử Đại biểu Quốc hội",Thời sự - Xã hội,approved,
+dantri,"Khoa học, Khoa học & đời sống",Công nghệ - Khoa học,approved,
+dantri,"Thể thao, Tennis",Thể thao,approved,
+dantri,"Nội vụ, Tổ chức bộ máy",Thời sự - Xã hội,approved,approved 2026-10-23: Government apparatus restructuring news.
+dantri,"Thể thao, World Cup, Tin tức",Thể thao,approved,
+dantri,"Thể thao, World Cup, Điểm nhấn",Thể thao,approved,
+dantri,"Thời sự, Nóng trên mạng",Thời sự - Xã hội,approved,
+dantri,"Tấm lòng nhân ái, Hoàn cảnh",Thời sự - Xã hội,approved,approved 2026-10-23: Charity appeals for poor or sick families; same as the other Tấm lòng nhân ái sections.
+dantri,"Bất động sản, Nội thất",Đời sống - Gia đình,approved,"approved 2026-10-23: Titles are home-living and interior tips (gầm bồn rửa bát, nhà gọn, gạch ốp lát), not the property market. Consistent with eva Nhà đẹp and kenh14 Xem Mua Luôn."
+dantri,"Thế giới, Phân tích - Bình luận",Thế giới,approved,
+dantri,"Thời sự, Học tập Bác",Thời sự - Xã hội,approved,
+dantri,"Du lịch, Khám phá",Du lịch - Ẩm thực,approved,
+dantri,"Thế giới, Thế giới đó đây",Thế giới,approved,
+dantri,"Giải trí, Thời trang",Làm đẹp - Thời trang,approved,"approved 2026-10-23: Mostly celebrity looks, outfits and bodies plus fashion shows (váy cưới, Victoria's Secret, Cannes)."
+dantri,"Thể thao, Võ thuật - Các môn khác",Thể thao,approved,
+dantri,"Nội vụ, Tiền lương",Thời sự - Xã hội,approved,approved 2026-10-23: Public-sector salary policy; same as the other Nội vụ sections.
+dantri,"Ô tô - Xe máy, Xe điện",Xe,approved,
+dantri,Công nghệ,Công nghệ - Khoa học,approved,
+dantri,Khoa học,Công nghệ - Khoa học,approved,
+dantri,"Sức khỏe, Tư vấn y khoa",Sức khỏe,approved,
+dantri,"Sức khỏe, Sống khỏe",Sức khỏe,approved,
+dantri,"Bạn đọc, Hồi âm",Thời sự - Xã hội,approved,
+dantri,"Giáo dục, Giáo dục - Nghề nghiệp",Giáo dục,approved,
+dantri,"Bạn đọc, Bạn đọc nói",Thời sự - Xã hội,approved,
+dantri,"Lao động - Việc làm, Nhân lực mới",Thời sự - Xã hội,approved,approved 2026-10-23: Jobs and labor-market social news; consistent with parent Lao động - Việc làm.
+dantri,"Nội vụ, Chính sách",Thời sự - Xã hội,approved,approved 2026-10-23: Civil-service policy and National Assembly oversight.
+dantri,"Lao động - Việc làm, Chuyện nghề",Thời sự - Xã hội,approved,approved 2026-10-23: Occupational insurance and worker stories; consistent with parent.
+dantri,Giải trí,Giải trí - Văn hóa,approved,
+dantri,"Công nghệ, Gia dụng thông minh",Công nghệ - Khoa học,approved,
+dantri,"Thể thao, World Cup, Ngôi sao",Thể thao,approved,
+dantri,"Giải trí, Mỹ thuật - Sân khấu",Giải trí - Văn hóa,approved,
+dantri,"Khoa học, Khám phá",Công nghệ - Khoa học,approved,
+dantri,"Khoa học, Thế giới tự nhiên",Công nghệ - Khoa học,approved,
+dantri,"Đời sống, Thượng lưu",Đời sống - Gia đình,approved,
+dantri,"Du lịch, Món ngon - Điểm đẹp",Du lịch - Ẩm thực,approved,
+dantri,Bạn đọc,Thời sự - Xã hội,approved,
+dantri,"Ô tô - Xe máy, Chăm xe",Xe,approved,
+dantri,"Thể thao, Pickleball",Thể thao,approved,
+dantri,"Giáo dục, Góc phụ huynh",Giáo dục,approved,
+dantri,"Kinh doanh, Khởi nghiệp",Kinh tế - Tài chính,approved,
+dantri,"Công nghệ, An ninh mạng",Công nghệ - Khoa học,approved,
+dantri,"Tình yêu - Giới tính, Gia đình",Đời sống - Gia đình,approved,
+dantri,"Lao động - Việc làm, Làm giàu",Kinh tế - Tài chính,approved,
+dantri,Tình yêu - Giới tính,Đời sống - Gia đình,approved,
+dantri,"Giải trí, Sách hay",Giải trí - Văn hóa,approved,
+dantri,"Giáo dục, Khuyến học",Giáo dục,approved,
+dantri,"Kinh doanh, ESG Việt Nam",Kinh tế - Tài chính,approved,
+dantri,"Sức khỏe, Thuốc và giải pháp hỗ trợ",Sức khỏe,approved,
+dantri,"Thể thao, Hậu trường",Thể thao,approved,
+dantri,"Khoa học, Vũ trụ",Công nghệ - Khoa học,approved,
+dantri,"Sức khỏe, Ngày Thầy thuốc Việt Nam",Sức khỏe,approved,
+dantri,"Ô tô - Xe máy, Chọn xe",Xe,approved,
+dantri,"Sức khỏe, Ung thư",Sức khỏe,approved,
+dantri,"Thể thao, Thể thao sức bền",Thể thao,approved,
+dantri,"Tình yêu - Giới tính, Tình yêu",Đời sống - Gia đình,approved,
+dantri,"Thể thao, Golf",Thể thao,approved,
+dantri,"Sức khỏe, Tầm soát - Chẩn đoán",Sức khỏe,approved,
+dantri,"Tết, Nhịp Tết",Thời sự - Xã hội,approved,"approved 2026-10-23: All 3 titles are local news events (selling mai in Gia Lai, Cầu Rồng fire show, staged-video suspicion), not family/lifestyle."
+dantri,"Sức khỏe, Sinh sản - Hiếm muộn",Sức khỏe,approved,
+dantri,"Thể thao, World Cup, Bên lề",Thể thao,approved,
+dantri,"Sức khỏe, Ngoại thần kinh - Cột sống, Nội tổng hợp",Sức khỏe,approved,
+dantri,"Giáo dục, Gương sáng",Giáo dục,approved,
+dantri,"Sức khỏe, Chấm dứt cơn đau",Sức khỏe,approved,
+dantri,"Sức khỏe, Ngoại thần kinh - Cột sống, Ngoại tổng hợp",Sức khỏe,approved,
+dantri,"Tấm lòng nhân ái, Dự án cộng đồng",Thời sự - Xã hội,approved,approved 2026-10-23: Charity projects; same group as the other charity sections.
+dantri,"Nội vụ, Công sở",Thời sự - Xã hội,approved,approved 2026-10-23: Civil-service workplace stories.
+dantri,"Tết, Du xuân",Du lịch - Ẩm thực,approved,"approved 2026-10-23: Spring outing places (vườn đào cổ thụ, làng cổ xứ Thanh)."
+dantri,"Bất động sản, Nhịp sống đô thị",Bất động sản,approved,
+dantri,"Kinh doanh, AMACCAO - Vươn mình cùng kỷ nguyên mới",Khác,approved,"approved 2026-10-23: Sponsored brand series; both titles promote AMACCAO, so the advertorial rule applies."
+dantri,"Sức khỏe, Chấm dứt cơn đau, Đau bụng",Sức khỏe,approved,
+dantri,"Tết, Bếp ngon",Du lịch - Ẩm thực,approved,
+dantri,"Sức khỏe, Sức khỏe phổi",Sức khỏe,approved,
+dantri,"Sức khỏe, Chấm dứt cơn đau, Đau thần kinh - đau đầu",Sức khỏe,approved,
+dantri,"Kinh doanh, Ngân hàng sáng tạo",Kinh tế - Tài chính,approved,
+dantri,Thể thao,Thể thao,approved,
+dantri,"Nội vụ, Sắp xếp các đơn vị hành chính",Thời sự - Xã hội,approved,approved 2026-10-23: Administrative-unit reorganization news.
+dantri,"Sức khỏe, Chấm dứt cơn đau, Đau sản, phụ khoa",Sức khỏe,approved,
+dantri,"Thế giới, Kiều bào",Thế giới,approved,approved 2026-10-23: Overseas Vietnamese section; consistent with thanhnien Người Việt năm châu.
+dantri,"Sức khỏe, Chấm dứt cơn đau, Đau cơ xương khớp",Sức khỏe,approved,
+dantri,"Giải trí, Hạt giống tâm hồn",Giải trí - Văn hóa,approved,
+dantri,"Giáo dục, Dấu ấn người Thầy",Giáo dục,approved,
+dantri,"Đời sống, Giới trẻ",Đời sống - Gia đình,approved,
+dantri,"Sức khỏe, Ngoại thần kinh - Cột sống, Y tế chất lượng cao",Sức khỏe,approved,
+dantri,"Đời sống, Cuộc thi ảnh Việt Nam trong tôi",Đời sống - Gia đình,approved,
+dantri,"Sức khỏe, Thận & bệnh mạn tính",Sức khỏe,approved,
+dantri,"Du lịch, Tour hay - Khuyến mại",Du lịch - Ẩm thực,approved,
+dantri,"Thời sự, Đại hội Đảng XIV",Thời sự - Xã hội,approved,
+eva,Tin tức,Thời sự - Xã hội,approved,
+eva,Giải trí,Giải trí - Văn hóa,approved,
+eva,Sức khỏe,Sức khỏe,approved,
+eva,Clip Eva,Khác,approved,"approved 2026-10-23: Format-only video section. Health anecdotes are frequent but mixed with accidents, markets and celebrities; format sections go to Khác by rule, consistent with the other Video sections."
+eva,Yêu con,Đời sống - Gia đình,approved,
+eva,Bà bầu,Đời sống - Gia đình,approved,"approved 2026-10-23: Mostly pregnancy-framed family/marriage confessions and celebrity pregnancies. Medical pregnancy advice is about 1/4, so not Sức khỏe."
+eva,Eva tám,Tử vi - Phong thủy,approved,"approved 2026-10-23: About 60% of 30 titles are con giáp, cung hoàng đạo, tử vi tuần, tarot or ngày/tháng sinh Âm lịch; psychology quizzes are secondary. Named for this split in the approved plan."
+eva,Đẹp,Làm đẹp - Thời trang,approved,
+eva,Lifestyle,Du lịch - Ẩm thực,approved,"approved 2026-10-23: About 12 of 15 titles are travel or food (check-in Mù Cang Chải, foodtour Hà Nội, bánh cuốn Michelin, đặc sản); not a mixed hub."
+eva,Bếp Eva,Du lịch - Ẩm thực,approved,
+eva,Nuôi con IQ EQ,Đời sống - Gia đình,approved,approved 2026-10-23: Parenting and kids' content; consistent with the other parenting sections.
+eva,Thời trang,Làm đẹp - Thời trang,approved,
+eva,Nhà đẹp,Đời sống - Gia đình,approved,"approved 2026-10-23: Home, garden and interior plus celebrity homes. Feng-shui-flavoured plant titles are about 25-30%, not the plurality; not property-market news."
+eva,Yêu,Đời sống - Gia đình,approved,
+eva,Alo bác sĩ,Sức khỏe,approved,
+eva,Oái oăm,Khác,approved,approved 2026-10-23: n=7 with unrelated topics; no plurality.
+kenh14,Xã hội,Thời sự - Xã hội,approved,
+kenh14,Sức khỏe,Sức khỏe,approved,
+kenh14,Thế Giới Đó Đây,Thế giới,approved,"approved 2026-10-23: Mostly foreign news and oddities (China storms, CIA aliens, Everest, Flydubai)."
+kenh14,Star,Giải trí - Văn hóa,approved,
+kenh14,Xem Mua Luôn,Đời sống - Gia đình,approved,approved 2026-10-23: Plurality is home/household tips and celebrity homes; skincare/fashion buying guides are about 1/4 and feng shui is minor.
+kenh14,Học đường,Giáo dục,approved,
+kenh14,Sport,Thể thao,approved,
+kenh14,Tek-life,Công nghệ - Khoa học,approved,"approved 2026-10-23: Plurality is phones, apps and AI (iPhone, Zalo, Facebook, ChatGPT, OPPO). Bank-scam and traffic-fine notices are secondary."
+kenh14,Money.14,Kinh tế - Tài chính,approved,
+kenh14,Đời sống,Đời sống - Gia đình,approved,
+kenh14,Ăn - Chơi - Đi,Du lịch - Ẩm thực,approved,
+kenh14,Cine,Giải trí - Văn hóa,approved,
+kenh14,Beauty & Fashion,Làm đẹp - Thời trang,approved,"approved 2026-10-23: Hair, skincare, outfits and celebrity style."
+kenh14,Musik,Giải trí - Văn hóa,approved,
+kenh14,Xem Ăn Chơi,Du lịch - Ẩm thực,approved,
+kenh14,The 30s,Đời sống - Gia đình,approved,
+kenh14,eSports,Thể thao,approved,"approved 2026-10-23: All 7 titles are competitive tournaments, teams and pro players (T1/ASIAD, PNC 2026, FC Mobile worlds, Faker/Ruler, FVPL): sports-competition coverage. thanhnien Game is aligned to the same group."
+kenh14,Bản tin,Khác,approved,approved 2026-10-23: Sponsored/PR bulletins.
+kenh14,Unbox,Công nghệ - Khoa học,approved,
+kenh14,Trẻ - Khỏe - đẹp,Sức khỏe,approved,"approved 2026-10-23: n=2: one health title, one anti-aging title; health fits the section name. Negligible."
+kenh14,HOW-TO,Công nghệ - Khoa học,approved,"approved 2026-10-23: n=2, both tech (Redmi comparison, iPhone filming)."
+kenh14,Hậu Trường,Giải trí - Văn hóa,approved,
+nhandan,Chính trị,Thời sự - Xã hội,approved,
+nhandan,Kinh tế,Kinh tế - Tài chính,approved,
+nhandan,Xã hội,Thời sự - Xã hội,approved,
+nhandan,"Tin chung,Đồng bằng sông Cửu Long",Thời sự - Xã hội,approved,approved 2026-10-23: Region-only local feed with mixed local news; no single topic dominates.
+nhandan,Khoa học - Công nghệ,Công nghệ - Khoa học,approved,
+nhandan,Văn hóa,Giải trí - Văn hóa,approved,
+nhandan,"Đồng bằng sông Hồng,Tin chung",Thời sự - Xã hội,approved,approved 2026-10-23: Region-only local feed: general local news.
+nhandan,"Media Thế giới,Video",Thế giới,approved,
+nhandan,Thể thao,Thể thao,approved,
+nhandan,"Xã hội,Tin chung,Bắc Trung Bộ",Thời sự - Xã hội,approved,
+nhandan,"Hà Nội,Tin chung",Thời sự - Xã hội,approved,approved 2026-10-23: Region-only Hanoi feed with mixed civic topics.
+nhandan,"Duyên hải Nam Trung Bộ và Tây Nguyên,Tin chung",Thời sự - Xã hội,approved,approved 2026-10-23: Region-only local feed with mixed topics.
+nhandan,"Môi trường,Video,Media Môi trường",Thời sự - Xã hội,approved,
+nhandan,"Chính trị,Tin chung,Bắc Trung Bộ",Thời sự - Xã hội,approved,
+nhandan,"Xã hội,Duyên hải Nam Trung Bộ và Tây Nguyên,Tin chung",Thời sự - Xã hội,approved,
+nhandan,"Châu Âu,Thế giới",Thế giới,approved,
+nhandan,Giáo dục,Giáo dục,approved,
+nhandan,"Tin chung,Đông Nam Bộ",Thời sự - Xã hội,approved,approved 2026-10-23: Region-only local feed with mixed topics.
+nhandan,"Xã hội,Đồng bằng sông Hồng,Tin chung",Thời sự - Xã hội,approved,
+nhandan,"Chính trị,Xây dựng Đảng",Thời sự - Xã hội,approved,
+nhandan,"Tin chung,Trung du và miền núi phía Bắc",Thời sự - Xã hội,approved,approved 2026-10-23: Region-only local feed with governance/civic titles.
+nhandan,"Môi trường,Thời tiết",Thời sự - Xã hội,approved,
+nhandan,Pháp luật,Pháp luật,approved,
+nhandan,Môi trường,Thời sự - Xã hội,approved,
+nhandan,Y tế,Sức khỏe,approved,
+nhandan,"Video,Media Xã hội",Thời sự - Xã hội,approved,
+nhandan,"Chính trị,Tin chung,Trung du và miền núi phía Bắc",Thời sự - Xã hội,approved,
+nhandan,"Xã hội,Thời Nay",Thời sự - Xã hội,approved,
+nhandan,"Chính trị,Đồng bằng sông Hồng,Tin chung",Thời sự - Xã hội,approved,
+nhandan,"Chính trị,Duyên hải Nam Trung Bộ và Tây Nguyên,Tin chung",Thời sự - Xã hội,approved,
+nhandan,"Tin chung,Bắc Trung Bộ",Thời sự - Xã hội,approved,approved 2026-10-23: Region-only local feed: general local news.
+nhandan,Bạn cần biết,Khác,approved,
+nhandan,"Thể thao,World Cup 2026,Tin tức",Thể thao,approved,
+nhandan,"Văn hóa - Văn nghệ,Thời Nay",Giải trí - Văn hóa,approved,
+nhandan,"Xã hội,Tin chung,Trung du và miền núi phía Bắc",Thời sự - Xã hội,approved,
+nhandan,"Châu Phi,Thế giới",Thế giới,approved,
+nhandan,"Kinh tế,Thời Nay,Thời sự",Kinh tế - Tài chính,approved,
+nhandan,"Xã luận,Chính trị",Thời sự - Xã hội,approved,
+nhandan,"Ảnh,Chính trị",Thời sự - Xã hội,approved,
+nhandan,"Châu Mỹ,Thế giới",Thế giới,approved,
+nhandan,"Đồng bằng sông Hồng,Tin chung,Pháp luật",Pháp luật,approved,
+nhandan,Du lịch,Du lịch - Ẩm thực,approved,
+nhandan,"ASEAN,Thế giới",Thế giới,approved,
+nhandan,"Kinh tế,Tài chính – Chứng khoán",Kinh tế - Tài chính,approved,
+nhandan,"Tin chung,Chính trị,Đồng bằng sông Cửu Long",Thời sự - Xã hội,approved,
+nhandan,"NHÂN DÂN CUỐI TUẦN,Sức sống Việt,Bắc Trung Bộ",Thời sự - Xã hội,approved,approved 2026-10-23: Weekend edition plus region tag; general local news.
+nhandan,"TP Hồ Chí Minh,Tin chung",Thời sự - Xã hội,approved,"approved 2026-10-23: Region-only HCMC feed, n=3; kept consistent with the other region feeds."
+nhandan,"NHÂN DÂN CUỐI TUẦN,Sức sống Việt,Đồng bằng sông Hồng",Thời sự - Xã hội,approved,approved 2026-10-23: Weekend edition plus region; administrative streamlining.
+nhandan,"TP Hồ Chí Minh,Tin chung,Xã hội",Thời sự - Xã hội,approved,
+nhandan,"Môi trường,Tin chung,Bắc Trung Bộ",Thời sự - Xã hội,approved,
+nhandan,Thế giới,Thế giới,approved,
+nhandan,"Du lịch,Tin chung,Bắc Trung Bộ",Du lịch - Ẩm thực,approved,
+nhandan,"Văn hóa,Đồng bằng sông Hồng,Tin chung",Giải trí - Văn hóa,approved,
+nhandan,"Chính trị, Đại hội Đảng toàn quốc lần thứ XIV",Thời sự - Xã hội,approved,
+nhandan,"Tin chung,Kinh tế,Đông Nam Bộ",Kinh tế - Tài chính,approved,
+nhandan,"Theo dòng sự kiện,Đồng bằng sông Cửu Long",Thời sự - Xã hội,approved,approved 2026-10-23: Region current-affairs feed.
+nhandan,"Trung Đông,Thế giới",Thế giới,approved,
+nhandan,"Tin chung,Pháp luật,Trung du và miền núi phía Bắc",Pháp luật,approved,
+nhandan,"Thời Nay,Đô thị",Thời sự - Xã hội,approved,
+nhandan,"Tin chung,Đồng bằng sông Cửu Long,Xã hội",Thời sự - Xã hội,approved,
+nhandan,"Châu Á-TBD,Thế giới",Thế giới,approved,
+nhandan,"Bình luận quốc tế,Thế giới",Thế giới,approved,
+nhandan,"Thông tin doanh nghiệp,Bạn cần biết",Khác,approved,
+nhandan,"Bắc Trung Bộ,Tin tức tuần qua",Thời sự - Xã hội,approved,"approved 2026-10-23: Region weekly news (policy families, martyrs' remains)."
+nhandan,"Kinh tế,Thông tin hàng hóa",Kinh tế - Tài chính,approved,
+nhandan,"TP Hồ Chí Minh,Tin chung,Đông Nam Bộ",Thời sự - Xã hội,approved,approved 2026-10-23: Region-only feed.
+nhandan,"Đồng bằng sông Hồng,Y tế,Tin chung",Sức khỏe,approved,
+nhandan,"Kinh tế,Video,Media Kinh tế",Kinh tế - Tài chính,approved,
+nhandan,"NHÂN DÂN HẰNG THÁNG,Kinh tế",Kinh tế - Tài chính,approved,
+nhandan,"Xã hội,Phóng sự - Điều tra,Thời Nay",Thời sự - Xã hội,approved,
+nhandan,"Video,Xã hội,Media Xã hội",Thời sự - Xã hội,approved,
+nhandan,"Thời nay,Báo in",Khác,approved,"approved 2026-10-23: Print-edition index (format-only), 0 records."
+nhandan,"Xã hội,Người tốt việc tốt",Thời sự - Xã hội,approved,
+nhandan,"Môi trường,Duyên hải Nam Trung Bộ và Tây Nguyên,Tin chung",Thời sự - Xã hội,approved,
+nhandan,"Short Video,Giáo dục",Giáo dục,approved,
+nhandan,"Video,Chính trị,Media Chính trị",Thời sự - Xã hội,approved,
+nhandan,"Short Video,Y tế",Sức khỏe,approved,
+nhandan,"Kinh tế,Duyên hải Nam Trung Bộ và Tây Nguyên,Tin chung",Kinh tế - Tài chính,approved,
+nhandan,"Duyên hải Nam Trung Bộ và Tây Nguyên,Pháp luật,Tin chung",Pháp luật,approved,
+nhandan,"Video,Media Chính trị",Thời sự - Xã hội,approved,
+nhandan,"NHÂN DÂN HẰNG THÁNG,Chính trị",Thời sự - Xã hội,approved,
+nhandan,"Kinh tế,Đồng bằng sông Hồng,Tin chung",Kinh tế - Tài chính,approved,
+nhandan,TP Hồ Chí Minh,Thời sự - Xã hội,approved,approved 2026-10-23: Region-only; civic news.
+nhandan,"Đồng bằng sông Cửu Long,Ống kính phóng viên",Thời sự - Xã hội,approved,approved 2026-10-23: Region plus photo column; local news.
+nhandan,"Văn hóa,Pháp luật",Giải trí - Văn hóa,approved,approved 2026-10-23: Allowances for professional artists: culture.
+nhandan,"Chính trị,Infographic",Thời sự - Xã hội,approved,
+nhandan,"Xã hội,Thời Nay,Chuyện thường ngày",Thời sự - Xã hội,approved,
+nhandan,"Tin vắn,Trung du và miền núi phía Bắc",Thời sự - Xã hội,approved,approved 2026-10-23: Region brief; local news.
+nhandan,"Điểm sáng,Bắc Trung Bộ",Thời sự - Xã hội,approved,approved 2026-10-23: Region feed; social news.
+nhandan,"Tin chung,Bắc Trung Bộ,Pháp luật",Pháp luật,approved,
+nhandan,"Xã hội,Thời Nay,Thời sự",Thời sự - Xã hội,approved,
+nhandan,"TP Hồ Chí Minh,Tin đọc nhanh,Văn hóa,Tin chung,Đông Nam Bộ",Giải trí - Văn hóa,approved,
+nhandan,"Du lịch,Duyên hải Nam Trung Bộ và Tây Nguyên,Tin chung",Du lịch - Ẩm thực,approved,
+nhandan,"Chính trị,Châu Phi",Thế giới,approved,approved 2026-10-23: Vietnam-Angola relations: foreign affairs.
+nhandan,"Kinh tế,Hà Nội,Đồng bằng sông Hồng,Tin chung,Tin chung",Kinh tế - Tài chính,approved,
+nhandan,"Kinh tế,Khoa học - Công nghệ",Kinh tế - Tài chính,approved,approved 2026-10-23: Digital finance ecosystem: economic.
+nhandan,"Châu Âu,Y tế,Thế giới",Thế giới,approved,approved 2026-10-23: Foreign news; consistent with the other Thế giới-tagged keys.
+nhandan,"Kinh tế,Tin chung,Đồng bằng sông Cửu Long",Kinh tế - Tài chính,approved,
+nhandan,"Thời Nay,Quốc tế,Nhân vật & Sự kiện",Thế giới,approved,
+nhandan,"Tin chung,Khoa học - Công nghệ,Đông Nam Bộ",Công nghệ - Khoa học,approved,
+nhandan,"TP Hồ Chí Minh,Kinh tế,Tin chung,Đông Nam Bộ",Kinh tế - Tài chính,approved,
+nhandan,"Bắc Trung Bộ,Pháp luật,Xã hội,Tin chung",Pháp luật,approved,approved 2026-10-23: Crackdown on illegal flycams: law enforcement.
+nhandan,"NHÂN DÂN CUỐI TUẦN,Đông Nam Bộ,Sức sống Việt",Thời sự - Xã hội,approved,approved 2026-10-23: Weekend edition plus region; general social news.
+nhandan,"Tiếng nói từ cơ sở,Đông Nam Bộ",Thời sự - Xã hội,approved,approved 2026-10-23: Grassroots-voice region column; local development.
+nhandan,"Ảnh,Văn hóa",Giải trí - Văn hóa,approved,
+nhandan,"Văn hóa,Y tế",Giải trí - Văn hóa,approved,approved 2026-10-23: Books honoring the medical profession: culture.
+nhandan,"Hà Nội,Xã hội,BHXH và cuộc sống",Thời sự - Xã hội,approved,
+nhandan,Short Video,Khác,approved,approved 2026-10-23: Format-only tag.
+nhandan,"Thời Nay,Quốc tế",Thế giới,approved,
+nhandan,"Duyên hải Nam Trung Bộ và Tây Nguyên,Giáo dục,Tin chung",Giáo dục,approved,
+nhandan,"Trung du và miền núi phía Bắc,Thể thao,Xã hội,Tin chung",Thể thao,approved,approved 2026-10-23: Mass sports event.
+nhandan,"Xây dựng nông thôn mới,Đồng bằng sông Hồng",Thời sự - Xã hội,approved,
+nhandan,"Video,Media Kinh tế",Kinh tế - Tài chính,approved,
+nhandan,"Phòng, chống tội phạm công nghệ cao",Pháp luật,approved,
+nhandan,"Thể thao,Tin chung,Đồng bằng sông Cửu Long",Thể thao,approved,
+nhandan,"Quốc hội Việt Nam,Chính trị,Tin tức",Thời sự - Xã hội,approved,
+nhandan,"TP Hồ Chí Minh,Tin chung,Khoa học - Công nghệ",Công nghệ - Khoa học,approved,
+nhandan,"Chuyển đổi số,Đồng bằng sông Hồng",Công nghệ - Khoa học,approved,
+nhandan,"Thể thao,Tin chung,Bắc Trung Bộ",Thể thao,approved,
+nhandan,"Quốc hội Việt Nam,Chính trị,Trung du và miền núi phía Bắc,Tin chung,Tin tức",Thời sự - Xã hội,approved,
+nhandan,"Du lịch,Video,Media Du lịch",Du lịch - Ẩm thực,approved,
+nhandan,"Theo dòng sự kiện,Chính trị,Đồng bằng sông Cửu Long,Tin chung,Xây dựng Đảng",Thời sự - Xã hội,approved,
+nhandan,"Hà Nội,Đồng bằng sông Hồng,Tin chung,Tin chung",Thời sự - Xã hội,approved,approved 2026-10-23: Hanoi People's Council master plan: civic news.
+nhandan,"Chính trị,Bắc Trung Bộ,Xây dựng Đảng,Tin chung",Thời sự - Xã hội,approved,
+nhandan,"Hà Nội,Luật Thủ đô năm 2026",Thời sự - Xã hội,approved,
+nhandan,"NHÂN DÂN CUỐI TUẦN,Nhịp sống thời đại",Khác,approved,approved 2026-10-23: Weekend feature with no clear topic.
+nhandan,Infographic,Khác,approved,approved 2026-10-23: Format-only tag.
+nhandan,"Châu Á-TBD,Thế giới ,Thế giới",Thế giới,approved,
+nhandan,"Chính trị,Tin chung,Đông Nam Bộ,50 năm Thành phố mang tên Bác",Thời sự - Xã hội,approved,
+nhandan,"NHÂN DÂN CUỐI TUẦN,Chuyên đề",Khác,approved,"approved 2026-10-23: Weekend special-topic column; vague title, no plurality."
+nhandan,"Tin chung,Ảnh,Đông Nam Bộ",Thời sự - Xã hội,approved,approved 2026-10-23: Region feed with photo tag; local news.
+nhandan,"Xã hội,Tin chung",Thời sự - Xã hội,approved,
+nhandan,"Châu Mỹ,Chính trị,Thế giới",Thế giới,approved,approved 2026-10-23: Panama-Vietnam relations: foreign affairs.
+nhandan,"Xã hội,BHXH và cuộc sống",Thời sự - Xã hội,approved,
+nhandan,"Người tốt việc tốt,Trung du và miền núi phía Bắc,Xã hội,Tin chung",Thời sự - Xã hội,approved,
+nhandan,"Xã hội,Short Video",Thời sự - Xã hội,approved,
+nhandan,"Đồng bằng sông Hồng,Tin chung,Giáo dục",Giáo dục,approved,
+nhandan,"Quốc hội Việt Nam,Tin tức",Thời sự - Xã hội,approved,
+nhandan,"Kinh tế,Văn hóa",Giải trí - Văn hóa,approved,approved 2026-10-23: Heritage rail journey Thăng Long-Kinh Bắc: cultural rather than economic.
+nhandan,"Văn hóa,Media Văn hóa",Giải trí - Văn hóa,approved,
+nhandan,"Thời Nay,Thời sự,Quốc tế",Thế giới,approved,
+nhandan,"Infographic,Thế giới",Thế giới,approved,
+nhandan,"Kinh tế,Tin chung",Kinh tế - Tài chính,approved,
+nhandan,"Tin chung,Thể thao,Tin chung,Đông Nam Bộ",Thể thao,approved,
+nhandan,"Văn hóa - Văn nghệ,Thời Nay,Sáng tác",Giải trí - Văn hóa,approved,
+nhandan,"Duyên hải Nam Trung Bộ và Tây Nguyên,Trung du và miền núi phía Bắc,Xã hội,Tin chung,Tin chung",Thời sự - Xã hội,approved,
+nhandan,"Ảnh,Giáo dục",Giáo dục,approved,
+nhandan,"Kinh tế,Du lịch,Tài chính – Chứng khoán",Kinh tế - Tài chính,approved,approved 2026-10-23: Payments and purchasing power: economy.
+nhandan,"Hà Nội,Tin mới nhận",Thời sự - Xã hội,approved,approved 2026-10-23: Hanoi traffic infrastructure management: civic news.
+nhandan,"Hà Nội,Đồng bằng sông Hồng,Tin chung",Thời sự - Xã hội,approved,approved 2026-10-23: Hanoi Party Secretary on site clearance: civic/political news.
+nhandan,"TP Hồ Chí Minh,Tin chung,Du lịch",Du lịch - Ẩm thực,approved,
+nhandan,"Thể thao,World Cup 2026,Tin tức,Infographic",Thể thao,approved,
+nhandan,"NHÂN DÂN CUỐI TUẦN,Đời sống văn hóa,Trò chuyện cuối tuần",Giải trí - Văn hóa,approved,
+nhandan,"Chính trị,Truyền thống vẻ vang,Công an Nhân dân Việt Nam",Thời sự - Xã hội,approved,
+nhandan,"World Cup 2026,Tin tức",Thể thao,approved,
+nhandan,"Góc quan sát,Thời Nay,Quốc tế",Thế giới,approved,
+nhandan,"Môi trường,Tin chung,Đồng bằng sông Cửu Long",Thời sự - Xã hội,approved,
+nhandan,"Tin chung,Pháp luật,Đông Nam Bộ",Pháp luật,approved,
+nhandan,"Thể thao,Tin chung,Đông Nam Bộ",Thể thao,approved,
+nhandan,"NHÂN DÂN CUỐI TUẦN,Bắc Trung Bộ",Thời sự - Xã hội,approved,"approved 2026-10-23: Weekend plus region tags, 0 records; region-feed default."
+nhandan,"Thể thao,Thời Nay",Thể thao,approved,
+nhandan,"Văn hóa,Tin chung,Trung du và miền núi phía Bắc",Giải trí - Văn hóa,approved,
+nhandan,"Infographic,Y tế",Sức khỏe,approved,
+nhandan,Ảnh,Khác,approved,approved 2026-10-23: Format-only tag (photo).
+nhandan,"Tin chung,Đồng bằng sông Cửu Long,Tin tức",Thời sự - Xã hội,approved,approved 2026-10-23: Region feed; local news.
+nhandan,"Tin chung,Tin chung,Khoa học - Công nghệ,Đông Nam Bộ",Công nghệ - Khoa học,approved,
+nhandan,"Video,Media Môi trường",Thời sự - Xã hội,approved,
+nhandan,"Văn hóa,Đồng bằng sông Cửu Long,Tin chung,Báo chí cách mạng Việt Nam,Tin tức",Thời sự - Xã hội,approved,"approved 2026-10-23: Information-security training for journalists: press/professional news, not entertainment or culture."
+nhandan,"Kinh tế,Tin tức,Thời Nay",Kinh tế - Tài chính,approved,
+nhandan,"Sức sống Việt,Chuyện phường, chuyện xã,Duyên hải Nam Trung Bộ và Tây Nguyên,NHÂN DÂN CUỐI TUẦN",Thời sự - Xã hội,approved,
+nhandan,"Văn hóa,Bắc Trung Bộ,Thể thao,Tin chung",Giải trí - Văn hóa,approved,approved 2026-10-23: Traditional village wrestling festival: cultural festival.
+nhandan,"Chính trị,ASEAN",Thế giới,approved,approved 2026-10-23: Vietnam-Philippines relations: foreign affairs.
+nhandan,"Kinh tế,Tin chung,Trung du và miền núi phía Bắc",Kinh tế - Tài chính,approved,
+nhandan,"Châu Á-TBD,Văn hóa,Thế giới",Thế giới,approved,approved 2026-10-23: International dialogue conference.
+nhandan,"Châu Âu,Kinh tế",Thế giới,approved,approved 2026-10-23: Bilateral economic relations: international.
+nhandan,"Khoa học - Công nghệ,Nhận diện thủ đoạn,Phòng, chống tội phạm công nghệ cao",Pháp luật,approved,"approved 2026-10-23: Scam-detection and high-tech crime section; the title is about fake verified fanpages used for fraud, i.e. crime."
+nhandan,"Quốc hội Việt Nam,Duyên hải Nam Trung Bộ và Tây Nguyên,Đại biểu với cử tri,Tin chung",Thời sự - Xã hội,approved,
+nhandan,"Văn hóa,Trung du và miền núi phía Bắc,Du lịch,Tin chung",Giải trí - Văn hóa,approved,approved 2026-10-23: Hoa Ban festival: cultural festival.
+nhandan,"Ảnh,Xã hội",Thời sự - Xã hội,approved,
+nhandan,"Văn hóa,E-Magazine",Giải trí - Văn hóa,approved,
+nhandan,"Kinh tế,Bắc Trung Bộ,Xã hội,Tin chung",Kinh tế - Tài chính,approved,approved 2026-10-23: Transport-infrastructure bottlenecks: economic development.
+nhandan,"Chính trị,Trung Đông,Thế giới",Thế giới,approved,approved 2026-10-23: Vietnam-Kuwait relations: foreign affairs.
+nhandan,"Chính trị,Trung du và miền núi phía Bắc,Ảnh,Tin chung",Thời sự - Xã hội,approved,
+nhandan,"Thời Nay,Đô thị,Đẹp...+",Thời sự - Xã hội,approved,
+nhandan,"Ảnh,Chính trị,Quy hoạch - Đầu tư",Thời sự - Xã hội,approved,approved 2026-10-23: National Assembly Chairman at the Hanoi master plan event: civic/political news.
+nhandan,"Báo in,Nhân Dân hằng ngày",Khác,approved,"approved 2026-10-23: Print-edition index (format-only), 0 records."
+nhandan,"Sức sống Việt,Bắc Trung Bộ ,Nhịp sống,NHÂN DÂN CUỐI TUẦN",Thời sự - Xã hội,approved,
+nhandan,"Môi trường,Theo dòng sự kiện,Đồng bằng sông Cửu Long,Tin chung",Thời sự - Xã hội,approved,
+saostar,Phim ảnh,Giải trí - Văn hóa,approved,
+saostar,Sao,Giải trí - Văn hóa,approved,
+saostar,Cận cảnh cuộc sống,Thời sự - Xã hội,approved,approved 2026-10-23: About 46% social incidents/crime/weather/viral clips vs about 29% con giáp; astrology is not the plurality.
+saostar,Âm nhạc,Giải trí - Văn hóa,approved,
+saostar,Sao Sport,Thể thao,approved,
+saostar,Vòng quanh thế giới,Thế giới,approved,
+saostar,Người mẫu - Hoa hậu,Giải trí - Văn hóa,approved,"approved 2026-10-23: Pageant and celebrity news (Miss World Vietnam, Ý Nhi, Kardashian), showbiz rather than beauty tips."
+saostar,BĐS - Tài chính,Kinh tế - Tài chính,approved,approved 2026-10-23: Nearly all titles are gold/fuel/USD prices; no real-estate titles.
+saostar,Công nghệ,Công nghệ - Khoa học,approved,
+saostar,Du lịch - Khám phá,Du lịch - Ẩm thực,approved,
+saostar,Fashion - Beauty,Làm đẹp - Thời trang,approved,
+saostar,Ăn - Chơi,Du lịch - Ẩm thực,approved,
+saostar,Học đường,Giáo dục,approved,
+thanhnien,Thời sự,Thời sự - Xã hội,approved,
+thanhnien,Thế giới,Thế giới,approved,
+thanhnien,Bóng đá Việt Nam,Thể thao,approved,
+thanhnien,Giáo dục,Giáo dục,approved,
+thanhnien,Sức khỏe,Sức khỏe,approved,
+thanhnien,Kinh tế,Kinh tế - Tài chính,approved,
+thanhnien,Dân sinh,Thời sự - Xã hội,approved,
+thanhnien,Cộng đồng,Thời sự - Xã hội,approved,"approved 2026-10-23: Mainly HCMC civic news (flooding, rubbish, traffic rules, flower markets) plus some lottery; plurality is social."
+thanhnien,Văn hóa,Giải trí - Văn hóa,approved,
+thanhnien,Đời sống,Đời sống - Gia đình,approved,"approved 2026-10-23: Human-interest/lifestyle stories (food, ornamental plants, kids earning a living); tử vi only 2/15."
+thanhnien,Tin tức công nghệ,Công nghệ - Khoa học,approved,
+thanhnien,Giới trẻ,Đời sống - Gia đình,approved,approved 2026-10-23: Youth lifestyle/human-interest stories with some Đoàn items; consistent with tuoitre Nhịp sống trẻ.
+thanhnien,Pháp luật,Pháp luật,approved,
+thanhnien,Đời nghệ sĩ,Giải trí - Văn hóa,approved,
+thanhnien,World Cup 2026,Thể thao,approved,
+thanhnien,Chính trị,Thời sự - Xã hội,approved,
+thanhnien,Thời trang 24/7,Làm đẹp - Thời trang,approved,
+thanhnien,Chính sách - Phát triển,Kinh tế - Tài chính,approved,
+thanhnien,Bóng đá Quốc tế,Thể thao,approved,
+thanhnien,Các môn khác,Thể thao,approved,
+thanhnien,Ngân hàng,Kinh tế - Tài chính,approved,
+thanhnien,Thể thao,Thể thao,approved,
+thanhnien,Bạn cần biết,Khác,approved,"approved 2026-10-23: Advertorial/PR (Vinaboss, I-Dent, FUTA Land, Xiaomi)."
+thanhnien,Mới- Mới- Mới,Kinh tế - Tài chính,approved,"approved 2026-10-23: Daily price series (pork, fuel) and trade/business news."
+thanhnien,Giải trí,Giải trí - Văn hóa,approved,
+thanhnien,Thủ thuật,Công nghệ - Khoa học,approved,
+thanhnien,Doanh nghiệp,Kinh tế - Tài chính,approved,
+thanhnien,Thị trường,Kinh tế - Tài chính,approved,
+thanhnien,Địa ốc,Bất động sản,approved,
+thanhnien,Bóng đá Thanh Niên Sinh viên,Thể thao,approved,
+thanhnien,Quân sự,Thế giới,approved,"approved 2026-10-23: Foreign military news (Ukraine, US-Iran, China drills)."
+thanhnien,Tin tức - Sự kiện,Du lịch - Ẩm thực,approved,"approved 2026-10-23: Travel/aviation news (destinations, routes, international arrivals)."
+thanhnien,Gia đình,Đời sống - Gia đình,approved,
+thanhnien,Phim,Giải trí - Văn hóa,approved,
+thanhnien,Xe - Giao thông,Xe,approved,"approved 2026-10-23: Driver-oriented traffic rules, fines and driving advice under the Xe parent."
+thanhnien,Làm đẹp,Làm đẹp - Thời trang,approved,
+thanhnien,Blockchain,Kinh tế - Tài chính,approved,approved 2026-10-23: Daily Bitcoin price series: financial markets.
+thanhnien,Sản phẩm,Công nghệ - Khoa học,approved,
+thanhnien,Truyền hình,Giải trí - Văn hóa,approved,
+thanhnien,Kinh tế xanh,Kinh tế - Tài chính,approved,
+thanhnien,Chào ngày mới,Thời sự - Xã hội,approved,approved 2026-10-23: Editorials on domestic policy and social issues.
+thanhnien,Tư vấn,Xe,approved,approved 2026-10-23: All samples are car/motorbike advice.
+thanhnien,Thành tựu y khoa,Sức khỏe,approved,
+thanhnien,Kinh tế thế giới,Kinh tế - Tài chính,approved,"approved 2026-10-23: Global economy, trade and oil prices: economic topic."
+thanhnien,Khám phá,Du lịch - Ẩm thực,approved,
+thanhnien,Thể thao & Cộng đồng,Thể thao,approved,
+thanhnien,Phóng sự / Điều tra,Thời sự - Xã hội,approved,
+thanhnien,Ẩm thực,Du lịch - Ẩm thực,approved,
+thanhnien,Lao động - Việc làm,Thời sự - Xã hội,approved,"approved 2026-10-23: Pensions, minimum wage, worker support; consistent with dantri Lao động - Việc làm."
+thanhnien,Quốc phòng,Thời sự - Xã hội,approved,
+thanhnien,Xe xanh,Xe,approved,
+thanhnien,Chuyện lạ,Thế giới,approved,approved 2026-10-23: All 8 samples are foreign odd or space stories.
+thanhnien,Khỏe đẹp mỗi ngày,Sức khỏe,approved,
+thanhnien,Chứng khoán,Kinh tế - Tài chính,approved,
+thanhnien,Câu chuyện văn hóa,Giải trí - Văn hóa,approved,
+thanhnien,Du lịch,Du lịch - Ẩm thực,approved,
+thanhnien,Tin hay y tế,Sức khỏe,approved,
+thanhnien,Bạn đọc,Thời sự - Xã hội,approved,
+thanhnien,Từ đơn thư bạn đọc,Thời sự - Xã hội,approved,approved 2026-10-23: Reader complaints about local infrastructure.
+thanhnien,Nhà trường,Giáo dục,approved,
+thanhnien,Xe,Xe,approved,
+thanhnien,Trực tuyến,Giáo dục,approved,approved 2026-10-23: 3/5 are admission/study counselling.
+thanhnien,Sách hay,Giải trí - Văn hóa,approved,
+thanhnien,Sống đẹp,Đời sống - Gia đình,approved,
+thanhnien,Công nghệ,Công nghệ - Khoa học,approved,
+thanhnien,Xu hướng - Chuyển đổi số,Công nghệ - Khoa học,approved,
+thanhnien,Câu chuyện du lịch,Du lịch - Ẩm thực,approved,
+thanhnien,Người sống quanh ta,Đời sống - Gia đình,approved,
+thanhnien,Bạn đọc viết,Thời sự - Xã hội,approved,
+thanhnien,Video,Khác,approved,approved 2026-10-23: Format-only section with mixed topics.
+thanhnien,Trải nghiệm số,Công nghệ - Khoa học,approved,
+thanhnien,Game,Thể thao,approved,"approved 2026-10-23: Reviewer correction: 3 of 4 titles are esports tournaments (The Grand Esports, Esports World Cup prize pool, PUBG Mobile Pro League winner). Aligned with kenh14 eSports -> Thể thao for cross-source consistency."
+thanhnien,Blog phóng viên,Thời sự - Xã hội,approved,approved 2026-10-23: Reporter opinion on social issues.
+thanhnien,Phim ngắn Vietnamese,Giải trí - Văn hóa,approved,
+thanhnien,Ngày hội bầu cử,Thời sự - Xã hội,approved,
+thanhnien,Diễn đàn,Thời sự - Xã hội,approved,
+thanhnien,Y tế thông minh,Sức khỏe,approved,
+thanhnien,Sự kiện,Thời sự - Xã hội,approved,
+thanhnien,Lá thư tâm sự,Đời sống - Gia đình,approved,
+thanhnien,Bí quyết ôn thi tốt nghiệp THPT,Giáo dục,approved,
+thanhnien,"Chơi gì, ăn đâu, đi thế nào?",Du lịch - Ẩm thực,approved,
+thanhnien,Giới tính,Sức khỏe,approved,approved 2026-10-23: Sexual health.
+thanhnien,Chọn nghề - Chọn trường,Giáo dục,approved,
+thanhnien,Thời trang nghề & nghiệp,Làm đẹp - Thời trang,approved,approved 2026-10-23: Fashion designers.
+thanhnien,Tiêu dùng thông minh,Kinh tế - Tài chính,approved,
+thanhnien,Xem - Nghe,Giải trí - Văn hóa,approved,
+thanhnien,Đoàn - Hội,Thời sự - Xã hội,approved,"approved 2026-10-23: Both titles are youth-union organizational news, not family/lifestyle."
+thanhnien,Lá lành đùm lá rách,Thời sự - Xã hội,approved,
+thanhnien,AI Phone,Công nghệ - Khoa học,approved,
+thanhnien,Chống tin giả,Thời sự - Xã hội,approved,
+thanhnien,Góc nhìn,Thời sự - Xã hội,approved,
+thanhnien,Gương mặt trẻ,Đời sống - Gia đình,approved,
+thanhnien,Sống - Yêu - Ăn - Chơi,Đời sống - Gia đình,approved,
+thanhnien,Tuyển sinh,Giáo dục,approved,
+thanhnien,Học bổng S80,Giáo dục,approved,
+thanhnien,Thế giới mạng,Công nghệ - Khoa học,approved,
+thanhnien,Làm giàu,Kinh tế - Tài chính,approved,
+thanhnien,Tận hưởng,Đời sống - Gia đình,approved,
+thanhnien,Đánh giá xe,Xe,approved,
+thanhnien,Quyền được biết,Thời sự - Xã hội,approved,
+thanhnien,Thời trang trẻ,Làm đẹp - Thời trang,approved,
+thanhnien,Đại hội XI Mặt trận tổ quốc Việt Nam,Thời sự - Xã hội,approved,
+thanhnien,Tư vấn dinh dưỡng,Sức khỏe,approved,
+thanhnien,Người Việt năm châu,Thế giới,approved,approved 2026-10-23: Overseas Vietnamese stories abroad.
+thanhnien,Tấm lòng vàng,Thời sự - Xã hội,approved,
+tuoitre,Thời sự,Thời sự - Xã hội,approved,
+tuoitre,Thể thao,Thể thao,approved,
+tuoitre,Thế giới,Thế giới,approved,
+tuoitre,Kinh doanh,Kinh tế - Tài chính,approved,
+tuoitre,Pháp luật,Pháp luật,approved,
+tuoitre,Giải trí,Giải trí - Văn hóa,approved,
+tuoitre,Bạn đọc,Thời sự - Xã hội,approved,"approved 2026-10-23: Reader/local news: infrastructure, accidents, land, expressways."
+tuoitre,Giáo dục,Giáo dục,approved,
+tuoitre,Sức khỏe,Sức khỏe,approved,
+tuoitre,Nhịp sống trẻ,Đời sống - Gia đình,approved,"approved 2026-10-23: Youth lifestyle/human-interest (Đoàn events, volunteering, students); consistent with thanhnien Giới trẻ."
+tuoitre,Văn hóa,Giải trí - Văn hóa,approved,
+tuoitre,Cần biết,Khác,approved,approved 2026-10-23: About 1/3 brand PR plus scattered foreign/health/science items; no group reaches ~35%.
+tuoitre,Du lịch,Du lịch - Ẩm thực,approved,
+tuoitre,Xe,Xe,approved,
+tuoitre,Nhà đất,Bất động sản,approved,
+tuoitre,Khoa học,Công nghệ - Khoa học,approved,
+tuoitre,Tin tức thị trường,Kinh tế - Tài chính,approved,
+tuoitre,Công nghệ,Công nghệ - Khoa học,approved,
+tuoitre,Thời tiết,Thời sự - Xã hội,approved,
+tuoitre,Doanh nghiệp,Kinh tế - Tài chính,approved,
+tuoitre,Giả - Thật,Thời sự - Xã hội,approved,approved 2026-10-23: Fact-checks and scam warnings on mixed social topics.
+tuoitre,Phóng sự,Thời sự - Xã hội,approved,
+tuoitre,Tài chính,Kinh tế - Tài chính,approved,
+tuoitre,Phân tích - Nhận định,Kinh tế - Tài chính,approved,approved 2026-10-23: Stock market and corporate finance analysis.
+tuoitre,Doanh nghiệp niêm yết,Kinh tế - Tài chính,approved,
+tuoitre,Cùng luận bàn,Thời sự - Xã hội,approved,approved 2026-10-23: Opinion on domestic policy and social issues.
+tuoitre,Biết để khỏe,Sức khỏe,approved,
+tuoitre,Dự án,Bất động sản,approved,
+tuoitre,Hướng dẫn đầu tư,Kinh tế - Tài chính,approved,
+tuoitre,Nhịp sống học đường,Giáo dục,approved,
+tuoitre,Mua sắm,Kinh tế - Tài chính,approved,"approved 2026-10-23: Retail business news (Co.op Food, private labels)."
+tuoitre,Bình luận,Thời sự - Xã hội,approved,
+tuoitre,Xã hội,Thời sự - Xã hội,approved,
+tuoitre,Cộng đồng,Thời sự - Xã hội,approved,
+tuoitre,Làm cà phê,Kinh tế - Tài chính,approved,"approved 2026-10-23: Coffee industry and branding (R&D institute, Robusta brand)."
+tuoitre,Chứng khoán,Kinh tế - Tài chính,approved,
+tuoitre,Các môn khác,Thể thao,approved,
+tuoitre,Tuyển sinh,Giáo dục,approved,
+tuoitre,Hiểu cà phê,Du lịch - Ẩm thực,approved,"approved 2026-10-23: Coffee culture; n=2, kept with Yêu cà phê."
+tuoitre,Hành trình 500 ngày đêm,Thời sự - Xã hội,approved,approved 2026-10-23: Martyr-grave information notice.
+tuoitre,Phản hồi,Thời sự - Xã hội,approved,
+tuoitre,Bút Bi,Giải trí - Văn hóa,approved,approved 2026-10-23: Satire/humor column.
+tuoitre,Mẹ & Bé,Đời sống - Gia đình,approved,
+tuoitre,Nhịp sống số,Công nghệ - Khoa học,approved,
+tuoitre,Ẩm thực,Du lịch - Ẩm thực,approved,
+tuoitre,Âm nhạc,Giải trí - Văn hóa,approved,
+tuoitre,Thị trường,Kinh tế - Tài chính,approved,
+tuoitre,Chuyển đổi số,Công nghệ - Khoa học,approved,
+tuoitre,Yêu cà phê,Du lịch - Ẩm thực,approved,approved 2026-10-23: Coffee in culinary culture.
+tuoitre,Cơ hội du lịch,Du lịch - Ẩm thực,approved,
+tuoitre,Điện ảnh,Giải trí - Văn hóa,approved,approved 2026-10-23: Film recommendation.
+tuoitre,Tin tức,Xe,approved,approved 2026-10-23: n=1 VinFast SUV car news.
+tuoitre,Tư vấn,Pháp luật,approved,approved 2026-10-23: n=1 legal Q&A on military service.
+yan,Sao,Giải trí - Văn hóa,approved,approved 2026-10-23: Overwhelmingly celebrity and TV-show news.
+yan,Nhạc,Giải trí - Văn hóa,approved,
+yan,Làm đẹp,Làm đẹp - Thời trang,approved,
+yan,Phim,Giải trí - Văn hóa,approved,
+yan,Giới trẻ,Khác,approved,"approved 2026-10-23: Majority of titles are brand PR/deals (ShopeeFood, Shopee, Crescent Mall, MSD, AEON). Advertorial, consistent with yan Chất/Đời."
+yan,Chất,Khác,approved,approved 2026-10-23: Brand/product launches dominate: advertorial.
+yan,Đời,Khác,approved,approved 2026-10-23: All 4 titles are brand PR.
+vietnamnet,Ô tô - Xe máy,Xe,approved,approved 2026-10-23: Car and motorbike titles.
+vietnamnet,Công nghệ,Công nghệ - Khoa học,approved,"approved 2026-10-23: iPhone, AI, Facebook, digital ID: tech plurality."
+vietnamnet,Dân sinh,Thời sự - Xã hội,approved,"approved 2026-10-23: Weather forecasts, local incidents, accidents."
+vietnamnet,Thể thao,Thể thao,approved,"proposed from metadata_fix_20261023, 47 records"
+vietnamnet,Tài chính,Kinh tế - Tài chính,approved,"proposed from metadata_fix_20261023, 26 records"
+vietnamnet,Thị trường,Kinh tế - Tài chính,approved,"proposed from metadata_fix_20261023, 24 records"
+vietnamnet,Thế giới,Thế giới,approved,"proposed from metadata_fix_20261023, 24 records"
+vietnamnet,Tin tức,Sức khỏe,approved,"approved 2026-10-23: About 11 of 15 samples are health/medical (ngừng tim, hôn mê, bác sĩ nội trú, rau quả tốt cho sức khỏe); content is a health subsection."
+vietnamnet,Chính trị,Thời sự - Xã hội,approved,"proposed from metadata_fix_20261023, 21 records"
+vietnamnet,Pháp luật,Pháp luật,approved,"proposed from metadata_fix_20261023, 17 records"
+vietnamnet,Tin nóng,Pháp luật,approved,"approved 2026-10-23: About 9 of 15 are crime/police (lừa 7,4 tỷ, xâm hại, hầu tòa, ma túy và súng, truy nã); the rest are accidents."
+vietnamnet,World Cup,Thể thao,approved,"proposed from metadata_fix_20261023, 15 records"
+vietnamnet,Giao thông,Thời sự - Xã hội,approved,"proposed from metadata_fix_20261023, 14 records"
+vietnamnet,Thế giới sao,Giải trí - Văn hóa,approved,"proposed from metadata_fix_20261023, 14 records"
+vietnamnet,Gia đình,Đời sống - Gia đình,approved,"proposed from metadata_fix_20261023, 12 records"
+vietnamnet,Phim - Truyền hình,Giải trí - Văn hóa,approved,"proposed from metadata_fix_20261023, 12 records"
+vietnamnet,Đối ngoại,Thời sự - Xã hội,approved,"Thời sự > Đối ngoại; proposed from metadata_fix_20261023, 9 records"
+vietnamnet,Văn hóa - Giải trí,Giải trí - Văn hóa,approved,"proposed from metadata_fix_20261023, 9 records"
+vietnamnet,Tư vấn sức khỏe,Sức khỏe,approved,"proposed from metadata_fix_20261023, 9 records"
+vietnamnet,Tuyển sinh,Giáo dục,approved,"proposed from metadata_fix_20261023, 8 records"
+vietnamnet,Thời sự,Thời sự - Xã hội,approved,"proposed from metadata_fix_20261023, 7 records"
+vietnamnet,Dân tộc và Tôn giáo,Thời sự - Xã hội,approved,"proposed from metadata_fix_20261023, 7 records"
+vietnamnet,ASEAN Cup,Thể thao,approved,"proposed from metadata_fix_20261023, 7 records"
+vietnamnet,Nội dung chuyên đề,Khác,approved,approved 2026-10-23: Sponsored/commissioned communication content.
+vietnamnet,Đời sống,Đời sống - Gia đình,approved,"proposed from metadata_fix_20261023, 5 records"
+vietnamnet,Nhạc,Giải trí - Văn hóa,approved,"proposed from metadata_fix_20261023, 5 records"
+vietnamnet,Dự án,Bất động sản,approved,approved 2026-10-23: Housing projects.
+vietnamnet,Tư vấn,Bất động sản,approved,"approved 2026-10-23: 3/5 are land/building advice (thừa kế đất, giấy phép xây dựng, sổ đỏ); astrology only 1/5."
+vietnamnet,Nhà trường,Giáo dục,approved,"proposed from metadata_fix_20261023, 5 records"
+vietnamnet,Trắc nghiệm,Giáo dục,approved,approved 2026-10-23: General-knowledge quiz questions.
+vietnamnet,Bản tin thời sự,Thời sự - Xã hội,approved,"proposed from metadata_fix_20261023, 5 records"
+vietnamnet,Xây dựng Đảng,Thời sự - Xã hội,approved,"proposed from metadata_fix_20261023, 5 records"
+vietnamnet,Đầu tư,Kinh tế - Tài chính,approved,"proposed from metadata_fix_20261023, 4 records"
+vietnamnet,Video,Khác,approved,approved 2026-10-23: Format-only section with mixed clips.
+vietnamnet,Chia sẻ,Thời sự - Xã hội,approved,approved 2026-10-23: 3/4 are charity appeals; consistent with the other charity sections.
+vietnamnet,Quốc phòng,Thời sự - Xã hội,approved,"proposed from metadata_fix_20261023, 3 records"
+vietnamnet,Góc phụ huynh,Giáo dục,approved,"proposed from metadata_fix_20261023, 3 records"
+vietnamnet,Giáo dục,Giáo dục,approved,"proposed from metadata_fix_20261023, 3 records"
+vietnamnet,Ăn Ăn Uống Uống,Du lịch - Ẩm thực,approved,"proposed from metadata_fix_20261023, 3 records"
+vietnamnet,Chân dung,Giáo dục,approved,"approved 2026-10-23: All 3 profile students or teachers (NEU graduates, national HSG winner, music teacher)."
+vietnamnet,Thế giới đó đây,Thế giới,approved,approved 2026-10-23: Foreign news.
+vietnamnet,Sách,Giải trí - Văn hóa,approved,"proposed from metadata_fix_20261023, 3 records"
+vietnamnet,Mỹ thuật - Sân khấu,Giải trí - Văn hóa,approved,"proposed from metadata_fix_20261023, 3 records"
+vietnamnet,Tư vấn tài chính,Kinh tế - Tài chính,approved,"proposed from metadata_fix_20261023, 2 records"
+vietnamnet,AI,Công nghệ - Khoa học,approved,"proposed from metadata_fix_20261023, 2 records"
+vietnamnet,Sự kiện,Thời sự - Xã hội,approved,approved 2026-10-23: Domestic government/administrative news.
+vietnamnet,AI CONTEST,Công nghệ - Khoa học,approved,approved 2026-10-23: AI research and applications.
+vietnamnet,Du lịch,Du lịch - Ẩm thực,approved,"proposed from metadata_fix_20261023, 2 records"
+vietnamnet,Bản tin sáng,Thời sự - Xã hội,approved,"proposed from metadata_fix_20261023, 2 records"
+vietnamnet,Đô thị,Thời sự - Xã hội,approved,"approved 2026-10-23: City leadership/planning news, not the property market."
+vietnamnet,Quốc hội,Thời sự - Xã hội,approved,"proposed from metadata_fix_20261023, 2 records"
+vietnamnet,Kinh doanh,Kinh tế - Tài chính,approved,"proposed from metadata_fix_20261023, 2 records"
+vietnamnet,Tuần Việt Nam,Thời sự - Xã hội,approved,approved 2026-10-23: Political and socio-economic opinion pieces.
+vietnamnet,Ẩm thực,Du lịch - Ẩm thực,approved,"proposed from metadata_fix_20261023, 2 records"
+vietnamnet,Quân sự,Thế giới,approved,approved 2026-10-23: Foreign military news; consistent with the other Quân sự sections.
+vietnamnet,Ngày mai tươi sáng,Thời sự - Xã hội,approved,"approved 2026-10-23: Reader charity campaign; same as the other charity sections, not brand PR."
+vietnamnet,Tâm sự,Đời sống - Gia đình,approved,"proposed from metadata_fix_20261023, 2 records"
+vietnamnet,Hạ tầng số,Công nghệ - Khoa học,approved,"proposed from metadata_fix_20261023, 1 records"
+vietnamnet,Chuyện lạ,Thế giới,approved,approved 2026-10-23: Odd-news item set abroad; consistent with thanhnien Chuyện lạ.
+vietnamnet,Mẹo vặt,Đời sống - Gia đình,approved,"proposed from metadata_fix_20261023, 1 records"
+vietnamnet,Ngủ Ngủ Nghỉ Nghỉ,Du lịch - Ẩm thực,approved,"travel stay section; proposed from metadata_fix_20261023, 1 records"
+vietnamnet,Đời sống tôn giáo,Thời sự - Xã hội,approved,approved 2026-10-23: Religion/society commentary.
+vietnamnet,Net Zero,Kinh tế - Tài chính,approved,approved 2026-10-23: Business losses in the solar industry.
+vietnamnet,Di sản,Giải trí - Văn hóa,approved,"proposed from metadata_fix_20261023, 1 records"
+vietnamnet,Đại hội Đảng,Thời sự - Xã hội,approved,"proposed from metadata_fix_20261023, 1 records"
+vietnamnet,Hồ sơ,Thế giới,approved,"approved 2026-10-23: Only title is a foreign history mystery ('Hạm đội ma' under the Potomac), not a criminal case."
+vietnamnet,LHP châu Á Đà Nẵng - DANAFF,Giải trí - Văn hóa,approved,"proposed from metadata_fix_20261023, 1 records"
+vietnamnet,Bạn đọc,Thời sự - Xã hội,approved,approved 2026-10-23: Charity appeal; consistent with the other charity/reader sections.
+vietnamnet,Tin chuyển nhượng,Thể thao,approved,"proposed from metadata_fix_20261023, 1 records"
+vietnamnet,Bàn luận,Thời sự - Xã hội,approved,approved 2026-10-23: Political opinion on anti-corruption.
+vietnamnet,Sản phẩm,Công nghệ - Khoa học,approved,approved 2026-10-23: iPhone feature.
+vietnamnet,Đi đâu chơi đi,Du lịch - Ẩm thực,approved,"proposed from metadata_fix_20261023, 1 records"
+vietnamnet,Khám phá,Xe,approved,approved 2026-10-23: Only title is about Geely's solid-state EV battery race (car industry).
+vietnamnet,Lối sống,Đời sống - Gia đình,approved,"proposed from metadata_fix_20261023, 1 records"

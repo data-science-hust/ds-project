@@ -1,0 +1,13 @@
+source,domain,outlet_group,train_target,dev_target,test_seen_target,test_unseen_target,human_train_subset_target,min_clean_articles
+afamily,afamily.vn,seen,2500,175,125,0,800,2800
+2sao,2sao.vn,seen,2500,175,125,0,800,2800
+eva,eva.vn,seen,2500,175,125,0,800,2800
+kenh14,kenh14.vn,seen,2500,175,125,0,800,2800
+cafef,cafef.vn,seen,2500,175,125,0,800,2800
+thanhnien,thanhnien.vn,seen,2500,175,125,0,800,2800
+tuoitre,tuoitre.vn,seen,2500,175,125,0,800,2800
+dantri,dantri.com.vn,seen,2500,175,125,0,800,2800
+saostar,saostar.vn,unseen,0,0,0,300,0,300
+yan,yan.vn,unseen,0,0,0,300,0,300
+vietnamnet,vietnamnet.vn,unseen,0,0,0,300,0,300
+nhandan,nhandan.vn,unseen,0,0,0,300,0,300

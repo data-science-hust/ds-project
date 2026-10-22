@@ -1,0 +1,14 @@
+{
+  "afamily": {"sitemaps": ["https://afamily.vn/sitemap.xml"], "title": "h1.afcb-title", "sapo": ".afcbc-sapo", "body": ".afcbc-body", "category": "[data-role='cate-name']"},
+  "2sao": {"sitemaps": ["https://2sao.vn/sitemap.xml"], "title": "h1.content-detail-title", "sapo": ".content-detail-sapo", "body": ".maincontent", "category": ".bread-crumb a"},
+  "eva": {"sitemaps": ["https://eva.vn/sitemap-index.xml"], "title": "h1#tieu_de_bai_viet", "sapo": "h2.tuht_show, .eva-cont-art__sum h2", "body": "#baiviet-container", "category": ".eva-breadcrumb a"},
+  "kenh14": {"sitemaps": ["https://kenh14.vn/sitemap.xml"], "title": "h1.kbwc-title", "sapo": ".knc-sapo", "body": ".knc-content", "category": "[data-role='cate-name']", "repair_breadcrumb_missing_comma": true},
+  "cafef": {"sitemaps": ["https://cafef.vn/sitemap.xml"], "title": "h1.title", "sapo": "p.sapo", "body": "#mainContent", "category": "[data-role='cate-name']", "naive_timestamp_offset": "+07:00", "timezone_policy": "User approved Vietnam time for CafeF timestamps without offset."},
+  "thanhnien": {"sitemaps": ["https://thanhnien.vn/sitemap.xml"], "title": "h1.detail-title", "sapo": ".detail-sapo", "body": ".detail-content", "category": "nav.detail-cate a"},
+  "tuoitre": {"sitemaps": ["https://tuoitre.vn/sitemaps/index.rss"], "title": "h1.detail-title", "sapo": ".detail-sapo", "body": ".detail-content", "category": "nav.detail-cate a"},
+  "dantri": {"sitemaps": ["https://dantri.com.vn/sitemaps/articles.xml", "https://dantri.com.vn/google-news-sitemap.xml"], "title": "h1[data-slot='title'], h1.title-page, h1.singular-title", "sapo": "[data-slot='sapo'], .singular-sapo, h2.e-magazine__sapo, article.e-magazine > h2, body.emagazine h1 + h2", "body": "[data-slot='content'], .singular-content", "category": ".breadcrumbs a", "network": {"request_delay_seconds": 2.5, "rate_limit_cooldown_seconds": 120}},
+  "saostar": {"sitemaps": [], "monthly_sitemap_template": "https://www.saostar.vn/sitemap-post-month-{year}-{month}.xml", "title": "h1.title-fallback", "sapo": ".art-sapo", "body": ".art-content", "category": ""},
+  "yan": {"sitemaps": [], "discovery": "yan", "title": "h1.detail-title", "sapo": "#contentBody > p:first-of-type", "sapo_require_full_bold_paragraph": true, "body": "#contentBody", "category": ".breadcrumb a", "network": {"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}},
+  "vietnamnet": {"sitemaps": ["https://vietnamnet.vn/sitemap.xml"], "title": "h1.content-detail-title", "sapo": ".content-detail-sapo", "body": ".maincontent", "category": ".bread-crumb a", "recover_malformed_sitemaps": true, "quarantine_invalid_sitemap_urls": true},
+  "nhandan": {"sitemaps": ["https://nhandan.vn/sitemap.xml"], "title": "h1.article__title", "sapo": ".article__sapo", "body": ".article__body", "category": ".breadcrumb-detail a", "recover_malformed_sitemaps": true}
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Run cuối cùng của mỗi nguồn trong data/crawl_work/<source>/<run_id>/; scripts/export_raw.py ghép selected_record_ids.csv + articles.jsonl của các run này thành data/raw/articles_raw.jsonl. sapo_supplements: theo nguồn, --refetch-id của scripts/refetch_missing_sapo.py chạy trên run đó; sapo tải lại (status sapo_recovered) được điền vào raw xuất ra.",
+  "runs": {
+    "afamily": "metadata_2024_20261021",
+    "2sao": "metadata_2024_20261021",
+    "kenh14": "metadata_2024_20261021",
+    "cafef": "metadata_2024_20261021",
+    "thanhnien": "metadata_2024_20261021",
+    "tuoitre": "metadata_2024_20261021",
+    "saostar": "metadata_2024_20261021",
+    "nhandan": "metadata_recovery_nhandan_20261022",
+    "dantri": "metadata_2024_20261021",
+    "vietnamnet": "metadata_fix_20261023",
+    "eva": "metadata_fix_20261023",
+    "yan": "metadata_fix_20261023"
+  },
+  "sapo_supplements": {
+    "dantri": "sapo_refetch_dantri_20261023"
+  }
+}

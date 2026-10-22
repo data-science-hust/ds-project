@@ -1,0 +1,14 @@
+{
+  "start_date": "2026-01-01",
+  "end_date": "2026-10-21",
+  "fallback_start_date": "2024-01-01",
+  "raw_targets": {"seen": 3500, "unseen": 500},
+  "seed": 2026,
+  "request_delay_seconds": 1.0,
+  "timeout_seconds": 30,
+  "retries": 2,
+  "user_agent": "DSProjectResearch/0.1",
+  "sampling": "shuffle_urls_with_fixed_seed",
+  "category_policy": "preserve_raw_no_category_quotas",
+  "article_policy": "all_formats_metadata_only"
+}
