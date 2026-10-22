@@ -13,12 +13,5 @@ dist/
 .env.*
 !.env.example
 
-# Generated data: retain directory documentation and placeholders only.
-/data/**
-!/data/**/
-!/data/**/.gitkeep
-!/data/**/README.md
-# Generated reports (crawl_stats.csv, funnel_*.csv, data_report.md); subfolders are not used.
-/reports/*
-!/reports/.gitkeep
-!/reports/README.md
+# Data and reports are committed; only the crawler working directory is not.
+/data/crawl_work/
