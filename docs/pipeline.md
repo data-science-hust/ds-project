@@ -14,7 +14,7 @@ Hướng dẫn chạy từng bước và quy tắc của từng bước. Schema 
 | `data/interim/` | 6 file log của bước clean (issues, rejected, fixes, dedup). |
 | `data/processed/articles_clean.parquet` | Dữ liệu sạch. |
 | `data/manifests/` | `split_manifest.csv`, `reserve_list.csv`, `annotation_map.csv` (nội bộ) của bước split. |
-| `data/annotations/blind/` | Bảng blind `annotation_id,title` gửi annotator. |
+| `data/annotations/blind/` | Bảng blind `annotation_id,title,category` gửi annotator. |
 | `reports/` | `crawl_stats.csv`, `funnel_by_source.csv`, `funnel_by_source_category.csv`, `data_report.md`, `split_report.md`, `split_counts.csv`. |
 
 Luồng: `crawl_data.py`/`run_crawling_batch.py` → (`refetch_missing_sapo.py`) →
@@ -271,8 +271,9 @@ Output (đã tồn tại thì cần `--replace`):
 
 | Vị trí | File |
 | --- | --- |
+| `data/processed/` | `dataset.csv`: file tổng hợp 23.600 bài đã chia (`record_id, annotation_id, split, is_human_subset, source, outlet_group, category, title, sapo, published_at, url, dup_group`; `annotation_id` có ở 10.000 bài human) |
 | `data/manifests/` | `split_manifest.csv` (23.600 dòng), `reserve_list.csv`, `annotation_map.csv` (10.000 dòng, nội bộ) |
-| `data/annotations/blind/` | `blind_dev.csv` (1.400 dòng, gán nhãn trước), `blind_train_subset_test.csv` (8.600 dòng); chỉ `annotation_id,title` |
+| `data/annotations/blind/` | `blind_dev.csv` (1.400 dòng, gán nhãn trước), `blind_train_subset_test.csv` (8.600 dòng); chỉ `annotation_id,title,category` |
 | `reports/` | `split_report.md`, `split_counts.csv` (source, category, split, records) |
 
 Quy tắc:

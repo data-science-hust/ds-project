@@ -254,7 +254,7 @@ def render(ctx):
               "của nhóm).",
               f"- `data/annotations/blind/blind_train_subset_test.csv`: {num(ctx['blind_rest'])} dòng (subset train + "
               "test_seen + test_unseen).",
-              "- Hai bảng chỉ có `annotation_id,title`; không có nguồn, URL, split, category hay nhãn LLM. Thứ tự dòng "
+              "- Hai bảng chỉ có `annotation_id,title,category` (category chung đã duyệt); không có nguồn, URL, split hay nhãn LLM. Thứ tự dòng "
               "là một hoán vị seed trộn đều nguồn/category/split. Title giữ nguyên như clean; "
               f"{num(ctx['multiline_titles'])} title có xuống dòng bên trong (CSV đặt trong ngoặc kép, đọc bằng CSV "
               "reader).",

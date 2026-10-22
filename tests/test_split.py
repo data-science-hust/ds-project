@@ -41,7 +41,8 @@ def rec(rid, source, category="A", sapo=True, dup_group=None, rep=True, excluded
             "title": f"Tiêu đề {rid}", "category": category,
             "category_mapping_status": status if category is not None else None,
             "dup_group": dup_group or f"dg_{rid}", "is_dup_representative": rep, "dedup_excluded_reason": excluded,
-            "has_sapo": sapo}
+            "has_sapo": sapo, "sapo": f"Sapo {rid}" if sapo else None, "url": f"https://{source}.vn/{rid}.html",
+            "published_at": "2026-05-20T08:00:00+07:00"}
 
 
 def dataset():
@@ -71,7 +72,7 @@ def built(records, pairs, seed=7, separate=frozenset()):
     groups, held = build_split_groups(records, pairs, separate)
     assignment, subset, reserve, _, _, _ = allocate(pool, groups, SOURCES, seed, held)
     manifest = manifest_rows(pool, assignment, subset, groups, SOURCES, seed)
-    mapping, dev, rest = annotation_tables(manifest, {r["record_id"]: r["title"] for r in pool}, seed)
+    mapping, dev, rest = annotation_tables(manifest, {r["record_id"]: r for r in pool}, seed)
     return {"records": records, "pool": pool, "manifest": manifest, "reserve": reserve, "annotation_map": mapping,
             "blind": (dev, rest), "sources": SOURCES, "split_group_of": groups, "pairs": pairs,
             "separate": separate, "held": held}
@@ -204,15 +205,17 @@ class AllocationTests(unittest.TestCase):
         with self.assertRaisesRegex(SplitError, "mix seen and unseen"):
             allocate(pool, groups, SOURCES, 7)
 
-    def test_annotation_tables_hide_everything_but_title(self):
+    def test_annotation_tables_show_only_title_and_category(self):
         records, pairs = dataset()
         pool, groups, assignment, subset, _, _ = run(records, pairs)
         manifest = manifest_rows(pool, assignment, subset, groups, SOURCES, 7)
-        mapping, dev, rest = annotation_tables(manifest, {r["record_id"]: r["title"] for r in pool}, 7)
+        mapping, dev, rest = annotation_tables(manifest, {r["record_id"]: r for r in pool}, 7)
         self.assertEqual((len(mapping), len(dev), len(rest)), (8 * 2 + 6 * 2 + 4 * 2 + 5, 12, 29))
         self.assertTrue(all(re.fullmatch(r"A\d{5}", m["annotation_id"]) for m in mapping))
         self.assertEqual(len({m["annotation_id"] for m in mapping}), len(mapping))
-        self.assertEqual({tuple(row) for row in dev + rest}, {("annotation_id", "title")})
+        record = {m["annotation_id"]: next(r for r in pool if r["record_id"] == m["record_id"]) for m in mapping}
+        self.assertTrue(all((b["title"], b["category"]) == (record[b["annotation_id"]]["title"],
+                                                            record[b["annotation_id"]]["category"]) for b in dev + rest))
         self.assertEqual({m["split"] for m in mapping if m["annotation_id"] in {d["annotation_id"] for d in dev}},
                          {"dev"})
 
@@ -323,7 +326,14 @@ class ScriptTests(unittest.TestCase):
             self.assertEqual(len(manifest), 65)
             self.assertEqual({r["seed"] for r in manifest}, {"11"})
             blind = BUILD.read_csv(root / "a/data/annotations/blind/blind_dev.csv")
-            self.assertEqual(list(blind[0]), ["annotation_id", "title"])
+            self.assertEqual(list(blind[0]), ["annotation_id", "title", "category"])
+            table = BUILD.read_csv(root / "a/data/processed/dataset.csv")
+            self.assertEqual(list(table[0]), list(BUILD.DATASET_FIELDS))
+            self.assertEqual([r["record_id"] for r in table], [r["record_id"] for r in manifest])
+            mapped = {r["annotation_id"]: r["record_id"] for r in BUILD.read_csv(root / "a/data/manifests/annotation_map.csv")}
+            self.assertEqual({r["annotation_id"]: r["record_id"] for r in table if r["annotation_id"]}, mapped)
+            self.assertEqual({r["record_id"] for r in table if r["split"] == "train" and r["is_human_subset"] == "False"},
+                             {r["record_id"] for r in table if not r["annotation_id"]})
             report = (root / "a/reports/split_report.md").read_text(encoding="utf-8")
             self.assertIn("## 7. Kiểm tra (đều đạt)", report)
             self.assertIn("annotation_assignment.csv", report)

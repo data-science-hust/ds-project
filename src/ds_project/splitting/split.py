@@ -26,7 +26,7 @@ HOLD_UNSEEN = "pending_dedup_review_with_unseen"  # unmerged pair with an unseen
 HOLD_NO_CATEGORY = "no_category"
 PAIR_KINDS = ("template_series", "dedup_review", "dedup_blocked")  # precedence when one pair is listed twice
 MAP_FIELDS = ("annotation_id", "record_id", "split", "source")
-BLIND_FIELDS = ("annotation_id", "title")
+BLIND_FIELDS = ("annotation_id", "title", "category")
 
 
 class SplitError(ValueError):
@@ -282,8 +282,8 @@ def human_scope(manifest):
     return [r for r in manifest if r["split"] != "train" or r["is_human_subset"]]
 
 
-def annotation_tables(manifest, titles, seed):
-    """(annotation map, blind dev rows, blind subset+test rows) for the human scope.
+def annotation_tables(manifest, records, seed):
+    """(annotation map, blind dev rows, blind subset+test rows) for the human scope; records maps record_id -> record.
 
     The scope is ordered by record_id then shuffled with its own seed; IDs are 'A' + a seeded sample of
     10000..99999, so neither the ID nor the row order follows source, category, split or record_id."""
@@ -292,10 +292,10 @@ def annotation_tables(manifest, titles, seed):
     numbers = Random(f"{seed}:annotation_id").sample(range(10000, 100000), len(scope))
     mapping = [{"annotation_id": f"A{n}", "record_id": r["record_id"], "split": r["split"], "source": r["source"]}
                for n, r in zip(numbers, scope)]
-    dev = [{"annotation_id": m["annotation_id"], "title": titles[m["record_id"]]} for m in mapping
-           if m["split"] == "dev"]
-    rest = [{"annotation_id": m["annotation_id"], "title": titles[m["record_id"]]} for m in mapping
-            if m["split"] != "dev"]
+    blind = [{"annotation_id": m["annotation_id"], "title": records[m["record_id"]]["title"],
+              "category": records[m["record_id"]]["category"], "split": m["split"]} for m in mapping]
+    dev = [b for b in blind if b["split"] == "dev"]
+    rest = [b for b in blind if b["split"] != "dev"]
     return sorted(mapping, key=lambda m: m["annotation_id"]), dev, rest
 
 

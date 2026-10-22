@@ -123,15 +123,15 @@ thế: `reserve_rank` nhỏ nhất cùng nguồn/category có `hold_reason` rỗ
 
 Bảng blind trong `data/annotations/blind/`: `blind_dev.csv` (1.400 bài dev,
 gán trước) và `blind_train_subset_test.csv` (8.600 = subset 6.400 + test_seen
-1.000 + test_unseen 1.200), chỉ hai cột:
+1.000 + test_unseen 1.200), chỉ ba cột:
 
 ```csv
-annotation_id,title
+annotation_id,title,category
 ```
 
 `annotation_id` = `A` + 5 chữ số (lấy ngẫu nhiên có seed từ 10000–99999), không
 suy ra được nguồn, split hay `record_id`; thứ tự dòng là hoán vị có seed.
-`title` là title của clean (không sửa thêm).
+`title` là title của clean (không sửa thêm); `category` là nhóm chung đã duyệt (16 nhóm).
 
 `data/manifests/annotation_map.csv` (nội bộ, không gửi annotator), 10.000 dòng
 sắp theo `annotation_id`:
@@ -156,7 +156,7 @@ Khóa mapping là `(source, category_raw)` ở dạng đã chuẩn hóa (`html.u
 `needs_review` hoặc `approved` (chỉ nhóm được đặt); category rỗng = chưa map.
 `review_status` và `notes` là metadata bổ sung của repo.
 
-Bảng blind chỉ gồm `annotation_id,title`. Bảng ánh xạ annotation ID → record ID
+Bảng blind chỉ gồm `annotation_id,title,category`. Bảng ánh xạ annotation ID → record ID
 và `annotation_assignment.csv` nằm trong manifests nội bộ, không đính kèm bảng
 blind. `annotation_assignment.csv` (mục 2.2: chunk C1..C9, người P1..P9) do
 lead human annotation lập; schema chốt khi chia chunk, bước split không tạo.

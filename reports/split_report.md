@@ -8,7 +8,7 @@ Input (chỉ đọc):
 - `data/interim/template_series.csv`: SHA-256 `e0ebdabf722222f01cdb1b4fc14b36d331aa03be2862725496d647ae4a367017`
 - `data/interim/dedup_review.csv`: SHA-256 `07e5a07e930da6cfca1b28a7fc9574833e686c7ae736159c73d0d21442cb3c3d`
 - `data/interim/dedup_pairs.csv`: SHA-256 `858ab8f1bec0e879938450abcf65a7e1275e1580bbe99ba6fafc2b6aa330d114`
-- `configs/checking/dedup_decisions.csv`: SHA-256 `8070addc98c07f3f100a9047959738f5a52275f00cdb9b6d03bb6c75ff9fd729`
+- `configs/checking/dedup_decisions.csv`: SHA-256 `92cb2959f9b3c94663096614cdd328c7586607ca7eb27385da197cd801b5fb25`
 
 ## 1. Pool đủ điều kiện
 
@@ -274,7 +274,7 @@ Số reserve theo từng category: cột reserve ở mục 3 và `reports/split_
 
 - `data/annotations/blind/blind_dev.csv`: 1.400 dòng (dev; gán nhãn trước theo flow của nhóm).
 - `data/annotations/blind/blind_train_subset_test.csv`: 8.600 dòng (subset train + test_seen + test_unseen).
-- Hai bảng chỉ có `annotation_id,title`; không có nguồn, URL, split, category hay nhãn LLM. Thứ tự dòng là một hoán vị seed trộn đều nguồn/category/split. Title giữ nguyên như clean; 1 title có xuống dòng bên trong (CSV đặt trong ngoặc kép, đọc bằng CSV reader).
+- Hai bảng chỉ có `annotation_id,title,category` (category chung đã duyệt); không có nguồn, URL, split hay nhãn LLM. Thứ tự dòng là một hoán vị seed trộn đều nguồn/category/split. Title giữ nguyên như clean; 1 title có xuống dòng bên trong (CSV đặt trong ngoặc kép, đọc bằng CSV reader).
 - `annotation_id` = `A` + 5 chữ số lấy ngẫu nhiên (seed) từ 10000–99999, không tuần tự theo nguồn, split hay `record_id`.
 - `data/manifests/annotation_map.csv` (nội bộ, không gửi annotator): 10.000 dòng `annotation_id, record_id, split, source`.
 

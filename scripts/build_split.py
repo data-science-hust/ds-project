@@ -4,7 +4,7 @@ Reads data/processed/articles_clean.parquet and data/interim/{template_series,de
 (from scripts/build_clean.py; never modified), configs/checking/dedup_decisions.csv and the seed in
 configs/crawling/run.json. Near-duplicate pairs that clean did not merge share a split_group (seen-unseen
 pairs not decided 'separate': the seen record is held in reserve). Writes
-data/manifests/{split_manifest,reserve_list,annotation_map}.csv, data/annotations/blind/*.csv and
+data/manifests/{split_manifest,reserve_list,annotation_map}.csv, data/processed/dataset.csv, data/annotations/blind/*.csv and
 reports/split_{report.md,counts.csv}; existing outputs are replaced only with --replace. The build runs
 twice in memory and must give byte-identical outputs. annotation_assignment.csv (plan 2.2) is not built here.
 """
@@ -33,9 +33,13 @@ from ds_project.splitting.split import (BLIND_FIELDS, MANIFEST_FIELDS, MAP_FIELD
 OUTPUTS = {"manifest": "data/manifests/split_manifest.csv", "reserve": "data/manifests/reserve_list.csv",
            "map": "data/manifests/annotation_map.csv", "blind_dev": "data/annotations/blind/blind_dev.csv",
            "blind_rest": "data/annotations/blind/blind_train_subset_test.csv",
-           "report": "reports/split_report.md", "counts": "reports/split_counts.csv"}
+           "report": "reports/split_report.md", "counts": "reports/split_counts.csv",
+           "dataset": "data/processed/dataset.csv"}
 RECORD_COLUMNS = ("record_id", "source", "outlet_group", "title", "category", "category_mapping_status", "dup_group",
-                  "is_dup_representative", "dedup_excluded_reason", "has_sapo")
+                  "is_dup_representative", "dedup_excluded_reason", "has_sapo", "sapo", "url", "published_at")
+# One ready-to-use table of the 23,600 split records; annotation_id is set for the 10,000 human-scope rows.
+DATASET_FIELDS = ("record_id", "annotation_id", "split", "is_human_subset", "source", "outlet_group", "category",
+                  "title", "sapo", "published_at", "url", "dup_group")
 
 
 def shown(path):
@@ -101,8 +105,8 @@ def build(records, pairs_by_kind, decisions, sources, seed, inputs):
     split_group_of, held = build_split_groups(records, pairs, separate)
     assignment, subset, reserve, _, units, selectable = allocate(pool, split_group_of, sources, seed, held)
     manifest = manifest_rows(pool, assignment, subset, split_group_of, sources, seed)
-    titles = {r["record_id"]: r["title"] for r in pool}
-    annotation_map, blind_dev, blind_rest = annotation_tables(manifest, titles, seed)
+    record_of = {r["record_id"]: r for r in pool}
+    annotation_map, blind_dev, blind_rest = annotation_tables(manifest, record_of, seed)
     checks = verify(records, pool, manifest, reserve, annotation_map, (blind_dev, blind_rest), sources,
                     split_group_of, pairs, separate, held)
     checks.append("Xác định: build hai lần từ cùng input cho output giống hệt từng byte (khác thì script dừng, "
@@ -127,7 +131,11 @@ def build(records, pairs_by_kind, decisions, sources, seed, inputs):
                "deviation": share_deviation(sources, pool, manifest, selectable), "checks": checks,
                "blind_dev": len(blind_dev), "blind_rest": len(blind_rest), "mapped": len(annotation_map),
                "multiline_titles": sum("\n" in b["title"] or "\r" in b["title"] for b in blind_dev + blind_rest)}
+    annotation_of = {a["record_id"]: a["annotation_id"] for a in annotation_map}
+    dataset = [{**record_of[m["record_id"]], **m, "annotation_id": annotation_of.get(m["record_id"], "")}
+               for m in manifest]
     texts = {"manifest": csv_text(manifest, MANIFEST_FIELDS), "reserve": csv_text(reserve, RESERVE_FIELDS),
+             "dataset": csv_text(dataset, DATASET_FIELDS),
              "map": csv_text(annotation_map, MAP_FIELDS), "blind_dev": csv_text(blind_dev, BLIND_FIELDS),
              "blind_rest": csv_text(blind_rest, BLIND_FIELDS), "report": render(context),
              "counts": csv_text(split_count_rows(sources, pool, manifest, reserve),
