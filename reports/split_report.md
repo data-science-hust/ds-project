@@ -70,6 +70,29 @@ Each split quota (and the subset inside train, and test_unseen) is divided over 
 | vietnamnet | – | – | – | – | 0.20 | **0.20** |
 | nhandan | – | – | – | – | 0.13 | **0.13** |
 
+### All sources: category share per split
+
+Pooled over sources. Seen splits share one mix because each seen source is stratified alone; test_unseen follows the unseen outlets' own mix.
+
+| Category | train (20,000) | human subset (6,400) | dev (1,400) | test_seen (1,000) | test_unseen (1,200) |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Thời sự - Xã hội | 20.55% | 20.55% | 20.57% | 20.40% | 21.92% |
+| Đời sống - Gia đình | 16.00% | 16.00% | 16.14% | 16.00% | 1.00% |
+| Giải trí - Văn hóa | 10.99% | 10.97% | 10.93% | 11.00% | 36.58% |
+| Kinh tế - Tài chính | 10.09% | 10.08% | 10.07% | 10.10% | 6.25% |
+| Thế giới | 6.28% | 6.28% | 6.29% | 6.20% | 5.42% |
+| Sức khỏe | 5.88% | 5.88% | 5.93% | 5.90% | 2.08% |
+| Thể thao | 5.07% | 5.06% | 5.00% | 5.10% | 6.50% |
+| Làm đẹp - Thời trang | 4.56% | 4.56% | 4.57% | 4.60% | 4.42% |
+| Giáo dục | 4.09% | 4.11% | 4.07% | 4.20% | 2.17% |
+| Công nghệ - Khoa học | 3.49% | 3.50% | 3.36% | 3.60% | 2.75% |
+| Du lịch - Ẩm thực | 3.04% | 3.05% | 3.14% | 3.00% | 1.42% |
+| Tử vi - Phong thủy | 2.94% | 2.95% | 2.93% | 2.90% | 0.00% |
+| Pháp luật | 2.49% | 2.48% | 2.50% | 2.40% | 2.42% |
+| Bất động sản | 2.10% | 2.09% | 2.14% | 2.20% | 0.50% |
+| Khác | 1.55% | 1.56% | 1.57% | 1.50% | 5.75% |
+| Xe | 0.86% | 0.88% | 0.79% | 0.90% | 0.83% |
+
 ### Seen sources: records per category
 
 | Source | Category | Eligible | Selectable | Selectable share | train | human subset | dev | test_seen | reserve |
