@@ -162,6 +162,20 @@ def render(ctx):
         cells = [dec(100 * deviation[c]) if c in deviation else "–" for c in SHARE_COLUMNS]
         worst = f"**{dec(100 * max(deviation.values()))}**" if deviation else "–"
         lines.append(f"| {source} | " + " | ".join(cells) + f" | {worst} |")
+    pooled = Counter()
+    for (_, category, column), n in counts.items():
+        pooled[(category, column)] += n
+    sizes = {c: sum(n for (_, column), n in pooled.items() if column == c) for c in SHARE_COLUMNS}
+    categories = sorted({category for category, column in pooled if column in SHARE_COLUMNS},
+                        key=lambda c: (-pooled[(c, "train")], c))
+    lines += ["", "### All sources: category share per split", "",
+              "Pooled over sources. Seen splits share one mix because each seen source is stratified alone; "
+              "test_unseen follows the unseen outlets' own mix.", "",
+              "| Category | " + " | ".join(f"{LABEL[c]} ({num(sizes[c])})" for c in SHARE_COLUMNS) + " |",
+              "| --- |" + " ---: |" * len(SHARE_COLUMNS)]
+    for category in categories:
+        lines.append(f"| {category} | " + " | ".join(_pct(pooled[(category, c)], sizes[c]) for c in SHARE_COLUMNS)
+                     + " |")
     for group, names in (("seen", seen), ("unseen", unseen)):
         columns = COLUMNS[group]
         lines += ["", f"### {group.capitalize()} sources: records per category", "",
