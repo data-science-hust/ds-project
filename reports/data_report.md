@@ -1,18 +1,18 @@
-# Báo cáo dữ liệu
+# Data report
 
-Tạo lúc 2026-10-23T02:51:37+07:00 bởi `scripts/build_clean.py`.
+Generated at 2026-10-23T08:25:06+07:00 by `scripts/build_clean.py`.
 
-## 1. Crawl thô
+## 1. Raw crawl
 
-Nguồn: `reports/crawl_stats.csv` (do `scripts/export_raw.py` ghi cùng `data/raw/articles_raw.jsonl`).
+Source: `reports/crawl_stats.csv` (written by `scripts/export_raw.py` with `data/raw/articles_raw.jsonl`).
 
-- Đã chọn vào quota thô: **30,000/30,000**; thiếu **0**.
-- Năm đăng: 2026: 30,000.
-- Lượt thử URL bài 39,798; tải được (có title) 33,562; success/partial không title 3,891.
-- `extraction_status` trong raw: `success` 29,467, `partial` 533.
-- Thiếu sapo sau crawl 839; lấy lại bằng refetch 310; còn thiếu trong raw **529** (1.76%). Thiếu category 4.
+- Selected into the raw quota: **30,000/30,000**; shortfall **0**.
+- Publication year: 2026: 30,000.
+- Article URL attempts 39,798; downloaded (with title) 33,562; success/partial without title 3,891.
+- `extraction_status` in raw: `success` 29,467, `partial` 533.
+- Missing sapo after crawl 839; recovered by refetch 310; still missing in raw **529** (1.76%). Missing category 4.
 
-| Nguồn | Nhóm | Run | Inventory URL | Lượt thử | Tải được | Không title | Đã chọn | Target | Thiếu | Thiếu sapo (crawl) | Refetch | Thiếu sapo (raw) | Thiếu category | Category gốc | Ngày đăng |
+| Source | Group | Run | Inventory URLs | Attempts | Downloaded | No title | Selected | Target | Shortfall | Missing sapo (crawl) | Refetched | Missing sapo (raw) | Missing category | Raw categories | Published |
 | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | afamily | seen | `metadata_2024_20261021` | 202,952 | 3,505 | 3,500 | 3 | 3,500 | 3,500 | 0 | 4 | 0 | 4 | 0 | 18 | 2026-01-01 → 2026-10-20 |
 | 2sao | seen | `metadata_2024_20261021` | 116,721 | 7,897 | 3,720 | 3,739 | 3,500 | 3,500 | 0 | 1 | 0 | 1 | 0 | 9 | 2026-01-01 → 2026-10-21 |
@@ -27,9 +27,9 @@ Nguồn: `reports/crawl_stats.csv` (do `scripts/export_raw.py` ghi cùng `data/r
 | vietnamnet | unseen | `metadata_fix_20261023` | 344,788 | 2,181 | 2,160 | 21 | 500 | 500 | 0 | 6 | 0 | 6 | 0 | 74 | 2026-01-01 → 2026-10-20 |
 | nhandan | unseen | `metadata_recovery_nhandan_20261022` | 32,462 | 500 | 500 | 0 | 500 | 500 | 0 | 27 | 0 | 27 | 0 | 188 | 2026-01-27 → 2026-10-21 |
 
-Lý do chọn/không chọn trên mọi lượt thử (`selection_status` của crawler):
+Selection outcome over all attempts (crawler `selection_status`):
 
-| Nguồn | primary | fallback | not_article_page | missing_title | extraction_error | publication_date_unknown | before_fallback_date |
+| Source | primary | fallback | not_article_page | missing_title | extraction_error | publication_date_unknown | before_fallback_date |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | afamily | 3,500 | 0 | 0 | 3 | 2 | 0 | 0 |
 | 2sao | 3,500 | 79 | 3,739 | 0 | 438 | 140 | 1 |
@@ -44,31 +44,31 @@ Lý do chọn/không chọn trên mọi lượt thử (`selection_status` của 
 | vietnamnet | 500 | 298 | 1 | 20 | 0 | 95 | 1,267 |
 | nhandan | 500 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-### Chính sách và quyết định
+### Policies and decisions
 
-- Quota thô: 3.500 bài/báo seen, 500 bài/báo unseen; ưu tiên 01/01/2026–21/10/2026, chỉ lùi tới 01/01/2024 khi thiếu.
-- Inventory duyệt hết sitemap/feed rồi xáo trộn với seed 2026; không đặt quota theo category.
-- Chỉ lưu 9 trường của plan; không lưu body/HTML/media. Thiếu sapo/category vẫn giữ (partial), không lấy SEO description.
-- CafeF: timestamp không offset được coi là UTC+07:00 (nhóm đã duyệt).
-- VietNamNet: cách ly 13 bản ghi sitemap (11 URL năm 2022) có ký tự điều khiển trong URL; không sửa URL nào.
-- Bỏ qua sitemap tag (`sitemap-tags-NN.xml`) và URL trang tag `-tagNNN.html` (2sao, VietNamNet).
-- Dân Trí: định dạng 'Dân trí 360' (video ngắn render bằng JS, không có title/ngày trong HTML) và 5 bài emagazine có tiêu đề dạng ảnh bị loại có hệ thống (quyết định của nhóm), thể hiện ở missing_title.
-- Dân Trí: sapo của bài emagazine được tải lại riêng (refetch) với selector mới, chỉ nhận khi title tải lại trùng title đã lưu. `scripts/export_raw.py` điền sapo này vào `articles_raw.jsonl` (chỉ dòng chưa có sapo) và tính lại `extraction_status` theo đúng quy tắc của crawler (`success` khi đủ title, sapo, category, published_at; còn lại `partial`). File crawl gốc trong `data/crawl_work/` không bị sửa; danh sách record_id được điền nằm ở `sapo_refetch/<refetch_id>/sapo_supplement.jsonl` (status `sapo_recovered`) trong thư mục run.
-- Dân Trí bị giới hạn ~100 request/3 phút (HTTP 428): delay 2,5 s và chờ ≥120 s khi gặp 428.
-- YAN không có phần sapo riêng; chỉ nhận đoạn đầu được in đậm toàn bộ là sapo.
+- Raw quota: 3,500 articles per seen outlet, 500 per unseen outlet; 01/01/2026–21/10/2026 first, falling back to 01/01/2024 only on shortfall.
+- Inventory traverses every sitemap/feed, then shuffles with seed 2026; no per-category quota.
+- Only the plan's 9 fields are stored; no body/HTML/media. Rows missing sapo/category are kept (partial); SEO description is never used as sapo.
+- CafeF: timestamps without an offset are treated as UTC+07:00 (team-approved).
+- VietNamNet: 13 sitemap records (11 URLs from 2022) with control characters in the URL are quarantined; no URL is rewritten.
+- Tag sitemaps (`sitemap-tags-NN.xml`) and tag-page URLs `-tagNNN.html` are skipped (2sao, VietNamNet).
+- Dân Trí: the 'Dân trí 360' format (JS-rendered short video, no title/date in HTML) and 5 emagazine articles with image titles are systematically excluded (team decision); they show up as missing_title.
+- Dân Trí: emagazine sapo is re-fetched separately with a new selector and accepted only when the re-fetched title matches the stored title. `scripts/export_raw.py` fills it into `articles_raw.jsonl` (rows without a sapo only) and recomputes `extraction_status` with the crawler's rule (`success` when title, sapo, category and published_at are all present, otherwise `partial`). Crawl files in `data/crawl_work/` are not modified; filled record_ids are listed in `sapo_refetch/<refetch_id>/sapo_supplement.jsonl` (status `sapo_recovered`) in the run directory.
+- Dân Trí rate-limits at ~100 requests/3 minutes (HTTP 428): 2.5 s delay and a ≥120 s wait on 428.
+- YAN has no separate sapo block; only a fully bold first paragraph is taken as sapo.
 
-### Giới hạn
+### Limitations
 
-- Quota thô không phải quota sạch: xem phần Clean (checking, bỏ trùng, funnel).
-- Inventory duyệt hết chỉ có nghĩa đã duyệt hết endpoint tìm được, không chứng minh bao phủ mọi bài đã đăng.
+- The raw quota is not a clean quota: see the Clean section (checking, dedup, funnel).
+- A complete inventory only means every discovered endpoint was traversed; it does not prove coverage of every published article.
 
 ## 2. Clean
 
-Input: `data/raw/articles_raw.jsonl`; cột `source_run_id` của parquet lấy theo `run_id` trong `reports/crawl_stats.csv`.
+Input: `data/raw/articles_raw.jsonl`; the parquet `source_run_id` column comes from `run_id` in `reports/crawl_stats.csv`.
 
-### Funnel: tải được → hợp lệ → sau bỏ trùng → có sapo
+### Funnel: downloaded → valid → after dedup → with sapo
 
-| Nguồn | Nhóm | Tải được | Không title* | Đã chọn | Hợp lệ | Loại | Loại do trùng | Sau bỏ trùng | Có sapo | Mục tiêu sạch | Thiếu |
+| Source | Group | Downloaded | No title* | Selected | Valid | Rejected | Dedup excluded | After dedup | With sapo | Clean target | Shortfall |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | afamily | seen | 3,500 | 3 | 3,500 | 3,500 | 0 | 107 | 3,393 | 3,389 | 2,800 | 0 |
 | 2sao | seen | 3,720 | 3,739 | 3,500 | 3,500 | 0 | 64 | 3,436 | 3,435 | 2,800 | 0 |
@@ -83,13 +83,13 @@ Input: `data/raw/articles_raw.jsonl`; cột `source_run_id` của parquet lấy 
 | vietnamnet | unseen | 2,160 | 21 | 500 | 500 | 0 | 0 | 500 | 494 | 300 | 0 |
 | nhandan | unseen | 500 | 0 | 500 | 491 | 9 | 0 | 491 | 468 | 300 | 0 |
 
-Tổng: tải được **33,562**, đã chọn 30,000, hợp lệ **29,777**, sau bỏ trùng **29,434**, có sapo **29,068**.
+Total: downloaded **33,562**, selected 30,000, valid **29,777**, after dedup **29,434**, with sapo **29,068**.
 
-Tải được = `record_id` khác nhau có `extraction_status` success/partial **và có title** trên mọi lượt thử của run crawl (gồm bài ngoài khoảng ngày/không được chọn). *Không title = dòng success/partial không có title (trang tag/listing, ví dụ 2sao `Trang chủ` not_article_page; missing_title), không tính là bài tải được.
+Downloaded = distinct `record_id`s with `extraction_status` success/partial **and a title** over all attempts of the crawl run (including articles outside the date range or not selected). *No title = success/partial rows without a title (tag/listing pages, e.g. 2sao `Trang chủ` not_article_page; missing_title); not counted as downloaded.
 
-### Bài bị loại
+### Rejected articles
 
-| Nguồn | Lỗi | Số bài |
+| Source | Issue | Articles |
 | --- | --- | ---: |
 | eva | missing_sapo_policy | 159 |
 | cafef | non_headline_title:lottery_code_date | 8 |
@@ -103,40 +103,40 @@ Tải được = `record_id` khác nhau có `extraction_status` success/partial 
 | thanhnien | non_headline_title:lottery_vietlott_result | 7 |
 | thanhnien | non_headline_title:thanhnien_print_edition_digest | 18 |
 
-Issue theo loại và quyết định (`data/interim/issues.csv`): `category_unmapped:report` 4, `missing_sapo:report` 370, `missing_sapo_policy:reject` 159, `mojibake_suspected:flag` 2, `non_headline_title:reject` 64.
-Sửa kỹ thuật theo trường (`data/interim/fixes.csv`): `sapo` 51, `category_raw` 460, `title` 30.
+Issues by type and decision (`data/interim/issues.csv`): `category_unmapped:report` 4, `missing_sapo:report` 370, `missing_sapo_policy:reject` 159, `mojibake_suspected:flag` 2, `non_headline_title:reject` 64.
+Technical fixes by field (`data/interim/fixes.csv`): `sapo` 51, `category_raw` 460, `title` 30.
 
-### Bỏ trùng
+### Dedup
 
-- 29,434 dup_group; 341 nhóm ≥2 bài (335 nhóm xuyên nguồn), lớn nhất 3 bài.
-- Liên kết tự động: 344 cặp (exact_norm_title: 294, cross_source_jc3: 50).
-- Loại khỏi sau bỏ trùng: 343 bài, trong đó `duplicate_of_unseen` 23, `duplicate_in_group` 320.
-- Bị chặn: 2 liên kết (separate_decision: 2); `transitive_conflict` = liên kết sẽ gộp hai bài lệch số (hoặc cặp `separate`) qua bài thứ ba.
-- Cần review (`dedup_review.csv`): 209 cặp (auto_link_check: 29, date_gap: 31, exact_date_gap: 5, number_conflict: 30, review_band: 114). `auto_link_check`/`exact_date_gap` là liên kết đã áp dụng, cần kiểm tra; độ chính xác liên kết tự động chưa được đo.
-- Chuỗi template cùng nguồn: 521 cặp trong 91 chuỗi (`template_series.csv`, chưa gộp).
+- 29,434 dup_groups; 341 groups with ≥2 articles (335 cross-source), largest 3 articles.
+- Auto links: 344 pairs (exact_norm_title: 294, cross_source_jc3: 50).
+- Excluded after dedup: 343 articles; `duplicate_of_unseen` 23, `duplicate_in_group` 320.
+- Blocked: 2 links (separate_decision: 2); `transitive_conflict` = a link that would merge two number-conflicting articles (or a `separate` pair) through a third.
+- Needs review (`dedup_review.csv`): 209 pairs (auto_link_check: 29, date_gap: 31, exact_date_gap: 5, number_conflict: 30, review_band: 114). `auto_link_check`/`exact_date_gap` are applied links to verify; auto-link precision has not been measured.
+- Same-source template series: 521 pairs in 91 series (`template_series.csv`, not merged).
 
 ### Category
 
-- Bài hợp lệ chưa map: 4; mapping chưa duyệt (proposed/needs_review): 0 (approved: 29,773, unmapped: 4).
-- Mapping `configs/crawling/category_mapping.csv`, 2 quyết định dedup thủ công.
-- Category chung chưa được nhóm duyệt; bước split phải từ chối mapping chưa `approved`.
+- Valid articles unmapped: 4; unapproved mapping (proposed/needs_review): 0 (approved: 29,773, unmapped: 4).
+- Mapping `configs/crawling/category_mapping.csv`, 2 manual dedup decisions.
+- Shared categories are not yet team-approved; the split step must refuse mappings that are not `approved`.
 
-### Giới hạn
+### Limitations
 
-- Tải được (downloaded) = số `record_id` khác nhau trong `articles.jsonl` của run crawl (mọi lượt thử, lấy từ `reports/crawl_stats.csv`) có `extraction_status` success/partial và title không rỗng; gồm cả bài ngoài khoảng ngày hoặc không được chọn vào quota thô. Dòng success/partial không title (trang listing/tag, ví dụ 3.739 dòng 2sao 'Trang chủ' not_article_page, và các dòng missing_title) được báo riêng ở `downloaded_without_title`.
-- Hợp lệ (valid) = bài đã chọn qua checking record-level; sau bỏ trùng (after_dedup) = đại diện nhóm trùng không bị loại; có sapo (with_sapo) đếm trong sau bỏ trùng.
-- `<unmapped>` ở cột downloaded của `funnel_by_source_category.csv` chủ yếu là bài tải được nhưng không được chọn, có category gốc chưa có trong mapping (mapping được đề xuất từ các bài đã chọn).
-- Dedup chỉ so title (Jaccard char-3gram); độ giống sapo chỉ hỗ trợ review, không bao giờ tự liên kết.
-- Độ chính xác liên kết tự động chưa được đo. Liên kết gần trùng cần |chênh published_at| <= near_link_max_days; liên kết gần trùng đã áp dụng có JC3 < review_auto_link_below và liên kết title trùng hệt nằm ngoài cửa sổ ngày được liệt kê trong `dedup_review.csv` (auto_linked=True) để kiểm tra mẫu.
-- Liên kết bị từ chối khi nó đưa một cặp lệch số hoặc một cặp `separate` thủ công vào cùng nhóm (transitive_conflict); kết quả phụ thuộc thứ tự liên kết (trùng hệt trước, rồi JC3 giảm dần), thứ tự này cố định.
-- Chuỗi template cùng nguồn chỉ được báo cáo, không gộp vào dup_group (chờ nhóm quyết định).
-- Dòng mapping category là proposed/needs_review cho tới khi nhóm duyệt; khóa chưa map giữ null và `category_mapping_status` null khi category null.
-- Phát hiện mojibake dựa trên mẫu ký tự; chỉ loại title có mojibake được xác nhận bằng round-trip.
+- Downloaded = distinct `record_id`s in the crawl run's `articles.jsonl` (all attempts, taken from `reports/crawl_stats.csv`) with `extraction_status` success/partial and a non-empty title; includes articles outside the date range or not selected into the raw quota. success/partial rows without a title (listing/tag pages, e.g. 3,739 2sao 'Trang chủ' not_article_page rows, and missing_title rows) are reported separately as `downloaded_without_title`.
+- Valid = selected articles that pass record-level checking; after_dedup = non-excluded duplicate-group representatives; with_sapo is counted within after_dedup.
+- `<unmapped>` in the downloaded column of `funnel_by_source_category.csv` is mostly downloaded but unselected articles whose raw category is not in the mapping (the mapping is proposed from selected articles).
+- Dedup compares titles only (char-3gram Jaccard); sapo similarity only supports review and never links.
+- Auto-link precision has not been measured. Near-duplicate links require |published_at gap| <= near_link_max_days; applied near-duplicate links with JC3 < review_auto_link_below and exact-title links outside the date window are listed in `dedup_review.csv` (auto_linked=True) for spot checks.
+- A link is refused when it would put a number-conflict pair or a manual `separate` pair in the same group (transitive_conflict); the result depends on link order (exact matches first, then descending JC3), which is fixed.
+- Same-source template series are only reported, not merged into dup_group (pending team decision).
+- Category mapping rows stay proposed/needs_review until team review; unmapped keys stay null and `category_mapping_status` is null when category is null.
+- Mojibake detection is pattern-based; only titles with mojibake confirmed by round-trip are rejected.
 
-## File
+## Files
 
-- `data/raw/articles_raw.jsonl`: 30,000 bài thô đã chọn, đúng 9 trường của plan.
-- `reports/crawl_stats.csv`: thống kê crawl theo nguồn (cột `downloaded_by_category` là JSON `[[category gốc, số bài], ...]` dùng cho funnel theo category).
-- `reports/funnel_by_source.csv`, `reports/funnel_by_source_category.csv` (category `<unmapped>` hiển thị riêng).
-- `data/processed/articles_clean.parquet`: bài hợp lệ kèm `dup_group`.
+- `data/raw/articles_raw.jsonl`: 30,000 selected raw articles, exactly the plan's 9 fields.
+- `reports/crawl_stats.csv`: per-source crawl stats (`downloaded_by_category` is JSON `[[raw category, articles], ...]` used for the per-category funnel).
+- `reports/funnel_by_source.csv`, `reports/funnel_by_source_category.csv` (`<unmapped>` category shown separately).
+- `data/processed/articles_clean.parquet`: valid articles with `dup_group`.
 - `data/interim/`: `issues.csv`, `rejected.csv`, `fixes.csv`, `dedup_pairs.csv`, `dedup_review.csv`, `template_series.csv`.

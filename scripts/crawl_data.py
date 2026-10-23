@@ -1,7 +1,6 @@
-"""Crawl original Vietnamese news metadata, with persistent inventory and resume.
+"""Crawl original Vietnamese news metadata with persistent inventory and resume.
 
-Working files go to data/crawl_work/<source>/<run_id>/ (operational journal in journal/);
-scripts/export_raw.py builds data/raw/articles_raw.jsonl from the finished runs.
+Writes data/crawl_work/<source>/<run_id>/ (operational logs in journal/).
 """
 
 from __future__ import annotations
@@ -47,7 +46,7 @@ def rows(path):
 
 
 def extraction_status(record):
-    """Parser status of a fetched page: 'success' iff title, sapo, category and published_at are all present."""
+    """'success' iff title, sapo, category and published_at are all present, else 'partial'."""
     return "success" if all(record.get(f) for f in ("title", "sapo", "category", "published_at")) else "partial"
 
 

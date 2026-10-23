@@ -1,147 +1,168 @@
-# Data contract cho crawling/checking
+# Data contract for crawling/checking
 
-Chín trường đầu dưới đây theo mục 1.1 của plan. Quy ước ID, định dạng file,
-timestamp và các giá trị status là đề xuất triển khai của repo.
+The first nine fields below follow plan §1.1. The ID convention, file formats,
+timestamps, and status values are this repo's implementation choices.
 
-Crawler hiện chỉ ghi đúng chín trường của mục 1.1 vào `articles.jsonl`, theo
-xác nhận của nhóm. Dataset thô bàn giao là `data/raw/articles_raw.jsonl`
-(`scripts/export_raw.py`): đúng chín trường này, theo thứ tự nguồn trong
-`sources.csv` rồi thứ tự chọn trong `selected_record_ids.csv`. Ba trường `category_raw`, `title_raw`, `dup_group` phía dưới
-là contract cho bước clean/dedup tiếp theo, không được thêm vào output crawl.
-Evidence/parser/resume nằm riêng trong journal
-(`data/crawl_work/<source>/<run_id>/journal/`); không lưu HTML/body.
-Ngoại lệ timestamp đã được nhóm chấp thuận: CafeF không ghi offset thì dùng
-UTC+07:00. Quyết định này cấu hình riêng nguồn và được ghi evidence trong log.
+As confirmed by the team, the crawler writes exactly the nine §1.1 fields to
+`articles.jsonl`. The delivered raw dataset is `data/raw/articles_raw.jsonl`
+(`scripts/export_raw.py`): exactly these nine fields, ordered by source as in
+`sources.csv`, then by selection order in `selected_record_ids.csv`. The three
+fields `category_raw`, `title_raw`, `dup_group` below are the contract for the
+clean/dedup step and are never added to crawl output. Evidence/parser/resume
+data lives separately in the journal
+(`data/crawl_work/<source>/<run_id>/journal/`); no HTML/body is stored.
+Team-approved timestamp exception: CafeF timestamps without an offset use
+UTC+07:00. This is configured for that source only and the evidence is logged.
 
-| Trường | Kiểu | Quy ước |
+| Field | Type | Convention |
 | --- | --- | --- |
-| `record_id` | string | ID ổn định cho bài, không dùng index của dataframe. Đề xuất hash source + canonical URL; chốt quy tắc canonicalization trước crawl đầy đủ. |
-| `source` | string | Slug trong `configs/crawling/sources.csv`, không dùng làm nhãn clickbait. |
-| `url` | string/null | URL nguồn; bắt buộc không rỗng để vào clean. Giữ URL gốc trong raw; canonical URL có thể lưu thêm riêng. |
-| `title` | string/null | Tiêu đề gốc; bắt buộc không rỗng/whitespace để vào clean. Không thay đổi phong cách viết. |
-| `sapo` | string/null | Lead đoạn mở đầu; thiếu thì null, không tự lấy toàn body hoặc điền title thay thế. |
-| `category` | string/null | Raw: tên category nguồn. Clean: category chung đã mapping. Chưa map phải được báo cáo. |
-| `published_at` | string/null | ISO 8601 có offset khi xác định được; không tự bịa ngày hoặc timezone. |
-| `crawled_at` | string | ISO 8601 có offset; thời điểm fetch thực tế. |
-| `extraction_status` | string | `success` (đủ title, sapo, category, published_at), `partial`, `fetch_error`, `parse_error`; không phải kết luận kiểm tra dữ liệu. Raw xuất ra chỉ có bài `success`/`partial`; dòng được điền sapo tải lại thì status tính lại theo cùng quy tắc. |
-| `category_raw` | string/null | Giữ category gốc khi tạo clean để truy vết mapping. |
-| `title_raw` | string/null | Bản title trước sửa kỹ thuật trong clean; raw vẫn giữ nguyên. |
-| `dup_group` | string | Bắt buộc ở clean trước split; bài đơn lẻ cũng có nhóm riêng. |
+| `record_id` | string | Stable article ID, never a dataframe index. Proposed: hash of source + canonical URL; canonicalization rule fixed before the full crawl. |
+| `source` | string | Slug from `configs/crawling/sources.csv`; never used as a clickbait label. |
+| `url` | string/null | Source URL; must be non-empty to enter clean. Raw keeps the original URL; a canonical URL may be stored separately. |
+| `title` | string/null | Original headline; must be non-empty/non-whitespace to enter clean. Writing style is never altered. |
+| `sapo` | string/null | Lead paragraph; null when missing, never filled from the full body or the title. |
+| `category` | string/null | Raw: the outlet's category name. Clean: the mapped shared category. Unmapped values must be reported. |
+| `published_at` | string/null | ISO 8601 with offset when determinable; dates and timezones are never invented. |
+| `crawled_at` | string | ISO 8601 with offset; actual fetch time. |
+| `extraction_status` | string | `success` (title, sapo, category, published_at all present), `partial`, `fetch_error`, `parse_error`; not a data-checking verdict. Exported raw contains only `success`/`partial`; rows filled with a refetched sapo have their status recomputed with the same rule. |
+| `category_raw` | string/null | Original category kept in clean to trace the mapping. |
+| `title_raw` | string/null | Title before clean's technical fixes; raw stays unchanged. |
+| `dup_group` | string | Required in clean before split; singleton articles get their own group. |
 
-## Cột của `articles_clean.parquet`
+## `articles_clean.parquet` columns
 
-Mỗi dòng là một bài **hợp lệ** (đã qua checking), kể cả bài không phải đại diện
-nhóm trùng để split lấy mẫu theo nhóm. Bài bị loại nằm ở
-`data/interim/rejected.csv`, raw giữ nguyên.
+Each row is a **valid** article (passed checking), including
+non-representatives of duplicate groups so split can sample by group. Rejected
+articles are in `data/interim/rejected.csv`; raw is unchanged.
 
-| Cột | Kiểu | Quy ước |
+| Column | Type | Convention |
 | --- | --- | --- |
-| `record_id`, `source`, `url` | string | Như raw; `record_id` duy nhất. |
-| `outlet_group` | string | `seen`/`unseen` theo `sources.csv`. |
-| `title` | string | `title_raw` sau strip khoảng trắng hai đầu + NFC; không đổi chữ/hoa thường/dấu câu. |
-| `title_raw` | string | Chuỗi title gốc trong raw. |
-| `sapo` | string/null | Strip + NFC; rỗng → null. |
-| `category` | string/null | Nhóm chung từ `category_mapping.csv`; null khi chưa map. |
-| `category_raw` | string/null | Category nguồn sau `html.unescape` + NFC + strip; rỗng → null. Là khóa join mapping. |
-| `category_mapping_status` | string/null | `review_status` của dòng mapping (`proposed`/`needs_review`/`approved`); null khi `category` null (khóa thiếu hoặc dòng mapping chưa điền category). Split chỉ nhận bài có `category` khác null **và** status `approved`. |
-| `published_at`, `crawled_at`, `extraction_status` | string | Như raw. |
-| `dup_group` | string | `dg_` + 12 ký tự hex đầu của SHA-256 các `record_id` thành viên đã sắp xếp; bài đơn cũng có nhóm. |
-| `dup_group_size` | int | Số bài hợp lệ trong nhóm. |
-| `is_dup_representative` | bool | Bài được giữ của nhóm. |
-| `dedup_excluded_reason` | string/null | `duplicate_in_group` hoặc `duplicate_of_unseen` (bản seen trùng bài unseen, loại khỏi mọi split seen); null khi giữ. |
-| `has_sapo` | bool | Có sapo sau sửa kỹ thuật. |
-| `source_run_id` | string | Run crawl tạo bài: `configs/crawling/final_runs.json`, ghi qua cột `run_id` của `reports/crawl_stats.csv`. |
+| `record_id`, `source`, `url` | string | As in raw; `record_id` is unique. |
+| `outlet_group` | string | `seen`/`unseen` per `sources.csv`. |
+| `title` | string | `title_raw` with leading/trailing whitespace stripped + NFC; letters, case and punctuation unchanged. |
+| `title_raw` | string | Original title string from raw. |
+| `sapo` | string/null | Strip + NFC; empty → null. |
+| `category` | string/null | Shared group from `category_mapping.csv`; null when unmapped. |
+| `category_raw` | string/null | Outlet category after `html.unescape` + NFC + strip; empty → null. The mapping join key. |
+| `category_mapping_status` | string/null | The mapping row's `review_status` (`proposed`/`needs_review`/`approved`); null when `category` is null (missing key or mapping row without a category). Split only accepts articles with a non-null `category` **and** status `approved`. |
+| `published_at`, `crawled_at`, `extraction_status` | string | As in raw. |
+| `dup_group` | string | `dg_` + first 12 hex chars of the SHA-256 of the sorted member `record_id`s; singletons get a group too. |
+| `dup_group_size` | int | Number of valid articles in the group. |
+| `is_dup_representative` | bool | The article kept for the group. |
+| `dedup_excluded_reason` | string/null | `duplicate_in_group` or `duplicate_of_unseen` (seen copy of an unseen article, excluded from every seen split); null when kept. |
+| `has_sapo` | bool | Has a sapo after technical fixes. |
+| `source_run_id` | string | Crawl run that produced the article: from `configs/crawling/final_runs.json`, recorded via the `run_id` column of `reports/crawl_stats.csv`. |
 
-Đại diện: nhóm có bài unseen giữ một bản unseen (sớm nhất theo `published_at`,
-rồi `record_id`); nhóm chỉ có seen giữ bài sớm nhất, rồi `record_id`.
-"Sau bỏ trùng" = `is_dup_representative` và không có `dedup_excluded_reason`.
+Representative: a group containing unseen articles keeps one unseen copy
+(earliest `published_at`, then `record_id`); a seen-only group keeps the
+earliest article, then `record_id`. "After dedup" = `is_dup_representative`
+with no `dedup_excluded_reason`.
 
-Raw JSONL dùng UTF-8, mỗi dòng là một object. Trong thư mục làm việc của
-crawler, dữ liệu chưa extract được vẫn được lưu kèm status. Log request giữ HTTP status/lỗi và tham chiếu tới bản raw.
-Tách biệt fetch thành công với record hợp lệ: `success` không bảo đảm pass checking.
+Raw JSONL is UTF-8, one object per line. In the crawler's working directory,
+records that could not be extracted are still stored with their status. The
+request log keeps HTTP status/errors and references the raw record. A
+successful fetch is distinct from a valid record: `success` does not guarantee
+passing checking.
 
 ## Checking
 
-- Required fields, kiểu dữ liệu, ID trùng, thiếu URL/title, title chỉ có khoảng trắng.
-- URL không hợp lệ hoặc không thuộc nguồn dự kiến, timestamp không parse được.
-- Encoding hỏng hoặc nghi ngờ mojibake: đưa vào review, chỉ sửa khi có bằng chứng.
-- Trùng URL/canonical URL; trùng title và gần trùng xuyên nguồn. Chuẩn hóa để
-  so sánh trên trường phụ, không ghi đè title hiển thị.
-- Sapo thiếu; category thiếu/chưa map; thống kê theo source/category.
-- Xuất issue log theo `record_id`, loại lỗi, quyết định và lý do. Mẫu không đủ
-  điều kiện clean vẫn được giữ trong raw và bảng rejected.
-- Trước freeze: mọi clean record có ID duy nhất, title/URL hợp lệ, `dup_group`,
-  category được xử lý; quota đáp ứng sau dedup và loại leakage.
+- Required fields, data types, duplicate IDs, missing URL/title,
+  whitespace-only titles.
+- Invalid URLs or URLs outside the expected source; unparseable timestamps.
+- Broken encoding or suspected mojibake: sent to review, fixed only with
+  evidence.
+- Duplicate URL/canonical URL; duplicate titles and cross-source near
+  duplicates. Normalization for comparison uses auxiliary fields and never
+  overwrites the displayed title.
+- Missing sapo; missing/unmapped category; statistics per source/category.
+- Issue log per `record_id` with issue type, decision and reason. Records not
+  eligible for clean are still kept in raw and in the rejected table.
+- Before freeze: every clean record has a unique ID, valid title/URL, a
+  `dup_group`, and a handled category; quotas are met after dedup and leakage
+  removal.
 
-Các mục trên đã triển khai trong `scripts/build_clean.py`; rule loại title
-không phải tiêu đề bài nằm ở `configs/checking/rejection_rules.json`. Mojibake
-chỉ loại khi title round-trip cp1252/latin-1 → UTF-8 xác nhận; còn lại gắn cờ
-review. Mọi dòng mapping đã `approved` (16 nhóm); split từ chối chạy nếu còn
-dòng chưa duyệt được dùng. Dòng mapping
-`approved` bắt buộc có category. Dedup: liên kết gần trùng cần cách nhau ≤ 7
-ngày đăng và không được gộp bắc cầu hai bài lệch số; xem `dedup_review.csv`.
+All of the above is implemented in `scripts/build_clean.py`; rules rejecting
+titles that are not article headlines are in
+`configs/checking/rejection_rules.json`. Mojibake is rejected only when a
+cp1252/latin-1 → UTF-8 round trip of the title confirms it; otherwise it is
+flagged for review. Every mapping row is `approved` (16 groups); split refuses
+to run if any used row is not approved. An `approved` mapping row must have a
+category. Dedup: a near-duplicate link requires publish dates ≤ 7 days apart
+and must not transitively merge two number-mismatched articles; see
+`dedup_review.csv`.
 
-## Các bảng bàn giao sau stage checking
+## Handoff tables after checking
 
-Các bảng của bước split do `scripts/build_split.py` sinh (UTF-8 có BOM, CSV
-chuẩn; title có xuống dòng được đặt trong ngoặc kép). Chạy lại với cùng input
-và seed cho file giống hệt từng byte.
+The split tables are produced by `scripts/build_split.py` (UTF-8 with BOM,
+standard CSV; titles containing newlines are quoted). Rerunning with the same
+input and seed gives byte-identical files.
 
-`data/manifests/split_manifest.csv`: sáu cột đầu đúng thứ tự của plan, ba cột
-sau là bổ sung của repo; một dòng cho mỗi bài được chọn (23.600 dòng).
+`data/manifests/split_manifest.csv`: the first six columns follow the plan's
+order, the last three are repo additions; one row per selected article (23,600
+rows).
 
 ```csv
 record_id,source,split,dup_group,is_human_subset,seed,split_group,category,outlet_group
 ```
 
-| Cột | Quy ước |
+| Column | Convention |
 | --- | --- |
 | `split` | `train`, `dev`, `test_seen`, `test_unseen`. |
-| `is_human_subset` | `True`/`False`; `True` chỉ cho subset 6.400 **trong train**. Dev/test vẫn thuộc phạm vi human annotation; không hiểu cờ này là toàn bộ phạm vi human. |
-| `seed` | Seed của `configs/crawling/run.json` (2026). |
-| `split_group` | Đơn vị lấy mẫu: `sg_` + 12 ký tự hex đầu của SHA-256 các `dup_group` thành viên (sắp xếp, nối bằng xuống dòng). Gộp các `dup_group` nối bởi một cặp gần trùng chưa gộp cùng phía seen/unseen (`data/interim/template_series.csv`, `dedup_review.csv`, liên kết bị chặn trong `dedup_pairs.csv`); nhóm không nối thì có một `dup_group`. |
-| `category`, `outlet_group` | Như `articles_clean.parquet` (category luôn khác null và `approved`). |
+| `is_human_subset` | `True`/`False`; `True` only for the 6,400-article subset **within train**. Dev/test are also in human-annotation scope; this flag is not the full human scope. |
+| `seed` | Seed from `configs/crawling/run.json` (2026). |
+| `split_group` | Sampling unit: `sg_` + first 12 hex chars of the SHA-256 of the member `dup_group`s (sorted, newline-joined). Combines `dup_group`s connected by an unmerged near-duplicate pair on the same seen/unseen side (`data/interim/template_series.csv`, `dedup_review.csv`, blocked links in `dedup_pairs.csv`); an unconnected group has a single `dup_group`. |
+| `category`, `outlet_group` | As in `articles_clean.parquet` (category is always non-null and `approved`). |
 
-Một `dup_group` hay `split_group` không xuất hiện ở nhiều split và không bị
-tách giữa split và reserve.
+No `dup_group` or `split_group` appears in more than one split or is divided
+between a split and reserve.
 
-`data/manifests/reserve_list.csv`: mọi bài sau bỏ trùng không được chọn.
+`data/processed/dataset.csv`: combined table of the 23,600 split articles
+(manifest rows joined with clean fields); `annotation_id` is set for the 10,000
+human-scope articles and empty otherwise.
+
+```csv
+record_id,annotation_id,split,is_human_subset,source,outlet_group,category,title,sapo,published_at,url,dup_group
+```
+
+`data/manifests/reserve_list.csv`: every after-dedup article not selected.
 
 ```csv
 record_id,source,category,dup_group,split_group,reserve_rank,has_sapo,hold_reason
 ```
 
-`category` = `(không có category)` cho bài category null (không được chọn).
-`reserve_rank` bắt đầu từ 1 trong mỗi (`source`, `category`), tiếp nối thứ tự
-seed của bước split. `has_sapo` (`True`/`False`) như bảng clean. `hold_reason`
-rỗng = dùng được; `no_category` = nhóm có bài category null;
-`pending_dedup_review_with_unseen` = nhóm có bài seen gần trùng một bài unseen
-mà chưa có quyết định dedup (không được chọn tới khi review xong). Bài thay
-thế: `reserve_rank` nhỏ nhất cùng nguồn/category có `hold_reason` rỗng, lấy cả
-`split_group` nếu nhóm có nhiều bài; **thay bài dev thì cả nhóm phải có
-`has_sapo=True`** (bỏ qua bài không sapo).
+`category` = `(không có category)` for null-category articles (never
+selected). `reserve_rank` starts at 1 within each (`source`, `category`),
+continuing the split step's seeded order. `has_sapo` (`True`/`False`) as in the
+clean table. `hold_reason` empty = usable; `no_category` = the group has a
+null-category article; `pending_dedup_review_with_unseen` = the group has a
+seen article near-duplicating an unseen one with no dedup decision yet (not
+selectable until reviewed). Replacement: the smallest `reserve_rank` in the
+same source/category with an empty `hold_reason`, taking the whole
+`split_group` if it has several articles; **a dev replacement needs
+`has_sapo=True` for the whole group** (articles without sapo are skipped).
 
-Bảng blind trong `data/annotations/blind/`: `blind_dev.csv` (1.400 bài dev,
-gán trước) và `blind_train_subset_test.csv` (8.600 = subset 6.400 + test_seen
-1.000 + test_unseen 1.200), chỉ ba cột:
+Blind tables in `data/annotations/blind/`: `blind_dev.csv` (1,400 dev
+articles, labelled first) and `blind_train_subset_test.csv` (8,600 = subset
+6,400 + test_seen 1,000 + test_unseen 1,200), three columns only:
 
 ```csv
 annotation_id,title,category
 ```
 
-`annotation_id` = `A` + 5 chữ số (lấy ngẫu nhiên có seed từ 10000–99999), không
-suy ra được nguồn, split hay `record_id`; thứ tự dòng là hoán vị có seed.
-`title` là title của clean (không sửa thêm); `category` là nhóm chung đã duyệt (16 nhóm).
+`annotation_id` = `A` + 5 digits (drawn at random with a seed from
+10000–99999) and reveals nothing about source, split or `record_id`; row order
+is a seeded permutation. `title` is the clean title (no further edits);
+`category` is the approved shared group (16 groups).
 
-`data/manifests/annotation_map.csv` (nội bộ, không gửi annotator), 10.000 dòng
-sắp theo `annotation_id`:
+`data/manifests/annotation_map.csv` (internal, never sent to annotators),
+10,000 rows sorted by `annotation_id`:
 
 ```csv
 annotation_id,record_id,split,source
 ```
 
-`reports/split_counts.csv`: `source,category,split,records`, với `split` gồm
-`train`, `train_human_subset` (con của train), `dev`, `test_seen`,
+`reports/split_counts.csv`: `source,category,split,records`, where `split` is
+one of `train`, `train_human_subset` (subset of train), `dev`, `test_seen`,
 `test_unseen`, `reserve`.
 
 `category_mapping.csv`:
@@ -150,13 +171,14 @@ annotation_id,record_id,split,source
 source,category_raw,category,review_status,notes
 ```
 
-Khóa mapping là `(source, category_raw)` ở dạng đã chuẩn hóa (`html.unescape`
-+ NFC + strip); một khóa chỉ có một category chung thuộc 16 nhóm trong
-`src/ds_project/checking/categories.py`. `review_status` là `proposed`,
-`needs_review` hoặc `approved` (chỉ nhóm được đặt); category rỗng = chưa map.
-`review_status` và `notes` là metadata bổ sung của repo.
+The mapping key is `(source, category_raw)` in normalized form
+(`html.unescape` + NFC + strip); each key maps to one shared category from the
+16 groups in `src/ds_project/checking/categories.py`. `review_status` is
+`proposed`, `needs_review` or `approved` (set only by the team); an empty
+category means unmapped. `review_status` and `notes` are repo-added metadata.
 
-Bảng blind chỉ gồm `annotation_id,title,category`. Bảng ánh xạ annotation ID → record ID
-và `annotation_assignment.csv` nằm trong manifests nội bộ, không đính kèm bảng
-blind. `annotation_assignment.csv` (mục 2.2: chunk C1..C9, người P1..P9) do
-lead human annotation lập; schema chốt khi chia chunk, bước split không tạo.
+The annotation ID → record ID map and `annotation_assignment.csv` live in the
+internal manifests and are never attached to the blind tables.
+`annotation_assignment.csv` (plan §2.2: chunks C1..C9, people P1..P9) is built
+by the human annotation lead; its schema is fixed when chunks are assigned, and
+the split step does not create it.

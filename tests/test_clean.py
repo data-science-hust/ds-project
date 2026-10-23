@@ -291,7 +291,7 @@ class DedupTests(unittest.TestCase):
 
 
 def write_run(work, source, run_id, rows, selected, shortfall=0, lock=False, pilot=False):
-    """A finished crawl run under data/crawl_work/<source>/<run_id>/ (selected=None: run not finished)."""
+    """Write a crawl run directory; selected=None leaves it unfinished."""
     directory = work / source / run_id
     directory.mkdir(parents=True)
     with (directory / "articles.jsonl").open("w", encoding="utf-8") as stream:
@@ -511,7 +511,7 @@ class CleanInputTests(unittest.TestCase):
             self.assertEqual(sorted(p.name for p in (out / "reports").iterdir()),
                              sorted(["crawl_stats.csv", *BUILD.REPORT_FILES]))
             report = (out / "reports/data_report.md").read_text(encoding="utf-8")
-            self.assertIn("## 1. Crawl thô", report)
+            self.assertIn("## 1. Raw crawl", report)
             self.assertIn("## 2. Clean", report)
             funnel_rows = {r["source"]: r for r in BUILD.read_csv(out / "reports/funnel_by_source.csv")}
             self.assertEqual({k: funnel_rows["eva"][k] for k in ("run_id", "downloaded", "selected", "valid", "after_dedup")},

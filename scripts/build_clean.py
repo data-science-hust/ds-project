@@ -1,8 +1,6 @@
-"""Build the clean dataset: checks + technical fixes, category join, cross-source dedup, funnel reports.
+"""Build the clean dataset from data/raw/articles_raw.jsonl and reports/crawl_stats.csv.
 
-Reads data/raw/articles_raw.jsonl and reports/crawl_stats.csv (both from scripts/export_raw.py; never
-modified). Writes data/interim/*.csv, data/processed/articles_clean.parquet, reports/funnel_*.csv and
-reports/data_report.md; existing outputs are replaced only with --replace. Split is out of scope.
+Writes data/interim/*.csv, data/processed/articles_clean.parquet, reports/funnel_*.csv and reports/data_report.md.
 """
 
 from __future__ import annotations

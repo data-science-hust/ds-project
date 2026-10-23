@@ -67,7 +67,7 @@ def run(records, pairs, seed=7, separate=frozenset()):
 
 
 def built(records, pairs, seed=7, separate=frozenset()):
-    """Everything verify() needs, from a full in-memory build."""
+    """verify() kwargs from a full in-memory build."""
     pool = eligible_pool(records)
     groups, held = build_split_groups(records, pairs, separate)
     assignment, subset, reserve, _, _, _ = allocate(pool, groups, SOURCES, seed, held)
@@ -211,7 +211,7 @@ class AllocationTests(unittest.TestCase):
         manifest = manifest_rows(pool, assignment, subset, groups, SOURCES, 7)
         mapping, dev, rest = annotation_tables(manifest, {r["record_id"]: r for r in pool}, 7)
         self.assertEqual((len(mapping), len(dev), len(rest)), (8 * 2 + 6 * 2 + 4 * 2 + 5, 12, 29))
-        self.assertTrue(all(re.fullmatch(r"A\d{5}", m["annotation_id"]) for m in mapping))
+        self.assertTrue(all(re.fullmatch(r"A\d{5}",m["annotation_id"]) for m in mapping))
         self.assertEqual(len({m["annotation_id"] for m in mapping}), len(mapping))
         record = {m["annotation_id"]: next(r for r in pool if r["record_id"] == m["record_id"]) for m in mapping}
         self.assertTrue(all((b["title"], b["category"]) == (record[b["annotation_id"]]["title"],
@@ -239,30 +239,30 @@ class VerifyTests(unittest.TestCase):
         manifest, reserve, pool = self.ctx["manifest"], self.ctx["reserve"], self.ctx["pool"]
         first = manifest[0]
         self.fails("quota", manifest=manifest[1:], reserve=reserve + [{**first, "has_sapo": True}])
-        self.fails("đúng một lần", reserve=reserve[1:])
+        self.fails("exactly once", reserve=reserve[1:])
         train = next(r for r in manifest if r["split"] == "train")
         test = next(r for r in manifest if r["split"] == "test_seen" and r["source"] == train["source"]
                     and r["category"] == train["category"])
         joined = [{**r, "split_group": train["split_group"]} if r is test else r for r in manifest]
-        self.fails("một split", manifest=joined)
+        self.fails("belongs to one split", manifest=joined)
         pair = {"kind": "dedup_review", "record_id_a": train["record_id"], "record_id_b": test["record_id"]}
-        self.fails("hai split khác nhau", pairs=[pair])
+        self.fails("two different splits", pairs=[pair])
         dev = next(r for r in manifest if r["split"] == "dev")
-        self.fails("có sapo", pool=[{**r, "has_sapo": False} if r["record_id"] == dev["record_id"] else r
+        self.fails("has a sapo", pool=[{**r, "has_sapo": False} if r["record_id"] == dev["record_id"] else r
                                     for r in pool])
-        self.fails("có sapo", reserve=[{**r, "has_sapo": not r["has_sapo"]} for r in reserve])
+        self.fails("has a sapo", reserve=[{**r, "has_sapo": not r["has_sapo"]} for r in reserve])
         moved = next(r for r in manifest if r["is_human_subset"] and r["source"] == dev["source"])
-        self.fails("Subset human nằm trong train",
+        self.fails("human subset lies inside train",
                    manifest=[{**r, "is_human_subset": r is dev} if r is dev or r is moved else r for r in manifest])
-        self.fails("không vào split", held={dev["dup_group"]})
+        self.fails("in no split", held={dev["dup_group"]})
         unseen_dup = next(r for r in manifest if r["split"] == "test_unseen")["dup_group"]
-        self.fails("chung dup_group/split_group với bài unseen",
+        self.fails("shares a dup_group/split_group with an unseen record",
                    split_group_of={**self.ctx["split_group_of"], unseen_dup: dev["split_group"]})
-        self.fails("Nguồn unseen chỉ ở test_unseen",
+        self.fails("Unseen sources only in test_unseen",
                    sources={**SOURCES, "u1": {**SOURCES["u1"], "outlet_group": "seen"}},
                    split_group_of={**self.ctx["split_group_of"]})
         mapping = self.ctx["annotation_map"]
-        self.fails("annotation_id duy nhất",
+        self.fails("annotation_id unique",
                    annotation_map=[*mapping[:-1], {**mapping[-1], "annotation_id": mapping[0]["annotation_id"]}])
 
     def test_share_deviation_skips_columns_with_target_zero(self):
@@ -335,7 +335,7 @@ class ScriptTests(unittest.TestCase):
             self.assertEqual({r["record_id"] for r in table if r["split"] == "train" and r["is_human_subset"] == "False"},
                              {r["record_id"] for r in table if not r["annotation_id"]})
             report = (root / "a/reports/split_report.md").read_text(encoding="utf-8")
-            self.assertIn("## 7. Kiểm tra (đều đạt)", report)
+            self.assertIn("## 7. Checks (all passed)", report)
             self.assertIn("annotation_assignment.csv", report)
             reserve = BUILD.read_csv(root / "a/data/manifests/reserve_list.csv")
             self.assertEqual(list(reserve[0]), list(RESERVE_FIELDS))
@@ -359,7 +359,7 @@ class ScriptTests(unittest.TestCase):
                 outputs.append({rel: (out / rel).read_bytes() for rel in BUILD.OUTPUTS.values()})
             self.assertEqual(outputs[0], outputs[1])
             report = outputs[0]["reports/split_report.md"].decode("utf-8")
-            self.assertRegex(report, r"\| s1 \| [\d,]+ \| – \|")  # subset target 0: no deviation shown
+            self.assertRegex(report, r"\| s1 \| [\d.]+ \| – \|")  # subset target 0: no deviation shown
 
     def test_refuses_when_two_builds_differ(self):
         with tempfile.TemporaryDirectory() as directory:

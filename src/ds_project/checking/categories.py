@@ -1,8 +1,4 @@
-"""Category normalization, mapping lookup and rule-based proposals (raw -> common group).
-
-Mapping rows are proposals until the team reviews them; nothing here defaults an
-unknown key to a catch-all group.
-"""
+"""Category normalization, mapping lookup and rule-based proposals (raw -> common group); no catch-all default."""
 
 from __future__ import annotations
 
@@ -23,7 +19,7 @@ GROUPS = (TS, TG, KT, BDS, PL, GT, TT, GD, SK, DS, LD, CN, XE, DL, TV, KH)
 
 
 def normalize_category(value):
-    """Technical fix only: HTML entities, NFC, outer whitespace; empty -> None."""
+    """Unescape HTML entities, NFC, strip; empty -> None."""
     if not isinstance(value, str):
         return None
     value = unicodedata.normalize("NFC", html.unescape(value)).strip()
@@ -55,7 +51,7 @@ def load_mapping(path):
 
 
 def lookup(mapping, source, category_raw):
-    """(category, review_status, reason). Missing key or empty category -> (None, None, why), never a default."""
+    """Return (category, review_status, reason); unmapped -> (None, None, reason)."""
     if category_raw is None:
         return None, None, "missing category_raw"
     row = mapping.get((source, category_raw))
@@ -149,7 +145,7 @@ RULES = {"dantri": propose_dantri, "nhandan": propose_nhandan}
 
 
 def propose(source, category_raw):
-    """Return a mapping row proposal for a normalized key; sources without a rule get an empty category."""
+    """Mapping row proposal for a normalized key; empty category when the source has no rule."""
     rule = RULES.get(source)
     if rule is None:
         group, note = None, "no rule for this source; fill category manually"

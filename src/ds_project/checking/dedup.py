@@ -1,8 +1,6 @@
-"""Cross-source exact + near-duplicate title grouping (dup_group) and representative choice.
+"""Exact and near-duplicate title grouping (dup_group) and representative choice.
 
-Similarity is char-3gram Jaccard (JC3) on a comparison-only normalized title; the
-display title is never modified. All pairs are scored exactly via sparse binary
-matmul in chunks (no blocking).
+Similarity is char-3gram Jaccard (JC3) on a comparison-only normalized title, scored exactly over all pairs.
 """
 
 from __future__ import annotations
@@ -21,7 +19,7 @@ WORD = re.compile(r"\w+")
 
 
 def norm_title(text):
-    """NFC -> lower -> punctuation to space -> collapse whitespace (comparison key only)."""
+    """Comparison key only: NFC, lowercase, punctuation to space, collapsed whitespace."""
     text = PUNCT.sub(" ", unicodedata.normalize("NFC", text or "").lower())
     return " ".join(text.split())
 
@@ -32,7 +30,7 @@ def char3(text):
 
 
 def jc3(a, b):
-    """JC3 of two raw strings (normalized first); None when either side is empty."""
+    """JC3 of two raw strings; None when either side is empty."""
     sa, sb = set(char3(norm_title(a))) if a else set(), set(char3(norm_title(b))) if b else set()
     if not sa or not sb:
         return None
@@ -55,11 +53,7 @@ def number_conflict(a, b, mode="both_sides"):
 
 
 def similar_pairs(texts, floor, chunk_size=500):
-    """Yield (i, j, jc3) for i < j with JC3 >= floor over unique normalized texts.
-
-    Intersections are integer counts and the ratio is float64, so a pair whose exact
-    JC3 equals a threshold (e.g. 35/50 = 0.7) passes a `>=` check.
-    """
+    """Yield (i, j, jc3) for i < j with JC3 >= floor; exact ratios (35/50 = 0.7) pass `>=`."""
     if len(texts) < 2:
         return
     matrix = CountVectorizer(analyzer=char3, binary=True, dtype=np.int32).fit_transform(texts).tocsr()
@@ -104,18 +98,7 @@ def days_apart(a, b):
 
 
 def find_duplicates(records, config, decisions=()):
-    """Group records by title duplication.
-
-    records: dicts with record_id, source, title, sapo, published_sort (epoch seconds).
-    decisions: dicts with record_id_a, record_id_b, decision ('link'|'separate').
-    Returns (group_of, auto_pairs, review_pairs, template_pairs, notes).
-
-    Near links (non-exact) also need |published_at gap| <= near_link_max_days. Auto
-    links are applied in a fixed order (exact first, then JC3 desc) with cannot-link
-    constraints: a link is refused when it would put two records with a number
-    conflict, or a manual 'separate' pair, into one group (no bridging through a
-    third title). Manual 'link' decisions are applied last and always honoured.
-    """
+    """Return (group_of, auto_pairs, review_pairs, template_pairs, notes); manual 'link' decisions always win."""
     by_id = {r["record_id"]: r for r in records}
     pattern, mode = config["number_pattern"], config["number_conflict"]
     window = config.get("near_link_max_days")
@@ -174,6 +157,8 @@ def find_duplicates(records, config, decisions=()):
         return number_conflict(numbers[x], numbers[y], mode) or tuple(sorted((x, y))) in separate
 
     union = UnionFind(by_id)
+    # Exact links first, then JC3 desc; a link that would join a number conflict or a
+    # 'separate' pair into one group is refused, so no bridging through a third title.
     auto.sort(key=lambda r: (r["rule"] != "exact_norm_title", -r["jc3"], r["record_id_a"], r["record_id_b"]))
     for row in auto:
         a, b = row["record_id_a"], row["record_id_b"]
@@ -224,12 +209,7 @@ def find_duplicates(records, config, decisions=()):
 
 
 def choose_representatives(records, group_of, unseen_sources):
-    """Return {record_id: (is_representative, excluded_reason)}.
-
-    Group with an unseen-source record: keep one unseen copy (earliest published_at,
-    then record_id); every seen copy -> 'duplicate_of_unseen'. Otherwise keep the
-    earliest published_at, then record_id; the rest -> 'duplicate_in_group'.
-    """
+    """Return {record_id: (is_representative, excluded_reason)}; earliest copy wins, unseen sources first."""
     groups = defaultdict(list)
     for record in records:
         groups[group_of[record["record_id"]][0]].append(record)

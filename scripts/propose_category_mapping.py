@@ -1,9 +1,6 @@
-"""Append proposed rows to category_mapping.csv for (source, category_raw) keys not yet listed.
+"""Append proposed rows to category_mapping.csv for unlisted (source, category_raw) keys.
 
-Existing rows are never changed. dantri/nhandan use rule-based proposals; other
-sources get an empty category with review_status=needs_review for manual mapping.
-Keys come from data/raw/articles_raw.jsonl; --all-rows uses every downloaded article's
-category from reports/crawl_stats.csv (downloaded_by_category).
+Existing rows are never changed; sources without a rule get an empty category marked needs_review.
 """
 
 from __future__ import annotations
@@ -23,7 +20,7 @@ from ds_project.checking.clean import read_crawl_stats, read_csv, read_raw
 
 
 def new_rows(mapping, counts):
-    """counts: Counter of (source, raw category). Returns proposals for unseen normalized keys."""
+    """Proposals for (source, raw category) counts whose normalized key is not in mapping."""
     keys = Counter()
     for (source, raw), count in counts.items():
         key = normalize_category(raw)
