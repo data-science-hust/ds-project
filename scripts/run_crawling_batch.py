@@ -1,6 +1,6 @@
-"""Run the approved outlet crawl to quota, several outlets in parallel.
+"""Run the outlet crawl to quota, several outlets in parallel.
 
-Batch status and per-source console logs: data/crawl_work/_batches/<run_id>/.
+Writes batch status and per-source console logs to data/crawl_work/_batches/<run_id>/.
 """
 
 import argparse

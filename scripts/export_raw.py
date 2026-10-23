@@ -1,13 +1,6 @@
-"""Export the final raw dataset from the finished crawl runs (only reads data/crawl_work).
+"""Export the final raw dataset from the runs in configs/crawling/final_runs.json (data/crawl_work is only read).
 
-For each source (sources.csv order) the run in configs/crawling/final_runs.json gives the
-selected records (selected_record_ids.csv order) with exactly the nine plan fields. A declared
-sapo re-fetch fills sapo only where the crawl row has none and the re-fetch status is
-'sapo_recovered'; extraction_status of a filled row is recomputed with the crawler's rule.
-
-Writes data/raw/articles_raw.jsonl and reports/crawl_stats.csv (replace only with --replace).
-Refuses locked (.running), unfinished, pilot or under-target runs (selected < raw_targets in
-run.json) and unfinished sapo re-fetches.
+Writes data/raw/articles_raw.jsonl and reports/crawl_stats.csv; refuses locked, unfinished, pilot or under-target runs.
 """
 
 from __future__ import annotations
@@ -42,11 +35,7 @@ def read_jsonl(path):
 
 
 def export_run(directory, refetch_id=None):
-    """Return (selected records with nine fields, stats). Raises ValueError for a run that is not usable.
-
-    downloaded = distinct record_id with extraction_status success/partial and a non-empty title over
-    all attempts; titleless success/partial rows are counted as downloaded_without_title.
-    """
+    """Return (selected records, stats); ValueError for an unusable run."""
     if not directory.is_dir():
         raise ValueError("run directory not found")
     if (directory / ".running").exists():
@@ -71,6 +60,7 @@ def export_run(directory, refetch_id=None):
             if set(row) != set(ARTICLE_FIELDS):
                 raise ValueError(f"record {rid}: fields differ from the nine plan fields")
             by_id[rid] = row
+        # downloaded counts every attempt, not only selected rows; titleless ones go to downloaded_without_title.
         if row.get("extraction_status") in DOWNLOADED_STATUSES and isinstance(rid, str):
             title = row.get("title")
             if isinstance(title, str) and title.strip():
@@ -94,6 +84,7 @@ def export_run(directory, refetch_id=None):
     records, missing_sapo_before = [], 0
     for rid in selected:
         record = {field: by_id[rid][field] for field in ARTICLE_FIELDS}
+        # A re-fetch only fills a missing sapo; the status is recomputed with the crawler's rule.
         if not record["sapo"]:
             missing_sapo_before += 1
             if rid in recovered:

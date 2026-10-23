@@ -1,10 +1,10 @@
-# Mapping category (đã duyệt 23/10/2026)
+# Category mapping (approved 2026-10-23)
 
-Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/category_mapping.csv` (647 dòng, tất cả `approved`). Quy tắc: chọn nhóm theo nội dung chiếm đa số của tiêu đề trong mục; "Tử vi - Phong thủy" tách riêng; "Khác" chỉ cho mục PR/quảng cáo, mục định dạng (video) hoặc mục không có chủ đề đa số.
+Counted over 29,434 articles after cleaning and dedup. Source: `configs/crawling/category_mapping.csv` (647 rows, all `approved`). Rules: each raw category maps to the group that covers the majority of its titles; "Tử vi - Phong thủy" is its own group; "Khác" is only for PR/advertorial sections, format sections (video), or sections with no majority topic.
 
-## 16 nhóm chung
+## The 16 shared groups
 
-| Nhóm | Tổng | Seen | Unseen |
+| Group | Total | Seen | Unseen |
 | --- | ---: | ---: | ---: |
 | Thời sự - Xã hội | 6,079 | 5,647 | 432 |
 | Đời sống - Gia đình | 4,379 | 4,358 | 21 |
@@ -22,11 +22,11 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Bất động sản | 588 | 578 | 10 |
 | Khác | 537 | 422 | 115 |
 | Xe | 257 | 241 | 16 |
-| (không có category) | 4 | 4 | 0 |
+| (no category) | 4 | 4 | 0 |
 
-## afamily — 3,393 bài, 18 category gốc
+## afamily — 3,393 articles, 18 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Hậu trường | 639 | Giải trí - Văn hóa |
 | Xã hội | 500 | Thời sự - Xã hội |
@@ -47,9 +47,9 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Fashion | 2 | Làm đẹp - Thời trang |
 | Thị trường | 1 | Kinh tế - Tài chính |
 
-## 2sao — 3,436 bài, 9 category gốc
+## 2sao — 3,436 articles, 9 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Xã Hội | 741 | Thời sự - Xã hội |
 | Đời sống | 720 | Đời sống - Gia đình |
@@ -61,9 +61,9 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Phim | 41 | Giải trí - Văn hóa |
 | Nhạc | 26 | Giải trí - Văn hóa |
 
-## eva — 3,319 bài, 16 category gốc
+## eva — 3,319 articles, 16 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Tin tức | 858 | Thời sự - Xã hội |
 | Giải trí | 346 | Giải trí - Văn hóa |
@@ -82,9 +82,9 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Alo bác sĩ | 13 | Sức khỏe |
 | Oái oăm | 7 | Khác |
 
-## kenh14 — 3,435 bài, 22 category gốc
+## kenh14 — 3,435 articles, 22 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Xã hội | 598 | Thời sự - Xã hội |
 | Sức khỏe | 420 | Sức khỏe |
@@ -109,9 +109,9 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Hậu Trường | 2 | Giải trí - Văn hóa |
 | Trẻ - Khỏe - đẹp | 2 | Sức khỏe |
 
-## cafef — 3,415 bài, 13 category gốc
+## cafef — 3,415 articles, 13 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Sống | 624 | Đời sống - Gia đình |
 | Lifestyle | 492 | Đời sống - Gia đình |
@@ -127,9 +127,9 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Smart Money | 55 | Kinh tế - Tài chính |
 | Doanh nghiệp giới thiệu | 37 | Khác |
 
-## thanhnien — 3,456 bài, 105 category gốc
+## thanhnien — 3,456 articles, 105 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Thời sự | 499 | Thời sự - Xã hội |
 | Thế giới | 292 | Thế giới |
@@ -237,9 +237,9 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Đại hội XI Mặt trận tổ quốc Việt Nam | 1 | Thời sự - Xã hội |
 | Đánh giá xe | 1 | Xe |
 
-## tuoitre — 3,494 bài, 53 category gốc
+## tuoitre — 3,494 articles, 53 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Thời sự | 453 | Thời sự - Xã hội |
 | Thể thao | 441 | Thể thao |
@@ -295,9 +295,9 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Điện ảnh | 1 | Giải trí - Văn hóa |
 | Ẩm thực | 1 | Du lịch - Ẩm thực |
 
-## dantri — 3,491 bài, 129 category gốc
+## dantri — 3,491 articles, 129 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Thời sự | 351 | Thời sự - Xã hội |
 | Pháp luật | 298 | Pháp luật |
@@ -429,9 +429,9 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Đời sống, Cuộc thi ảnh Việt Nam trong tôi | 1 | Đời sống - Gia đình |
 | Đời sống, Giới trẻ | 1 | Đời sống - Gia đình |
 
-## saostar — 500 bài, 13 category gốc
+## saostar — 500 articles, 13 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Phim ảnh | 173 | Giải trí - Văn hóa |
 | Sao | 84 | Giải trí - Văn hóa |
@@ -447,9 +447,9 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Ăn - Chơi | 5 | Du lịch - Ẩm thực |
 | Học đường | 4 | Giáo dục |
 
-## yan — 500 bài, 7 category gốc
+## yan — 500 articles, 7 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Sao | 133 | Giải trí - Văn hóa |
 | Nhạc | 128 | Giải trí - Văn hóa |
@@ -459,9 +459,9 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Chất | 41 | Khác |
 | Đời | 4 | Khác |
 
-## vietnamnet — 500 bài, 74 category gốc
+## vietnamnet — 500 articles, 74 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Thể thao | 47 | Thể thao |
 | Tài chính | 26 | Kinh tế - Tài chính |
@@ -538,9 +538,9 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Đại hội Đảng | 1 | Thời sự - Xã hội |
 | Đời sống tôn giáo | 1 | Thời sự - Xã hội |
 
-## nhandan — 491 bài, 185 category gốc
+## nhandan — 491 articles, 185 raw categories
 
-| Category gốc | Số bài | Nhóm |
+| Raw category | Articles | Group |
 | --- | ---: | --- |
 | Chính trị | 29 | Thời sự - Xã hội |
 | Kinh tế | 24 | Kinh tế - Tài chính |
@@ -728,4 +728,4 @@ Tính trên 29,434 bài sau clean + bỏ trùng. Nguồn: `configs/crawling/cate
 | Ảnh,Văn hóa | 1 | Giải trí - Văn hóa |
 | Ảnh,Xã hội | 1 | Thời sự - Xã hội |
 
-Lý do quyết định cho từng dòng từng cần review nằm ở cột `notes` của file CSV.
+The rationale for every row that needed review is in the CSV `notes` column.

@@ -1,10 +1,4 @@
-"""Group-aware stratified split, reserve list and blind annotation tables (plan 1.2).
-
-Input is the clean table (data/processed/articles_clean.parquet), the near-duplicate pairs the clean step
-listed but did not merge (data/interim/{template_series,dedup_review,dedup_pairs}.csv) and the manual dedup
-decisions (configs/checking/dedup_decisions.csv); all are only read. Everything is deterministic for one seed: the
-string seeds of random.Random are hashed with SHA-512, so results do not depend on PYTHONHASHSEED.
-"""
+"""Group-aware stratified split, reserve list and blind annotation tables, deterministic for a seed."""
 
 from __future__ import annotations
 
@@ -30,13 +24,11 @@ BLIND_FIELDS = ("annotation_id", "title", "category")
 
 
 class SplitError(ValueError):
-    """The pool or the quotas do not allow the exact split; the message carries the numbers."""
+    """The pool or the quotas do not allow the exact split."""
 
 
 def largest_remainder(total, counts):
-    """Split integer `total` over keys proportionally to `counts` (exact integer arithmetic).
-
-    Floors first; the leftover units go to the largest remainders, ties broken by key name."""
+    """Split integer `total` proportionally to `counts`; leftovers go to the largest remainders, ties by key."""
     size = sum(counts.values())
     if not total:
         return {key: 0 for key in counts}
@@ -50,7 +42,7 @@ def largest_remainder(total, counts):
 
 
 def eligible_pool(records):
-    """Dup representatives without dedup exclusion; refuses categories whose mapping is not approved."""
+    """Dup representatives without a dedup exclusion; raises if a category mapping is not approved."""
     pool = [r for r in records if r["is_dup_representative"] and not r["dedup_excluded_reason"]]
     bad = Counter((r["source"], r["category"], r["category_mapping_status"]) for r in pool
                   if r["category"] is not None and r["category_mapping_status"] != "approved")
@@ -62,10 +54,7 @@ def eligible_pool(records):
 
 
 def unmerged_pairs(records, pairs_by_kind):
-    """Near-duplicate pairs whose records the clean step left in different dup_groups.
-
-    `pairs_by_kind` is {kind: rows with record_id_a/record_id_b} (template_series.csv, dedup_review.csv,
-    dedup_pairs.csv); returns [{kind, record_id_a, record_id_b}] sorted, one row per record pair."""
+    """Sorted [{kind, record_id_a, record_id_b}] of listed pairs left in different dup_groups, one per pair."""
     group_of = {r["record_id"]: r["dup_group"] for r in records}
     found = {}
     for kind in PAIR_KINDS:
@@ -81,21 +70,15 @@ def unmerged_pairs(records, pairs_by_kind):
 
 
 def record_sides(records):
-    """{record_id: outlet_group of its dup_group's representative} (seen/unseen side used for pairs)."""
+    """{record_id: outlet_group of its dup_group's representative}."""
     side = {r["dup_group"]: r["outlet_group"] for r in records}
     side.update({r["dup_group"]: r["outlet_group"] for r in records if r["is_dup_representative"]})
     return {r["record_id"]: side[r["dup_group"]] for r in records}
 
 
 def build_split_groups(records, pairs, separate=frozenset()):
-    """({dup_group: split_group}, {held dup_group}) from the unmerged near-duplicate pairs.
-
-    dup_groups linked by a pair on the same outlet side share one split_group (union-find), so near-identical
-    titles never sit in two splits. A seen-unseen pair cannot share a split: unless the pair was decided
-    'separate' (`separate` = {sorted record_id pair}), the seen side is held out of the splits until the dedup
-    review decides it (a 'link' would exclude it as duplicate_of_unseen). `records` are all clean rows (a pair
-    may name a non-representative; its dup_group is used, and the side is that of the group's representative,
-    so a seen copy inside an unseen-led dup_group counts as unseen)."""
+    """({dup_group: split_group}, held dup_groups): same-side pairs share a split_group; the seen side of a
+    seen-unseen pair not in `separate` (sorted record_id pairs) is held. Sides follow record_sides()."""
     group_of = {r["record_id"]: r["dup_group"] for r in records}
     outlet_of = record_sides(records)
     parent, held = {}, set()
@@ -134,9 +117,7 @@ def stratum(record):
 
 
 def plan_quotas(selectable, sources):
-    """{(source, split, category): records} with largest-remainder shares of the selectable records per source.
-
-    `sources` is {source: sources.csv row} in config order; `selectable` excludes null-category and held units."""
+    """{(source, split, category): records}, largest-remainder shares of each source's selectable records."""
     counts = defaultdict(Counter)
     for r in selectable:
         counts[r["source"]][r["category"]] += 1
@@ -167,9 +148,7 @@ def plan_quotas(selectable, sources):
 
 
 def cell_orders(units, seed, salt=""):
-    """{(source, stratum): [split_group, ...]} shuffled with Random(f"{seed}:{source}:{stratum}{salt}").
-
-    `units` is {split_group: member records}; a unit appears in every cell it has a record in."""
+    """{(source, stratum): [split_group, ...]} in seeded order; a unit is in every cell it has a record in."""
     cells = defaultdict(set)
     for unit, members in units.items():
         for r in members:
@@ -177,14 +156,13 @@ def cell_orders(units, seed, salt=""):
     orders = {}
     for (source, category), group_ids in sorted(cells.items()):
         order = sorted(group_ids)
-        Random(f"{seed}:{source}:{category}{salt}").shuffle(order)
+        Random(f"{seed}:{source}:{category}{salt}").shuffle(order)  # str seed: independent of PYTHONHASHSEED
         orders[(source, category)] = order
     return orders
 
 
 def walk_order(orders, source_rank):
-    """All units in one sequence: each cell advances at the same relative pace (a unit is reached at its
-    earliest fractional position over its cells), so units spanning cells compete fairly for capacity."""
+    """All units ordered by their earliest relative position over their cells, so multi-cell units compete fairly."""
     first = {}
     for (source, category), order in orders.items():
         for index, unit in enumerate(order):
@@ -211,10 +189,7 @@ def fill(split, walk, units, quotas, taken, require_sapo=False):
 
 
 def allocate(pool, split_group_of, sources, seed, held=frozenset()):
-    """Assign split_groups to splits with exact record quotas; units with a held dup_group or a null category
-    are not selectable and stay in reserve with a hold_reason.
-
-    Returns (assignment {record_id: split}, subset {record_id}, reserve rows, quotas, units, selectable ids)."""
+    """-> (assignment {record_id: split}, subset ids, reserve rows, quotas, units, selectable ids); exact quotas."""
     source_rank = {source: i for i, source in enumerate(sources)}
     units = defaultdict(list)
     for r in sorted(pool, key=lambda r: r["record_id"]):
@@ -283,10 +258,7 @@ def human_scope(manifest):
 
 
 def annotation_tables(manifest, records, seed):
-    """(annotation map, blind dev rows, blind subset+test rows) for the human scope; records maps record_id -> record.
-
-    The scope is ordered by record_id then shuffled with its own seed; IDs are 'A' + a seeded sample of
-    10000..99999, so neither the ID nor the row order follows source, category, split or record_id."""
+    """(annotation map, blind dev rows, blind subset+test rows); IDs and row order are seeded, not sequential."""
     scope = sorted(human_scope(manifest), key=lambda r: r["record_id"])
     Random(f"{seed}:annotation_order").shuffle(scope)
     numbers = Random(f"{seed}:annotation_id").sample(range(10000, 100000), len(scope))
@@ -301,7 +273,7 @@ def annotation_tables(manifest, records, seed):
 
 def verify(records, pool, manifest, reserve, annotation_map, blind, sources, split_group_of, pairs=(),
            separate=frozenset(), held=frozenset()):
-    """Integrity checks; raises SplitError on the first failure, returns the list of passed checks."""
+    """Integrity checks; raises SplitError on the first failure, else returns the passed check texts."""
     passed = []
 
     def check(ok, text, failure):
@@ -315,10 +287,10 @@ def verify(records, pool, manifest, reserve, annotation_map, blind, sources, spl
              if counts[(s, sp)] != int(row[TARGETS[sp]])]
     wrong += [f"{s}/human_subset: {subset[s]} != {row[TARGETS[SUBSET]]}" for s, row in sources.items()
               if subset[s] != int(row[TARGETS[SUBSET]])]
-    check(not wrong, "Số bài đúng quota theo nguồn × split và subset human", "; ".join(wrong[:5]))
+    check(not wrong, "Record counts match the quotas per source × split and the human subset", "; ".join(wrong[:5]))
     ids = [r["record_id"] for r in manifest] + [r["record_id"] for r in reserve]
     check(len(ids) == len(set(ids)) and set(ids) == {r["record_id"] for r in pool},
-          "Mỗi bài đủ điều kiện nằm đúng một lần trong manifest hoặc reserve", "record_id duplicated or missing")
+          "Each eligible record appears exactly once in the manifest or the reserve", "record_id duplicated or missing")
     by_unit, by_dup = defaultdict(set), defaultdict(set)
     for r in manifest:
         by_unit[r["split_group"]].add(r["split"])
@@ -326,15 +298,16 @@ def verify(records, pool, manifest, reserve, annotation_map, blind, sources, spl
     split_of_unit = {u: next(iter(s)) for u, s in by_unit.items()}
     leaked = [u for u in (r["split_group"] for r in reserve) if u in split_of_unit]
     check(all(len(s) == 1 for s in by_unit.values()) and all(len(s) == 1 for s in by_dup.values()) and not leaked,
-          "Mỗi split_group/dup_group chỉ thuộc một split (không tách giữa split và reserve)",
+          "Each split_group/dup_group belongs to one split (never divided between a split and the reserve)",
           f"{sum(len(s) > 1 for s in by_unit.values())} split_groups span splits, {len(leaked)} split into reserve")
     outlet = {s: row["outlet_group"] for s, row in sources.items()}
     dup_outlets = defaultdict(set)
     for r in records:
         dup_outlets[split_group_of[r["dup_group"]]].add(outlet[r["source"]])
     bad = [u for u, split in split_of_unit.items() if split != "test_unseen" and "unseen" in dup_outlets[u]]
-    check(not bad, "Không bài nào trong train/dev/test_seen chung dup_group/split_group với bài unseen (bản seen "
-          "trùng unseen đã bị loại ở bước clean)", f"{len(bad)} seen split_groups touch an unseen record")
+    check(not bad, "No train/dev/test_seen record shares a dup_group/split_group with an unseen record (seen "
+          "copies of unseen records were excluded in the clean step)", f"{len(bad)} seen split_groups touch an "
+          "unseen record")
     group_of = {r["record_id"]: r["dup_group"] for r in records}
     split_of_dup = {r["dup_group"]: r["split"] for r in manifest}
     crossing = []
@@ -342,24 +315,25 @@ def verify(records, pool, manifest, reserve, annotation_map, blind, sources, spl
         a, b = (split_of_dup.get(group_of[p[k]]) for k in ("record_id_a", "record_id_b"))
         if a and b and a != b and tuple(sorted((p["record_id_a"], p["record_id_b"]))) not in separate:
             crossing.append(p["kind"])
-    check(not crossing, "Không cặp gần trùng chưa gộp nào (chuỗi template, `dedup_review.csv`, liên kết bị chặn trong "
-          "`dedup_pairs.csv`; trừ cặp đã quyết định `separate`) có hai bài ở hai split khác nhau",
+    check(not crossing, "No unmerged near-duplicate pair (template series, `dedup_review.csv`, blocked links in "
+          "`dedup_pairs.csv`; except pairs decided `separate`) has its records in two different splits",
           f"{len(crossing)} pairs cross splits ({dict(Counter(crossing))})")
-    check(not any(split_of_dup.get(g) for g in held), "Bài seen có cặp gần trùng chưa review với bài unseen không vào "
-          "split nào (giữ trong reserve)", "held dup_group selected")
-    check(all(r["split"] == "train" for r in manifest if r["is_human_subset"]), "Subset human nằm trong train",
+    check(not any(split_of_dup.get(g) for g in held), "Seen records with an unreviewed near-duplicate pair with an "
+          "unseen record are in no split (held in reserve)", "held dup_group selected")
+    check(all(r["split"] == "train" for r in manifest if r["is_human_subset"]), "The human subset lies inside train",
           "subset record outside train")
     has_sapo = {r["record_id"]: r["has_sapo"] for r in pool}
     check(all(has_sapo[r["record_id"]] for r in manifest if r["split"] == "dev")
           and all(r["has_sapo"] == has_sapo[r["record_id"]] for r in reserve),
-          "Mọi bài dev có sapo; cột has_sapo của reserve khớp bảng clean", "dev record without sapo or reserve mismatch")
+          "Every dev record has a sapo; the reserve has_sapo column matches the clean table",
+          "dev record without sapo or reserve mismatch")
     check(all(outlet[r["source"]] == ("unseen" if r["split"] == "test_unseen" else "seen") for r in manifest),
-          "Nguồn unseen chỉ ở test_unseen, nguồn seen không ở test_unseen", "outlet/split mismatch")
+          "Unseen sources only in test_unseen, seen sources never in test_unseen", "outlet/split mismatch")
     scope = {r["record_id"] for r in human_scope(manifest)}
     mapped = [m["record_id"] for m in annotation_map]
     annotation_ids = [m["annotation_id"] for m in annotation_map]
     blind_ids = [b["annotation_id"] for rows in blind for b in rows]
     check(len(mapped) == len(set(mapped)) and set(mapped) == scope and len(set(annotation_ids)) == len(mapped)
           and sorted(blind_ids) == sorted(annotation_ids),
-          "Bảng blind và annotation_map phủ đúng phạm vi human, annotation_id duy nhất", "mismatch")
+          "Blind tables and annotation_map cover exactly the human scope, annotation_id unique", "mismatch")
     return passed

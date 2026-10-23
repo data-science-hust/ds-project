@@ -1,12 +1,6 @@
-"""Build the split (plan 1.2): manifest, reserve list, blind annotation tables, split report.
+"""Build the split from the clean outputs: manifests, dataset.csv, blind annotation tables, split report.
 
-Reads data/processed/articles_clean.parquet and data/interim/{template_series,dedup_review,dedup_pairs}.csv
-(from scripts/build_clean.py; never modified), configs/checking/dedup_decisions.csv and the seed in
-configs/crawling/run.json. Near-duplicate pairs that clean did not merge share a split_group (seen-unseen
-pairs not decided 'separate': the seen record is held in reserve). Writes
-data/manifests/{split_manifest,reserve_list,annotation_map}.csv, data/processed/dataset.csv, data/annotations/blind/*.csv and
-reports/split_{report.md,counts.csv}; existing outputs are replaced only with --replace. The build runs
-twice in memory and must give byte-identical outputs. annotation_assignment.csv (plan 2.2) is not built here.
+Existing outputs are overwritten only with --replace; two in-memory builds must be byte-identical.
 """
 
 from __future__ import annotations
@@ -37,7 +31,7 @@ OUTPUTS = {"manifest": "data/manifests/split_manifest.csv", "reserve": "data/man
            "dataset": "data/processed/dataset.csv"}
 RECORD_COLUMNS = ("record_id", "source", "outlet_group", "title", "category", "category_mapping_status", "dup_group",
                   "is_dup_representative", "dedup_excluded_reason", "has_sapo", "sapo", "url", "published_at")
-# One ready-to-use table of the 23,600 split records; annotation_id is set for the 10,000 human-scope rows.
+# All split records in one table; annotation_id is empty outside the human scope.
 DATASET_FIELDS = ("record_id", "annotation_id", "split", "is_human_subset", "source", "outlet_group", "category",
                   "title", "sapo", "published_at", "url", "dup_group")
 
@@ -73,7 +67,7 @@ def read_records(path):
 
 
 def pair_stats(records, listed, pairs, separate, manifest, held):
-    """Per pair kind: rows listed, unmerged pairs, linked in a split_group, seen-unseen held / separate."""
+    """Per pair kind: listed, unmerged, linked, seen-unseen held/separate, split apart."""
     outlet = record_sides(records)
     group_of = {r["record_id"]: r["dup_group"] for r in records}
     split_of = {group_of[r["record_id"]]: r["split"] for r in manifest}
@@ -93,7 +87,7 @@ def pair_stats(records, listed, pairs, separate, manifest, held):
 
 
 def build(records, pairs_by_kind, decisions, sources, seed, inputs):
-    """-> ({output key: text}, summary). Pure function of its inputs."""
+    """-> ({output key: text}, summary); pure function of its inputs."""
     unknown = sorted({r["source"] for r in records} - set(sources))
     wrong_outlet = sorted({r["source"] for r in records if r["source"] in sources
                            and r["outlet_group"] != sources[r["source"]]["outlet_group"]})
@@ -109,8 +103,8 @@ def build(records, pairs_by_kind, decisions, sources, seed, inputs):
     annotation_map, blind_dev, blind_rest = annotation_tables(manifest, record_of, seed)
     checks = verify(records, pool, manifest, reserve, annotation_map, (blind_dev, blind_rest), sources,
                     split_group_of, pairs, separate, held)
-    checks.append("Xác định: build hai lần từ cùng input cho output giống hệt từng byte (khác thì script dừng, "
-                  "không ghi file)")
+    checks.append("Deterministic: two builds from the same inputs give byte-identical outputs (otherwise the "
+                  "script stops without writing files)")
     multi = {u: m for u, m in units.items() if len(m) > 1}
     unit_split = {r["split_group"]: r["split"] for r in manifest}
     placement = Counter()

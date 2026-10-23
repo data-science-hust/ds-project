@@ -1,8 +1,6 @@
-"""Re-fetch selected articles whose sapo is missing, writing a supplement beside the untouched crawl run.
+"""Re-fetch selected articles missing a sapo; the crawl run itself is left untouched.
 
-Output: data/crawl_work/<source>/<run_id>/sapo_refetch/<refetch_id>/ (request journal in journal/).
-scripts/export_raw.py applies it to data/raw/articles_raw.jsonl when listed in
-configs/crawling/final_runs.json under sapo_supplements.
+Writes data/crawl_work/<source>/<run_id>/sapo_refetch/<refetch_id>/ (used via final_runs.json sapo_supplements).
 """
 
 from __future__ import annotations

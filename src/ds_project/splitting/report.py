@@ -1,4 +1,4 @@
-"""reports/split_report.md and reports/split_counts.csv (Vietnamese report, no timestamp: byte-identical reruns)."""
+"""reports/split_report.md and reports/split_counts.csv (no timestamp, so reruns are byte-identical)."""
 
 from __future__ import annotations
 
@@ -8,22 +8,21 @@ from .split import HOLD_NO_CATEGORY, HOLD_UNSEEN, NO_CATEGORY, PAIR_KINDS, SPLIT
 
 COLUMNS = {"seen": ("train", SUBSET, "dev", "test_seen", "reserve"), "unseen": ("test_unseen", "reserve")}
 SHARE_COLUMNS = ("train", SUBSET, "dev", "test_seen", "test_unseen")
-LABEL = {"train": "train", SUBSET: "subset human", "dev": "dev", "test_seen": "test_seen",
+LABEL = {"train": "train", SUBSET: "human subset", "dev": "dev", "test_seen": "test_seen",
          "test_unseen": "test_unseen", "reserve": "reserve"}
 COUNT_LABEL = {SUBSET: "train_human_subset"}
-PAIR_LABEL = {"template_series": "Chuỗi template cùng nguồn (`template_series.csv`)",
-              "dedup_review": "Cặp cần review (`dedup_review.csv`)",
-              "dedup_blocked": "Liên kết bị chặn (`dedup_pairs.csv`, applied=False)"}
+PAIR_LABEL = {"template_series": "Same-source template series (`template_series.csv`)",
+              "dedup_review": "Pairs to review (`dedup_review.csv`)",
+              "dedup_blocked": "Blocked links (`dedup_pairs.csv`, applied=False)"}
 
 
 def num(n):
-    """Vietnamese integer: thousands separated by '.'."""
-    return f"{n:,}".replace(",", ".")
+    """Integer with ',' as thousands separator."""
+    return f"{n:,}"
 
 
 def dec(x, digits=2):
-    """Vietnamese decimal: ',' as decimal mark."""
-    return f"{x:.{digits}f}".replace(".", ",")
+    return f"{x:.{digits}f}"
 
 
 def _pct(part, whole):
@@ -31,7 +30,7 @@ def _pct(part, whole):
 
 
 def cell_counts(manifest, reserve):
-    """Counter[(source, category, column)] where column is a split, human_subset or reserve."""
+    """Counter[(source, category, column)]; column is a split, human_subset or reserve."""
     counts = Counter()
     for r in manifest:
         counts[(r["source"], r["category"], r["split"])] += 1
@@ -55,9 +54,7 @@ def split_count_rows(sources, pool, manifest, reserve):
 
 
 def share_deviation(sources, pool, manifest, selectable):
-    """{source: {column: max |share in column - share in selectable pool|}} over categories.
-
-    Columns with no selected record (target 0) are left out."""
+    """{source: {column: max over categories of |share - selectable-pool share|}}; empty columns omitted."""
     counts = cell_counts(manifest, [])
     result = {}
     for source in sources:
@@ -73,26 +70,26 @@ def share_deviation(sources, pool, manifest, selectable):
 
 
 def quota_text(sources):
-    """Quota sentence and human scope derived from sources.csv (sources with the same targets share a line)."""
+    """Quota sentence from sources.csv; sources with the same targets are listed together."""
     profiles = defaultdict(list)
     for source, row in sources.items():
         profiles[(row["outlet_group"], *(int(row[TARGETS[c]]) for c in (*SPLITS, SUBSET)))].append(source)
     parts = []
     for (outlet, train, dev, test_seen, test_unseen, subset), names in profiles.items():
-        terms = [f"train {num(train)}" + (f" (subset human {num(subset)})" if subset else "")] if train else []
+        terms = [f"train {num(train)}" + (f" (human subset {num(subset)})" if subset else "")] if train else []
         terms += [f"{label} {num(n)}" for label, n in (("dev", dev), ("test_seen", test_seen),
                                                          ("test_unseen", test_unseen)) if n]
-        who = f"mỗi nguồn {outlet} ({len(names)} nguồn: {', '.join(names)})"
+        who = f"each {outlet} source ({len(names)} sources: {', '.join(names)})"
         parts.append(f"{who}: {num(train + dev + test_seen + test_unseen)} = " + " + ".join(terms or ["0"]))
     scope = {c: sum(int(row[TARGETS[c]]) for row in sources.values()) for c in (SUBSET, "dev", "test_seen",
                                                                                  "test_unseen")}
-    return ("Quota theo `configs/crawling/sources.csv`: " + "; ".join(parts) + f". Phạm vi human "
+    return ("Quotas from `configs/crawling/sources.csv`: " + "; ".join(parts) + f". Human scope "
             f"{num(sum(scope.values()))} = subset {num(scope[SUBSET])} + dev {num(scope['dev'])} + test_seen "
             f"{num(scope['test_seen'])} + test_unseen {num(scope['test_unseen'])}.")
 
 
 def bound_text(sources):
-    """Rounding bound 1/quota (percentage points) per column, from the smallest non-zero target."""
+    """Rounding bound 1/quota (percentage points) per column, from its smallest non-zero target."""
     bounds = []
     for column in SHARE_COLUMNS:
         targets = [int(row[TARGETS[column]]) for row in sources.values() if int(row[TARGETS[column]])]
@@ -112,20 +109,20 @@ def render(ctx):
     unseen = [s for s, row in sources.items() if row["outlet_group"] == "unseen"]
     null_rows = Counter(r["source"] for r in pool if r["category"] is None)
     held_rows = Counter(r["source"] for r in reserve if r["hold_reason"] == HOLD_UNSEEN)
-    lines = ["# Báo cáo chia tập (split)", "",
-             f"Sinh bởi `scripts/build_split.py`, seed **{ctx['seed']}** (`configs/crawling/run.json`). Không ghi thời "
-             "điểm chạy để hai lần chạy cho output giống hệt từng byte. Số viết theo kiểu Việt Nam (nghìn `.`, thập "
-             "phân `,`); các file CSV dùng số thô.", "",
-             "Input (chỉ đọc):", ""]
+    lines = ["# Split report", "",
+             f"Generated by `scripts/build_split.py`, seed **{ctx['seed']}** (`configs/crawling/run.json`). No run "
+             "timestamp, so two runs give byte-identical output. The CSV files use raw numbers.", "",
+             "Inputs (read only):", ""]
     lines += [f"- `{name}`: SHA-256 `{digest}`" for name, digest in ctx["inputs"]]
-    lines += ["", "## 1. Pool đủ điều kiện", "",
-              "Đủ điều kiện = đại diện nhóm trùng (`is_dup_representative`) và không có `dedup_excluded_reason`. "
-              "Mọi category khác null đều có mapping `approved` (script từ chối chạy nếu không). Không chọn được: bài "
-              f"có category null (nằm trong reserve với stratum `{NO_CATEGORY}`, `hold_reason={HOLD_NO_CATEGORY}`) và "
-              "bài seen có cặp gần trùng chưa review với bài unseen (`hold_reason="
-              f"{HOLD_UNSEEN}`, mục 5); cả nhóm `split_group` chứa bài đó cũng không chọn được.", "",
-              "| Nguồn | Nhóm | Bài hợp lệ | Đủ điều kiện | Có sapo | Category null | Giữ chờ review | Chọn được | "
-              "Vào split | Reserve |",
+    lines += ["", "## 1. Eligible pool", "",
+              "Eligible = duplicate-group representative (`is_dup_representative`) with no `dedup_excluded_reason`. "
+              "Every non-null category has an `approved` mapping (the script refuses to run otherwise). Not "
+              f"selectable: null-category records (kept in reserve with stratum `{NO_CATEGORY}`, "
+              f"`hold_reason={HOLD_NO_CATEGORY}`) and seen records with an unreviewed near-duplicate pair with an "
+              f"unseen record (`hold_reason={HOLD_UNSEEN}`, section 5); their whole `split_group` is not selectable "
+              "either.", "",
+              "| Source | Group | Valid | Eligible | With sapo | Null category | Held for review | Selectable | "
+              "In splits | Reserve |",
               "| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
     for source, row in sources.items():
         mine = [r for r in pool if r["source"] == source]
@@ -134,14 +131,15 @@ def render(ctx):
                      f"{num(sum(r['has_sapo'] for r in mine))} | {num(null_rows[source])} | {num(held_rows[source])} | "
                      f"{num(sum(r['record_id'] in selectable for r in mine))} | {num(chosen)} | "
                      f"{num(per_source[(source, 'reserve')])} |")
-    lines += ["", f"Tổng: {num(sum(ctx['valid'].values()))} bài hợp lệ, {num(len(pool))} đủ điều kiện, "
-              f"{num(len(selectable))} chọn được, {num(len(manifest))} vào split, {num(len(reserve))} reserve; "
-              f"{num(sum(null_rows.values()))} bài category null "
-              f"({', '.join(f'{s}: {num(n)}' for s, n in null_rows.items()) or 'không có'}); "
-              f"{num(sum(held_rows.values()))} bài giữ chờ review dedup với bài unseen "
-              f"({', '.join(f'{s}: {num(n)}' for s, n in held_rows.items()) or 'không có'}).", "",
-              "## 2. Số bài theo nguồn × split", "",
-              "| Nguồn | train | trong đó subset human | dev | test_seen | test_unseen | Tổng | Human (subset+dev+test) |",
+    lines += ["", f"Total: {num(sum(ctx['valid'].values()))} valid, {num(len(pool))} eligible, "
+              f"{num(len(selectable))} selectable, {num(len(manifest))} in splits, {num(len(reserve))} reserve; "
+              f"{num(sum(null_rows.values()))} null-category records "
+              f"({', '.join(f'{s}: {num(n)}' for s, n in null_rows.items()) or 'none'}); "
+              f"{num(sum(held_rows.values()))} records held for dedup review with an unseen record "
+              f"({', '.join(f'{s}: {num(n)}' for s, n in held_rows.items()) or 'none'}).", "",
+              "## 2. Records per source × split", "",
+              "| Source | train | of which human subset | dev | test_seen | test_unseen | Total | "
+              "Human (subset+dev+test) |",
               "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
     totals = Counter()
     keys = ("train", SUBSET, "dev", "test_seen", "test_unseen", "total", "human")
@@ -151,14 +149,14 @@ def render(ctx):
         values["human"] = values["total"] - values["train"] + values[SUBSET]
         totals.update(values)
         lines.append(f"| {source} | " + " | ".join(num(values[c]) for c in keys) + " |")
-    lines.append("| **Tổng** | " + " | ".join(f"**{num(totals[c])}**" for c in keys) + " |")
+    lines.append("| **Total** | " + " | ".join(f"**{num(totals[c])}**" for c in keys) + " |")
     lines += ["", quota_text(sources), "",
-              "## 3. Cơ cấu category trong từng nguồn", "",
-              "Quota mỗi split (và subset trong train, test_unseen) được chia theo tỷ lệ category của các bài chọn được "
-              "của nguồn bằng phương pháp phần dư lớn nhất (hòa thì theo tên category). Không dùng nhãn nào. Độ lệch "
-              "= max theo category của |tỷ lệ trong split − tỷ lệ trong pool chọn được|, đơn vị điểm phần trăm; giới "
-              f"hạn do làm tròn là 1/quota ({bound_text(sources)}; tính với quota nhỏ nhất của mỗi cột).", "",
-              "| Nguồn | train | subset human | dev | test_seen | test_unseen | Max |",
+              "## 3. Category mix per source", "",
+              "Each split quota (and the subset inside train, and test_unseen) is divided over the source's "
+              "selectable category shares by largest remainder (ties by category name). No labels are used. "
+              "Deviation = max over categories of |share in split − share in selectable pool|, in percentage points; "
+              f"the rounding bound is 1/quota ({bound_text(sources)}; using the smallest quota in each column).", "",
+              "| Source | train | human subset | dev | test_seen | test_unseen | Max |",
               "| --- | ---: | ---: | ---: | ---: | ---: | ---: |"]
     for source, deviation in ctx["deviation"].items():
         cells = [dec(100 * deviation[c]) if c in deviation else "–" for c in SHARE_COLUMNS]
@@ -166,8 +164,8 @@ def render(ctx):
         lines.append(f"| {source} | " + " | ".join(cells) + f" | {worst} |")
     for group, names in (("seen", seen), ("unseen", unseen)):
         columns = COLUMNS[group]
-        lines += ["", f"### Nguồn {group}: số bài theo category", "",
-                  "| Nguồn | Category | Đủ điều kiện | Chọn được | Tỷ lệ chọn được | "
+        lines += ["", f"### {group.capitalize()} sources: records per category", "",
+                  "| Source | Category | Eligible | Selectable | Selectable share | "
                   + " | ".join(LABEL[c] for c in columns) + " |",
                   "| --- | --- | ---: | ---: | ---: |" + " ---: |" * len(columns)]
         for source in names:
@@ -179,10 +177,10 @@ def render(ctx):
                 lines.append(f"| {source} | {category} | {num(base[category])} | {num(chosen[category])} | "
                              f"{_pct(chosen[category], total) if category != NO_CATEGORY else '–'} | "
                              + " | ".join(num(counts[(source, category, c)]) for c in columns) + " |")
-    lines += ["", "## 4. Sapo theo split", "",
-              "Dev bắt buộc có sapo (mục 3.1: so sánh title / title+sapo trên cùng bài); quota dev theo category "
-              "được lấy chỉ từ bài có sapo. Train, subset và test không yêu cầu sapo.", "",
-              "| Split | Bài | Có sapo | Tỷ lệ |", "| --- | ---: | ---: | ---: |"]
+    lines += ["", "## 4. Sapo per split", "",
+              "Dev requires a sapo (plan 3.1: title vs title+sapo on the same record); dev category quotas are "
+              "filled only from records with a sapo. Train, subset and test do not require one.", "",
+              "| Split | Records | With sapo | Share |", "| --- | ---: | ---: | ---: |"]
     has_sapo = {r["record_id"]: r["has_sapo"] for r in pool}
     groups = defaultdict(list)
     for r in manifest:
@@ -196,45 +194,49 @@ def render(ctx):
         lines.append(f"| {LABEL[column]} | {num(len(ids))} | {num(with_sapo)} | {_pct(with_sapo, len(ids))} |")
     g = ctx["groups"]
     by_kind = g["pairs"]["by_kind"]
-    lines += ["", "## 5. split_group (đơn vị lấy mẫu) và cặp gần trùng chưa gộp", "",
-              "Bài cùng `dup_group` đã gộp thành một đại diện ở bước clean. Các cặp gần trùng mà bước clean liệt kê "
-              "nhưng không gộp (chuỗi template cùng nguồn; cặp `dedup_review.csv` chưa có quyết định; liên kết bị "
-              "chặn trong `dedup_pairs.csv`) được nối (union-find) thành một `split_group` nếu hai bài cùng phía "
-              "seen/unseen, để hai tiêu đề gần giống hệt không bao giờ nằm ở hai split. Theo mặc định của nhóm, các "
-              "bài này được giữ lại, không xóa; nối nhóm chỉ ràng buộc chúng vào cùng split. Cặp seen–unseen không "
-              "thể chung split: nếu chưa có quyết định `separate` trong `configs/checking/dedup_decisions.csv`, bài "
-              f"seen bị giữ trong reserve (`hold_reason={HOLD_UNSEEN}`) cho tới khi review dedup quyết định (`link` "
-              "thì bước clean loại bài seen như `duplicate_of_unseen`). Quota tính theo bài; nhóm không vừa phần "
-              "quota còn lại của mọi ô (nguồn, category) mà nó chạm tới thì bị bỏ qua, xét nhóm tiếp theo theo thứ "
-              "tự seed.", "",
-              "| Loại cặp | Dòng trong file | Cặp chưa gộp | Nối vào split_group | Seen–unseen: giữ bài seen | "
-              "Seen–unseen: đã `separate` | Đã quyết định `separate` | Hai bài ở hai split |",
+    lines += ["", "## 5. split_group (sampling unit) and unmerged near-duplicate pairs", "",
+              "Records sharing a `dup_group` were merged into one representative by the clean step. Near-duplicate "
+              "pairs the clean step listed but did not merge (same-source template series; undecided "
+              "`dedup_review.csv` pairs; blocked links in `dedup_pairs.csv`) are joined (union-find) into one "
+              "`split_group` when both records are on the same seen/unseen side, so two near-identical titles never "
+              "land in two splits. By team default these records are kept, not deleted; joining only binds them to "
+              "the same split. A seen–unseen pair cannot share a split: without a `separate` decision in "
+              "`configs/checking/dedup_decisions.csv`, the seen record is held in reserve "
+              f"(`hold_reason={HOLD_UNSEEN}`) until the dedup review decides (`link` makes the clean step exclude "
+              "the seen record as `duplicate_of_unseen`). Quotas count records; a group that does not fit the "
+              "remaining quota of every (source, category) cell it touches is skipped and the next group in seed "
+              "order is tried.", "",
+              "| Pair kind | Rows in file | Unmerged pairs | Joined into split_group | Seen–unseen: seen held | "
+              "Seen–unseen: `separate` | Decided `separate` | Records in two splits |",
               "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
     for kind in PAIR_KINDS:
         k = by_kind[kind]
         lines.append(f"| {PAIR_LABEL[kind]} | {num(k['listed'])} | {num(k['unmerged'])} | {num(k['linked'])} | "
                      f"{num(k['cross_outlet_held'])} | {num(k['cross_outlet_separate'])} | {num(k['separate'])} | "
                      f"{num(k['split_apart'])} |")
-    lines += ["", "Một cặp nằm ở nhiều file được tính một lần, theo thứ tự template → review → bị chặn. Cột \"Hai bài ở "
-              "hai split\" chỉ được khác 0 với cặp đã quyết định `separate` (kiểm tra ở mục 7). Dòng `dedup_review.csv` "
-              "của liên kết đã áp dụng (`auto_link_check`, `exact_date_gap`) không phải cặp chưa gộp.", "",
-              f"- {num(g['template_pairs'])} cặp template trong {num(g['template_series'])} chuỗi; {num(g['units'])} "
-              f"split_group trong pool, trong đó **{num(g['multi'])} nhóm ≥2 bài** ({num(g['multi_records'])} bài).",
-              f"- Kích thước nhóm nhiều bài: {', '.join(f'{k} bài: {num(v)}' for k, v in sorted(g['sizes'].items()))}.",
-              f"- Nhóm nhiều bài trải nhiều category: {num(g['multi_category'])}; trải nhiều nguồn: "
+    lines += ["", "A pair listed in several files is counted once, in the order template → review → blocked. The "
+              "\"Records in two splits\" column may be non-zero only for pairs decided `separate` (checked in "
+              "section 7). `dedup_review.csv` rows of applied links (`auto_link_check`, `exact_date_gap`) are not "
+              "unmerged pairs.", "",
+              f"- {num(g['template_pairs'])} template pairs in {num(g['template_series'])} series; {num(g['units'])} "
+              f"split_groups in the pool, of which **{num(g['multi'])} groups with ≥2 records** "
+              f"({num(g['multi_records'])} records).",
+              "- Multi-record group sizes: "
+              f"{', '.join(f'{k} records: {num(v)}' for k, v in sorted(g['sizes'].items()))}.",
+              f"- Multi-record groups spanning several categories: {num(g['multi_category'])}; several sources: "
               f"{num(g['multi_source'])}.",
-              f"- `dup_group` seen bị giữ chờ review với bài unseen: {num(g['pairs']['held_dup_groups'])}.",
-              "- Nơi nhận nhóm nhiều bài: " + ", ".join(f"{k}: {num(v[0])} nhóm/{num(v[1])} bài"
-                                                        for k, v in sorted(g["placement"].items())) + "."]
+              f"- Seen `dup_group`s held for review with an unseen record: {num(g['pairs']['held_dup_groups'])}.",
+              "- Placement of multi-record groups: " + ", ".join(f"{k}: {num(v[0])} groups/{num(v[1])} records"
+                                                                 for k, v in sorted(g["placement"].items())) + "."]
     lines += ["", "## 6. Reserve", "",
-              "`data/manifests/reserve_list.csv`: mọi bài đủ điều kiện không vào split, kèm `has_sapo` và "
-              "`hold_reason`. `reserve_rank` tiếp nối thứ tự seed của từng (nguồn, category) (1 = bài thay thế đầu "
-              "tiên). Dùng để thay bài bị loại khi gán nhãn (mục 2.4): lấy bài có `reserve_rank` nhỏ nhất cùng "
-              "nguồn/category và `hold_reason` rỗng; **thay bài dev thì bài thay thế phải có `has_sapo=True`** (cả "
-              "`split_group` của nó), bỏ qua bài không có sapo. Nếu bài thay thế thuộc `split_group` nhiều bài thì "
-              "phải lấy cả nhóm hoặc bỏ qua nhóm đó. Không chọn theo nhãn LLM hay kết quả model. Số bài reserve theo "
-              "nguồn:", "",
-              "| Nguồn | Reserve | Có sapo | Có hold_reason | Dùng được | Category ít reserve dùng được nhất |",
+              "`data/manifests/reserve_list.csv`: every eligible record not in a split, with `has_sapo` and "
+              "`hold_reason`. `reserve_rank` continues the seed order of each (source, category) (1 = first "
+              "replacement). Used to replace records dropped during annotation (plan 2.4): take the lowest "
+              "`reserve_rank` with the same source/category and an empty `hold_reason`; **a dev replacement must "
+              "have `has_sapo=True`** (its whole `split_group`), skip records without sapo. If the replacement "
+              "belongs to a multi-record `split_group`, take the whole group or skip it. Never choose by LLM labels "
+              "or model output. Reserve records per source:", "",
+              "| Source | Reserve | With sapo | With hold_reason | Usable | Category with fewest usable reserve |",
               "| --- | ---: | ---: | ---: | ---: | --- |"]
     usable = Counter((r["source"], r["category"]) for r in reserve if not r["hold_reason"])
     for source in sources:
@@ -246,33 +248,34 @@ def render(ctx):
         lines.append(f"| {source} | {num(len(mine))} | {num(sum(r['has_sapo'] for r in mine))} | "
                      f"{num(sum(bool(r['hold_reason']) for r in mine))} | {num(sum(not r['hold_reason'] for r in mine))} "
                      f"| {least[0]}: {num(least[1])} |")
-    lines += ["", "Số reserve theo từng category: cột reserve ở mục 3 và `reports/split_counts.csv`.", "",
-              "## 7. Kiểm tra (đều đạt)", ""]
+    lines += ["", "Reserve per category: the reserve column in section 3 and `reports/split_counts.csv`.", "",
+              "## 7. Checks (all passed)", ""]
     lines += [f"- {text}" for text in ctx["checks"]]
-    lines += ["", "## 8. Bảng blind và ánh xạ", "",
-              f"- `data/annotations/blind/blind_dev.csv`: {num(ctx['blind_dev'])} dòng (dev; gán nhãn trước theo flow "
-              "của nhóm).",
-              f"- `data/annotations/blind/blind_train_subset_test.csv`: {num(ctx['blind_rest'])} dòng (subset train + "
+    lines += ["", "## 8. Blind tables and mapping", "",
+              f"- `data/annotations/blind/blind_dev.csv`: {num(ctx['blind_dev'])} rows (dev; annotated first, per "
+              "the team flow).",
+              f"- `data/annotations/blind/blind_train_subset_test.csv`: {num(ctx['blind_rest'])} rows (train subset + "
               "test_seen + test_unseen).",
-              "- Hai bảng chỉ có `annotation_id,title,category` (category chung đã duyệt); không có nguồn, URL, split hay nhãn LLM. Thứ tự dòng "
-              "là một hoán vị seed trộn đều nguồn/category/split. Title giữ nguyên như clean; "
-              f"{num(ctx['multiline_titles'])} title có xuống dòng bên trong (CSV đặt trong ngoặc kép, đọc bằng CSV "
-              "reader).",
-              "- `annotation_id` = `A` + 5 chữ số lấy ngẫu nhiên (seed) từ 10000–99999, không tuần tự theo nguồn, "
-              "split hay `record_id`.",
-              f"- `data/manifests/annotation_map.csv` (nội bộ, không gửi annotator): {num(ctx['mapped'])} dòng "
+              "- Both tables hold only `annotation_id,title,category` (shared approved category); no source, URL, "
+              "split or LLM label. Row order is a seeded permutation mixing source/category/split. Titles are kept "
+              f"as in clean; titles with internal line breaks: {num(ctx['multiline_titles'])} (quoted in the CSV, "
+              "read with a CSV reader).",
+              "- `annotation_id` = `A` + 5 digits sampled (seeded) from 10000–99999, not sequential by source, "
+              "split or `record_id`.",
+              f"- `data/manifests/annotation_map.csv` (internal, not sent to annotators): {num(ctx['mapped'])} rows "
               "`annotation_id, record_id, split, source`.", "",
-              "## 9. Việc còn mở", "",
-              "- `annotation_assignment.csv` (mục 2.2: 9 chunk C1..C9, người P1..P9, lô ~100 mẫu) do P3 (lead human "
-              "annotation) tạo từ `annotation_map.csv` và hai bảng blind; bước split không tạo file này.",
-              f"- Review dedup: {num(by_kind['dedup_review']['unmerged'] - by_kind['dedup_review']['separate'])} cặp "
-              "`dedup_review.csv` chưa có quyết định "
-              "(đã được giữ cùng split hoặc giữ bài seen trong reserve, nên không rò rỉ giữa split). Nên review "
-              "(ghi `link`/`separate` vào `configs/checking/dedup_decisions.csv`) **trước khi bắt đầu gán nhãn**: "
-              "chạy lại `build_clean.py` + `build_split.py` sau khi đổi quyết định sẽ đổi split.",
-              "- Quy trình thay bài từ reserve khi gán nhãn (cấp `annotation_id` mới cho bài thay thế, cập nhật "
-              "manifest) chưa tự động hóa.",
-              f"- Bài category null ({num(sum(null_rows.values()))}) chỉ nằm trong reserve; cần map category nếu muốn "
-              "dùng.",
+              "## 9. Open items", "",
+              "- `annotation_assignment.csv` (plan 2.2: 9 chunks C1..C9, people P1..P9, batches of ~100) is built "
+              "by P3 (human annotation lead) from `annotation_map.csv` and the two blind tables; the split step "
+              "does not create it.",
+              f"- Dedup review: {num(by_kind['dedup_review']['unmerged'] - by_kind['dedup_review']['separate'])} "
+              "undecided `dedup_review.csv` pairs (kept in the same split or with the seen record held in reserve, "
+              "so nothing leaks across splits). Review them (write `link`/`separate` to "
+              "`configs/checking/dedup_decisions.csv`) **before annotation starts**: re-running `build_clean.py` + "
+              "`build_split.py` after changing decisions changes the split.",
+              "- Replacing records from reserve during annotation (new `annotation_id` for the replacement, "
+              "manifest update) is not automated yet.",
+              f"- Null-category records ({num(sum(null_rows.values()))}) stay in reserve only; map their category "
+              "to use them.",
               ""]
     return "\n".join(lines)

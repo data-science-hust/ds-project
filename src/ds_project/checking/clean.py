@@ -1,7 +1,6 @@
-"""Record-level checks, technical fixes, category join and dedup -> clean table + funnel reports.
+"""Record checks, technical fixes, category join and dedup -> clean table and funnel counts.
 
-Input is data/raw/articles_raw.jsonl (only read) plus reports/crawl_stats.csv for the downloaded
-counts. Every rejection, flag and technical fix is logged by record_id.
+Every rejection, flag and fix is logged by record_id; the raw input is only read.
 """
 
 from __future__ import annotations
@@ -46,7 +45,7 @@ def write_csv(path, rows, fields):
 
 
 def mojibake_status(text):
-    """None, 'suspected' or 'confirmed' (re-encoding as cp1252/latin-1 decodes to clean UTF-8)."""
+    """None, 'suspected', or 'confirmed' when a cp1252/latin-1 round-trip yields clean UTF-8."""
     if not isinstance(text, str) or not MOJIBAKE.search(text):
         return None
     for encoding in ("cp1252", "latin-1"):
@@ -93,7 +92,7 @@ def rule_hits(rules, source, title, category_raw):
 
 
 def read_raw(path, sources):
-    """data/raw/articles_raw.jsonl -> {source: rows in file order}. Raises ValueError on a broken file."""
+    """Return {source: rows in file order}; ValueError on a broken file."""
     pools = {}
     with Path(path).open(encoding="utf-8") as stream:
         for number, line in enumerate(stream, 1):
@@ -108,8 +107,7 @@ def read_raw(path, sources):
 
 
 def read_crawl_stats(rows, sources):
-    """reports/crawl_stats.csv rows -> {source: run_id, downloaded, downloaded_without_title, selected,
-    downloaded_by_category [(category_raw, count)]}. Raises ValueError when a source is missing."""
+    """crawl_stats.csv rows -> {source: stats}; ValueError when a source is missing or counts disagree."""
     stats = {}
     for row in rows:
         by_category = [(category, int(count)) for category, count in json.loads(row["downloaded_by_category"])]
@@ -125,7 +123,7 @@ def read_crawl_stats(rows, sources):
 
 
 def check_and_fix(pool, source, domain, rules, mapping):
-    """Return (valid records, rejected rows, issues, fixes) for one source's pool."""
+    """Return (valid, rejected, issues, fixes) for one source's pool."""
     valid, rejected, issues, fixes = [], [], [], []
     seen_ids, seen_urls = set(), set()
     for row in pool:
@@ -234,12 +232,10 @@ def apply_dedup(valid, config, decisions, unseen_sources):
 
 
 def funnel(sources, crawl_stats, pool_sizes, valid, mapping):
-    """Per-source and per-source x category counts: downloaded -> valid -> after_dedup -> with_sapo.
-
-    downloaded comes from crawl_stats (all attempts of the crawl run), mapped with the same category lookup.
-    """
+    """Return (by_source, by_category) funnel rows: downloaded -> valid -> after_dedup -> with_sapo."""
     by_source, by_category = [], []
     cat_counts = defaultdict(Counter)
+    # downloaded covers every crawl attempt, so it is mapped from crawl_stats rather than the valid pool.
     for source, stats in crawl_stats.items():
         for category_raw, count in stats["downloaded_by_category"]:
             category = lookup(mapping, source, normalize_category(category_raw))[0]
