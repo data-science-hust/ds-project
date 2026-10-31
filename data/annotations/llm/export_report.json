@@ -1,0 +1,97 @@
+{
+  "dev_model": "gemma4_26b_a4b_thinking_off",
+  "train_variant": "title_sapo_category with declared TC fallback and approved quote exception",
+  "note": "No human gold used to fill labels. Test predictions are unavailable and remain blank. Dev IDs/order match blind_dev; subset_test IDs/order match blind_train_subset_test.",
+  "files": [
+    {
+      "file": "llm_dev_T.csv",
+      "rows": 1400,
+      "labels": 1398,
+      "status": {
+        "valid": 1398,
+        "error": 2
+      },
+      "splits": {
+        "dev": 1400
+      },
+      "fallback": 0
+    },
+    {
+      "file": "llm_dev_TS.csv",
+      "rows": 1400,
+      "labels": 1399,
+      "status": {
+        "valid": 1399,
+        "error": 1
+      },
+      "splits": {
+        "dev": 1400
+      },
+      "fallback": 0
+    },
+    {
+      "file": "llm_dev_TSC.csv",
+      "rows": 1400,
+      "labels": 1398,
+      "status": {
+        "valid": 1398,
+        "error": 2
+      },
+      "splits": {
+        "dev": 1400
+      },
+      "fallback": 0
+    },
+    {
+      "file": "llm_dev_TC.csv",
+      "rows": 1400,
+      "labels": 1399,
+      "status": {
+        "valid": 1399,
+        "error": 1
+      },
+      "splits": {
+        "dev": 1400
+      },
+      "fallback": 0
+    },
+    {
+      "file": "llm_train.csv",
+      "rows": 20000,
+      "labels": 20000,
+      "status": {
+        "valid": 19999,
+        "accepted_evidence_quote_warning": 1
+      },
+      "splits": {
+        "train": 20000
+      },
+      "fallback": 3
+    },
+    {
+      "file": "llm_train_subset_test.csv",
+      "rows": 8600,
+      "labels": 6400,
+      "status": {
+        "valid": 6400,
+        "not_inferred": 2200
+      },
+      "splits": {
+        "train": 6400,
+        "test_unseen": 1200,
+        "test_seen": 1000
+      },
+      "fallback": 0
+    },
+    {
+      "file": "llm_train_subset.csv",
+      "rows": 6400,
+      "labels": 6400,
+      "tsc": 6400,
+      "tc_fallback": 0,
+      "label_0": 4009,
+      "label_1": 2391,
+      "note": "Only 6400 human-subset train IDs, in filtered blind order. Prefer usable TSC, otherwise TC. No human labels used."
+    }
+  ]
+}
