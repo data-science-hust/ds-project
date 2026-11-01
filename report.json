@@ -1,0 +1,318 @@
+{
+  "scope": "dev",
+  "expected_records_per_variant": 1400,
+  "definition": "Errors are final unusable predictions only. All valid 0/1 predictions are counted equally. No human gold used to fill labels.",
+  "configurations": [
+    {
+      "config": "gemma off",
+      "file": "gemma_off.csv",
+      "sha256": "e3c49789ebfefeb43a2c3895ac18e410d2619ffb52ae894491bf4457636746d5",
+      "unique_records": 1400,
+      "record_variant_pairs": 5600,
+      "usable_pairs": 5595,
+      "error_pairs": 5,
+      "unique_records_with_error": 2,
+      "pending_pairs": 0,
+      "variants": [
+        {
+          "variant": "T",
+          "input_variant": "title",
+          "records": 1400,
+          "usable": 1399,
+          "errors": 1,
+          "pending": 0,
+          "error_rate": 0.0007142857142857143,
+          "coverage": 0.9992857142857143,
+          "error_reasons": {
+            "invalid_evidence": 1
+          }
+        },
+        {
+          "variant": "TC",
+          "input_variant": "title_category",
+          "records": 1400,
+          "usable": 1399,
+          "errors": 1,
+          "pending": 0,
+          "error_rate": 0.0007142857142857143,
+          "coverage": 0.9992857142857143,
+          "error_reasons": {
+            "invalid_evidence": 1
+          }
+        },
+        {
+          "variant": "TS",
+          "input_variant": "title_sapo",
+          "records": 1400,
+          "usable": 1399,
+          "errors": 1,
+          "pending": 0,
+          "error_rate": 0.0007142857142857143,
+          "coverage": 0.9992857142857143,
+          "error_reasons": {
+            "invalid_evidence": 1
+          }
+        },
+        {
+          "variant": "TSC",
+          "input_variant": "title_sapo_category",
+          "records": 1400,
+          "usable": 1398,
+          "errors": 2,
+          "pending": 0,
+          "error_rate": 0.0014285714285714286,
+          "coverage": 0.9985714285714286,
+          "error_reasons": {
+            "invalid_evidence": 2
+          }
+        }
+      ],
+      "errors": [
+        {
+          "record_id": "3d4c48ca34ce6ffd71774696655a3149dd3c6bdca21549850fa704c262be97c9",
+          "annotation_id": "A14082",
+          "input_variant": "title_sapo_category",
+          "parse_status": "invalid",
+          "error": "invalid_evidence",
+          "attempt_count": "6",
+          "retry_count": "5",
+          "title": "Cụ bà 91 tuổi ngã khi đi lấy nước, vào viện thì phát hiện “mang thai”: Bí mật về \"bào thai hoá đá\""
+        },
+        {
+          "record_id": "bb2720ae8fcc20ddc6e580625900c39cede42b2a629c8536ed1835b1e622a06d",
+          "annotation_id": "A44402",
+          "input_variant": "title",
+          "parse_status": "invalid",
+          "error": "invalid_evidence",
+          "attempt_count": "6",
+          "retry_count": "5",
+          "title": "Điểm check-in \"thách thức tử thần” du khách mê mẩn ở Hà Giang"
+        },
+        {
+          "record_id": "bb2720ae8fcc20ddc6e580625900c39cede42b2a629c8536ed1835b1e622a06d",
+          "annotation_id": "A44402",
+          "input_variant": "title_category",
+          "parse_status": "invalid",
+          "error": "invalid_evidence",
+          "attempt_count": "6",
+          "retry_count": "5",
+          "title": "Điểm check-in \"thách thức tử thần” du khách mê mẩn ở Hà Giang"
+        },
+        {
+          "record_id": "bb2720ae8fcc20ddc6e580625900c39cede42b2a629c8536ed1835b1e622a06d",
+          "annotation_id": "A44402",
+          "input_variant": "title_sapo",
+          "parse_status": "invalid",
+          "error": "invalid_evidence",
+          "attempt_count": "6",
+          "retry_count": "5",
+          "title": "Điểm check-in \"thách thức tử thần” du khách mê mẩn ở Hà Giang"
+        },
+        {
+          "record_id": "bb2720ae8fcc20ddc6e580625900c39cede42b2a629c8536ed1835b1e622a06d",
+          "annotation_id": "A44402",
+          "input_variant": "title_sapo_category",
+          "parse_status": "invalid",
+          "error": "invalid_evidence",
+          "attempt_count": "6",
+          "retry_count": "5",
+          "title": "Điểm check-in \"thách thức tử thần” du khách mê mẩn ở Hà Giang"
+        }
+      ]
+    },
+    {
+      "config": "gemma on",
+      "file": "gemma_on.csv",
+      "sha256": "d133496261cc6df10b6efbc2942abab7f6d1975ad7e164293b27c44bc0957d4a",
+      "unique_records": 1400,
+      "record_variant_pairs": 5600,
+      "usable_pairs": 5600,
+      "error_pairs": 0,
+      "unique_records_with_error": 0,
+      "pending_pairs": 0,
+      "variants": [
+        {
+          "variant": "T",
+          "input_variant": "title",
+          "records": 1400,
+          "usable": 1400,
+          "errors": 0,
+          "pending": 0,
+          "error_rate": 0.0,
+          "coverage": 1.0,
+          "error_reasons": {}
+        },
+        {
+          "variant": "TC",
+          "input_variant": "title_category",
+          "records": 1400,
+          "usable": 1400,
+          "errors": 0,
+          "pending": 0,
+          "error_rate": 0.0,
+          "coverage": 1.0,
+          "error_reasons": {}
+        },
+        {
+          "variant": "TS",
+          "input_variant": "title_sapo",
+          "records": 1400,
+          "usable": 1400,
+          "errors": 0,
+          "pending": 0,
+          "error_rate": 0.0,
+          "coverage": 1.0,
+          "error_reasons": {}
+        },
+        {
+          "variant": "TSC",
+          "input_variant": "title_sapo_category",
+          "records": 1400,
+          "usable": 1400,
+          "errors": 0,
+          "pending": 0,
+          "error_rate": 0.0,
+          "coverage": 1.0,
+          "error_reasons": {}
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": "qwen off",
+      "file": "qwen_off.csv",
+      "sha256": "658762f1960ad7e0b09efbd9d39d01171694ebc251c0d2c6526d9c5352a9d5b0",
+      "unique_records": 1400,
+      "record_variant_pairs": 5600,
+      "usable_pairs": 5600,
+      "error_pairs": 0,
+      "unique_records_with_error": 0,
+      "pending_pairs": 0,
+      "variants": [
+        {
+          "variant": "T",
+          "input_variant": "title",
+          "records": 1400,
+          "usable": 1400,
+          "errors": 0,
+          "pending": 0,
+          "error_rate": 0.0,
+          "coverage": 1.0,
+          "error_reasons": {}
+        },
+        {
+          "variant": "TC",
+          "input_variant": "title_category",
+          "records": 1400,
+          "usable": 1400,
+          "errors": 0,
+          "pending": 0,
+          "error_rate": 0.0,
+          "coverage": 1.0,
+          "error_reasons": {}
+        },
+        {
+          "variant": "TS",
+          "input_variant": "title_sapo",
+          "records": 1400,
+          "usable": 1400,
+          "errors": 0,
+          "pending": 0,
+          "error_rate": 0.0,
+          "coverage": 1.0,
+          "error_reasons": {}
+        },
+        {
+          "variant": "TSC",
+          "input_variant": "title_sapo_category",
+          "records": 1400,
+          "usable": 1400,
+          "errors": 0,
+          "pending": 0,
+          "error_rate": 0.0,
+          "coverage": 1.0,
+          "error_reasons": {}
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": "qwen on",
+      "file": "qwen_on.csv",
+      "sha256": "e89c2dce3a4a039f54df28b8d5224a0e28ef33efb9dfc51aec9c19a2d87e35e5",
+      "unique_records": 1400,
+      "record_variant_pairs": 5600,
+      "usable_pairs": 5599,
+      "error_pairs": 1,
+      "unique_records_with_error": 1,
+      "pending_pairs": 0,
+      "variants": [
+        {
+          "variant": "T",
+          "input_variant": "title",
+          "records": 1400,
+          "usable": 1400,
+          "errors": 0,
+          "pending": 0,
+          "error_rate": 0.0,
+          "coverage": 1.0,
+          "error_reasons": {}
+        },
+        {
+          "variant": "TC",
+          "input_variant": "title_category",
+          "records": 1400,
+          "usable": 1399,
+          "errors": 1,
+          "pending": 0,
+          "error_rate": 0.0007142857142857143,
+          "coverage": 0.9992857142857143,
+          "error_reasons": {
+            "missing_thinking_end": 1
+          }
+        },
+        {
+          "variant": "TS",
+          "input_variant": "title_sapo",
+          "records": 1400,
+          "usable": 1400,
+          "errors": 0,
+          "pending": 0,
+          "error_rate": 0.0,
+          "coverage": 1.0,
+          "error_reasons": {}
+        },
+        {
+          "variant": "TSC",
+          "input_variant": "title_sapo_category",
+          "records": 1400,
+          "usable": 1400,
+          "errors": 0,
+          "pending": 0,
+          "error_rate": 0.0,
+          "coverage": 1.0,
+          "error_reasons": {}
+        }
+      ],
+      "errors": [
+        {
+          "record_id": "b6e0290e879d2156c7402755ef5cf1868b66b1f8af4d0e1639272a3f7217c8a6",
+          "annotation_id": "A97181",
+          "input_variant": "title_category",
+          "parse_status": "invalid",
+          "error": "missing_thinking_end",
+          "attempt_count": "6",
+          "retry_count": "5",
+          "title": "Phút trăm người ở Hà Nội nhấc khối đá lớn cứu người bị kẹt chân"
+        }
+      ]
+    }
+  ],
+  "total_error_pairs": 6,
+  "unique_record_ids_with_any_error": [
+    "3d4c48ca34ce6ffd71774696655a3149dd3c6bdca21549850fa704c262be97c9",
+    "b6e0290e879d2156c7402755ef5cf1868b66b1f8af4d0e1639272a3f7217c8a6",
+    "bb2720ae8fcc20ddc6e580625900c39cede42b2a629c8536ed1835b1e622a06d"
+  ],
+  "unique_records_with_any_error": 3
+}
