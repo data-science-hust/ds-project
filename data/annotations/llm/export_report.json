@@ -1,0 +1,86 @@
+{
+  "model": "gemma4_26b_a4b",
+  "thinking": "off",
+  "train_variant": "title_sapo_category",
+  "fallback": "TC only where the source explicitly routes missing sapo to TC; other errors remain errors.",
+  "note": "Full dev/train cohorts retained, including errors. No human gold used to fill labels. Subset follows blind train order and contains train records only. Source raw outputs, provenance, and statuses retained.",
+  "sources": {
+    "E:\\HUST 2026.1\\DS\\ds-project-main\\data\\llm\\final_out_merged\\gemma off\\llm_gemma_off.csv": "dcc2a2cb49b75e30ac8827bc147133817168d5b3bea80c058c4270d77fa8753c",
+    "E:\\HUST 2026.1\\DS\\ds-project-main\\data\\llm\\final_out_merged\\gemma train\\llm_gemma_train.csv": "d463a10c10c0222a270b0a93bad19c772e981de77a95f5b387d31cd06a87a80a"
+  },
+  "files": [
+    {
+      "file": "llm_dev_T.csv",
+      "rows": 1400,
+      "usable": 1399,
+      "errors": 1,
+      "label_0": 926,
+      "label_1": 473,
+      "fallback": 0,
+      "error_reasons": {
+        "invalid_evidence": 1
+      }
+    },
+    {
+      "file": "llm_dev_TC.csv",
+      "rows": 1400,
+      "usable": 1399,
+      "errors": 1,
+      "label_0": 888,
+      "label_1": 511,
+      "fallback": 0,
+      "error_reasons": {
+        "invalid_evidence": 1
+      }
+    },
+    {
+      "file": "llm_dev_TS.csv",
+      "rows": 1400,
+      "usable": 1399,
+      "errors": 1,
+      "label_0": 860,
+      "label_1": 539,
+      "fallback": 0,
+      "error_reasons": {
+        "invalid_evidence": 1
+      }
+    },
+    {
+      "file": "llm_dev_TSC.csv",
+      "rows": 1400,
+      "usable": 1398,
+      "errors": 2,
+      "label_0": 846,
+      "label_1": 552,
+      "fallback": 0,
+      "error_reasons": {
+        "invalid_evidence": 2
+      }
+    },
+    {
+      "file": "llm_train.csv",
+      "rows": 20000,
+      "usable": 19994,
+      "errors": 6,
+      "label_0": 12527,
+      "label_1": 7467,
+      "fallback": 3,
+      "error_reasons": {
+        "invalid_evidence": 5,
+        "changed_non_evidence_fields": 1
+      }
+    },
+    {
+      "file": "llm_train_subset.csv",
+      "rows": 6400,
+      "usable": 6398,
+      "errors": 2,
+      "label_0": 4009,
+      "label_1": 2389,
+      "fallback": 0,
+      "error_reasons": {
+        "invalid_evidence": 2
+      }
+    }
+  ]
+}
