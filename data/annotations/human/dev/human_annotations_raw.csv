@@ -1,0 +1,2801 @@
+﻿annotation_id,chunk,annotator_id,label,review_flag,review_reason,criteria,evidence,data_issue,elapsed_ms,guideline_version
+A10248,dev_C1,P1,0,false,,,,,1815,v1
+A10649,dev_C1,P1,0,false,,,,,2065,v1
+A12333,dev_C1,P1,0,false,,,,,3080,v1
+A14239,dev_C1,P1,0,false,,,,,2768,v1
+A14391,dev_C1,P1,0,false,,,,,7040,v1
+A14868,dev_C1,P1,1,false,,,,,4016,v1
+A15103,dev_C1,P1,0,false,,,,,7944,v1
+A16651,dev_C1,P1,1,false,,,,,3544,v1
+A16923,dev_C1,P1,1,false,,,,,8694,v1
+A18261,dev_C1,P1,1,false,,,ngỡ ngàng,,12992,v1
+A19228,dev_C1,P1,0,false,,,,,1942,v1
+A19770,dev_C1,P1,1,false,,,,,2886,v1
+A21170,dev_C1,P1,0,false,,,,,1552,v1
+A22566,dev_C1,P1,1,false,,cau_hoi_treo,,,6698,v1
+A22906,dev_C1,P1,0,false,,,,,1959,v1
+A23761,dev_C1,P1,1,false,,,,,4040,v1
+A23782,dev_C1,P1,0,false,,,,,6239,v1
+A23983,dev_C1,P1,1,false,,,,,3042,v1
+A24371,dev_C1,P1,1,false,,,,,3424,v1
+A24866,dev_C1,P1,1,false,,,,,1991,v1
+A25363,dev_C1,P1,0,false,,,,,21328,v1
+A25434,dev_C1,P1,1,false,,,,,15152,v1
+A25767,dev_C1,P1,0,false,,,,,2944,v1
+A26151,dev_C1,P1,0,false,,,,,2120,v1
+A26212,dev_C1,P1,0,false,,,,,1824,v1
+A27281,dev_C1,P1,1,false,,,,,3696,v1
+A28154,dev_C1,P1,1,false,,,,,4037,v1
+A30691,dev_C1,P1,1,false,,,,,3128,v1
+A30996,dev_C1,P1,0,false,,,,,4655,v1
+A31013,dev_C1,P1,0,false,,,,,2041,v1
+A32850,dev_C1,P1,1,false,,,,,2406,v1
+A33028,dev_C1,P1,0,false,,,,,4144,v1
+A33753,dev_C1,P1,0,false,,,,,2232,v1
+A35104,dev_C1,P1,0,false,,,,,3568,v1
+A35322,dev_C1,P1,0,false,,,,,2366,v1
+A35426,dev_C1,P1,1,false,,,,,3663,v1
+A35945,dev_C1,P1,0,false,,,,,3168,v1
+A36206,dev_C1,P1,1,false,,,,,2520,v1
+A38226,dev_C1,P1,0,false,,,,,2639,v1
+A38712,dev_C1,P1,0,false,,,,,5439,v1
+A38831,dev_C1,P1,0,false,,,,,2951,v1
+A39134,dev_C1,P1,0,false,,,,,3215,v1
+A39270,dev_C1,P1,0,false,,,,,1904,v1
+A39699,dev_C1,P1,0,false,,,,,7399,v1
+A39774,dev_C1,P1,0,false,,,,,2415,v1
+A40486,dev_C1,P1,0,false,,,,,3817,v1
+A40647,dev_C1,P1,0,false,,,,,4647,v1
+A41489,dev_C1,P1,0,false,,,,,1984,v1
+A41686,dev_C1,P1,0,false,,,,,3041,v1
+A41703,dev_C1,P1,1,false,,,,,2488,v1
+A41944,dev_C1,P1,0,false,,,,,2032,v1
+A42685,dev_C1,P1,0,false,,,,,3297,v1
+A42970,dev_C1,P1,1,false,,,,,4199,v1
+A44115,dev_C1,P1,0,false,,,,,3734,v1
+A44402,dev_C1,P1,1,false,,,,,3672,v1
+A44644,dev_C1,P1,0,false,,,,,2200,v1
+A44727,dev_C1,P1,1,false,,,,,2288,v1
+A45433,dev_C1,P1,0,false,,,,,2342,v1
+A45859,dev_C1,P1,1,false,,,,,15856,v1
+A45889,dev_C1,P1,0,false,,,,,2192,v1
+A46324,dev_C1,P1,0,false,,,,,4078,v1
+A47031,dev_C1,P1,1,false,,,,,5271,v1
+A47081,dev_C1,P1,1,false,,,,,2881,v1
+A47438,dev_C1,P1,0,false,,,,,2719,v1
+A48983,dev_C1,P1,0,false,,,,,2391,v1
+A50004,dev_C1,P1,0,false,,,,,2576,v1
+A51167,dev_C1,P1,0,false,,,,,2039,v1
+A51394,dev_C1,P1,1,false,,,,,5183,v1
+A51880,dev_C1,P1,0,false,,,,,6078,v1
+A52005,dev_C1,P1,1,false,,,,,2393,v1
+A52067,dev_C1,P1,0,false,,,,,2962,v1
+A52205,dev_C1,P1,0,false,,,,,4424,v1
+A52439,dev_C1,P1,1,false,,,,,2823,v1
+A52681,dev_C1,P1,1,false,,,chưa từng có,,4991,v1
+A53163,dev_C1,P1,0,false,,,,,1847,v1
+A53521,dev_C1,P1,1,false,,,,,3847,v1
+A53601,dev_C1,P1,1,false,,,,,8976,v1
+A54190,dev_C1,P1,0,false,,,,,6823,v1
+A54883,dev_C1,P1,1,false,,,,,6006,v1
+A54946,dev_C1,P1,1,false,,,gây sốc,,4176,v1
+A55293,dev_C1,P1,1,false,,,,,4792,v1
+A56169,dev_C1,P1,0,false,,,,,2574,v1
+A56235,dev_C1,P1,1,false,,,,,4048,v1
+A57279,dev_C1,P1,1,false,,,,,5911,v1
+A57351,dev_C1,P1,1,false,,,,,7968,v1
+A57389,dev_C1,P1,0,false,,,,,2112,v1
+A57462,dev_C1,P1,1,false,,,,,6184,v1
+A59403,dev_C1,P1,1,false,,,,,4937,v1
+A59457,dev_C1,P1,1,false,,,,,5240,v1
+A60630,dev_C1,P1,0,false,,,,,2120,v1
+A60855,dev_C1,P1,0,false,,,,,2735,v1
+A61712,dev_C1,P1,1,false,,,,,8784,v1
+A62630,dev_C1,P1,0,false,,,,,5670,v1
+A62742,dev_C1,P1,0,false,,,,,10607,v1
+A63748,dev_C1,P1,0,false,,,,,2495,v1
+A64641,dev_C1,P1,0,false,,,,,2208,v1
+A64940,dev_C1,P1,1,false,,,,,4671,v1
+A66100,dev_C1,P1,1,false,,,,,15336,v1
+A66127,dev_C1,P1,0,false,,,,,149095,v1
+A66439,dev_C1,P1,0,false,,,,,6070,v1
+A66825,dev_C1,P1,0,false,,,,,3741,v1
+A67090,dev_C1,P1,0,false,,,,,2072,v1
+A67618,dev_C1,P1,1,false,,,,,5088,v1
+A68338,dev_C1,P1,1,false,,,,,4023,v1
+A68667,dev_C1,P1,0,false,,,,,5496,v1
+A68764,dev_C1,P1,0,false,,,,,4457,v1
+A69037,dev_C1,P1,0,false,,,,,3640,v1
+A71296,dev_C1,P1,0,false,,,,,3520,v1
+A71556,dev_C1,P1,0,false,,,,,3176,v1
+A72920,dev_C1,P1,0,false,,,,,2143,v1
+A73269,dev_C1,P1,1,false,,,,,3407,v1
+A73539,dev_C1,P1,1,false,,,,,4688,v1
+A75338,dev_C1,P1,1,false,,,,,3023,v1
+A75341,dev_C1,P1,1,false,,,,,5901,v1
+A75825,dev_C1,P1,1,false,,,,,2678,v1
+A78507,dev_C1,P1,0,false,,,,,2304,v1
+A79133,dev_C1,P1,1,false,,,,,3977,v1
+A79513,dev_C1,P1,0,false,,,,,7511,v1
+A80596,dev_C1,P1,0,false,,,,,4264,v1
+A80662,dev_C1,P1,1,false,,,,,2632,v1
+A80777,dev_C1,P1,0,false,,,,,5544,v1
+A81550,dev_C1,P1,0,false,,,,,2735,v1
+A81718,dev_C1,P1,1,false,,,,,2823,v1
+A81803,dev_C1,P1,0,false,,,,,10280,v1
+A82294,dev_C1,P1,0,false,,,,,3899,v1
+A82419,dev_C1,P1,1,false,,phong_dai,,,26335,v1
+A83312,dev_C1,P1,1,false,,,,,4664,v1
+A83432,dev_C1,P1,1,false,,,,,2776,v1
+A83904,dev_C1,P1,0,false,,,,,6199,v1
+A84356,dev_C1,P1,1,false,,,,,2239,v1
+A85460,dev_C1,P1,0,false,,,,,2567,v1
+A86344,dev_C1,P1,0,false,,,,,3464,v1
+A86997,dev_C1,P1,1,false,,,,,3647,v1
+A87459,dev_C1,P1,0,false,,,,,4903,v1
+A87809,dev_C1,P1,0,false,,,,,2360,v1
+A87960,dev_C1,P1,0,false,,,,,2839,v1
+A88358,dev_C1,P1,1,false,,,,,7744,v1
+A90773,dev_C1,P1,0,false,,,,,2542,v1
+A91190,dev_C1,P1,0,false,,,,,2255,v1
+A91264,dev_C1,P1,0,false,,,,,1744,v1
+A91380,dev_C1,P1,1,false,,,,,1824,v1
+A91505,dev_C1,P1,0,false,,,,,2304,v1
+A92033,dev_C1,P1,1,false,,,,,7407,v1
+A93662,dev_C1,P1,0,false,,,,,2207,v1
+A94378,dev_C1,P1,0,false,,,,,3614,v1
+A94630,dev_C1,P1,0,false,,,,,6703,v1
+A94872,dev_C1,P1,0,false,,,,,1975,v1
+A95204,dev_C1,P1,1,false,,,,,1864,v1
+A96064,dev_C1,P1,0,false,,,,,8455,v1
+A96243,dev_C1,P1,1,false,,,,,2063,v1
+A97181,dev_C1,P1,0,false,,,,,7056,v1
+A98071,dev_C1,P1,0,false,,,,,6456,v1
+A98083,dev_C1,P1,1,false,,,,,7175,v1
+A98246,dev_C1,P1,0,false,,,,,14512,v1
+A98567,dev_C1,P1,1,false,,,,,10510,v1
+A98895,dev_C1,P1,1,false,,,,,5689,v1
+A10248,dev_C1,P9,0,false,,,,,8495,v1
+A10649,dev_C1,P9,0,false,,,,,3521,v1
+A12333,dev_C1,P9,0,false,,,,,22127,v1
+A14239,dev_C1,P9,1,false,,danh_sach,Danh sách 21 bị can,,30727,v1
+A14391,dev_C1,P9,1,false,,doi_lap,Nghi phạm là con trai nạn nhân,,28702,v1
+A14868,dev_C1,P9,1,false,,danh_sach,3 loại quả này,,8455,v1
+A15103,dev_C1,P9,0,false,,,,,4950,v1
+A16651,dev_C1,P9,1,false,,giau_thong_tin,dấu hiệu lạ,,14719,v1
+A16923,dev_C1,P9,1,false,,danh_sach,4 kiểu tóc ngắn đó,,20068,v1
+A18261,dev_C1,P9,1,false,,cam_xuc,ngỡ ngàng,,13393,v1
+A19228,dev_C1,P9,0,false,,,,,6466,v1
+A19770,dev_C1,P9,1,false,,giau_thong_tin,,,13244,v1
+A21170,dev_C1,P9,0,false,,,,,3126,v1
+A22566,dev_C1,P9,1,false,,cau_hoi_treo,có được tự ý cắt tỉa,,24924,v1
+A22906,dev_C1,P9,0,false,,,,,4534,v1
+A23761,dev_C1,P9,1,false,,danh_sach,Những đặc quyền có 1-0-2,,7966,v1
+A23782,dev_C1,P9,0,false,,,,,11271,v1
+A23983,dev_C1,P9,1,false,,giau_thong_tin,nam diễn viên gen Z,,8468,v1
+A24371,dev_C1,P9,1,false,,phong_dai,thử một miếng ai cũng phải xuýt xoa,,15635,v1
+A24866,dev_C1,P9,0,false,,,,,43826,v1
+A25363,dev_C1,P9,0,false,,,,,12207,v1
+A25434,dev_C1,P9,1,false,,doi_lap,33 tuổi vẫn lên đồ cực cuốn,,145253,v1
+A25767,dev_C1,P9,0,false,,,,,5772,v1
+A26151,dev_C1,P9,1,false,,cam_xuc,gây chạnh lòng,,13051,v1
+A26212,dev_C1,P9,0,false,,,,,3298,v1
+A27281,dev_C1,P9,1,false,,doi_lap,,,25877,v1
+A28154,dev_C1,P9,1,false,,giau_thong_tin,quan trọng là điều này,,9014,v1
+A30691,dev_C1,P9,1,false,,danh_sach,3 con giáp này,,7464,v1
+A30996,dev_C1,P9,0,false,,,,,50113,v1
+A31013,dev_C1,P9,0,false,,,,,6587,v1
+A32850,dev_C1,P9,1,false,,phong_dai,'như xé truyện bước ra',,12485,v1
+A33028,dev_C1,P9,0,false,,,,,6696,v1
+A33753,dev_C1,P9,0,false,,,,,5571,v1
+A35104,dev_C1,P9,1,false,,giau_thong_tin,nhà vợ 'trâm anh thế phiệt',,28729,v1
+A35322,dev_C1,P9,0,false,,,,,23769,v1
+A35426,dev_C1,P9,1,false,,giau_thong_tin,2 kiểu tóc phổ biến,,15533,v1
+A35945,dev_C1,P9,1,false,,cam_xuc,thót tim,,7225,v1
+A36206,dev_C1,P9,1,false,,danh_sach,3 con giáp,,7216,v1
+A38226,dev_C1,P9,1,false,,giau_thong_tin,thông báo quan trọng,,9021,v1
+A38712,dev_C1,P9,0,false,,,,,7251,v1
+A38831,dev_C1,P9,0,false,,,,,3978,v1
+A39134,dev_C1,P9,1,false,,giau_thong_tin,đề nghị của đồng minh liên quan tới cơ sở năng lượng Nga,,19630,v1
+A39270,dev_C1,P9,1,false,,cau_hoi_treo,,,15424,v1
+A39699,dev_C1,P9,0,false,,,,,11397,v1
+A39774,dev_C1,P9,0,false,,,,,5860,v1
+A40486,dev_C1,P9,0,false,,,,,7392,v1
+A40647,dev_C1,P9,0,false,,,,,6586,v1
+A41489,dev_C1,P9,0,false,,,,,4733,v1
+A41686,dev_C1,P9,0,false,,,,,15528,v1
+A41703,dev_C1,P9,1,false,,cuc_diem,chưa từng có,,10758,v1
+A41944,dev_C1,P9,0,false,,,,,22011,v1
+A42685,dev_C1,P9,1,false,,,đối tượng cộm cán Bình “chôm”,,32996,v1
+A42970,dev_C1,P9,1,false,,giau_thong_tin,3 con giáp này,,16354,v1
+A44115,dev_C1,P9,0,false,,,,,3661,v1
+A44402,dev_C1,P9,1,false,,phong_dai,thách thức tử thần,,7783,v1
+A44644,dev_C1,P9,1,false,,giau_thong_tin,1 điểm đến nổi tiếng của Trung Quốc,,9331,v1
+A44727,dev_C1,P9,1,false,,danh_sach,4 quả xoài này,,19076,v1
+A45433,dev_C1,P9,0,false,,,,,5455,v1
+A45859,dev_C1,P9,1,false,,giau_thong_tin,,,7111,v1
+A45889,dev_C1,P9,0,false,,,,,8427,v1
+A46324,dev_C1,P9,0,false,,,,,5782,v1
+A47031,dev_C1,P9,1,false,,doi_lap,,,10218,v1
+A47081,dev_C1,P9,1,false,,giau_thong_tin;doi_lap,,,9167,v1
+A47438,dev_C1,P9,0,false,,,,,60239,v1
+A48983,dev_C1,P9,0,false,,,,,4248,v1
+A50004,dev_C1,P9,0,false,,,,,117634,v1
+A51167,dev_C1,P9,1,false,,doi_lap,"Tài xế nhảy xuống kênh, đòi đánh người giải cứu",,19119,v1
+A51394,dev_C1,P9,1,false,,giau_thong_tin,một trường,,14954,v1
+A51880,dev_C1,P9,1,false,,phong_dai;cam_xuc,,,21658,v1
+A52005,dev_C1,P9,1,false,,,gây bão mạng,,41194,v1
+A52067,dev_C1,P9,1,true,"Tiêu đề mở, lơ lửng",,,,73016,v1
+A52205,dev_C1,P9,0,false,,,,,32442,v1
+A52439,dev_C1,P9,1,false,,danh_sach,4 động tác này,,6879,v1
+A52681,dev_C1,P9,1,false,,cuc_diem,chưa từng có,,12881,v1
+A53163,dev_C1,P9,0,false,,,,,5639,v1
+A53521,dev_C1,P9,1,false,,hua_tiet_lo,loạt mục tiêu chưa từng có,,9435,v1
+A53601,dev_C1,P9,1,false,,giau_thong_tin,một ngôi chùa người Hoa,,17811,v1
+A54190,dev_C1,P9,0,false,,,,,7794,v1
+A54883,dev_C1,P9,1,false,,cuc_diem,duy nhất 1 người,,12113,v1
+A54946,dev_C1,P9,1,false,,phong_dai,tiết lộ kết quả gây sốc,,12954,v1
+A55293,dev_C1,P9,0,false,,,,,18793,v1
+A56169,dev_C1,P9,1,false,,phong_dai,Siết cổ và dọa giết vợ,,15556,v1
+A56235,dev_C1,P9,1,false,,giau_thong_tin,Tài tử đào hoa nhất TVB,,11802,v1
+A57279,dev_C1,P9,1,false,,giau_thong_tin,thành viên hát hay nhất BLACKPINK làm điều này,,19970,v1
+A57351,dev_C1,P9,1,false,,doi_lap,,,12721,v1
+A57389,dev_C1,P9,0,false,,,,,5492,v1
+A57462,dev_C1,P9,1,false,,giau_thong_tin,Quán cà phê từng cho khách 'đặt bài hát tỏ tình',,27503,v1
+A59403,dev_C1,P9,1,false,,giau_thong_tin,lý do vẫn nhận đơn,,13148,v1
+A59457,dev_C1,P9,1,false,,doi_lap;giau_thong_tin,mắc bệnh này,,16428,v1
+A60630,dev_C1,P9,0,false,,,,,8689,v1
+A60855,dev_C1,P9,0,false,,,,,11856,v1
+A61712,dev_C1,P9,1,false,,giau_thong_tin,,,13283,v1
+A62630,dev_C1,P9,1,false,,phong_dai,loạt 'siêu phẩm' cây cảnh,,24928,v1
+A62742,dev_C1,P9,0,false,,,,,20460,v1
+A63748,dev_C1,P9,0,false,,,,,3632,v1
+A64641,dev_C1,P9,0,false,,,,,4547,v1
+A64940,dev_C1,P9,1,false,,giau_thong_tin,có diễn biến mới,,15988,v1
+A66100,dev_C1,P9,1,false,,doi_lap,người yêu mới và người yêu cũ của Neymar cùng nhau vào bếp làm bánh cho anh ăn,,26167,v1
+A66127,dev_C1,P9,1,false,,giau_thong_tin,Một khách hàng,,10368,v1
+A66439,dev_C1,P9,0,false,,,,,12495,v1
+A66825,dev_C1,P9,0,false,,,,,6536,v1
+A67090,dev_C1,P9,0,false,,,,,11383,v1
+A67618,dev_C1,P9,1,false,,giau_thong_tin,"Ghim ngay 4 gam màu ""phú quý""",,29795,v1
+A68338,dev_C1,P9,1,false,,giau_thong_tin;phong_dai,Nghề lạ ở Việt Nam,,13946,v1
+A68667,dev_C1,P9,1,false,,,,,27849,v1
+A68764,dev_C1,P9,0,false,,,,,5690,v1
+A69037,dev_C1,P9,1,false,,cau_hoi_treo,,,11390,v1
+A71296,dev_C1,P9,0,false,,,,,3777,v1
+A71556,dev_C1,P9,0,false,,,,,8056,v1
+A72920,dev_C1,P9,0,false,,,,,3708,v1
+A73269,dev_C1,P9,1,false,,phong_dai;doi_lap,“vịt hóa thiên nga” mặt đẹp khỏi chê nhưng EQ “âm điểm”,,21441,v1
+A73539,dev_C1,P9,1,false,,giau_thong_tin,Chiếc xe máy điện Honda,,47710,v1
+A75338,dev_C1,P9,1,false,,doi_lap;giau_thong_tin,,,10471,v1
+A75341,dev_C1,P9,1,false,,phong_dai,tòa nhà 101 tầng,,13121,v1
+A75825,dev_C1,P9,1,false,,giau_thong_tin,3 con giáp làm đâu thắng đó,,19285,v1
+A78507,dev_C1,P9,1,false,,giau_thong_tin,mục tiêu nóng,,8724,v1
+A79133,dev_C1,P9,1,false,,cau_hoi_treo,,,4977,v1
+A79513,dev_C1,P9,0,false,,,,,7936,v1
+A80596,dev_C1,P9,0,false,,,,,24315,v1
+A80662,dev_C1,P9,1,false,,giau_thong_tin,"Điểm đến được ví như ""Hawaii của Việt Nam""",,10289,v1
+A80777,dev_C1,P9,1,false,,giau_thong_tin,một câu nói,,10193,v1
+A81550,dev_C1,P9,0,false,,,,,8983,v1
+A81718,dev_C1,P9,1,false,,cau_hoi_treo,luôn đắt đỏ,,12088,v1
+A81803,dev_C1,P9,0,false,,,,,8819,v1
+A82294,dev_C1,P9,0,false,,,,,8346,v1
+A82419,dev_C1,P9,1,false,,cuc_diem,,,38137,v1
+A83312,dev_C1,P9,1,false,,cam_xuc,gây phẫn nộ,,22658,v1
+A83432,dev_C1,P9,1,false,,cau_hoi_treo,giờ ra sao?,,11337,v1
+A83904,dev_C1,P9,1,false,,cau_hoi_treo,,,3782,v1
+A84356,dev_C1,P9,1,false,,cau_hoi_treo,,,7360,v1
+A85460,dev_C1,P9,0,false,,,,,8699,v1
+A86344,dev_C1,P9,0,false,,,,,5686,v1
+A86997,dev_C1,P9,1,false,,cau_hoi_treo,,,5217,v1
+A87459,dev_C1,P9,0,false,,,,,6419,v1
+A87809,dev_C1,P9,0,false,,,,,5931,v1
+A87960,dev_C1,P9,0,false,,,,,3275,v1
+A88358,dev_C1,P9,1,false,,doi_lap;giau_thong_tin,"Diễn viên 'Thiên mệnh anh hùng': Người bạc mệnh, người thành đạo diễn trăm tỷ",,37942,v1
+A90773,dev_C1,P9,0,false,,,,,19699,v1
+A91190,dev_C1,P9,0,false,,,,,12966,v1
+A91264,dev_C1,P9,0,false,,,,,4423,v1
+A91380,dev_C1,P9,1,false,,cau_hoi_treo,có giá trị gì với sức khỏe,,28701,v1
+A91505,dev_C1,P9,0,false,,,,,4335,v1
+A92033,dev_C1,P9,1,false,,cam_xuc;doi_lap,chê vợ hoang phí rồi nghẹn đắng,,16702,v1
+A93662,dev_C1,P9,0,false,,,,,3729,v1
+A94378,dev_C1,P9,0,false,,,,,4697,v1
+A94630,dev_C1,P9,1,false,,giau_thong_tin,,,31762,v1
+A94872,dev_C1,P9,0,false,,,,,25051,v1
+A95204,dev_C1,P9,1,false,,cau_hoi_treo,,,3898,v1
+A96064,dev_C1,P9,0,false,,,,,7776,v1
+A96243,dev_C1,P9,1,false,,giau_thong_tin,Doanh nghiệp nào,,21538,v1
+A97181,dev_C1,P9,0,false,,,,,83558,v1
+A98071,dev_C1,P9,1,false,,doi_lap,"Người thiếu cân, mặc đồ thiếu vải khiến triệu người bàn tán",,21524,v1
+A98083,dev_C1,P9,1,false,,danh_sach,chỉ có 2 trường đào tạo thứ tiếng này,,22150,v1
+A98246,dev_C1,P9,0,false,,,,,4738,v1
+A98567,dev_C1,P9,1,false,,cam_xuc,gây ngỡ ngàng,,62030,v1
+A98895,dev_C1,P9,1,false,,giau_thong_tin,,,11533,v1
+A10001,dev_C2,P1,0,false,,,,,2201,v1
+A10134,dev_C2,P1,0,false,,,,,2855,v1
+A10287,dev_C2,P1,0,false,,,,,9548,v1
+A11048,dev_C2,P1,0,false,,,,,3576,v1
+A12112,dev_C2,P1,1,false,,,,,2913,v1
+A13072,dev_C2,P1,1,false,,,,,7450,v1
+A13557,dev_C2,P1,1,false,,,,,11216,v1
+A15978,dev_C2,P1,0,false,,,,,2032,v1
+A16058,dev_C2,P1,0,false,,,,,2408,v1
+A16262,dev_C2,P1,0,false,,,,,1988,v1
+A16624,dev_C2,P1,0,false,,,,,2889,v1
+A17898,dev_C2,P1,0,false,,,,,5744,v1
+A18697,dev_C2,P1,0,false,,,,,2335,v1
+A18738,dev_C2,P1,1,false,,,,,2320,v1
+A18906,dev_C2,P1,0,false,,,,,1478,v1
+A19118,dev_C2,P1,0,false,,,,,3840,v1
+A19143,dev_C2,P1,0,false,,,,,3735,v1
+A19245,dev_C2,P1,1,false,,,,,3313,v1
+A20066,dev_C2,P1,0,false,,,,,3839,v1
+A20273,dev_C2,P1,0,false,,,,,2079,v1
+A21012,dev_C2,P1,1,false,,,,,3311,v1
+A22164,dev_C2,P1,0,false,,,,,2640,v1
+A22478,dev_C2,P1,0,false,,,,,1864,v1
+A22658,dev_C2,P1,1,false,,,,,5087,v1
+A23305,dev_C2,P1,1,false,,,,,2935,v1
+A24093,dev_C2,P1,0,false,,,,,1736,v1
+A24462,dev_C2,P1,1,false,,,,,2296,v1
+A24727,dev_C2,P1,1,false,,,,,7864,v1
+A24804,dev_C2,P1,0,false,,,,,1704,v1
+A25134,dev_C2,P1,1,false,,,,,3743,v1
+A26045,dev_C2,P1,0,false,,,,,2687,v1
+A26186,dev_C2,P1,1,false,,,,,2031,v1
+A29516,dev_C2,P1,0,false,,,,,2615,v1
+A29534,dev_C2,P1,1,false,,,,,2560,v1
+A29840,dev_C2,P1,0,false,,,,,1592,v1
+A29911,dev_C2,P1,1,false,,,,,2623,v1
+A30894,dev_C2,P1,0,false,,,,,1625,v1
+A30972,dev_C2,P1,0,false,,,,,6191,v1
+A31371,dev_C2,P1,1,false,,,,,2632,v1
+A32461,dev_C2,P1,1,false,,,,,1880,v1
+A32812,dev_C2,P1,1,false,,,,,1911,v1
+A34046,dev_C2,P1,0,false,,,,,2095,v1
+A34183,dev_C2,P1,1,false,,,,,2007,v1
+A35353,dev_C2,P1,1,false,,,,,4543,v1
+A36460,dev_C2,P1,0,false,,,,,4630,v1
+A36615,dev_C2,P1,0,false,,,,,2215,v1
+A37215,dev_C2,P1,0,false,,,,,3840,v1
+A37793,dev_C2,P1,1,false,,,,,3328,v1
+A38120,dev_C2,P1,0,false,,,,,3847,v1
+A38800,dev_C2,P1,0,false,,,,,4424,v1
+A38828,dev_C2,P1,1,false,,,,,1648,v1
+A38977,dev_C2,P1,0,false,,,,,1519,v1
+A39064,dev_C2,P1,0,false,,,,,3337,v1
+A39106,dev_C2,P1,1,false,,,,,3344,v1
+A39916,dev_C2,P1,0,false,,,,,1616,v1
+A40255,dev_C2,P1,0,false,,,,,6167,v1
+A40532,dev_C2,P1,1,false,,,,,2049,v1
+A40623,dev_C2,P1,1,false,,,,,3120,v1
+A40893,dev_C2,P1,0,false,,,,,4192,v1
+A42011,dev_C2,P1,1,false,,,,,3920,v1
+A42108,dev_C2,P1,0,false,,,,,1567,v1
+A43026,dev_C2,P1,1,false,,,,,12062,v1
+A44235,dev_C2,P1,0,false,,,,,4407,v1
+A45405,dev_C2,P1,0,false,,,,,4207,v1
+A45556,dev_C2,P1,1,false,,,,,3855,v1
+A46050,dev_C2,P1,0,false,,,,,1935,v1
+A46437,dev_C2,P1,0,false,,,,,5752,v1
+A46733,dev_C2,P1,0,false,,,,,7055,v1
+A47724,dev_C2,P1,0,false,,,,,3207,v1
+A48299,dev_C2,P1,1,false,,,,,2049,v1
+A49080,dev_C2,P1,0,false,,,,,1839,v1
+A49139,dev_C2,P1,0,false,,,,,2536,v1
+A49521,dev_C2,P1,0,false,,,,,89376,v1
+A49975,dev_C2,P1,0,false,,,,,2079,v1
+A50107,dev_C2,P1,1,false,,,,,4128,v1
+A50361,dev_C2,P1,0,false,,,,,2439,v1
+A51413,dev_C2,P1,0,false,,,,,2984,v1
+A51487,dev_C2,P1,0,false,,,,,3209,v1
+A52343,dev_C2,P1,1,false,,,,,6744,v1
+A52721,dev_C2,P1,1,false,,,,,2239,v1
+A53801,dev_C2,P1,0,false,,,,,2352,v1
+A53945,dev_C2,P1,0,false,,,,,2454,v1
+A54405,dev_C2,P1,0,false,,,,,2111,v1
+A54409,dev_C2,P1,1,false,,,,,2976,v1
+A54455,dev_C2,P1,0,false,,,,,1863,v1
+A54937,dev_C2,P1,0,false,,,,,5599,v1
+A55275,dev_C2,P1,1,false,,,,,4800,v1
+A56474,dev_C2,P1,1,false,,,,,3592,v1
+A56619,dev_C2,P1,0,false,,,,,2648,v1
+A56815,dev_C2,P1,1,false,,,,,12928,v1
+A59096,dev_C2,P1,0,false,,,,,4807,v1
+A60205,dev_C2,P1,0,false,,,,,1504,v1
+A60488,dev_C2,P1,0,false,,,,,2808,v1
+A61881,dev_C2,P1,1,false,,,,,2001,v1
+A61907,dev_C2,P1,0,false,,,,,3527,v1
+A62580,dev_C2,P1,1,false,,,,,55635,v1
+A62749,dev_C2,P1,0,false,,,,,3175,v1
+A62826,dev_C2,P1,0,false,,,,,11630,v1
+A63843,dev_C2,P1,0,false,,,,,1270,v1
+A63916,dev_C2,P1,1,false,,,,,3727,v1
+A64241,dev_C2,P1,1,false,,,,,4519,v1
+A65707,dev_C2,P1,0,false,,,,,4322,v1
+A66608,dev_C2,P1,1,false,,,,,20800,v1
+A66871,dev_C2,P1,0,false,,,,,8288,v1
+A67638,dev_C2,P1,0,false,,,,,4216,v1
+A67885,dev_C2,P1,1,false,,,,,1495,v1
+A68746,dev_C2,P1,0,false,,,,,4240,v1
+A69100,dev_C2,P1,0,false,,,,,1463,v1
+A69254,dev_C2,P1,0,false,,,,,1520,v1
+A69303,dev_C2,P1,0,false,,,,,1865,v1
+A69333,dev_C2,P1,0,false,,,,,3143,v1
+A70247,dev_C2,P1,0,false,,,,,2799,v1
+A71657,dev_C2,P1,1,false,,,,,3432,v1
+A72027,dev_C2,P1,0,false,,,,,3136,v1
+A72066,dev_C2,P1,1,false,,,,,8624,v1
+A72454,dev_C2,P1,1,false,,,,,5333,v1
+A72909,dev_C2,P1,1,false,,,,,3024,v1
+A73716,dev_C2,P1,1,false,,,,,5807,v1
+A74647,dev_C2,P1,0,false,,,,,3960,v1
+A75318,dev_C2,P1,1,false,,,,,2263,v1
+A75675,dev_C2,P1,1,false,,,,,2663,v1
+A75688,dev_C2,P1,1,false,,,,,2623,v1
+A75776,dev_C2,P1,1,false,,,,,2604,v1
+A75882,dev_C2,P1,0,false,,,,,2896,v1
+A76081,dev_C2,P1,1,false,,,,,8094,v1
+A76297,dev_C2,P1,0,false,,,,,6303,v1
+A76666,dev_C2,P1,0,false,,,,,3953,v1
+A76889,dev_C2,P1,1,false,,,,,7392,v1
+A77874,dev_C2,P1,0,false,,,,,3360,v1
+A79234,dev_C2,P1,0,false,,,,,1760,v1
+A79315,dev_C2,P1,1,false,,,,,4240,v1
+A79587,dev_C2,P1,0,false,,,,,7255,v1
+A80015,dev_C2,P1,1,false,,,,,4118,v1
+A81878,dev_C2,P1,1,false,,,,,4352,v1
+A81925,dev_C2,P1,1,false,,,,,3967,v1
+A83313,dev_C2,P1,0,false,,,,,7359,v1
+A83826,dev_C2,P1,0,false,,,,,2232,v1
+A85624,dev_C2,P1,0,false,,,,,3624,v1
+A86872,dev_C2,P1,0,false,,,,,3832,v1
+A88398,dev_C2,P1,0,false,,,,,1264,v1
+A89488,dev_C2,P1,1,false,,,,,4872,v1
+A91159,dev_C2,P1,0,false,,,,,2527,v1
+A91840,dev_C2,P1,0,false,,,,,3416,v1
+A92667,dev_C2,P1,1,false,,,,,1518,v1
+A93592,dev_C2,P1,0,false,,,,,1967,v1
+A93820,dev_C2,P1,1,false,,,,,3424,v1
+A93841,dev_C2,P1,0,false,,,,,2024,v1
+A95170,dev_C2,P1,1,false,,,,,3200,v1
+A95228,dev_C2,P1,0,false,,,,,4024,v1
+A95302,dev_C2,P1,0,false,,,,,2176,v1
+A95703,dev_C2,P1,0,false,,,,,1871,v1
+A96846,dev_C2,P1,0,false,,,,,2960,v1
+A99043,dev_C2,P1,0,false,,,,,3032,v1
+A99115,dev_C2,P1,1,false,,,,,3023,v1
+A99150,dev_C2,P1,1,false,,,,,3016,v1
+A99450,dev_C2,P1,0,false,,,,,2575,v1
+A10001,dev_C2,P2,0,false,,,,,2411,v1
+A10134,dev_C2,P2,1,false,,,,,6316,v1
+A10287,dev_C2,P2,1,false,,,,,1835,v1
+A11048,dev_C2,P2,1,false,,,,,3770,v1
+A12112,dev_C2,P2,1,false,,,,,5764,v1
+A13072,dev_C2,P2,0,false,,,,,4502,v1
+A13557,dev_C2,P2,1,false,,doi_lap,,,12866,v1
+A15978,dev_C2,P2,0,false,,,,,2069,v1
+A16058,dev_C2,P2,0,false,,,,,9021,v1
+A16262,dev_C2,P2,0,false,,,,,2439,v1
+A16624,dev_C2,P2,0,false,,,,,4447,v1
+A17898,dev_C2,P2,1,false,,,,,17002,v1
+A18697,dev_C2,P2,0,false,,,,,2774,v1
+A18738,dev_C2,P2,1,false,,,,,2803,v1
+A18906,dev_C2,P2,0,false,,,,,8578,v1
+A19118,dev_C2,P2,0,false,,,,,4097,v1
+A19143,dev_C2,P2,0,false,,,,,2059,v1
+A19245,dev_C2,P2,1,false,,,,,2235,v1
+A20066,dev_C2,P2,0,false,,,,,3586,v1
+A20273,dev_C2,P2,1,false,,,,,9808,v1
+A21012,dev_C2,P2,1,false,,,,,2240,v1
+A22164,dev_C2,P2,0,false,,,,,1950,v1
+A22478,dev_C2,P2,0,false,,,,,3566,v1
+A22658,dev_C2,P2,1,false,,,,,4908,v1
+A23305,dev_C2,P2,1,false,,,,,3211,v1
+A24093,dev_C2,P2,0,false,,,,,2038,v1
+A24462,dev_C2,P2,1,false,,,,,3517,v1
+A24727,dev_C2,P2,1,false,,,,,2361,v1
+A24804,dev_C2,P2,0,false,,,,,5685,v1
+A25134,dev_C2,P2,1,false,,,,,3722,v1
+A26045,dev_C2,P2,0,false,,,,,3036,v1
+A26186,dev_C2,P2,1,false,,,,,2285,v1
+A29516,dev_C2,P2,1,false,,,,,2122,v1
+A29534,dev_C2,P2,1,false,,,,,2289,v1
+A29840,dev_C2,P2,1,false,,,,,6318,v1
+A29911,dev_C2,P2,1,false,,,,,2010,v1
+A30894,dev_C2,P2,0,false,,,,,3846,v1
+A30972,dev_C2,P2,1,false,,,,,5027,v1
+A31371,dev_C2,P2,1,false,,,,,1840,v1
+A32461,dev_C2,P2,1,false,,,,,2056,v1
+A32812,dev_C2,P2,1,false,,,,,1881,v1
+A34046,dev_C2,P2,1,false,,,,,9588,v1
+A34183,dev_C2,P2,1,false,,,,,6547,v1
+A35353,dev_C2,P2,1,false,,,,,2526,v1
+A36460,dev_C2,P2,1,false,,,,,6357,v1
+A36615,dev_C2,P2,1,false,,,,,3228,v1
+A37215,dev_C2,P2,1,false,,,,,13363,v1
+A37793,dev_C2,P2,1,false,,,,,2677,v1
+A38120,dev_C2,P2,1,false,,,,,2279,v1
+A38800,dev_C2,P2,1,false,,,,,3861,v1
+A38828,dev_C2,P2,1,false,,,,,1639,v1
+A38977,dev_C2,P2,0,false,,,,,1901,v1
+A39064,dev_C2,P2,0,false,,,,,2747,v1
+A39106,dev_C2,P2,1,false,,,,,2578,v1
+A39916,dev_C2,P2,0,false,,,,,3923,v1
+A40255,dev_C2,P2,0,false,,,,,5018,v1
+A40532,dev_C2,P2,1,false,,,,,2363,v1
+A40623,dev_C2,P2,1,false,,,,,2899,v1
+A40893,dev_C2,P2,0,false,,,,,2143,v1
+A42011,dev_C2,P2,1,false,,,,,2353,v1
+A42108,dev_C2,P2,0,false,,,,,3743,v1
+A43026,dev_C2,P2,1,false,,,,,3649,v1
+A44235,dev_C2,P2,0,false,,,,,6469,v1
+A45405,dev_C2,P2,0,false,,,,,2160,v1
+A45556,dev_C2,P2,1,false,,,,,3334,v1
+A46050,dev_C2,P2,0,false,,,,,1977,v1
+A46437,dev_C2,P2,1,false,,,,,2093,v1
+A46733,dev_C2,P2,1,false,,,,,2748,v1
+A47724,dev_C2,P2,1,false,,,,,5986,v1
+A48299,dev_C2,P2,1,false,,,,,2829,v1
+A49080,dev_C2,P2,1,false,,,,,4769,v1
+A49139,dev_C2,P2,1,false,,,,,2247,v1
+A49521,dev_C2,P2,1,false,,,,,4575,v1
+A49975,dev_C2,P2,0,false,,,,,3597,v1
+A50107,dev_C2,P2,1,false,,,,,4143,v1
+A50361,dev_C2,P2,1,false,,,,,2406,v1
+A51413,dev_C2,P2,1,false,,,,,5351,v1
+A51487,dev_C2,P2,0,false,,,,,4207,v1
+A52343,dev_C2,P2,1,false,,,,,3924,v1
+A52721,dev_C2,P2,1,false,,,,,4226,v1
+A53801,dev_C2,P2,0,false,,,,,4075,v1
+A53945,dev_C2,P2,1,false,,,,,1851,v1
+A54405,dev_C2,P2,0,false,,,,,11060,v1
+A54409,dev_C2,P2,1,false,,,,,9067,v1
+A54455,dev_C2,P2,0,false,,,,,2117,v1
+A54937,dev_C2,P2,0,false,,,,,3460,v1
+A55275,dev_C2,P2,1,false,,,,,5248,v1
+A56474,dev_C2,P2,1,false,,,,,4804,v1
+A56619,dev_C2,P2,0,false,,,,,5703,v1
+A56815,dev_C2,P2,0,false,,,,,3738,v1
+A59096,dev_C2,P2,1,false,,,,,5617,v1
+A60205,dev_C2,P2,0,false,,,,,2021,v1
+A60488,dev_C2,P2,0,false,,,,,2342,v1
+A61881,dev_C2,P2,1,false,,,,,2187,v1
+A61907,dev_C2,P2,1,false,,,,,7743,v1
+A62580,dev_C2,P2,0,false,,,,,9830,v1
+A62749,dev_C2,P2,1,false,,,,,6238,v1
+A62826,dev_C2,P2,1,false,,,,,3141,v1
+A63843,dev_C2,P2,0,false,,,,,4952,v1
+A63916,dev_C2,P2,1,false,,,,,11794,v1
+A64241,dev_C2,P2,1,false,,,,,1927,v1
+A65707,dev_C2,P2,1,false,,,,,4030,v1
+A66608,dev_C2,P2,1,false,,,,,2209,v1
+A66871,dev_C2,P2,1,false,,,,,2052,v1
+A67638,dev_C2,P2,1,false,,,,,5588,v1
+A67885,dev_C2,P2,1,false,,,,,1578,v1
+A68746,dev_C2,P2,1,false,,,,,2851,v1
+A69100,dev_C2,P2,0,false,,,,,3670,v1
+A69254,dev_C2,P2,0,false,,,,,3253,v1
+A69303,dev_C2,P2,1,false,,,,,4449,v1
+A69333,dev_C2,P2,1,false,,giau_thong_tin,,,7869,v1
+A70247,dev_C2,P2,0,false,,,,,5851,v1
+A71657,dev_C2,P2,1,false,,,,,2995,v1
+A72027,dev_C2,P2,0,false,,,,,2885,v1
+A72066,dev_C2,P2,1,false,,,,,6620,v1
+A72454,dev_C2,P2,1,false,,,,,2243,v1
+A72909,dev_C2,P2,1,false,,,,,7388,v1
+A73716,dev_C2,P2,1,false,,,,,2836,v1
+A74647,dev_C2,P2,1,false,,,,,3056,v1
+A75318,dev_C2,P2,1,false,,,,,2713,v1
+A75675,dev_C2,P2,1,false,,,,,4494,v1
+A75688,dev_C2,P2,1,false,,,,,2071,v1
+A75776,dev_C2,P2,1,false,,,,,1715,v1
+A75882,dev_C2,P2,0,false,,,,,3257,v1
+A76081,dev_C2,P2,1,false,,,,,5190,v1
+A76297,dev_C2,P2,0,false,,,,,3905,v1
+A76666,dev_C2,P2,1,false,,,,,1900,v1
+A76889,dev_C2,P2,1,false,,,,,2415,v1
+A77874,dev_C2,P2,1,false,,,,,4134,v1
+A79234,dev_C2,P2,0,false,,,,,2402,v1
+A79315,dev_C2,P2,1,false,,,,,5392,v1
+A79587,dev_C2,P2,1,false,,,,,15373,v1
+A80015,dev_C2,P2,1,false,,,,,1951,v1
+A81878,dev_C2,P2,1,false,,,,,6057,v1
+A81925,dev_C2,P2,1,false,,,,,2636,v1
+A83313,dev_C2,P2,1,false,,,,,6701,v1
+A83826,dev_C2,P2,1,false,,,,,5389,v1
+A85624,dev_C2,P2,1,false,,,,,2859,v1
+A86872,dev_C2,P2,1,false,,,,,2932,v1
+A88398,dev_C2,P2,0,false,,,,,5023,v1
+A89488,dev_C2,P2,1,false,,,,,2295,v1
+A91159,dev_C2,P2,1,false,,,,,3935,v1
+A91840,dev_C2,P2,0,false,,,,,6141,v1
+A92667,dev_C2,P2,1,false,,,,,1728,v1
+A93592,dev_C2,P2,0,false,,,,,5638,v1
+A93820,dev_C2,P2,1,false,,,,,3025,v1
+A93841,dev_C2,P2,0,false,,,,,2854,v1
+A95170,dev_C2,P2,1,false,,,,,3551,v1
+A95228,dev_C2,P2,0,false,,,,,4946,v1
+A95302,dev_C2,P2,0,false,,,,,1893,v1
+A95703,dev_C2,P2,1,false,,,,,3705,v1
+A96846,dev_C2,P2,0,false,,,,,6038,v1
+A99043,dev_C2,P2,1,false,,,,,1991,v1
+A99115,dev_C2,P2,1,false,,,,,1805,v1
+A99150,dev_C2,P2,1,false,,,,,1998,v1
+A99450,dev_C2,P2,0,false,,,,,5501,v1
+A10156,dev_C3,P2,1,false,,,,,2762,v1
+A10338,dev_C3,P2,0,false,,,,,2723,v1
+A10883,dev_C3,P2,0,false,,,,,3488,v1
+A11251,dev_C3,P2,1,false,,,,,2535,v1
+A11894,dev_C3,P2,1,false,,,,,1735,v1
+A12385,dev_C3,P2,1,false,,,,,3922,v1
+A12591,dev_C3,P2,1,false,,,,,2238,v1
+A13729,dev_C3,P2,1,false,,,,,2172,v1
+A13853,dev_C3,P2,1,false,,,,,3606,v1
+A13881,dev_C3,P2,0,false,,,,,1879,v1
+A14553,dev_C3,P2,0,false,,,,,6470,v1
+A14584,dev_C3,P2,0,false,,,,,5519,v1
+A15454,dev_C3,P2,1,false,,,,,1817,v1
+A15600,dev_C3,P2,0,false,,,,,7749,v1
+A15648,dev_C3,P2,1,false,,,,,6312,v1
+A15869,dev_C3,P2,1,false,,,,,2095,v1
+A15911,dev_C3,P2,0,false,,,,,4463,v1
+A16505,dev_C3,P2,1,false,,,,,5206,v1
+A16690,dev_C3,P2,0,false,,,,,3339,v1
+A17561,dev_C3,P2,1,false,,,,,1845,v1
+A17755,dev_C3,P2,0,false,,,,,1837,v1
+A17852,dev_C3,P2,1,false,,phong_dai,,,6867,v1
+A17996,dev_C3,P2,1,false,,giau_thong_tin,,,11129,v1
+A18044,dev_C3,P2,1,false,,,,,1822,v1
+A18767,dev_C3,P2,1,false,,,,,9945,v1
+A18874,dev_C3,P2,0,false,,,,,5632,v1
+A19301,dev_C3,P2,0,false,,,,,3134,v1
+A19630,dev_C3,P2,1,false,,,,,2078,v1
+A20931,dev_C3,P2,0,false,,,,,3092,v1
+A20989,dev_C3,P2,0,false,,,,,2410,v1
+A21316,dev_C3,P2,0,false,,,,,11408,v1
+A22603,dev_C3,P2,0,false,,,,,4034,v1
+A23294,dev_C3,P2,1,false,,,,,3578,v1
+A23421,dev_C3,P2,0,false,,,,,2542,v1
+A24026,dev_C3,P2,1,false,,,,,3237,v1
+A24216,dev_C3,P2,0,false,,,,,2631,v1
+A25307,dev_C3,P2,1,false,,,,,2820,v1
+A25424,dev_C3,P2,1,false,,,,,2581,v1
+A25510,dev_C3,P2,1,false,,,,,3226,v1
+A26290,dev_C3,P2,1,false,,,,,1753,v1
+A26519,dev_C3,P2,1,false,,,,,2995,v1
+A26843,dev_C3,P2,1,false,,,,,1748,v1
+A27048,dev_C3,P2,0,false,,,,,17375,v1
+A27214,dev_C3,P2,0,false,,,,,2751,v1
+A27431,dev_C3,P2,1,false,,,,,2057,v1
+A28265,dev_C3,P2,1,false,,,,,2107,v1
+A29006,dev_C3,P2,1,false,,,,,5819,v1
+A29268,dev_C3,P2,1,false,,,,,1853,v1
+A31054,dev_C3,P2,0,false,,,,,3391,v1
+A31422,dev_C3,P2,0,false,,,,,4151,v1
+A33456,dev_C3,P2,0,false,,,,,5657,v1
+A34270,dev_C3,P2,1,false,,,,,1614,v1
+A34276,dev_C3,P2,1,false,,,,,3789,v1
+A34810,dev_C3,P2,0,false,,,,,2503,v1
+A35729,dev_C3,P2,1,false,,,,,1933,v1
+A35778,dev_C3,P2,1,false,,,,,2871,v1
+A36094,dev_C3,P2,1,false,,,,,1864,v1
+A36146,dev_C3,P2,1,false,,,,,2631,v1
+A37281,dev_C3,P2,1,false,,,,,4205,v1
+A38351,dev_C3,P2,1,false,,,,,2437,v1
+A40120,dev_C3,P2,1,false,,,,,3173,v1
+A41043,dev_C3,P2,1,false,,,,,2226,v1
+A41247,dev_C3,P2,1,false,,,,,3302,v1
+A41669,dev_C3,P2,1,false,,,,,1866,v1
+A41840,dev_C3,P2,0,false,,,,,2390,v1
+A42570,dev_C3,P2,1,false,,,,,4125,v1
+A43360,dev_C3,P2,0,false,,,,,8251,v1
+A43799,dev_C3,P2,1,false,,,,,2022,v1
+A44885,dev_C3,P2,1,false,,,,,1757,v1
+A45008,dev_C3,P2,0,false,,,,,2077,v1
+A45741,dev_C3,P2,0,false,,,,,4144,v1
+A46363,dev_C3,P2,1,false,,,,,2232,v1
+A46786,dev_C3,P2,1,false,,,,,3094,v1
+A46818,dev_C3,P2,1,false,,,,,2565,v1
+A47617,dev_C3,P2,1,false,,,,,2850,v1
+A47714,dev_C3,P2,0,false,,,,,1894,v1
+A48426,dev_C3,P2,0,false,,,,,1749,v1
+A49299,dev_C3,P2,1,false,,,,,2564,v1
+A49551,dev_C3,P2,1,false,,,,,6026,v1
+A49979,dev_C3,P2,1,false,,,,,5959,v1
+A50741,dev_C3,P2,1,false,,cam_xuc,,,16914,v1
+A51115,dev_C3,P2,1,false,,,,,2809,v1
+A51920,dev_C3,P2,1,false,,,,,1891,v1
+A53116,dev_C3,P2,1,false,,,,,3012,v1
+A53411,dev_C3,P2,0,false,,,,,3020,v1
+A53582,dev_C3,P2,0,false,,,,,2365,v1
+A53760,dev_C3,P2,1,false,,,,,1930,v1
+A54595,dev_C3,P2,1,false,,,,,2541,v1
+A55261,dev_C3,P2,1,false,,,,,2116,v1
+A55644,dev_C3,P2,1,false,,,,,1841,v1
+A56108,dev_C3,P2,1,false,,,,,5005,v1
+A56388,dev_C3,P2,1,false,,,,,2649,v1
+A56827,dev_C3,P2,0,false,,,,,5448,v1
+A56897,dev_C3,P2,1,false,,,,,2522,v1
+A57704,dev_C3,P2,1,false,,,,,2104,v1
+A58258,dev_C3,P2,1,false,,,,,2223,v1
+A58618,dev_C3,P2,0,false,,,,,2728,v1
+A61228,dev_C3,P2,0,false,,,,,2135,v1
+A62273,dev_C3,P2,1,false,,,,,2935,v1
+A62755,dev_C3,P2,1,false,,,,,2454,v1
+A63211,dev_C3,P2,1,false,,,,,2710,v1
+A63294,dev_C3,P2,0,false,,,,,2336,v1
+A63569,dev_C3,P2,1,false,,,,,1740,v1
+A63677,dev_C3,P2,0,false,,,,,2416,v1
+A65699,dev_C3,P2,1,false,,,,,7424,v1
+A65708,dev_C3,P2,1,false,,,,,2090,v1
+A66033,dev_C3,P2,0,false,,,,,16283,v1
+A66781,dev_C3,P2,1,false,,,,,4110,v1
+A66992,dev_C3,P2,0,false,,,,,1717,v1
+A67139,dev_C3,P2,0,false,,,,,3615,v1
+A67914,dev_C3,P2,1,false,,,,,4294,v1
+A68249,dev_C3,P2,1,false,,,,,3575,v1
+A69554,dev_C3,P2,1,false,,,,,2441,v1
+A69800,dev_C3,P2,1,false,,,,,3608,v1
+A69868,dev_C3,P2,0,false,,,,,4019,v1
+A70060,dev_C3,P2,1,false,,,,,9879,v1
+A71676,dev_C3,P2,0,false,,,,,2417,v1
+A71861,dev_C3,P2,1,false,,,,,4747,v1
+A72307,dev_C3,P2,0,false,,,,,1733,v1
+A73248,dev_C3,P2,1,false,,,,,1785,v1
+A74574,dev_C3,P2,0,false,,,,,1774,v1
+A75285,dev_C3,P2,1,false,,,,,4130,v1
+A75940,dev_C3,P2,1,false,,,,,9521,v1
+A77002,dev_C3,P2,1,false,,,,,11451,v1
+A78445,dev_C3,P2,1,false,,,,,2495,v1
+A78855,dev_C3,P2,1,false,,doi_lap,,,10925,v1
+A79547,dev_C3,P2,0,false,,,,,6377,v1
+A79834,dev_C3,P2,1,false,,,,,4800,v1
+A80342,dev_C3,P2,0,false,,,,,2856,v1
+A81743,dev_C3,P2,1,false,,,,,2251,v1
+A81837,dev_C3,P2,1,false,,,,,3741,v1
+A83289,dev_C3,P2,1,false,,,,,1895,v1
+A86359,dev_C3,P2,1,false,,,,,3149,v1
+A87257,dev_C3,P2,1,false,,,,,1940,v1
+A88107,dev_C3,P2,1,false,,,,,1713,v1
+A88308,dev_C3,P2,0,false,,,,,2650,v1
+A89062,dev_C3,P2,1,false,,,,,2383,v1
+A89340,dev_C3,P2,0,false,,,,,8482,v1
+A89843,dev_C3,P2,1,false,,,,,2416,v1
+A89945,dev_C3,P2,1,false,,,,,3629,v1
+A90329,dev_C3,P2,1,false,,,,,2891,v1
+A90508,dev_C3,P2,0,false,,,,,3806,v1
+A91577,dev_C3,P2,1,false,,,,,3319,v1
+A92019,dev_C3,P2,1,false,,,,,1485,v1
+A92245,dev_C3,P2,1,false,,,,,1713,v1
+A93088,dev_C3,P2,1,false,,,,,2487,v1
+A93125,dev_C3,P2,1,false,,,,,3259,v1
+A93812,dev_C3,P2,1,false,,giau_thong_tin,,,8788,v1
+A93895,dev_C3,P2,1,false,,,,,3872,v1
+A95359,dev_C3,P2,1,false,,,,,7442,v1
+A97285,dev_C3,P2,1,false,,,,,2208,v1
+A98899,dev_C3,P2,0,false,,,,,2705,v1
+A99018,dev_C3,P2,0,false,,,,,3325,v1
+A99046,dev_C3,P2,1,false,,,,,2674,v1
+A99073,dev_C3,P2,0,false,,,,,2530,v1
+A99888,dev_C3,P2,0,false,,,,,1664,v1
+A10156,dev_C3,P3,0,false,,,,,14212,v1
+A10338,dev_C3,P3,0,false,,,,,4605,v1
+A10883,dev_C3,P3,0,false,,,,,1720,v1
+A11251,dev_C3,P3,1,false,,hua_tiet_lo,,,9700,v1
+A11894,dev_C3,P3,1,false,,danh_sach,4 con giáp,,5542,v1
+A12385,dev_C3,P3,0,false,,,,,3131,v1
+A12591,dev_C3,P3,1,false,,cau_hoi_treo,,,4312,v1
+A13729,dev_C3,P3,1,false,,,,,17916,v1
+A13853,dev_C3,P3,1,false,,cau_hoi_treo,,,3672,v1
+A13881,dev_C3,P3,0,false,,,,,2045,v1
+A14553,dev_C3,P3,0,false,,,,,4684,v1
+A14584,dev_C3,P3,0,false,,,,,5244,v1
+A15454,dev_C3,P3,1,false,,giau_thong_tin,,,4948,v1
+A15600,dev_C3,P3,0,false,,,,,7956,v1
+A15648,dev_C3,P3,0,false,,,,,142484,v1
+A15869,dev_C3,P3,1,false,,phong_dai;giau_thong_tin,,,4919,v1
+A15911,dev_C3,P3,0,false,,,,,1840,v1
+A16505,dev_C3,P3,1,false,,phong_dai,26.000 bản chỉ sau 4 ngày,,56803,v1
+A16690,dev_C3,P3,0,false,,,,,10448,v1
+A17561,dev_C3,P3,0,false,,,,,19318,v1
+A17755,dev_C3,P3,0,false,,,,,1504,v1
+A17852,dev_C3,P3,0,false,,,,,1916,v1
+A17996,dev_C3,P3,0,false,,,,,2480,v1
+A18044,dev_C3,P3,1,false,,cam_xuc;hua_tiet_lo,'khai tử',,15036,v1
+A18767,dev_C3,P3,0,false,,,,,3944,v1
+A18874,dev_C3,P3,0,false,,,,,2216,v1
+A19301,dev_C3,P3,0,false,,,,,2157,v1
+A19630,dev_C3,P3,1,false,,giau_thong_tin,,,16816,v1
+A20931,dev_C3,P3,0,false,,,,,1784,v1
+A20989,dev_C3,P3,0,false,,,,,3618,v1
+A21316,dev_C3,P3,0,false,,,,,17154,v1
+A22603,dev_C3,P3,0,false,,,,,2752,v1
+A23294,dev_C3,P3,1,false,,cau_hoi_treo,,,4872,v1
+A23421,dev_C3,P3,0,false,,,,,3612,v1
+A24026,dev_C3,P3,1,false,,phong_dai,trẻ kinh ngạc,,9314,v1
+A24216,dev_C3,P3,0,false,,,,,1667,v1
+A25307,dev_C3,P3,0,false,,,,,3815,v1
+A25424,dev_C3,P3,1,false,,doi_lap;giau_thong_tin,,,68994,v1
+A25510,dev_C3,P3,1,false,,giau_thong_tin,,,3184,v1
+A26290,dev_C3,P3,1,false,,giau_thong_tin,,,3536,v1
+A26519,dev_C3,P3,1,false,,danh_sach,,,18515,v1
+A26843,dev_C3,P3,1,false,,danh_sach,,,2268,v1
+A27048,dev_C3,P3,0,false,,,,,67938,v1
+A27214,dev_C3,P3,0,false,,,"Leonardo DiCaprio cảnh báo Netflix, Disney+ đang bóp chết rạp chiếu phim",,1575089,v1
+A27431,dev_C3,P3,1,false,,cau_hoi_treo,,,10072,v1
+A28265,dev_C3,P3,1,false,,giau_thong_tin,,,4419,v1
+A29006,dev_C3,P3,0,true,vẫn có danh sách và có cả câu hỏi mở,,,,307283,v1
+A29268,dev_C3,P3,1,false,,danh_sach,,,4989,v1
+A31054,dev_C3,P3,0,false,,,,,2064,v1
+A31422,dev_C3,P3,0,false,,,,,1688,v1
+A33456,dev_C3,P3,0,false,,,,,1565,v1
+A34270,dev_C3,P3,1,false,,giau_thong_tin;cam_xuc,,,7440,v1
+A34276,dev_C3,P3,1,false,,danh_sach,,,4501,v1
+A34810,dev_C3,P3,0,false,,,,,2805,v1
+A35729,dev_C3,P3,1,false,,giau_thong_tin,,,17075,v1
+A35778,dev_C3,P3,1,false,,phong_dai,vượt ngưỡng thị giác,,20474,v1
+A36094,dev_C3,P3,1,false,,giau_thong_tin,gây sốc,,748970,v1
+A36146,dev_C3,P3,1,false,,danh_sach;giau_thong_tin,,,8564,v1
+A37281,dev_C3,P3,1,false,,,,,17743,v1
+A38351,dev_C3,P3,1,false,,cau_hoi_treo,,,5068,v1
+A40120,dev_C3,P3,1,false,,danh_sach,,,2996,v1
+A41043,dev_C3,P3,0,false,,,,,9203,v1
+A41247,dev_C3,P3,0,false,,,,,2790,v1
+A41669,dev_C3,P3,1,false,,danh_sach,3 việc này,,10937,v1
+A41840,dev_C3,P3,0,false,,,,,2874,v1
+A42570,dev_C3,P3,1,false,,phong_dai,bạo lực nhất lịch sử,,8352,v1
+A43360,dev_C3,P3,0,false,,,,,177675,v1
+A43799,dev_C3,P3,1,false,,danh_sach;phong_dai,,,13823,v1
+A44885,dev_C3,P3,0,false,,,,,2068,v1
+A45008,dev_C3,P3,0,false,,,,,1769,v1
+A45741,dev_C3,P3,0,false,,,,,8057,v1
+A46363,dev_C3,P3,1,false,,giau_thong_tin,,,6800,v1
+A46786,dev_C3,P3,1,false,,giau_thong_tin,,,4322,v1
+A46818,dev_C3,P3,0,false,,,,,2992,v1
+A47617,dev_C3,P3,1,false,,giau_thong_tin,,,3096,v1
+A47714,dev_C3,P3,0,false,,,,,2219,v1
+A48426,dev_C3,P3,0,false,,,,,4106,v1
+A49299,dev_C3,P3,1,false,,phong_dai,,,4436,v1
+A49551,dev_C3,P3,1,false,,cam_xuc,cháy phòng,,12507,v1
+A49979,dev_C3,P3,1,false,,giau_thong_tin,,,11628,v1
+A50741,dev_C3,P3,0,false,,,,,1452,v1
+A51115,dev_C3,P3,1,false,,phong_dai,,,3576,v1
+A51920,dev_C3,P3,1,false,,giau_thong_tin,,,3636,v1
+A53116,dev_C3,P3,1,false,,cau_hoi_treo,,,4132,v1
+A53411,dev_C3,P3,0,false,,,,,2776,v1
+A53582,dev_C3,P3,0,false,,,,,112539,v1
+A53760,dev_C3,P3,1,false,,danh_sach,,,2635,v1
+A54595,dev_C3,P3,1,false,,giau_thong_tin,,,6436,v1
+A55261,dev_C3,P3,1,false,,cau_hoi_treo,,,6737,v1
+A55644,dev_C3,P3,1,false,,giau_thong_tin,,,4267,v1
+A56108,dev_C3,P3,1,false,,phong_dai;giau_thong_tin,,,11236,v1
+A56388,dev_C3,P3,0,false,,,,,2068,v1
+A56827,dev_C3,P3,0,false,,,,,2739,v1
+A56897,dev_C3,P3,1,false,,,,,199218,v1
+A57704,dev_C3,P3,1,false,,danh_sach,,,6800,v1
+A58258,dev_C3,P3,0,false,,,,,38679,v1
+A58618,dev_C3,P3,0,false,,,,,1440,v1
+A61228,dev_C3,P3,0,false,,,,,1904,v1
+A62273,dev_C3,P3,1,false,,giau_thong_tin;cam_xuc,Một loại giấy tờ,,30104,v1
+A62755,dev_C3,P3,1,false,,phong_dai;giau_thong_tin,,,9584,v1
+A63211,dev_C3,P3,1,false,,giau_thong_tin,,,10080,v1
+A63294,dev_C3,P3,0,false,,,,,2163,v1
+A63569,dev_C3,P3,0,false,,,,,2868,v1
+A63677,dev_C3,P3,0,false,,,,,3266,v1
+A65699,dev_C3,P3,0,false,,,,,4662,v1
+A65708,dev_C3,P3,1,false,,danh_sach,,,3664,v1
+A66033,dev_C3,P3,0,false,,,,,2465,v1
+A66781,dev_C3,P3,0,false,,,,,9004,v1
+A66992,dev_C3,P3,0,false,,,,,1480,v1
+A67139,dev_C3,P3,0,false,,,,,9361,v1
+A67914,dev_C3,P3,1,false,,giau_thong_tin,,,110224,v1
+A68249,dev_C3,P3,0,false,,,,,2012,v1
+A69554,dev_C3,P3,1,false,,cam_xuc,"""bỏng mắt""",,15220,v1
+A69800,dev_C3,P3,1,false,,phong_dai;cam_xuc,không ai có thể rời mắt,,49455,v1
+A69868,dev_C3,P3,0,false,,,,,1824,v1
+A70060,dev_C3,P3,1,false,,danh_sach,,,6229,v1
+A71676,dev_C3,P3,0,false,,,,,2753,v1
+A71861,dev_C3,P3,0,false,,,,,2071,v1
+A72307,dev_C3,P3,0,false,,,,,2445,v1
+A73248,dev_C3,P3,1,false,,danh_sach,,,13328,v1
+A74574,dev_C3,P3,0,false,,,,,3203,v1
+A75285,dev_C3,P3,1,false,,danh_sach;phong_dai,,,5284,v1
+A75940,dev_C3,P3,1,false,,phong_dai,,,8764,v1
+A77002,dev_C3,P3,0,false,,,,,965758,v1
+A78445,dev_C3,P3,1,false,,doi_lap,,,7258,v1
+A78855,dev_C3,P3,1,false,,giau_thong_tin,,,12414,v1
+A79547,dev_C3,P3,0,false,,,,,36236,v1
+A79834,dev_C3,P3,1,false,,cam_xuc;phong_dai,,,8851,v1
+A80342,dev_C3,P3,0,false,,,,,1996,v1
+A81743,dev_C3,P3,1,false,,phong_dai,,,11170,v1
+A81837,dev_C3,P3,0,false,,,,,22830,v1
+A83289,dev_C3,P3,1,false,,danh_sach,,,8159,v1
+A86359,dev_C3,P3,1,false,,hua_tiet_lo,sự thật gây bất ngờ,,18175,v1
+A87257,dev_C3,P3,1,false,,phong_dai;giau_thong_tin,,,10895,v1
+A88107,dev_C3,P3,1,false,,cau_hoi_treo,Vì sao,,11134,v1
+A88308,dev_C3,P3,0,false,,,,,1616,v1
+A89062,dev_C3,P3,0,false,,,,,1682,v1
+A89340,dev_C3,P3,0,false,,,,,1975,v1
+A89843,dev_C3,P3,1,false,,cau_hoi_treo,,,7601,v1
+A89945,dev_C3,P3,1,false,,,Triệu Lộ Tư khiến Lưu Thi Thi bị lép vế,,98560,v1
+A90329,dev_C3,P3,1,false,,cau_hoi_treo,,,3860,v1
+A90508,dev_C3,P3,0,false,,,,,5606,v1
+A91577,dev_C3,P3,1,false,,,,,5519,v1
+A92019,dev_C3,P3,1,false,,cau_hoi_treo,,,2928,v1
+A92245,dev_C3,P3,1,false,,danh_sach,,,8284,v1
+A93088,dev_C3,P3,0,false,,,,,5507,v1
+A93125,dev_C3,P3,0,false,,,,,2616,v1
+A93812,dev_C3,P3,0,false,,,,,1988,v1
+A93895,dev_C3,P3,0,false,,,,,3400,v1
+A95359,dev_C3,P3,0,false,,,,,1968,v1
+A97285,dev_C3,P3,1,false,,cam_xuc,,,8119,v1
+A98899,dev_C3,P3,0,false,,,,,2888,v1
+A99018,dev_C3,P3,0,false,,,,,6367,v1
+A99046,dev_C3,P3,1,false,,danh_sach,,,3919,v1
+A99073,dev_C3,P3,0,false,,,,,2884,v1
+A99888,dev_C3,P3,0,false,,,,,1920,v1
+A10266,dev_C4,P3,1,false,,danh_sach,,,8748,v1
+A11915,dev_C4,P3,1,false,,cam_xuc,khóc như mưa,,10364,v1
+A13545,dev_C4,P3,1,false,,danh_sach,,,3032,v1
+A14082,dev_C4,P3,1,false,,giau_thong_tin;phong_dai,,,127422,v1
+A14480,dev_C4,P3,0,false,,,,,1935,v1
+A14551,dev_C4,P3,0,false,,,,,1496,v1
+A15306,dev_C4,P3,0,false,,,,,1552,v1
+A15361,dev_C4,P3,0,false,,,,,3935,v1
+A16429,dev_C4,P3,0,false,,,,,23867,v1
+A16552,dev_C4,P3,0,false,,,,,2336,v1
+A17112,dev_C4,P3,1,false,,giau_thong_tin,ăn xong liền... chỉ tay vào nách,,27192,v1
+A18610,dev_C4,P3,1,false,,giau_thong_tin,,,8836,v1
+A19311,dev_C4,P3,0,false,,,,,2227,v1
+A19530,dev_C4,P3,0,false,,,,,5209,v1
+A19605,dev_C4,P3,0,false,,,,,1476,v1
+A20114,dev_C4,P3,0,false,,,,,2544,v1
+A20192,dev_C4,P3,1,false,,giau_thong_tin,,,11832,v1
+A20211,dev_C4,P3,1,false,,phong_dai;doi_lap;giau_thong_tin,,,8503,v1
+A20284,dev_C4,P3,1,false,,giau_thong_tin;cam_xuc,,,7374,v1
+A20849,dev_C4,P3,0,false,,,,,1584,v1
+A21804,dev_C4,P3,0,false,,,,,1523,v1
+A24322,dev_C4,P3,0,false,,,,,1784,v1
+A24441,dev_C4,P3,0,false,,,,,1656,v1
+A24498,dev_C4,P3,1,false,,giau_thong_tin,,,4820,v1
+A25254,dev_C4,P3,1,false,,giau_thong_tin,,,16880,v1
+A26320,dev_C4,P3,1,false,,giau_thong_tin;cam_xuc,gây sốt,,6844,v1
+A27594,dev_C4,P3,0,false,,,,,3200,v1
+A28366,dev_C4,P3,0,false,,,,,2724,v1
+A28492,dev_C4,P3,0,false,,,,,1772,v1
+A29495,dev_C4,P3,0,false,,,,,2240,v1
+A29531,dev_C4,P3,0,false,,,,,2832,v1
+A30394,dev_C4,P3,0,false,,,,,1776,v1
+A30909,dev_C4,P3,1,false,,cam_xuc,gây sốt,,16407,v1
+A31227,dev_C4,P3,0,false,,,,,1664,v1
+A31507,dev_C4,P3,0,false,,,,,5977,v1
+A32002,dev_C4,P3,0,false,,,,,2592,v1
+A32066,dev_C4,P3,0,false,,,,,3063,v1
+A32721,dev_C4,P3,1,false,,giau_thong_tin,sự thật,,5148,v1
+A32723,dev_C4,P3,1,true,phân vân vì có giấu thông tin gia cảnh không,giau_thong_tin,,,23261,v1
+A33605,dev_C4,P3,1,false,,cau_hoi_treo,,,6384,v1
+A33678,dev_C4,P3,1,false,,giau_thong_tin,,,5439,v1
+A33750,dev_C4,P3,1,false,,danh_sach,,,5439,v1
+A33793,dev_C4,P3,0,false,,,,,1660,v1
+A34381,dev_C4,P3,0,false,,,,,1584,v1
+A35471,dev_C4,P3,0,false,,,,,3190,v1
+A35676,dev_C4,P3,0,false,,,,,3071,v1
+A35884,dev_C4,P3,1,false,,giau_thong_tin,,,3537,v1
+A36951,dev_C4,P3,0,false,,,,,1776,v1
+A37193,dev_C4,P3,0,false,,,,,1472,v1
+A37523,dev_C4,P3,1,false,,danh_sach;cau_hoi_treo,,,4707,v1
+A38068,dev_C4,P3,0,false,,,,,2384,v1
+A38720,dev_C4,P3,1,false,,giau_thong_tin,,,7407,v1
+A38924,dev_C4,P3,1,false,,cau_hoi_treo,,,2636,v1
+A39963,dev_C4,P3,1,false,,danh_sach,3 nhóm ngành,,5500,v1
+A40792,dev_C4,P3,0,false,,,,,1552,v1
+A41802,dev_C4,P3,0,false,,,,,2432,v1
+A43100,dev_C4,P3,0,true,không rõ có giấu thông tin không,,,,22844,v1
+A44871,dev_C4,P3,0,false,,,,,29767,v1
+A45138,dev_C4,P3,0,false,,,,,1955,v1
+A45153,dev_C4,P3,1,false,,cau_hoi_treo;cam_xuc,gây bão,,10032,v1
+A49088,dev_C4,P3,1,false,,danh_sach,4 lý do,,5144,v1
+A49980,dev_C4,P3,0,false,,,,,1537,v1
+A50215,dev_C4,P3,1,false,,giau_thong_tin,,,94492,v1
+A50232,dev_C4,P3,1,false,,cau_hoi_treo,,,2972,v1
+A50498,dev_C4,P3,1,false,,danh_sach,,,2831,v1
+A51456,dev_C4,P3,0,false,,,,,1807,v1
+A51472,dev_C4,P3,0,true,gây gợi sự tò mò,,,,21032,v1
+A52622,dev_C4,P3,0,false,,,,,2376,v1
+A53568,dev_C4,P3,1,false,,giau_thong_tin;cam_xuc,,,5376,v1
+A54591,dev_C4,P3,0,false,,,,,1727,v1
+A54644,dev_C4,P3,0,false,,,,,3855,v1
+A55216,dev_C4,P3,0,false,,,,,1983,v1
+A55476,dev_C4,P3,1,false,,danh_sach,3 con giáp,,7239,v1
+A55888,dev_C4,P3,0,false,,,,,7119,v1
+A57562,dev_C4,P3,1,false,,phong_dai,,,4289,v1
+A57666,dev_C4,P3,1,false,,giau_thong_tin;cau_hoi_treo,,,3412,v1
+A57926,dev_C4,P3,0,false,,,,,10902,v1
+A58024,dev_C4,P3,1,false,,cuc_diem,chưa từng có,,14658,v1
+A58275,dev_C4,P3,1,false,,giau_thong_tin,,,3444,v1
+A58431,dev_C4,P3,1,false,,cam_xuc;giau_thong_tin,,,21781,v1
+A58683,dev_C4,P3,0,false,,,,,6587,v1
+A58829,dev_C4,P3,0,false,,,,,2270,v1
+A58948,dev_C4,P3,1,false,,cau_hoi_treo,,,4524,v1
+A60487,dev_C4,P3,1,false,,phong_dai;giau_thong_tin,vạn người mê,,5612,v1
+A61121,dev_C4,P3,1,false,,giau_thong_tin,Hé lộ tình tiết đau lòng,,7956,v1
+A61367,dev_C4,P3,0,false,,,,,1472,v1
+A62157,dev_C4,P3,1,false,,phong_dai;doi_lap,ngập trong nợ nần đến đế chế tỷ đô,,33936,v1
+A62162,dev_C4,P3,1,true,không rõ có treo đáp án hay chỉ là tít bài bình thường,cau_hoi_treo,,,20968,v1
+A62676,dev_C4,P3,0,false,,,,,3244,v1
+A62898,dev_C4,P3,0,false,,,,,2356,v1
+A62959,dev_C4,P3,1,false,,danh_sach,,,3924,v1
+A63717,dev_C4,P3,0,false,,,,,5866,v1
+A63767,dev_C4,P3,1,false,,giau_thong_tin,,,3739,v1
+A65189,dev_C4,P3,1,false,,cau_hoi_treo,,,5520,v1
+A65463,dev_C4,P3,0,false,,,,,44976,v1
+A67420,dev_C4,P3,1,false,,cau_hoi_treo;giau_thong_tin,,,17398,v1
+A68014,dev_C4,P3,0,false,,,,,1571,v1
+A68963,dev_C4,P3,1,false,,danh_sach,,,2367,v1
+A69096,dev_C4,P3,0,false,,,,,1739,v1
+A69825,dev_C4,P3,1,false,,,,,5308,v1
+A69848,dev_C4,P3,1,false,,danh_sach,,,2072,v1
+A70337,dev_C4,P3,0,false,,,,,1668,v1
+A70781,dev_C4,P3,0,false,,,,,1399,v1
+A71340,dev_C4,P3,0,false,,,,,2715,v1
+A71720,dev_C4,P3,0,false,,,,,4096,v1
+A72089,dev_C4,P3,1,false,,giau_thong_tin,,,4907,v1
+A72102,dev_C4,P3,0,false,,,,,1716,v1
+A72336,dev_C4,P3,1,false,,giau_thong_tin,,,5063,v1
+A72362,dev_C4,P3,1,false,,giau_thong_tin,,,3619,v1
+A72890,dev_C4,P3,0,false,,,,,1524,v1
+A72965,dev_C4,P3,0,false,,,,,2828,v1
+A73016,dev_C4,P3,1,false,,doi_lap,,,3523,v1
+A73063,dev_C4,P3,0,false,,,,,122383,v1
+A73946,dev_C4,P3,0,false,,,,,4596,v1
+A74122,dev_C4,P3,1,false,,giau_thong_tin,,,8600,v1
+A74817,dev_C4,P3,0,false,,,,,5048,v1
+A75370,dev_C4,P3,1,false,,giau_thong_tin,,,4140,v1
+A75799,dev_C4,P3,1,false,,giau_thong_tin,,,3896,v1
+A76077,dev_C4,P3,0,false,,,,,2595,v1
+A76931,dev_C4,P3,1,false,,danh_sach,,,10471,v1
+A76965,dev_C4,P3,0,false,,,,,1576,v1
+A76989,dev_C4,P3,1,false,,giau_thong_tin,,,6547,v1
+A77996,dev_C4,P3,0,false,,,,,3935,v1
+A79854,dev_C4,P3,0,false,,,,,6255,v1
+A79986,dev_C4,P3,0,false,,,,,4185,v1
+A80615,dev_C4,P3,1,false,,giau_thong_tin,,,2980,v1
+A81418,dev_C4,P3,0,false,,,,,1792,v1
+A81492,dev_C4,P3,0,false,,,,,3104,v1
+A81939,dev_C4,P3,1,false,,giau_thong_tin,,,4136,v1
+A82512,dev_C4,P3,0,true,không rõ có giấu thông tin về việc nói gì không,,,,28431,v1
+A83974,dev_C4,P3,0,false,,,,,2595,v1
+A84238,dev_C4,P3,1,false,,giau_thong_tin;danh_sach,,,5528,v1
+A86056,dev_C4,P3,0,false,,,,,2695,v1
+A86215,dev_C4,P3,1,false,,,,,4804,v1
+A86964,dev_C4,P3,0,false,,,,,2739,v1
+A87618,dev_C4,P3,1,false,,giau_thong_tin,,,3064,v1
+A89000,dev_C4,P3,1,false,,cau_hoi_treo,,,3132,v1
+A89240,dev_C4,P3,0,false,,,,,1582,v1
+A89636,dev_C4,P3,0,false,,,,,1519,v1
+A89725,dev_C4,P3,0,false,,,,,1824,v1
+A90041,dev_C4,P3,0,false,,,,,2400,v1
+A90045,dev_C4,P3,1,true,không rõ có phảu clickbait hay đưa rõ thông tin rồi,,,,25084,v1
+A90197,dev_C4,P3,1,false,,giau_thong_tin,,,52384,v1
+A91489,dev_C4,P3,0,false,,,,,1392,v1
+A91654,dev_C4,P3,1,false,,giau_thong_tin,,,3537,v1
+A93451,dev_C4,P3,0,false,,,,,1492,v1
+A93794,dev_C4,P3,0,false,,,,,2443,v1
+A94034,dev_C4,P3,0,false,,,,,10035,v1
+A94498,dev_C4,P3,1,false,,phong_dai;giau_thong_tin,,,6892,v1
+A95621,dev_C4,P3,0,false,,,,,1557,v1
+A96317,dev_C4,P3,1,false,,giau_thong_tin,,,4054,v1
+A96319,dev_C4,P3,0,false,,,,,1492,v1
+A96897,dev_C4,P3,1,false,,cau_hoi_treo,,,3403,v1
+A97393,dev_C4,P3,0,false,,,,,2395,v1
+A97830,dev_C4,P3,0,false,,,,,5379,v1
+A98560,dev_C4,P3,0,false,,,,,1504,v1
+A10266,dev_C4,P4,1,FALSE,,,,,10428,v1
+A11915,dev_C4,P4,1,FALSE,,,,,9405,v1
+A13545,dev_C4,P4,1,FALSE,,,,,7930,v1
+A14082,dev_C4,P4,1,FALSE,,,,,7381,v1
+A14480,dev_C4,P4,0,FALSE,,,,,8494,v1
+A14551,dev_C4,P4,0,FALSE,,,,,30178,v1
+A15306,dev_C4,P4,0,FALSE,,,,,14046,v1
+A15361,dev_C4,P4,0,FALSE,,,,,4371,v1
+A16429,dev_C4,P4,0,FALSE,,,,,6757,v1
+A16552,dev_C4,P4,0,FALSE,,,,,4094,v1
+A17112,dev_C4,P4,0,FALSE,,,,,5579,v1
+A18610,dev_C4,P4,1,FALSE,,,,,17926,v1
+A19311,dev_C4,P4,0,FALSE,,,,,6972,v1
+A19530,dev_C4,P4,0,FALSE,,,,,3148,v1
+A19605,dev_C4,P4,0,FALSE,,,,,12400,v1
+A20114,dev_C4,P4,1,FALSE,,,,,6090,v1
+A20192,dev_C4,P4,0,FALSE,,,,,3318,v1
+A20211,dev_C4,P4,1,FALSE,,,,,64034,v1
+A20284,dev_C4,P4,1,FALSE,,,,,315960,v1
+A20849,dev_C4,P4,0,FALSE,,,,,5776,v1
+A21804,dev_C4,P4,0,FALSE,,,,,4192,v1
+A24322,dev_C4,P4,1,FALSE,,,,,5008,v1
+A24441,dev_C4,P4,0,FALSE,,,,,8331,v1
+A24498,dev_C4,P4,0,FALSE,,,,,28759,v1
+A25254,dev_C4,P4,1,FALSE,,,,,39042,v1
+A26320,dev_C4,P4,1,FALSE,,,,,4588,v1
+A27594,dev_C4,P4,0,FALSE,,,,,8705,v1
+A28366,dev_C4,P4,1,FALSE,,,,,15428,v1
+A28492,dev_C4,P4,0,FALSE,,,,,4325,v1
+A29495,dev_C4,P4,0,FALSE,,,,,29400,v1
+A29531,dev_C4,P4,0,FALSE,,,,,3972,v1
+A30394,dev_C4,P4,0,FALSE,,,,,6642,v1
+A30909,dev_C4,P4,1,FALSE,,,,,9343,v1
+A31227,dev_C4,P4,0,FALSE,Tăng nóng là có nhấn mạnh cảm xúc không?,,nóng,,62454,v1
+A31507,dev_C4,P4,0,FALSE,,,,,3387,v1
+A32002,dev_C4,P4,0,FALSE,,,,,14803,v1
+A32066,dev_C4,P4,0,FALSE,,,,,3229,v1
+A32721,dev_C4,P4,1,FALSE,,,,,9315,v1
+A32723,dev_C4,P4,0,FALSE,,,,,3548,v1
+A33605,dev_C4,P4,1,FALSE,,,,,9908,v1
+A33678,dev_C4,P4,1,FALSE,,,,,4978,v1
+A33750,dev_C4,P4,1,FALSE,,,,,6351,v1
+A33793,dev_C4,P4,0,FALSE,,,,,4667,v1
+A34381,dev_C4,P4,0,FALSE,,,,,86045,v1
+A35471,dev_C4,P4,0,FALSE,,,,,5439,v1
+A35676,dev_C4,P4,1,FALSE,,,,,4175,v1
+A35884,dev_C4,P4,0,FALSE,,,,,23581,v1
+A36951,dev_C4,P4,0,FALSE,,,,,3288,v1
+A37193,dev_C4,P4,0,FALSE,,,,,7408,v1
+A37523,dev_C4,P4,1,FALSE,,,,,5499,v1
+A38068,dev_C4,P4,1,FALSE,,,,,10316,v1
+A38720,dev_C4,P4,1,FALSE,,,,,10072,v1
+A38924,dev_C4,P4,0,FALSE,,,,,23971,v1
+A39963,dev_C4,P4,1,FALSE,,,,,4263,v1
+A40792,dev_C4,P4,0,FALSE,,,,,6033,v1
+A41802,dev_C4,P4,0,FALSE,,,,,3218,v1
+A43100,dev_C4,P4,0,FALSE,,,,,3892,v1
+A44871,dev_C4,P4,0,FALSE,,,,,10075,v1
+A45138,dev_C4,P4,0,FALSE,,,,,34695,v1
+A45153,dev_C4,P4,1,FALSE,,,,,10085,v1
+A49088,dev_C4,P4,1,FALSE,,,,,17391,v1
+A49980,dev_C4,P4,0,FALSE,,,,,9871,v1
+A50215,dev_C4,P4,1,FALSE,,,,,34088,v1
+A50232,dev_C4,P4,1,FALSE,,,,,6373,v1
+A50498,dev_C4,P4,1,FALSE,,,,,14878,v1
+A51456,dev_C4,P4,1,FALSE,,,,,10708,v1
+A51472,dev_C4,P4,1,FALSE,,,,,25661,v1
+A52622,dev_C4,P4,0,FALSE,,,,,4059,v1
+A53568,dev_C4,P4,1,FALSE,,,,,16259,v1
+A54591,dev_C4,P4,0,FALSE,,,,,8361,v1
+A54644,dev_C4,P4,0,FALSE,,,,,11333,v1
+A55216,dev_C4,P4,0,FALSE,,,,,3008,v1
+A55476,dev_C4,P4,1,FALSE,,,,,4944,v1
+A55888,dev_C4,P4,0,FALSE,,,,,3650,v1
+A57562,dev_C4,P4,1,FALSE,,,,,4880,v1
+A57666,dev_C4,P4,1,FALSE,,,,,3863,v1
+A57926,dev_C4,P4,0,FALSE,,,,,3034,v1
+A58024,dev_C4,P4,1,FALSE,,,,,5285,v1
+A58275,dev_C4,P4,1,FALSE,,,,,13116,v1
+A58431,dev_C4,P4,1,FALSE,,,,,7066,v1
+A58683,dev_C4,P4,1,FALSE,,,,,16441,v1
+A58829,dev_C4,P4,0,FALSE,,,,,4311,v1
+A58948,dev_C4,P4,1,FALSE,,,,,7303,v1
+A60487,dev_C4,P4,1,FALSE,,,,,7830,v1
+A61121,dev_C4,P4,1,FALSE,,,,,4785,v1
+A61367,dev_C4,P4,0,FALSE,,,,,5203,v1
+A62157,dev_C4,P4,1,FALSE,,,,,9355,v1
+A62162,dev_C4,P4,1,FALSE,,,,,14636,v1
+A62676,dev_C4,P4,0,FALSE,,,,,7695,v1
+A62898,dev_C4,P4,0,FALSE,,,,,3429,v1
+A62959,dev_C4,P4,1,FALSE,,,,,5401,v1
+A63717,dev_C4,P4,0,FALSE,,,,,5028,v1
+A63767,dev_C4,P4,1,FALSE,,,,,7723,v1
+A65189,dev_C4,P4,1,FALSE,,,,,10847,v1
+A65463,dev_C4,P4,0,FALSE,,,,,5198,v1
+A67420,dev_C4,P4,1,FALSE,,,,,2774,v1
+A68014,dev_C4,P4,0,FALSE,,,,,7941,v1
+A68963,dev_C4,P4,1,FALSE,,,,,11412,v1
+A69096,dev_C4,P4,0,FALSE,,,,,4244,v1
+A69825,dev_C4,P4,1,FALSE,,,,,24689,v1
+A69848,dev_C4,P4,1,FALSE,,,,,2646,v1
+A70337,dev_C4,P4,1,FALSE,,,,,9786,v1
+A70781,dev_C4,P4,0,FALSE,,,,,7165,v1
+A71340,dev_C4,P4,0,FALSE,,,,,87698,v1
+A71720,dev_C4,P4,0,FALSE,,,,,21466,v1
+A72089,dev_C4,P4,1,FALSE,,,,,30854,v1
+A72102,dev_C4,P4,0,FALSE,,,,,6562,v1
+A72336,dev_C4,P4,0,FALSE,,,,,9657,v1
+A72362,dev_C4,P4,1,FALSE,,,,,8305,v1
+A72890,dev_C4,P4,0,FALSE,,,,,35924,v1
+A72965,dev_C4,P4,0,FALSE,,,,,19416,v1
+A73016,dev_C4,P4,1,FALSE,,,,,8835,v1
+A73063,dev_C4,P4,0,FALSE,,,,,5886,v1
+A73946,dev_C4,P4,0,FALSE,,,,,6356,v1
+A74122,dev_C4,P4,1,FALSE,,,,,6866,v1
+A74817,dev_C4,P4,0,FALSE,,,,,3697,v1
+A75370,dev_C4,P4,0,FALSE,,,,,6869,v1
+A75799,dev_C4,P4,1,FALSE,,,,,4042,v1
+A76077,dev_C4,P4,0,FALSE,,,,,8753,v1
+A76931,dev_C4,P4,1,FALSE,,,,,4399,v1
+A76965,dev_C4,P4,0,FALSE,,,,,10046,v1
+A76989,dev_C4,P4,1,FALSE,,,,,7780,v1
+A77996,dev_C4,P4,0,FALSE,,,,,3539,v1
+A79854,dev_C4,P4,0,FALSE,,,,,5753,v1
+A79986,dev_C4,P4,0,FALSE,,,,,11057,v1
+A80615,dev_C4,P4,1,FALSE,,,,,17411,v1
+A81418,dev_C4,P4,0,FALSE,,,,,28928,v1
+A81492,dev_C4,P4,0,FALSE,,,,,3978,v1
+A81939,dev_C4,P4,1,FALSE,,,,,13428,v1
+A82512,dev_C4,P4,0,FALSE,,,,,6702,v1
+A83974,dev_C4,P4,0,FALSE,,,,,5466,v1
+A84238,dev_C4,P4,1,FALSE,,,,,6354,v1
+A86056,dev_C4,P4,0,FALSE,,,,,3996,v1
+A86215,dev_C4,P4,0,FALSE,,,,,6945,v1
+A86964,dev_C4,P4,0,FALSE,,,,,13876,v1
+A87618,dev_C4,P4,1,FALSE,,,,,12685,v1
+A89000,dev_C4,P4,0,FALSE,,,,,4749,v1
+A89240,dev_C4,P4,0,FALSE,,,,,9669,v1
+A89636,dev_C4,P4,0,FALSE,,,,,3750,v1
+A89725,dev_C4,P4,0,FALSE,,,,,15692,v1
+A90041,dev_C4,P4,1,FALSE,,,,,6504,v1
+A90045,dev_C4,P4,0,FALSE,,,,,7081,v1
+A90197,dev_C4,P4,0,FALSE,,,,,30819,v1
+A91489,dev_C4,P4,0,FALSE,,,,,3013,v1
+A91654,dev_C4,P4,1,FALSE,,,,,8453,v1
+A93451,dev_C4,P4,0,FALSE,,,,,3039,v1
+A93794,dev_C4,P4,0,FALSE,,,,,29044,v1
+A94034,dev_C4,P4,0,FALSE,,,,,19838,v1
+A94498,dev_C4,P4,1,FALSE,,,,,16538,v1
+A95621,dev_C4,P4,0,FALSE,,,,,3304,v1
+A96317,dev_C4,P4,1,FALSE,,,,,128933,v1
+A96319,dev_C4,P4,0,FALSE,,,,,20976,v1
+A96897,dev_C4,P4,1,FALSE,,,,,4394,v1
+A97393,dev_C4,P4,0,FALSE,,,,,4081,v1
+A97830,dev_C4,P4,0,FALSE,,,,,24240,v1
+A98560,dev_C4,P4,0,FALSE,,,,,8790,v1
+A10191,dev_C5,P4,0,FALSE,,,,,6613,v1
+A11659,dev_C5,P4,1,FALSE,,,,,6370,v1
+A12126,dev_C5,P4,1,FALSE,,,,,55152,v1
+A12169,dev_C5,P4,0,FALSE,,,,,5375,v1
+A12305,dev_C5,P4,1,FALSE,,,,,5859,v1
+A12534,dev_C5,P4,0,FALSE,,,,,6408,v1
+A13217,dev_C5,P4,1,FALSE,,,,,14514,v1
+A13574,dev_C5,P4,1,FALSE,,,,,13918,v1
+A13818,dev_C5,P4,0,FALSE,,,,,9168,v1
+A13993,dev_C5,P4,1,FALSE,,,,,5165,v1
+A15341,dev_C5,P4,1,FALSE,,,,,4374,v1
+A16011,dev_C5,P4,0,FALSE,,,,,8674,v1
+A16112,dev_C5,P4,1,FALSE,,,,,3906,v1
+A16127,dev_C5,P4,0,FALSE,,,,,80604,v1
+A16723,dev_C5,P4,0,FALSE,,,,,7546,v1
+A16854,dev_C5,P4,1,FALSE,,,,,9082,v1
+A17897,dev_C5,P4,1,FALSE,,,,,25426,v1
+A18347,dev_C5,P4,0,FALSE,,,,,30754,v1
+A18556,dev_C5,P4,0,FALSE,,,,,20190,v1
+A19172,dev_C5,P4,0,FALSE,,,,,5062,v1
+A19201,dev_C5,P4,0,FALSE,,,,,7809,v1
+A19330,dev_C5,P4,0,FALSE,,,,,55331,v1
+A20099,dev_C5,P4,0,FALSE,,,,,4577,v1
+A20767,dev_C5,P4,0,FALSE,,,,,7508,v1
+A21249,dev_C5,P4,0,FALSE,,,,,13192,v1
+A21420,dev_C5,P4,0,FALSE,,,,,8675,v1
+A23216,dev_C5,P4,0,FALSE,,,,,36079,v1
+A24295,dev_C5,P4,0,FALSE,,,,,4376,v1
+A24893,dev_C5,P4,1,FALSE,,,,,14677,v1
+A25005,dev_C5,P4,1,FALSE,,,,,7484,v1
+A25093,dev_C5,P4,0,FALSE,,,,,9182,v1
+A25296,dev_C5,P4,0,FALSE,,,,,43360,v1
+A25321,dev_C5,P4,1,FALSE,,,,,6841,v1
+A25880,dev_C5,P4,1,FALSE,,,,,64541,v1
+A25893,dev_C5,P4,0,FALSE,,,,,11435,v1
+A26627,dev_C5,P4,1,FALSE,,,,,10343,v1
+A27293,dev_C5,P4,0,FALSE,,,,,8134,v1
+A27445,dev_C5,P4,0,FALSE,,,,,25247,v1
+A28594,dev_C5,P4,1,FALSE,,giau_thong_tin,,,11009,v1
+A28625,dev_C5,P4,0,FALSE,,,,,5671,v1
+A28848,dev_C5,P4,1,FALSE,,,,,42187,v1
+A29535,dev_C5,P4,1,FALSE,,,,,15293,v1
+A31226,dev_C5,P4,0,FALSE,,,,,10721,v1
+A31498,dev_C5,P4,0,FALSE,,,,,42992,v1
+A33134,dev_C5,P4,0,FALSE,,,,,8758,v1
+A33889,dev_C5,P4,0,FALSE,,,,,3910,v1
+A34196,dev_C5,P4,0,FALSE,,,,,3392,v1
+A35038,dev_C5,P4,0,FALSE,,,,,4567,v1
+A35097,dev_C5,P4,0,FALSE,,,,,7672,v1
+A35564,dev_C5,P4,0,FALSE,,,,,8540,v1
+A35787,dev_C5,P4,0,FALSE,,,,,47844,v1
+A36933,dev_C5,P4,0,FALSE,,,,,5180,v1
+A37544,dev_C5,P4,0,FALSE,,,,,4000,v1
+A38036,dev_C5,P4,1,FALSE,,,,,26466,v1
+A41404,dev_C5,P4,0,FALSE,,,,,3025,v1
+A41407,dev_C5,P4,0,FALSE,,,,,2990,v1
+A41608,dev_C5,P4,1,FALSE,,,,,4874,v1
+A41884,dev_C5,P4,0,FALSE,,,,,8422,v1
+A41963,dev_C5,P4,0,FALSE,,,,,5392,v1
+A43367,dev_C5,P4,1,FALSE,,,,,44101,v1
+A43489,dev_C5,P4,0,FALSE,,,,,4383,v1
+A44668,dev_C5,P4,0,FALSE,,,,,33661,v1
+A44724,dev_C5,P4,0,FALSE,,,,,11127,v1
+A45725,dev_C5,P4,0,FALSE,,,,,7191,v1
+A45964,dev_C5,P4,0,FALSE,,,,,5658,v1
+A46734,dev_C5,P4,1,FALSE,,,,,7221,v1
+A46774,dev_C5,P4,0,FALSE,,,,,4358,v1
+A46908,dev_C5,P4,1,FALSE,,giau_thong_tin,,,23416,v1
+A48477,dev_C5,P4,0,FALSE,,,,,45887,v1
+A49086,dev_C5,P4,0,FALSE,,,,,9871,v1
+A49752,dev_C5,P4,0,FALSE,,,,,14417,v1
+A50211,dev_C5,P4,0,FALSE,,,,,8507,v1
+A51471,dev_C5,P4,0,FALSE,,,,,9146,v1
+A51944,dev_C5,P4,0,FALSE,,,,,10596,v1
+A52257,dev_C5,P4,0,FALSE,,,,,3672,v1
+A52298,dev_C5,P4,0,FALSE,,,,,5475,v1
+A54235,dev_C5,P4,0,FALSE,,,,,59905,v1
+A54516,dev_C5,P4,1,FALSE,,,,,4325,v1
+A55693,dev_C5,P4,1,FALSE,,,,,3023,v1
+A55734,dev_C5,P4,0,FALSE,,,,,6094,v1
+A56843,dev_C5,P4,0,FALSE,,,,,16410,v1
+A57049,dev_C5,P4,1,FALSE,,,,,3719,v1
+A57306,dev_C5,P4,0,FALSE,,,,,4621,v1
+A57590,dev_C5,P4,1,FALSE,,,,,10460,v1
+A57885,dev_C5,P4,1,FALSE,,,,,2475,v1
+A58396,dev_C5,P4,1,FALSE,,,,,14270,v1
+A58906,dev_C5,P4,1,FALSE,,,,,7720,v1
+A58970,dev_C5,P4,1,FALSE,,,,,9187,v1
+A59268,dev_C5,P4,1,FALSE,,giau_thong_tin,,,14888,v1
+A59416,dev_C5,P4,0,FALSE,,,,,3959,v1
+A59788,dev_C5,P4,1,FALSE,,,,,2558,v1
+A59876,dev_C5,P4,0,FALSE,,,,,4359,v1
+A60250,dev_C5,P4,1,FALSE,,,,,29769,v1
+A60761,dev_C5,P4,1,FALSE,,,,,4042,v1
+A61054,dev_C5,P4,0,FALSE,,,,,4323,v1
+A61388,dev_C5,P4,1,FALSE,,,,,4109,v1
+A62632,dev_C5,P4,1,FALSE,,,,,7338,v1
+A63008,dev_C5,P4,0,FALSE,,,,,153118,v1
+A63582,dev_C5,P4,0,FALSE,,,,,6834,v1
+A64952,dev_C5,P4,0,FALSE,,,,,5076,v1
+A65845,dev_C5,P4,0,FALSE,,,,,3291,v1
+A66022,dev_C5,P4,0,FALSE,,,,,9930,v1
+A66381,dev_C5,P4,1,FALSE,,,,,6849,v1
+A66658,dev_C5,P4,0,FALSE,,,,,4475,v1
+A67530,dev_C5,P4,1,FALSE,,,,,14603,v1
+A69233,dev_C5,P4,0,FALSE,,,,,8866,v1
+A69655,dev_C5,P4,1,FALSE,,,,,12367,v1
+A70133,dev_C5,P4,0,FALSE,,,,,15558,v1
+A71310,dev_C5,P4,1,FALSE,,,,,6785,v1
+A71502,dev_C5,P4,0,FALSE,,,,,2391,v1
+A71887,dev_C5,P4,1,FALSE,,,,,2958,v1
+A72295,dev_C5,P4,1,FALSE,,,,,2396,v1
+A74976,dev_C5,P4,0,FALSE,,,,,3975,v1
+A76076,dev_C5,P4,1,FALSE,,,,,11148,v1
+A76100,dev_C5,P4,0,FALSE,,,,,5197,v1
+A76413,dev_C5,P4,1,FALSE,,,,,6555,v1
+A78221,dev_C5,P4,1,FALSE,,,,,9318,v1
+A78294,dev_C5,P4,1,FALSE,,,,,19993,v1
+A78352,dev_C5,P4,0,FALSE,,,,,11900,v1
+A79208,dev_C5,P4,0,FALSE,,,,,10500,v1
+A79579,dev_C5,P4,0,FALSE,,,,,7408,v1
+A80158,dev_C5,P4,0,FALSE,,,,,13546,v1
+A80280,dev_C5,P4,1,FALSE,,,,,35139,v1
+A80418,dev_C5,P4,1,FALSE,,,,,112557,v1
+A80950,dev_C5,P4,0,FALSE,,,,,5538,v1
+A81221,dev_C5,P4,1,FALSE,,,,,9818,v1
+A81554,dev_C5,P4,1,FALSE,,,,,8712,v1
+A82113,dev_C5,P4,1,FALSE,,,,,3812,v1
+A82370,dev_C5,P4,1,FALSE,,,,,7954,v1
+A83288,dev_C5,P4,0,FALSE,,,,,10039,v1
+A83618,dev_C5,P4,0,FALSE,,,,,5406,v1
+A83679,dev_C5,P4,0,FALSE,,,,,11585,v1
+A84294,dev_C5,P4,0,FALSE,,,,,3163,v1
+A84733,dev_C5,P4,0,FALSE,,,,,7257,v1
+A85112,dev_C5,P4,0,FALSE,,,,,7108,v1
+A86990,dev_C5,P4,0,FALSE,,,,,2860,v1
+A87744,dev_C5,P4,0,FALSE,,,,,4203,v1
+A87791,dev_C5,P4,0,FALSE,,,,,54144,v1
+A89450,dev_C5,P4,0,FALSE,,,,,5442,v1
+A89730,dev_C5,P4,1,FALSE,,,,,49209,v1
+A90451,dev_C5,P4,0,FALSE,,,,,6975,v1
+A91767,dev_C5,P4,0,FALSE,,,,,4690,v1
+A91861,dev_C5,P4,1,FALSE,,,,,75972,v1
+A92014,dev_C5,P4,0,FALSE,,,,,10009,v1
+A92095,dev_C5,P4,1,FALSE,,,,,8232,v1
+A92276,dev_C5,P4,1,FALSE,,,,,26329,v1
+A93418,dev_C5,P4,0,FALSE,,,,,16997,v1
+A93578,dev_C5,P4,0,FALSE,,,,,4432,v1
+A94166,dev_C5,P4,0,FALSE,,,,,2958,v1
+A96993,dev_C5,P4,0,FALSE,,,,,4509,v1
+A97079,dev_C5,P4,0,FALSE,,,,,6083,v1
+A97721,dev_C5,P4,0,FALSE,,,,,25207,v1
+A97841,dev_C5,P4,1,FALSE,,,,,9947,v1
+A98921,dev_C5,P4,0,FALSE,,,,,6659,v1
+A99036,dev_C5,P4,0,FALSE,,,,,6889,v1
+A99598,dev_C5,P4,0,FALSE,,,,,4593,v1
+A10191,dev_C5,P5,1,false,,phong_dai;cam_xuc;cuc_diem,"Bé gái 1 tuổi nguy kịch sau khi ăn hạt hướng dương, bác sĩ cảnh báo những gia đình có trẻ dưới 3 tuổi",,18867,v1
+A11659,dev_C5,P5,1,false,,cau_hoi_treo,Điều gì xảy ra với cơ thể nếu mỗi ngày ăn một quả trứng?,,18999,v1
+A12126,dev_C5,P5,1,false,,cau_hoi_treo,có gì mà khiến fan mê mẩn?,,21814,v1
+A12169,dev_C5,P5,0,true,"chưa rõ định nghĩa ""cơn mưa vàng"", dễ gây hiểu lầm",,,,33134,v1
+A12305,dev_C5,P5,1,false,,phong_dai;giau_thong_tin;hua_tiet_lo;danh_sach,"Đừng để ai hỏi gì cũng đáp, có 3 câu vốn dĩ không cần bạn trả lời",,15717,v1
+A12534,dev_C5,P5,0,false,,,,,1917,v1
+A13217,dev_C5,P5,1,false,,danh_sach,nên từ bỏ và những loại thực phẩn cần hạn chế ngay nếu muốn bảo vệ 2 quả thận,,13433,v1
+A13574,dev_C5,P5,1,false,,cau_hoi_treo;doi_lap,An ninh thắt chặt nhưng loạt ảnh riêng tư vấn bị rò rỉ vì lý do gì?,,25180,v1
+A13818,dev_C5,P5,0,false,,,,,1683,v1
+A13993,dev_C5,P5,1,false,,giau_thong_tin,được đặt ở vị trí này,,18566,v1
+A15341,dev_C5,P5,1,false,,danh_sach,Đầu tháng 4 này: 3 con giáp trúng vận tài lộc,,7983,v1
+A16011,dev_C5,P5,0,false,,,,,4882,v1
+A16112,dev_C5,P5,1,false,,danh_sach;cuc_diem,Những nguyên liệu ám ảnh nhất,,13031,v1
+A16127,dev_C5,P5,0,false,,,,,7344,v1
+A16723,dev_C5,P5,0,false,,,,,5365,v1
+A16854,dev_C5,P5,1,false,,phong_dai;cuc_diem;hua_tiet_lo,Hoa hậu giàu bậc nhất Việt Nam',,36017,v1
+A17897,dev_C5,P5,0,true,"nội dung chính xác, hợp lý nhưng cách viết mang tính giật gân",,,,24786,v1
+A18347,dev_C5,P5,0,false,,,,,3048,v1
+A18556,dev_C5,P5,0,false,,,,,2683,v1
+A19172,dev_C5,P5,0,false,,,,,2315,v1
+A19201,dev_C5,P5,1,false,,phong_dai,"Số phận U19 Việt Nam được quyết định bởi U19 Australia""",,28478,v1
+A19330,dev_C5,P5,1,false,,cuc_diem,Kỳ lạ,,23316,v1
+A20099,dev_C5,P5,0,false,,,,,2067,v1
+A20767,dev_C5,P5,0,false,,,,,4217,v1
+A21249,dev_C5,P5,1,false,,giau_thong_tin;doi_lap,"bê bối kiếm được gần nghìn tỷ/năm, từng là top 50 doanh nghiệp mạnh ASEAN 2024",,16950,v1
+A21420,dev_C5,P5,0,false,,,,,6417,v1
+A23216,dev_C5,P5,0,false,,,,,21067,v1
+A24295,dev_C5,P5,0,false,,,,,2932,v1
+A24893,dev_C5,P5,1,false,,hua_tiet_lo,"loại pin ""bắt chước lươn điện"", tạo 600 volt chỉ trong chớp mắt",,19749,v1
+A25005,dev_C5,P5,1,false,,danh_sach,vẫn phải tự có 5 thứ này,,8233,v1
+A25093,dev_C5,P5,0,false,,,,,3112,v1
+A25296,dev_C5,P5,1,false,,giau_thong_tin,cần định kỳ khởi động lại,,10851,v1
+A25321,dev_C5,P5,1,false,,giau_thong_tin;hua_tiet_lo,Khi yêu Phương Nhi là người như thế này!,,12017,v1
+A25880,dev_C5,P5,1,false,,danh_sach,"Soi lý thuyết thứ tự sinh của nhà tâm lý học danh tiếng, tìm ra:",,9765,v1
+A25893,dev_C5,P5,1,false,,giau_thong_tin;phong_dai;cuc_diem;hua_tiet_lo,"quả mít 50kg ở Bắc Ninh, mỗi năm chỉ ra 1-2 quả, hương vị gây tò mò",,16267,v1
+A26627,dev_C5,P5,1,false,,giau_thong_tin;hua_tiet_lo;phong_dai;danh_sach;cuc_diem,mới hiểu thế nào là cách nuôi dạy con gái đẳng cấp nhất,,17353,v1
+A27293,dev_C5,P5,0,false,,,,,2165,v1
+A27445,dev_C5,P5,1,false,,doi_lap,"Tôi vẫn tự hào về Malaysia, trận chung kết Việt Nam đấu Thái Lan sẽ rất hay’",,22652,v1
+A28594,dev_C5,P5,0,false,,,,,4849,v1
+A28625,dev_C5,P5,0,false,,,,,4768,v1
+A28848,dev_C5,P5,1,false,,giau_thong_tin,Thêm chỗ dựa cho chắc,rong,19366,v1
+A29535,dev_C5,P5,1,false,,danh_sach;hua_tiet_lo,"Đây là ""kẻ thù"" của mùi tanh",,19245,v1
+A31226,dev_C5,P5,1,false,,giau_thong_tin;cam_xuc;phong_dai;cuc_diem,gây tranh luận,,16582,v1
+A31498,dev_C5,P5,0,false,,,,,3701,v1
+A33134,dev_C5,P5,0,false,,,,,2665,v1
+A33889,dev_C5,P5,0,false,,,,,4816,v1
+A34196,dev_C5,P5,0,false,,,,,6822,v1
+A35038,dev_C5,P5,0,false,,,,,1869,v1
+A35097,dev_C5,P5,0,false,,,,,2268,v1
+A35564,dev_C5,P5,0,false,,,,,5990,v1
+A35787,dev_C5,P5,0,false,,,,,2317,v1
+A36933,dev_C5,P5,0,false,,,,,7000,v1
+A37544,dev_C5,P5,0,false,,,,,3663,v1
+A38036,dev_C5,P5,1,false,,phong_dai;cam_xuc;cuc_diem,"Vừa tái hợp chồng cũ vì có con sau 7 năm hiếm muộn, tôi sốc đứng không vững khi nghe tin của bạn thân",,10066,v1
+A41404,dev_C5,P5,1,false,,phong_dai;doi_lap,"Xe sang mất sức hút: Khi ""người giàu cũng khóc""",,11701,v1
+A41407,dev_C5,P5,0,false,,,,,2466,v1
+A41608,dev_C5,P5,1,false,,danh_sach,thấy 4 dấu hiệu này tức là,,20387,v1
+A41884,dev_C5,P5,1,false,,giau_thong_tin;phong_dai,ngộ độc thực phẩm trong học đường lại trở thành nỗi ám ảnh với vụ việc hàng chục học sinh Trường tiểu học Đặng Thùy Trâm (phường Tân Thuận) nhập viện,,29320,v1
+A41963,dev_C5,P5,0,false,,,,,2948,v1
+A43367,dev_C5,P5,1,false,,cau_hoi_treo,Vì sao HLV Kim Sang-sik thành công ở Việt Nam?,,8798,v1
+A43489,dev_C5,P5,1,false,,cam_xuc,hot rần rần mạng xã hội,,19700,v1
+A44668,dev_C5,P5,0,false,,,,,5019,v1
+A44724,dev_C5,P5,1,false,,giau_thong_tin;hua_tiet_lo;phong_dai;danh_sach;cuc_diem,có một số thay đổi đáng chú ý,,25484,v1
+A45725,dev_C5,P5,1,false,,cam_xuc,"thích thú, ""sốt""",,13133,v1
+A45964,dev_C5,P5,0,false,,,,,3083,v1
+A46734,dev_C5,P5,1,false,,cam_xuc;giau_thong_tin,"Bức ảnh chụp tại 1 trường học, phải thốt lên",,34001,v1
+A46774,dev_C5,P5,0,false,,,,,4565,v1
+A46908,dev_C5,P5,1,false,,phong_dai;doi_lap,bỏng 80% cơ thể trong vụ cháy và cuộc tái sinh ngoạn mục,,34500,v1
+A48477,dev_C5,P5,0,false,,,,,5933,v1
+A49086,dev_C5,P5,0,false,,,,,5099,v1
+A49752,dev_C5,P5,1,false,,doi_lap,người dân hiếu kỳ vẫn ùn ùn kéo đến,,13399,v1
+A50211,dev_C5,P5,1,false,,phong_dai,‘toang’ cả mùa giải,,11750,v1
+A51471,dev_C5,P5,0,false,,,,,2115,v1
+A51944,dev_C5,P5,1,false,,cam_xuc,chỉ để… cho vui,,16949,v1
+A52257,dev_C5,P5,0,false,,,,,2082,v1
+A52298,dev_C5,P5,0,false,,,,,4415,v1
+A54235,dev_C5,P5,0,false,,,,,2917,v1
+A54516,dev_C5,P5,1,false,,cam_xuc,"""gây sốt""",,10666,v1
+A55693,dev_C5,P5,1,false,,cau_hoi_treo,- là ai?,,17432,v1
+A55734,dev_C5,P5,1,false,,giau_thong_tin,Học trong kỷ nguyên AI: Tương lai thuộc về người biết cách tự học,,11427,v1
+A56843,dev_C5,P5,0,true,"tuy nội dung rõ ràng, chính xác nhưng thiếu nguyên nhân",,,,28155,v1
+A57049,dev_C5,P5,1,false,,danh_sach,3 sai lầm phá hủy,,8199,v1
+A57306,dev_C5,P5,1,false,,giau_thong_tin,Thương binh nghèo,,38533,v1
+A57590,dev_C5,P5,1,false,,hua_tiet_lo;giau_thong_tin,,,20034,v1
+A57885,dev_C5,P5,1,false,,danh_sach,"Đúng 6h sáng ngày mai, thứ Hai 13/4/2026, 3 con giáp hiền lành hưởng lộc giàu, tiền bạc tiêu không xuể",,20432,v1
+A58396,dev_C5,P5,1,false,,giau_thong_tin;hua_tiet_lo;phong_dai;danh_sach,Không phải phở hay bún bò,,12934,v1
+A58906,dev_C5,P5,1,false,,phong_dai;doi_lap,"0 đồng marketing, đút túi 100 triệu USD chỉ trong 96 giờ",,31313,v1
+A58970,dev_C5,P5,1,false,,giau_thong_tin;phong_dai;cau_hoi_treo,Lãnh đạo phường nói gì?,,20550,v1
+A59268,dev_C5,P5,0,false,,,,,6966,v1
+A59416,dev_C5,P5,0,false,,,,,11325,v1
+A59788,dev_C5,P5,1,false,,giau_thong_tin;danh_sach,"lưu ý quan trọng khi đi lễ chùa đầu Xuân Bính Ngọ 2026 để đón phúc lộc, gặp vạn điều may",,14064,v1
+A59876,dev_C5,P5,0,false,,,,,2348,v1
+A60250,dev_C5,P5,0,true,nội dung tiêu đề hơi mang tính giật gân,,,,35304,v1
+A60761,dev_C5,P5,1,false,,danh_sach,5 cây không trồng trước nhà,,5566,v1
+A61054,dev_C5,P5,1,false,,giau_thong_tin,,rong,26468,v1
+A61388,dev_C5,P5,1,false,,danh_sach,Trắc nghiệm:,,10732,v1
+A62632,dev_C5,P5,1,false,,danh_sach,Người xưa nói:,,7533,v1
+A63008,dev_C5,P5,1,false,,cam_xuc;phong_dai,gây hiểu lầm,,31241,v1
+A63582,dev_C5,P5,0,false,,,,,3601,v1
+A64952,dev_C5,P5,1,false,,danh_sach,Bí quyết phỏng vấn hành vi:,,11201,v1
+A65845,dev_C5,P5,1,false,,cam_xuc,gây xôn xao,,14935,v1
+A66022,dev_C5,P5,0,false,,,,,6166,v1
+A66381,dev_C5,P5,1,false,,danh_sach,,,27437,v1
+A66658,dev_C5,P5,1,false,,phong_dai,buông 2 tay khi chở bạn gái,,19950,v1
+A67530,dev_C5,P5,1,false,,phong_dai;cuc_diem;cam_xuc,"tôi như ""biến"" thành người khác, đáng sợ hơn là cô ấy cũng nhận ra điều đó",,18814,v1
+A69233,dev_C5,P5,0,false,,,,,2433,v1
+A69655,dev_C5,P5,1,false,,cam_xuc,Bất ngờ,,18768,v1
+A70133,dev_C5,P5,1,false,,cam_xuc,"""đứng hình""",,11065,v1
+A71310,dev_C5,P5,1,false,,phong_dai;doi_lap;cuc_diem;cam_xuc,"""Tóm gọn"" Angelababy và Huỳnh Hiểu Minh tái hợp, thái độ ""quay ngoắt 180 độ"" sau 4 năm ly hôn",,17433,v1
+A71502,dev_C5,P5,0,false,,,,,2400,v1
+A71887,dev_C5,P5,1,false,,giau_thong_tin;cam_xuc;phong_dai;cuc_diem;danh_sach;hua_tiet_lo,"được THẦN TÀI dẫn lối tài lộc về nhà, tiền bạc đầy kho, phải sắm thêm KÉT SẮT, cuộc sống tốt đẹp",,19445,v1
+A72295,dev_C5,P5,1,false,,giau_thong_tin;hua_tiet_lo,,,7947,v1
+A74976,dev_C5,P5,1,false,,giau_thong_tin;phong_dai,,,24568,v1
+A76076,dev_C5,P5,1,false,,phong_dai;doi_lap;cuc_diem,"Mỹ nhân ""mặt học sinh body phụ huynh"" mặc đẹp từ thảm đỏ tới đời thường, đi tới đâu nơi đó thành sàn diễn",,19964,v1
+A76100,dev_C5,P5,1,false,,giau_thong_tin;danh_sach;hua_tiet_lo,10 ứng dụng AI phổ biến nhất thế giới năm 2025,,30335,v1
+A76413,dev_C5,P5,0,false,,,,,2316,v1
+A78221,dev_C5,P5,0,true,"tuy nội dung rõ ràng, chính xác nhưng thiếu nguyên nhân",,,,17075,v1
+A78294,dev_C5,P5,1,false,,hua_tiet_lo,Phản ứng của hai con trai,,9250,v1
+A78352,dev_C5,P5,0,false,,,,,3733,v1
+A79208,dev_C5,P5,1,false,,phong_dai,"Con gái Hoa hậu Đặng Thu Thảo và chồng đại gia giờ xinh như thiên thần, đi mua sắm không cần nhìn giá",,17667,v1
+A79579,dev_C5,P5,0,false,,,,,6301,v1
+A80158,dev_C5,P5,1,false,,giau_thong_tin,"liên tục về nhì, CĐV đổ lỗi cho Madam Pang",,19182,v1
+A80280,dev_C5,P5,1,false,,danh_sach,"3 con giáp phát tài phát lộc, kiếm tiền nhiều như nước",,8567,v1
+A80418,dev_C5,P5,0,false,,,,,4199,v1
+A80950,dev_C5,P5,0,false,,,,,7849,v1
+A81221,dev_C5,P5,1,false,,doi_lap,từng hứng bão táp cực lớn trong sự nghiệp nhưng nay thành tựu khó ai sánh kịp,,7102,v1
+A81554,dev_C5,P5,1,false,,danh_sach,Top 3 chòm sao may mắn nhất ngày 28/5:,,7282,v1
+A82113,dev_C5,P5,1,false,,danh_sach,Người xưa dặn:,,13198,v1
+A82370,dev_C5,P5,1,false,,danh_sach,"Sinh đủ nếp đủ tẻ, ở biệt phủ 100m² xa hoa",,17684,v1
+A83288,dev_C5,P5,0,false,,,,,3914,v1
+A83618,dev_C5,P5,0,false,,,,,47233,v1
+A83679,dev_C5,P5,1,false,,cam_xuc;doi_lap,khó đỡ,,25535,v1
+A84294,dev_C5,P5,0,false,,,,,1817,v1
+A84733,dev_C5,P5,1,false,,giau_thong_tin,còn có một hoặc một số chữ cái ẩn chứa thông tin quan trọng.,,20383,v1
+A85112,dev_C5,P5,0,false,,,,,3398,v1
+A86990,dev_C5,P5,0,false,,,,,2699,v1
+A87744,dev_C5,P5,0,false,,,,,3595,v1
+A87791,dev_C5,P5,0,false,,,,,4963,v1
+A89450,dev_C5,P5,1,true,nội dung tiêu đề hơi sai lệch với nội dung thật sự nhưng không đủ clickbait,phong_dai,Khoảnh khắc Nhà vua Thái Lan dõi theo Hoàng hậu lái tiêm kích Gripen,,59200,v1
+A89730,dev_C5,P5,1,false,,doi_lap,không như mọi người nghĩ,,21968,v1
+A90451,dev_C5,P5,0,false,,,,,4195,v1
+A91767,dev_C5,P5,0,true,nội dung chính xác nhưng cách viết hơi clickbait,,,,23857,v1
+A91861,dev_C5,P5,1,false,,giau_thong_tin,bằng phương pháp quá liều lĩnh,,9349,v1
+A92014,dev_C5,P5,1,false,,giau_thong_tin;hua_tiet_lo,Con trai Hồ Ngọc Hà - Cường Đô la tuổi mới lớn,,21716,v1
+A92095,dev_C5,P5,1,false,,giau_thong_tin,Thầy giáo 33 tuổi dạy học trên YouTube,,22849,v1
+A92276,dev_C5,P5,1,false,,cau_hoi_treo,có lên không?,,12198,v1
+A93418,dev_C5,P5,0,false,,,,,3015,v1
+A93578,dev_C5,P5,0,false,,,,,2315,v1
+A94166,dev_C5,P5,0,false,,,,,2000,v1
+A96993,dev_C5,P5,0,false,,,,,2382,v1
+A97079,dev_C5,P5,0,false,,,,,3450,v1
+A97721,dev_C5,P5,0,true,case này cũng có thể là clickbait dấu hiệu danh sách,,,,29951,v1
+A97841,dev_C5,P5,1,false,,phong_dai;doi_lap;giau_thong_tin;danh_sach;hua_tiet_lo;cam_xuc,"""fan cứng"" Samsung, tôi quyết không mua 5 mẫu điện thoại sau đây của hãng",,18395,v1
+A98921,dev_C5,P5,0,false,,,,,8915,v1
+A99036,dev_C5,P5,0,false,,,,,2482,v1
+A99598,dev_C5,P5,0,false,,,,,2049,v1
+A10666,dev_C6,P5,1,false,,,,,3440,v1
+A10956,dev_C6,P5,0,false,,,,,12985,v1
+A11059,dev_C6,P5,1,false,,,,,5162,v1
+A11528,dev_C6,P5,0,false,,,,,3194,v1
+A12246,dev_C6,P5,1,false,,giau_thong_tin;hua_tiet_lo;phong_dai,,,104241,v1
+A13465,dev_C6,P5,1,false,,,,,4032,v1
+A13502,dev_C6,P5,0,false,,,,,2508,v1
+A13721,dev_C6,P5,0,false,,,,,2566,v1
+A13737,dev_C6,P5,0,false,,,,,19087,v1
+A14148,dev_C6,P5,0,false,,,,,6248,v1
+A14229,dev_C6,P5,1,false,,,,,17863,v1
+A14259,dev_C6,P5,1,false,,,,,8685,v1
+A15379,dev_C6,P5,1,false,,,,,13798,v1
+A16071,dev_C6,P5,0,false,,,,,11722,v1
+A16075,dev_C6,P5,0,false,,,,,3760,v1
+A17431,dev_C6,P5,0,false,,,,,3385,v1
+A17640,dev_C6,P5,0,false,,,,,2159,v1
+A17762,dev_C6,P5,0,false,,,,,3778,v1
+A17818,dev_C6,P5,0,false,,,,,4502,v1
+A18039,dev_C6,P5,0,false,,,,,2417,v1
+A18710,dev_C6,P5,0,false,,,,,5627,v1
+A18771,dev_C6,P5,1,false,,,,,3701,v1
+A19621,dev_C6,P5,1,false,,,,,7061,v1
+A21087,dev_C6,P5,0,false,,,,,1631,v1
+A21111,dev_C6,P5,1,false,,,,,8577,v1
+A21295,dev_C6,P5,0,false,,,,,4764,v1
+A21369,dev_C6,P5,0,false,,,,,5303,v1
+A21695,dev_C6,P5,0,false,,,,,3351,v1
+A21697,dev_C6,P5,0,false,,,,,3701,v1
+A21871,dev_C6,P5,0,false,,,,,2536,v1
+A22150,dev_C6,P5,0,false,,,,,7494,v1
+A22422,dev_C6,P5,0,false,,,,,63990,v1
+A22637,dev_C6,P5,0,false,,,,,2974,v1
+A22808,dev_C6,P5,0,false,,,,,4353,v1
+A22842,dev_C6,P5,0,false,,,,,8672,v1
+A23635,dev_C6,P5,0,false,,,,,1720,v1
+A24057,dev_C6,P5,0,false,,,,,3127,v1
+A25018,dev_C6,P5,0,false,,,,,5767,v1
+A25356,dev_C6,P5,1,false,,,,,106495,v1
+A25669,dev_C6,P5,0,false,,,,,4570,v1
+A27115,dev_C6,P5,0,false,,,,,1715,v1
+A27195,dev_C6,P5,0,false,,,,,6225,v1
+A27801,dev_C6,P5,0,false,,,,,14854,v1
+A28121,dev_C6,P5,0,false,,,,,3705,v1
+A28309,dev_C6,P5,1,false,,,,,2082,v1
+A28312,dev_C6,P5,0,false,,,,,3734,v1
+A28911,dev_C6,P5,1,false,,,,,9428,v1
+A29082,dev_C6,P5,0,false,,,,,3478,v1
+A29458,dev_C6,P5,1,false,,,,,6431,v1
+A29724,dev_C6,P5,1,false,,,,,24991,v1
+A30404,dev_C6,P5,1,false,,,,,8679,v1
+A30409,dev_C6,P5,0,false,,,,,9764,v1
+A31079,dev_C6,P5,0,false,,,,,1764,v1
+A31211,dev_C6,P5,0,false,,,,,1583,v1
+A31694,dev_C6,P5,0,false,,,,,3183,v1
+A32796,dev_C6,P5,0,false,,,,,9589,v1
+A34219,dev_C6,P5,1,false,,,,,4599,v1
+A34711,dev_C6,P5,0,false,,,,,9246,v1
+A34715,dev_C6,P5,0,false,,,,,3899,v1
+A35294,dev_C6,P5,1,false,,,,,6419,v1
+A35446,dev_C6,P5,1,false,,,,,4785,v1
+A35652,dev_C6,P5,1,false,,,,,1907,v1
+A37490,dev_C6,P5,0,false,,,,,4764,v1
+A37953,dev_C6,P5,0,false,,,,,2991,v1
+A38491,dev_C6,P5,0,false,,,,,7691,v1
+A39470,dev_C6,P5,0,false,,,,,5563,v1
+A39655,dev_C6,P5,0,false,,,,,2403,v1
+A40771,dev_C6,P5,0,false,,,,,1835,v1
+A42104,dev_C6,P5,0,false,,,,,4824,v1
+A42176,dev_C6,P5,0,false,,,,,1633,v1
+A45526,dev_C6,P5,1,false,,,,,11955,v1
+A45950,dev_C6,P5,1,false,,,,,14746,v1
+A46082,dev_C6,P5,0,false,,,,,19802,v1
+A47057,dev_C6,P5,0,false,,,,,10216,v1
+A47551,dev_C6,P5,1,false,,,,,3349,v1
+A48160,dev_C6,P5,0,false,,,,,3158,v1
+A49101,dev_C6,P5,0,false,,,,,5103,v1
+A49265,dev_C6,P5,0,false,,,,,1483,v1
+A49667,dev_C6,P5,0,false,,,,,2610,v1
+A50464,dev_C6,P5,1,false,,,,,10733,v1
+A50506,dev_C6,P5,0,false,,,,,2924,v1
+A51366,dev_C6,P5,0,false,,,,,2491,v1
+A51850,dev_C6,P5,0,false,,,,,2504,v1
+A51994,dev_C6,P5,0,false,,,,,2109,v1
+A52629,dev_C6,P5,0,false,,,,,1587,v1
+A52653,dev_C6,P5,0,false,,,,,2210,v1
+A52957,dev_C6,P5,0,false,,,,,5971,v1
+A53339,dev_C6,P5,1,false,,,,,7412,v1
+A55298,dev_C6,P5,0,false,,,,,3739,v1
+A55415,dev_C6,P5,0,false,,,,,3704,v1
+A57629,dev_C6,P5,0,false,,,,,1384,v1
+A57757,dev_C6,P5,0,false,,,,,6845,v1
+A57931,dev_C6,P5,0,false,,,,,4385,v1
+A57940,dev_C6,P5,0,false,,,,,1429,v1
+A58286,dev_C6,P5,0,false,,,,,3253,v1
+A60172,dev_C6,P5,0,false,,,,,1624,v1
+A62294,dev_C6,P5,0,false,,,,,2799,v1
+A62978,dev_C6,P5,0,false,,,,,14506,v1
+A63437,dev_C6,P5,0,false,,,,,34078,v1
+A63723,dev_C6,P5,0,false,,,,,2363,v1
+A65547,dev_C6,P5,0,false,,,,,4808,v1
+A65877,dev_C6,P5,1,false,,,,,4905,v1
+A65900,dev_C6,P5,1,false,,,,,4678,v1
+A67277,dev_C6,P5,0,false,,,,,8067,v1
+A67406,dev_C6,P5,0,false,,,,,12427,v1
+A68819,dev_C6,P5,0,false,,,,,5202,v1
+A69171,dev_C6,P5,0,false,,,,,7682,v1
+A70053,dev_C6,P5,0,false,,,,,9209,v1
+A70928,dev_C6,P5,1,false,,,,,8917,v1
+A72305,dev_C6,P5,1,false,,,,,10554,v1
+A72550,dev_C6,P5,0,false,,,,,8702,v1
+A72650,dev_C6,P5,0,false,,,,,6642,v1
+A72889,dev_C6,P5,0,false,,,,,4259,v1
+A73094,dev_C6,P5,0,false,,,,,2406,v1
+A73903,dev_C6,P5,1,false,,,,,8571,v1
+A74011,dev_C6,P5,0,false,,,,,5081,v1
+A75844,dev_C6,P5,0,false,,,,,30613,v1
+A76465,dev_C6,P5,0,false,,,,,3284,v1
+A77036,dev_C6,P5,1,false,,,,,2064,v1
+A77472,dev_C6,P5,0,false,,,,,3553,v1
+A77693,dev_C6,P5,0,false,,,,,3469,v1
+A77956,dev_C6,P5,1,false,,,,,14914,v1
+A79358,dev_C6,P5,1,false,,phong_dai,,,27526,v1
+A79425,dev_C6,P5,1,false,,,,,4006,v1
+A80103,dev_C6,P5,0,false,,,,,4463,v1
+A80995,dev_C6,P5,0,false,,,,,6015,v1
+A81111,dev_C6,P5,1,false,,,,,3361,v1
+A81413,dev_C6,P5,0,false,,,,,3273,v1
+A82067,dev_C6,P5,0,false,,,,,18911,v1
+A82450,dev_C6,P5,0,false,,,,,3147,v1
+A83090,dev_C6,P5,1,false,,,,,11813,v1
+A83158,dev_C6,P5,0,false,,,,,3080,v1
+A83238,dev_C6,P5,1,false,,,,,9317,v1
+A83364,dev_C6,P5,0,false,,,,,3099,v1
+A83633,dev_C6,P5,1,false,,,,,29416,v1
+A84805,dev_C6,P5,1,false,,,,,53296,v1
+A85281,dev_C6,P5,1,false,,,,,4506,v1
+A85727,dev_C6,P5,0,false,,,,,5571,v1
+A86000,dev_C6,P5,0,false,,,,,10253,v1
+A88530,dev_C6,P5,1,false,,,,,11013,v1
+A89968,dev_C6,P5,0,false,,,,,8339,v1
+A90398,dev_C6,P5,0,false,,,,,5178,v1
+A90545,dev_C6,P5,1,false,,,,,9654,v1
+A90806,dev_C6,P5,0,false,,,,,9385,v1
+A90867,dev_C6,P5,0,false,,,,,3121,v1
+A93650,dev_C6,P5,1,false,,,,,4387,v1
+A94448,dev_C6,P5,0,false,,,,,3958,v1
+A94647,dev_C6,P5,1,false,,,,,8610,v1
+A96677,dev_C6,P5,0,false,,,,,3952,v1
+A96759,dev_C6,P5,1,false,,,TP.HCM sẽ lập hệ thống báo ngập; Đề xuất người dưới 18 tuổi được hiến xác,khac,56890,v1
+A96808,dev_C6,P5,0,false,,,,,2373,v1
+A96883,dev_C6,P5,0,false,,,,,3903,v1
+A97321,dev_C6,P5,0,false,,,,,95850,v1
+A98954,dev_C6,P5,0,false,,,,,26242,v1
+A99779,dev_C6,P5,1,false,,,,,2607,v1
+A10666,dev_C6,P6,1,false,,hua_tiet_lo;cam_xuc;phong_dai;doi_lap,"Bố mẹ da trắng sinh con da đen, kết quả đau lòng",,28941,v1
+A10956,dev_C6,P6,0,false,,,,,6222,v1
+A11059,dev_C6,P6,0,false,,,,,11845,v1
+A11528,dev_C6,P6,0,false,,,,,9665,v1
+A12246,dev_C6,P6,1,false,,cam_xuc;phong_dai,Hòa Minzy đáp trả,bi_cat,12592,v1
+A13465,dev_C6,P6,1,false,,cam_xuc;phong_dai;doi_lap;giau_thong_tin;cau_hoi_treo,nhưng spotlight thuộc về 2 nhân vật này,,14429,v1
+A13502,dev_C6,P6,1,false,,cam_xuc;phong_dai,Bỏ logo to đùng,,13812,v1
+A13721,dev_C6,P6,0,false,,,,,2047,v1
+A13737,dev_C6,P6,1,false,,giau_thong_tin,"ăn nhiều mà không có cảm giác ""tội lỗi""",,12646,v1
+A14148,dev_C6,P6,1,false,,phong_dai;cau_hoi_treo,Trắc nghiệm tâm lý,,11821,v1
+A14229,dev_C6,P6,1,false,,cam_xuc;phong_dai;doi_lap;cau_hoi_treo,tôi mới hiểu vì sao người già không nên phụ thuộc vào con cái,,14517,v1
+A14259,dev_C6,P6,1,false,,phong_dai;doi_lap;danh_sach,sau khi đoạn clip dài gần 20 phút bại lộ,,20282,v1
+A15379,dev_C6,P6,1,false,,cuc_diem;cam_xuc;phong_dai,người yêu cũ của chồng nhắn tin van nài,,18194,v1
+A16071,dev_C6,P6,0,false,,,,,12742,v1
+A16075,dev_C6,P6,0,false,,,,,1820,v1
+A17431,dev_C6,P6,0,false,,,,,3160,v1
+A17640,dev_C6,P6,0,false,,,,,4818,v1
+A17762,dev_C6,P6,0,false,,,,,3009,v1
+A17818,dev_C6,P6,1,false,,giau_thong_tin;cam_xuc;phong_dai,Kết quả gây sốc,rong,15237,v1
+A18039,dev_C6,P6,1,false,,cam_xuc;cau_hoi_treo;giau_thong_tin,Tin vui,,12094,v1
+A18710,dev_C6,P6,1,false,,phong_dai;danh_sach,cả thế giới ngỡ ngàng,,26544,v1
+A18771,dev_C6,P6,0,false,,,,,12127,v1
+A19621,dev_C6,P6,1,false,,cam_xuc;cau_hoi_treo;giau_thong_tin,có cách mới giúp người nghèo,,9321,v1
+A21087,dev_C6,P6,0,false,,,,,4612,v1
+A21111,dev_C6,P6,0,false,,,,,6571,v1
+A21295,dev_C6,P6,0,false,,,,,2449,v1
+A21369,dev_C6,P6,0,false,,,,,2546,v1
+A21695,dev_C6,P6,0,false,,,,,14679,v1
+A21697,dev_C6,P6,1,false,,phong_dai;cau_hoi_treo,Loại cây mùa thu nên trồng ở ban công,,25907,v1
+A21871,dev_C6,P6,0,false,,,,,6776,v1
+A22150,dev_C6,P6,1,true,Vì có thể nói quá lên thành đất vàng,phong_dai;cam_xuc,đất vàng,,44529,v1
+A22422,dev_C6,P6,1,false,,cam_xuc;phong_dai,có gì đặc biệt mà lại gây sốt?,,29957,v1
+A22637,dev_C6,P6,0,false,,,,,2061,v1
+A22808,dev_C6,P6,0,false,,,,,1215,v1
+A22842,dev_C6,P6,1,false,,cuc_diem;phong_dai;cam_xuc;doi_lap,sau 2 năm lấy chồng chưa vội có con,,18879,v1
+A23635,dev_C6,P6,0,false,,,,,4544,v1
+A24057,dev_C6,P6,0,false,,,Tình hình nữ tử tù Christa Pike ra sao sau khi tỉnh lại?,,25579,v1
+A25018,dev_C6,P6,0,false,,,,,5017,v1
+A25356,dev_C6,P6,1,false,,cam_xuc;giau_thong_tin,bố tập sự,,19529,v1
+A25669,dev_C6,P6,0,false,,,,,11424,v1
+A27115,dev_C6,P6,0,false,,,,,944,v1
+A27195,dev_C6,P6,0,false,,,,,4917,v1
+A27801,dev_C6,P6,1,false,,cam_xuc,cưới chồng Pakistan kém 15 tuổi sau 3 tháng yêu,,23428,v1
+A28121,dev_C6,P6,1,false,,cam_xuc;phong_dai,gây sốt,,9101,v1
+A28309,dev_C6,P6,1,false,,giau_thong_tin;cam_xuc;phong_dai;cau_hoi_treo,loay hoay với giọng hát của mình,,22948,v1
+A28312,dev_C6,P6,1,false,,giau_thong_tin;cau_hoi_treo;phong_dai;doi_lap,ngỡ ngàng,,13804,v1
+A28911,dev_C6,P6,0,false,,,,,6706,v1
+A29082,dev_C6,P6,0,false,,,,,2325,v1
+A29458,dev_C6,P6,1,false,,giau_thong_tin;cau_hoi_treo,Có 2 dấu hiệu này,,15969,v1
+A29724,dev_C6,P6,0,false,,,,,8272,v1
+A30404,dev_C6,P6,1,false,,cam_xuc;phong_dai,gây tranh cãi,,10833,v1
+A30409,dev_C6,P6,1,false,,cam_xuc;phong_dai,điên cuồng,,9175,v1
+A31079,dev_C6,P6,0,false,,,,,4788,v1
+A31211,dev_C6,P6,0,false,,,,,14292,v1
+A31694,dev_C6,P6,1,false,,phong_dai;cau_hoi_treo,Có nên tiếp tục xếp hàng mua vàng?,,22194,v1
+A32796,dev_C6,P6,0,false,,,,,2840,v1
+A34219,dev_C6,P6,1,false,,hua_tiet_lo;cam_xuc;phong_dai;cau_hoi_treo,"gây tranh cãi, Ban tổ chức nói gì?",,18230,v1
+A34711,dev_C6,P6,1,false,,phong_dai;cuc_diem,trăm triệu USD,,36439,v1
+A34715,dev_C6,P6,0,false,,,,,3796,v1
+A35294,dev_C6,P6,0,false,,,,,7570,v1
+A35446,dev_C6,P6,1,false,,giau_thong_tin;danh_sach;hua_tiet_lo;phong_dai,vì thói quen nhiều người vẫn làm mỗi ngày,,16787,v1
+A35652,dev_C6,P6,1,false,,giau_thong_tin;cam_xuc;phong_dai,"bác sĩ phát biện bí mật ""đáng sợ"" bên trong",,14542,v1
+A37490,dev_C6,P6,0,false,,,,,5112,v1
+A37953,dev_C6,P6,0,false,,,,,3827,v1
+A38491,dev_C6,P6,1,false,,giau_thong_tin;phong_dai;cau_hoi_treo,hiến kế cho tuyển Anh,,10492,v1
+A39470,dev_C6,P6,0,false,,,,,3812,v1
+A39655,dev_C6,P6,0,false,,,,,1645,v1
+A40771,dev_C6,P6,1,false,,giau_thong_tin;cau_hoi_treo,,,19155,v1
+A42104,dev_C6,P6,0,false,,,,,1926,v1
+A42176,dev_C6,P6,0,false,,,,,3787,v1
+A45526,dev_C6,P6,1,false,,cam_xuc;phong_dai;cau_hoi_treo,Từng nhận bão chê bai,,28205,v1
+A45950,dev_C6,P6,1,false,,danh_sach;cau_hoi_treo;cam_xuc;phong_dai,3 con giáp trúng số độc đắc,,13470,v1
+A46082,dev_C6,P6,0,false,,,,,2960,v1
+A47057,dev_C6,P6,0,false,,,,,1184,v1
+A47551,dev_C6,P6,0,false,,,,,2740,v1
+A48160,dev_C6,P6,0,false,,,,,3108,v1
+A49101,dev_C6,P6,0,false,,,,,2335,v1
+A49265,dev_C6,P6,0,false,,,,,1410,v1
+A49667,dev_C6,P6,0,false,,,,,4203,v1
+A50464,dev_C6,P6,1,false,,phong_dai;cau_hoi_treo;danh_sach;cam_xuc;giau_thong_tin,thói quen cuối cùng thực sự khó chịu,,16671,v1
+A50506,dev_C6,P6,0,false,,,,,2674,v1
+A51366,dev_C6,P6,0,false,,,,,1605,v1
+A51850,dev_C6,P6,0,false,,,,,1835,v1
+A51994,dev_C6,P6,1,false,,giau_thong_tin;cuc_diem;phong_dai,gây chú ý với áo dài kim sa,,13249,v1
+A52629,dev_C6,P6,0,false,,,,,4603,v1
+A52653,dev_C6,P6,0,false,,,,,1817,v1
+A52957,dev_C6,P6,1,false,,phong_dai;doi_lap;cau_hoi_treo;giau_thong_tin,Chiêu thức nâng giá chuộc người,,23434,v1
+A53339,dev_C6,P6,0,false,,,,,2150,v1
+A55298,dev_C6,P6,0,false,,,,,2087,v1
+A55415,dev_C6,P6,1,false,,danh_sach;cau_hoi_treo;cam_xuc,,,17032,v1
+A57629,dev_C6,P6,0,false,,,,,2245,v1
+A57757,dev_C6,P6,0,false,,,,,2542,v1
+A57931,dev_C6,P6,1,false,,cam_xuc,sao Thổ nghịch hành,,10583,v1
+A57940,dev_C6,P6,0,false,,,,,3047,v1
+A58286,dev_C6,P6,0,false,,,,,2253,v1
+A60172,dev_C6,P6,0,false,,,,,3510,v1
+A62294,dev_C6,P6,0,false,,,,,1398,v1
+A62978,dev_C6,P6,0,false,,,,,4894,v1
+A63437,dev_C6,P6,0,false,,,,,5088,v1
+A63723,dev_C6,P6,0,false,,,,,3700,v1
+A65547,dev_C6,P6,0,false,,,,,5108,v1
+A65877,dev_C6,P6,1,false,,cam_xuc;phong_dai;hua_tiet_lo,nhắc chuyện 'ly hôn',,16235,v1
+A65900,dev_C6,P6,1,false,,danh_sach;cau_hoi_treo;cam_xuc;phong_dai,ở Việt Nam bán rẻ bèo,encoding,18596,v1
+A67277,dev_C6,P6,1,false,,cam_xuc;phong_dai,gây bão mạng,,13950,v1
+A67406,dev_C6,P6,0,false,,,,,1298,v1
+A68819,dev_C6,P6,1,false,,phong_dai;cam_xuc;cuc_diem,khoe chân dài miên man,,50483,v1
+A69171,dev_C6,P6,1,false,,cam_xuc;phong_dai,CSGT Hà Nội hóa trang thành hành khách,,21553,v1
+A70053,dev_C6,P6,0,false,,,,,2074,v1
+A70928,dev_C6,P6,1,false,,giau_thong_tin;cau_hoi_treo,bỗng vướng tranh luận,,9410,v1
+A72305,dev_C6,P6,1,false,,cuc_diem;phong_dai;cau_hoi_treo;cam_xuc,có gì mà tự hào,,24901,v1
+A72550,dev_C6,P6,1,false,,giau_thong_tin;cau_hoi_treo,trước khi bị bắt,,37044,v1
+A72650,dev_C6,P6,1,false,,cuc_diem;hua_tiet_lo,Oan cho nhạc jazz,,32748,v1
+A72889,dev_C6,P6,0,false,,,,,3224,v1
+A73094,dev_C6,P6,0,false,,,,,1507,v1
+A73903,dev_C6,P6,1,false,,cau_hoi_treo;cam_xuc;doi_lap,Công dụng ít ai ngờ,,25969,v1
+A74011,dev_C6,P6,1,false,,cam_xuc;phong_dai;cau_hoi_treo;danh_sach,Thay vì hoảng hốt,,11006,v1
+A75844,dev_C6,P6,0,false,,,,,4317,v1
+A76465,dev_C6,P6,1,false,,doi_lap;cau_hoi_treo;danh_sach;hua_tiet_lo;cam_xuc,Công ty Song Long khó bị phát hiện hơn nhóm Được ‘Đất Bắc’?,,25971,v1
+A77036,dev_C6,P6,1,false,,cam_xuc;phong_dai;cau_hoi_treo;danh_sach,hiểu ra rồi cha mẹ sẽ đỡ mệt đầu hơn rất nhiều,,16383,v1
+A77472,dev_C6,P6,1,false,,phong_dai;cam_xuc;cau_hoi_treo,chuyện ấy,,14987,v1
+A77693,dev_C6,P6,0,false,,,,,2458,v1
+A77956,dev_C6,P6,1,false,,phong_dai;doi_lap;cau_hoi_treo,Mối quan hệ của Lọ Lem và Babyboo,,13383,v1
+A79358,dev_C6,P6,1,false,,cam_xuc;phong_dai,Lời ăn năn,,9610,v1
+A79425,dev_C6,P6,0,false,,,,,1783,v1
+A80103,dev_C6,P6,0,false,,,,,2138,v1
+A80995,dev_C6,P6,1,false,,cuc_diem;cau_hoi_treo;phong_dai;giau_thong_tin,18 hình xăm của Messi,rong,14495,v1
+A81111,dev_C6,P6,1,false,,cam_xuc;phong_dai;cau_hoi_treo,người phụ nữ đẹp nhất thế giới năm 2026,,17995,v1
+A81413,dev_C6,P6,0,false,,,,,2190,v1
+A82067,dev_C6,P6,0,false,,,,,3150,v1
+A82450,dev_C6,P6,0,false,,,,,3004,v1
+A83090,dev_C6,P6,0,false,,,,,7255,v1
+A83158,dev_C6,P6,0,false,,,,,1771,v1
+A83238,dev_C6,P6,1,false,,cau_hoi_treo;giau_thong_tin;cam_xuc;phong_dai,Cơ hội đổi đời đã ở trước mắt,,21931,v1
+A83364,dev_C6,P6,0,false,,,,,5215,v1
+A83633,dev_C6,P6,1,false,,phong_dai;doi_lap;cau_hoi_treo,"3 con giáp gánh vận may mỏi lưng, giàu sang nghẹt thở",,19063,v1
+A84805,dev_C6,P6,1,false,,hua_tiet_lo;phong_dai;cau_hoi_treo,tích lũy hơn 3 tỷ đồng trong 6 năm,,33758,v1
+A85281,dev_C6,P6,1,false,,cam_xuc;phong_dai,bên người đàn ông khác,,14855,v1
+A85727,dev_C6,P6,1,false,,cam_xuc,bất ngờ,,10223,v1
+A86000,dev_C6,P6,0,false,,,,,3623,v1
+A88530,dev_C6,P6,1,false,,cuc_diem;danh_sach;cam_xuc,"Ca này ""bào ví"" fan đến giọt cuối cùng",,23043,v1
+A89968,dev_C6,P6,1,false,,cam_xuc;phong_dai,đốt mắt,,12966,v1
+A90398,dev_C6,P6,1,false,,phong_dai;cuc_diem;cau_hoi_treo,Rò rỉ mô hình,,17293,v1
+A90545,dev_C6,P6,1,false,,cam_xuc;phong_dai;doi_lap,"cãi lời bố cưới chồng Nội Mông sau 3 tháng quen, được nhà chồng “cơm bưng nước rót” khi mang thai",,54237,v1
+A90806,dev_C6,P6,0,false,,,,,3015,v1
+A90867,dev_C6,P6,1,false,,giau_thong_tin,giảm doanh thu,,13236,v1
+A93650,dev_C6,P6,1,false,,cam_xuc;phong_dai;cau_hoi_treo,3 con giáp được Thần Tài ban lộc khủng,,8212,v1
+A94448,dev_C6,P6,0,false,,,,,3116,v1
+A94647,dev_C6,P6,0,false,,,,,2818,v1
+A96677,dev_C6,P6,0,false,,,,,1855,v1
+A96759,dev_C6,P6,0,false,,,,,21403,v1
+A96808,dev_C6,P6,0,false,,,,,4017,v1
+A96883,dev_C6,P6,0,false,,,,,2481,v1
+A97321,dev_C6,P6,0,false,,,,,2732,v1
+A98954,dev_C6,P6,0,false,,,,,1415,v1
+A99779,dev_C6,P6,0,false,,,,,17182,v1
+A10604,dev_C7,P6,1,false,,phong_dai,Thành phố sở hữu đường biển dài nhất Việt Nam sắp có 2 khu đô thị trị giá gần tỷ USD,,13470,v1
+A10821,dev_C7,P6,1,false,,hua_tiet_lo;cau_hoi_treo,đeo đôi khuyên tai đặc biệt,,8077,v1
+A11349,dev_C7,P6,0,false,,,,,1144,v1
+A11814,dev_C7,P6,0,false,,,,,1367,v1
+A13375,dev_C7,P6,1,false,,cam_xuc;phong_dai;cau_hoi_treo,netizen phản ứng: Người ta nói sai đâu?,,10785,v1
+A13471,dev_C7,P6,0,false,,,,,1220,v1
+A14117,dev_C7,P6,0,false,,,,,5467,v1
+A14276,dev_C7,P6,0,false,,,,,3441,v1
+A15019,dev_C7,P6,1,false,,phong_dai;cam_xuc;hua_tiet_lo,người phụ nữ nhận được bất ngờ khi đi khám,,10717,v1
+A15183,dev_C7,P6,1,false,,cau_hoi_treo;hua_tiet_lo;cam_xuc,đứa trẻ lớn lên sẽ có một cuộc sống viên mãn không ngờ,,7790,v1
+A15861,dev_C7,P6,1,false,,phong_dai,được báo quốc tế đưa tin,,10064,v1
+A16223,dev_C7,P6,0,false,,,,,1367,v1
+A16269,dev_C7,P6,0,false,,,,,1911,v1
+A17329,dev_C7,P6,1,false,,phong_dai;cam_xuc;cau_hoi_treo,"nghe anh nói đúng 5 từ, tôi bật khóc xin tái hôn",,9751,v1
+A18994,dev_C7,P6,1,false,,cam_xuc;hua_tiet_lo,Gợi ý cách giải tỏa băn khoăn,,11905,v1
+A18995,dev_C7,P6,1,false,,cau_hoi_treo,Căn nhà ở quê của Công Phượng,,7390,v1
+A20176,dev_C7,P6,0,false,,,,,2598,v1
+A20316,dev_C7,P6,0,false,,,,,3271,v1
+A22295,dev_C7,P6,0,false,,,,,1767,v1
+A22373,dev_C7,P6,0,false,,,,,2662,v1
+A23881,dev_C7,P6,0,false,,,,,2533,v1
+A24284,dev_C7,P6,0,true,"Có thể có thông tin ở bài báo nhưng câu hỏi đưa ra gây sự tò mò, khiến mọi người dễ click vào",,Tại sao trên dao thường xuất hiện lỗ tròn?,,42349,v1
+A24605,dev_C7,P6,0,false,,,,,3216,v1
+A25354,dev_C7,P6,1,false,,cam_xuc,"4 thay đổi nhỏ để ""vệ sinh tâm hồn"" mỗi ngày",,9391,v1
+A25792,dev_C7,P6,0,false,,,,,2777,v1
+A26065,dev_C7,P6,0,false,,,,,1939,v1
+A26068,dev_C7,P6,0,false,,,,,1467,v1
+A26130,dev_C7,P6,0,false,,,,,7773,v1
+A26894,dev_C7,P6,0,false,,,,,2970,v1
+A28184,dev_C7,P6,0,false,,,,,3264,v1
+A28186,dev_C7,P6,0,false,,,,,1794,v1
+A28668,dev_C7,P6,0,false,,,,,1661,v1
+A29543,dev_C7,P6,0,false,,,,,3032,v1
+A29660,dev_C7,P6,1,false,,cam_xuc;phong_dai;cau_hoi_treo,"3 con giáp cá chép hóa rồng, ôm trọn vận giàu sang, phúc khí dồi dào",,28349,v1
+A29670,dev_C7,P6,0,false,,,,,1238,v1
+A29749,dev_C7,P6,1,false,,phong_dai;cau_hoi_treo;giau_thong_tin,Nhặt được vàng nếu bạn thuộc 3 con giáp này,,8217,v1
+A30103,dev_C7,P6,0,false,,,,,2733,v1
+A30821,dev_C7,P6,0,false,,,Vì sao Doraemon không đi giày?,,7612,v1
+A31883,dev_C7,P6,0,false,,,,,997,v1
+A33331,dev_C7,P6,1,false,,phong_dai,Dân văn phòng xin nghỉ Tết sớm đi mua vàng,,8698,v1
+A33566,dev_C7,P6,1,false,,giau_thong_tin,tái xuất sóng giờ vàng sau khi chia tay bạn trai 4 năm,,32278,v1
+A34395,dev_C7,P6,1,false,,cau_hoi_treo;hua_tiet_lo,hãy nhớ mẹo đơn giản này,,11547,v1
+A34569,dev_C7,P6,0,false,,,,,2980,v1
+A35982,dev_C7,P6,0,false,,,,,4294,v1
+A36970,dev_C7,P6,0,false,,,,,14290,v1
+A37508,dev_C7,P6,0,false,,,,,3243,v1
+A37536,dev_C7,P6,1,false,,hua_tiet_lo;giau_thong_tin;cau_hoi_treo,bất ngờ với bức ảnh chân dung nữ trong chiếc ví,,10499,v1
+A38764,dev_C7,P6,0,false,,,,,1535,v1
+A39337,dev_C7,P6,0,false,,,,,1772,v1
+A39694,dev_C7,P6,0,false,,,,,3901,v1
+A39829,dev_C7,P6,0,false,,,,,4106,v1
+A40094,dev_C7,P6,0,false,,,,,2343,v1
+A40343,dev_C7,P6,0,false,,,,,5387,v1
+A40429,dev_C7,P6,1,false,,phong_dai,tráng miệng ngon nhất thế giới,,8181,v1
+A41386,dev_C7,P6,0,false,,,,,7739,v1
+A41730,dev_C7,P6,1,false,,cam_xuc;phong_dai,Việt Nam có một 'tiểu Lưu Diệc Phi' xinh sang khó cưỡng,,12985,v1
+A42193,dev_C7,P6,0,false,,,,,2182,v1
+A44673,dev_C7,P6,0,false,,,,,3543,v1
+A45231,dev_C7,P6,0,false,,,,,65156,v1
+A45403,dev_C7,P6,0,false,,,,,4213,v1
+A45406,dev_C7,P6,0,false,,,,,1709,v1
+A45984,dev_C7,P6,0,false,,,,,1688,v1
+A46142,dev_C7,P6,0,false,,,,,960,v1
+A46616,dev_C7,P6,0,false,,,,,960,v1
+A47492,dev_C7,P6,0,false,,,,,6134,v1
+A48135,dev_C7,P6,0,false,,,,,2287,v1
+A48518,dev_C7,P6,0,false,,,,,5683,v1
+A49292,dev_C7,P6,0,false,,,,,2983,v1
+A51091,dev_C7,P6,1,false,,cam_xuc;phong_dai;cau_hoi_treo;danh_sach,"5 hộp má hồng ""made in Vietnam"" lên màu tự nhiên",,8311,v1
+A51744,dev_C7,P6,1,false,,phong_dai;cau_hoi_treo,"Sinh ra đã có tố chất kinh doanh, 4 con giáp này khó sống cảnh thiếu tiền",,11099,v1
+A52091,dev_C7,P6,1,false,,cam_xuc;doi_lap,vật nhau tơi tả,,12872,v1
+A52094,dev_C7,P6,0,false,,,,,2383,v1
+A53547,dev_C7,P6,1,false,,phong_dai;cau_hoi_treo,"3 con giáp thu tài hút lộc của Thần Tài, trúng số độc đắc, tiền đổ về nặng trĩu túi",,8472,v1
+A53630,dev_C7,P6,0,false,,,,,2353,v1
+A54367,dev_C7,P6,0,false,,,,,1894,v1
+A54967,dev_C7,P6,0,false,,,,,1521,v1
+A55452,dev_C7,P6,1,false,,cam_xuc,Chiếc váy hở bạo khiến mỹ nhân 18+ vướng tranh cãi,,13890,v1
+A56355,dev_C7,P6,0,false,,,,,4351,v1
+A56405,dev_C7,P6,1,false,,doi_lap;phong_dai,nhưng có thể hại sức khỏe hơn cả thuốc lá,,9165,v1
+A56575,dev_C7,P6,0,false,,,,,2175,v1
+A56735,dev_C7,P6,1,false,,giau_thong_tin;cau_hoi_treo,Loài vật từng chỉ có trong truyền thuyết Sơn Tinh – Thủy Tinh nay thành kiểu làm giàu của người dân Phú Thọ,,7755,v1
+A56829,dev_C7,P6,0,false,,,,,5081,v1
+A57023,dev_C7,P6,1,false,,giau_thong_tin;hua_tiet_lo,giữ lại được tiền nhờ thông báo này,,14005,v1
+A58021,dev_C7,P6,1,false,,phong_dai;cuc_diem,"Ronaldo hay Messi đều không phải Top 1, lộ diện ""vị vua"" thực sự",,13901,v1
+A58413,dev_C7,P6,0,false,,,,,3536,v1
+A59825,dev_C7,P6,0,false,,,,,2141,v1
+A60690,dev_C7,P6,1,false,,cam_xuc;phong_dai,"Bella Hadid hở bạo ""chặt chém""",,11608,v1
+A61189,dev_C7,P6,1,false,,cau_hoi_treo;giau_thong_tin;hua_tiet_lo,Chủ động bảo vệ tương lai,,39226,v1
+A61557,dev_C7,P6,0,true,Có giấu thông tin ở đoạn đầu nhưng có thể tiết lộ trong cả bài báo,,,,41882,v1
+A61602,dev_C7,P6,0,false,,,,,1699,v1
+A62553,dev_C7,P6,0,false,,,,,14233,v1
+A64179,dev_C7,P6,1,false,,cau_hoi_treo,Tiết lộ đầy hấp dẫn về iPhone và Galaxy của 2 năm tới,,9909,v1
+A65339,dev_C7,P6,1,false,,doi_lap;cuc_diem,Tiết lộ công việc đầu đời của những tỷ phú giàu nhất thế giới,,10640,v1
+A65544,dev_C7,P6,0,false,,,,,2360,v1
+A67062,dev_C7,P6,0,false,,,,,3480,v1
+A68038,dev_C7,P6,1,false,,cau_hoi_treo;hua_tiet_lo,Mâm cơm 'giải cứu tinh thần',,18878,v1
+A68312,dev_C7,P6,0,false,,,,,8480,v1
+A69048,dev_C7,P6,1,false,,danh_sach;cau_hoi_treo;giau_thong_tin,"Dần - Mùi cung hỷ phát tài, có của ăn của để",,29454,v1
+A69094,dev_C7,P6,1,false,,giau_thong_tin;cam_xuc;cau_hoi_treo,"Nam diễn viên từng ""phát ngượng"" vì hôn Lê Phương",,17046,v1
+A69118,dev_C7,P6,1,false,,phong_dai;cuc_diem,Phim được chờ đợi nhất hè 2026 xuất hiện rồi đây,,11644,v1
+A70311,dev_C7,P6,1,false,,danh_sach;cau_hoi_treo;giau_thong_tin,"hãy update 5 kem chống nắng nâng tone da căng hồng, không lem trôi",,22312,v1
+A71689,dev_C7,P6,0,false,,,,,2090,v1
+A71864,dev_C7,P6,1,false,,doi_lap,tôi không thích ma tuý chút nào,,41804,v1
+A72805,dev_C7,P6,0,false,,,,,1198,v1
+A73428,dev_C7,P6,0,false,,,,,9088,v1
+A73902,dev_C7,P6,0,false,,,,,1937,v1
+A73906,dev_C7,P6,0,false,,,,,1105,v1
+A73916,dev_C7,P6,0,false,,,,,7919,v1
+A74383,dev_C7,P6,0,false,,,,,3270,v1
+A74526,dev_C7,P6,0,false,,,,,1124,v1
+A74831,dev_C7,P6,1,false,,hua_tiet_lo;cau_hoi_treo,Lệ Quyên tiết lộ tính cách của Lâm Bảo Châu khi làm việc chung,,4873,v1
+A76967,dev_C7,P6,0,false,,,,,1533,v1
+A77000,dev_C7,P6,1,false,,phong_dai;cam_xuc,"hóa ra đây không phải lần đầu mẹ bỉm khoe body ""ác liệt"" như vậy",,22795,v1
+A79779,dev_C7,P6,0,false,,,,,4334,v1
+A80390,dev_C7,P6,0,false,,,,,1580,v1
+A80748,dev_C7,P6,0,false,,,,,17756,v1
+A80922,dev_C7,P6,0,false,,,,,8746,v1
+A81384,dev_C7,P6,0,false,,,,,2060,v1
+A81955,dev_C7,P6,0,false,,,,,8745,v1
+A82382,dev_C7,P6,0,false,,,,,1903,v1
+A82975,dev_C7,P6,0,false,,,,,8620,v1
+A84051,dev_C7,P6,0,false,,,,,2688,v1
+A84124,dev_C7,P6,1,false,,phong_dai;cau_hoi_treo;giau_thong_tin,"tiết lộ lý do tái xuất ""giang hồ""",,12292,v1
+A84250,dev_C7,P6,0,false,,,,,1624,v1
+A84469,dev_C7,P6,1,false,,phong_dai;cam_xuc,"Bức ảnh ""ê hề"" đặc sản sau Tết ở Thái Bình hút triệu view",,11066,v1
+A84880,dev_C7,P6,0,false,,,,,1615,v1
+A85907,dev_C7,P6,1,false,,phong_dai,Victoria khoe dáng sexy tuổi 52 trong váy xuyên thấu,,15099,v1
+A86524,dev_C7,P6,0,false,,,,,50354,v1
+A87568,dev_C7,P6,0,false,,,,,1782,v1
+A88055,dev_C7,P6,1,false,,cam_xuc;phong_dai,Số tiền cát-sê đầu đời khiến Trấn Thành vừa chạy xe vừa khóc,,16451,v1
+A88167,dev_C7,P6,0,false,,,,,3030,v1
+A89110,dev_C7,P6,1,false,,cau_hoi_treo;cam_xuc;doi_lap,Jennie có 'thổi phồng' danh xưng đại sứ Chanel?,,12407,v1
+A89397,dev_C7,P6,0,false,,,,,2160,v1
+A89464,dev_C7,P6,0,false,,,,,3445,v1
+A89737,dev_C7,P6,1,false,,phong_dai;cau_hoi_treo;cam_xuc,"cam kết ‘không đóng cửa, vẫn thu đổi’ nhưng mong khách hàng ‘đừng bán lúc này’",,30816,v1
+A90057,dev_C7,P6,1,false,,danh_sach,"5 loại cây cảnh giúp khử mùi hôi, nhà ở luôn dễ chịu và thoáng mát",,8197,v1
+A91482,dev_C7,P6,0,false,,,Senegal bị tước chức vô địch châu Phi theo kịch bản hiếm thấy,,6438,v1
+A92779,dev_C7,P6,1,false,,phong_dai;cam_xuc;cau_hoi_treo,6 linh vật phong thủy nên có trong căn hộ tiền tỷ,,8174,v1
+A92813,dev_C7,P6,1,false,,phong_dai,thần kỳ,,17442,v1
+A93186,dev_C7,P6,1,false,,phong_dai;cam_xuc;hua_tiet_lo,Bên trong 'nhà mới' rộng 5.000 m² của 7 con hổ Đông Dương,,19743,v1
+A93809,dev_C7,P6,0,false,Có,cau_hoi_treo;giau_thong_tin,Loại quả lọt top tốt trên thế giới trồng thành công ở Việt Nam,rong,40544,v1
+A93949,dev_C7,P6,0,false,,,,,23507,v1
+A94353,dev_C7,P6,0,false,,,,,970,v1
+A94443,dev_C7,P6,0,false,,,,,2213,v1
+A94477,dev_C7,P6,1,false,,cam_xuc;giau_thong_tin;cau_hoi_treo,Bà Đinh Lan kêu oan vì... mất điện thoại,,69334,v1
+A95059,dev_C7,P6,0,false,,,,,2539,v1
+A95106,dev_C7,P6,1,false,,cau_hoi_treo,"Taylor Swift khiến ""ông trùm"" quyền lực phải hoãn luôn bữa tiệc toàn sao?",,9704,v1
+A96279,dev_C7,P6,0,false,,,,,4124,v1
+A97001,dev_C7,P6,0,false,,,,,8657,v1
+A97541,dev_C7,P6,1,false,,cau_hoi_treo;danh_sach,"3 con giáp càng lớn càng biết kiếm tiền, không phụ thuộc gia đình",,9532,v1
+A97673,dev_C7,P6,1,false,,giau_thong_tin,Nam thần đình đám showbiz gặp sự cố sức khỏe,,16810,v1
+A98180,dev_C7,P6,0,false,,,,,4677,v1
+A99092,dev_C7,P6,1,false,,cau_hoi_treo,Vì sao con cháu cần hiện diện trong lễ Thanh minh,,10373,v1
+A99539,dev_C7,P6,1,false,,cau_hoi_treo;hua_tiet_lo;giau_thong_tin,Chung cư cũ lấy lại sức hút trên thị trường Hà Nội,,7027,v1
+A99656,dev_C7,P6,1,false,,giau_thong_tin;cam_xuc;phong_dai,Phát sợ trước giọng hát bị bào mòn của công chúa showbiz,,24927,v1
+A10604,dev_C7,P7,1,false,,giau_thong_tin;phong_dai,,,17532,v1
+A10821,dev_C7,P7,0,false,,,,,11198,v1
+A11349,dev_C7,P7,0,false,,,,,6123,v1
+A11814,dev_C7,P7,0,false,,,,,2991,v1
+A13375,dev_C7,P7,1,false,,cam_xuc;phong_dai;doi_lap,,,27832,v1
+A13471,dev_C7,P7,0,false,,,,,2647,v1
+A14117,dev_C7,P7,1,false,,phong_dai;giau_thong_tin,,,22983,v1
+A14276,dev_C7,P7,0,false,,,,,5167,v1
+A15019,dev_C7,P7,1,false,,phong_dai;cuc_diem,,,54807,v1
+A15183,dev_C7,P7,1,false,,giau_thong_tin;phong_dai,,,25773,v1
+A15861,dev_C7,P7,1,false,,giau_thong_tin;hua_tiet_lo;doi_lap,,,15110,v1
+A16223,dev_C7,P7,0,false,,,,,4223,v1
+A16269,dev_C7,P7,0,false,,,,,9030,v1
+A17329,dev_C7,P7,1,false,,phong_dai;doi_lap;cam_xuc;giau_thong_tin,,,55206,v1
+A18994,dev_C7,P7,0,false,,,,,6027,v1
+A18995,dev_C7,P7,0,false,,,,,3330,v1
+A20176,dev_C7,P7,0,false,,,,,1640,v1
+A20316,dev_C7,P7,0,false,,,,,3323,v1
+A22295,dev_C7,P7,1,false,,phong_dai;cam_xuc;cuc_diem,,,20139,v1
+A22373,dev_C7,P7,1,false,,danh_sach;giau_thong_tin,,,36818,v1
+A23881,dev_C7,P7,1,false,,giau_thong_tin;hua_tiet_lo;cam_xuc,,,14679,v1
+A24284,dev_C7,P7,0,false,,,,,2723,v1
+A24605,dev_C7,P7,0,false,,,,,2873,v1
+A25354,dev_C7,P7,1,false,,hua_tiet_lo;phong_dai;danh_sach,,,96167,v1
+A25792,dev_C7,P7,0,false,,,,,2944,v1
+A26065,dev_C7,P7,0,false,,,,,8257,v1
+A26068,dev_C7,P7,0,false,,,,,2167,v1
+A26130,dev_C7,P7,0,false,,,,,6396,v1
+A26894,dev_C7,P7,0,false,,,,,4073,v1
+A28184,dev_C7,P7,0,false,,,,,4785,v1
+A28186,dev_C7,P7,0,false,,,,,3382,v1
+A28668,dev_C7,P7,0,false,,,,,1892,v1
+A29543,dev_C7,P7,0,false,,,,,2070,v1
+A29660,dev_C7,P7,1,false,,danh_sach;giau_thong_tin;phong_dai,,,31481,v1
+A29670,dev_C7,P7,0,false,,,,,1722,v1
+A29749,dev_C7,P7,1,false,,danh_sach;giau_thong_tin;hua_tiet_lo,,,24636,v1
+A30103,dev_C7,P7,0,false,,,,,1813,v1
+A30821,dev_C7,P7,1,false,,cau_hoi_treo,,,65493,v1
+A31883,dev_C7,P7,0,false,,,,,9141,v1
+A33331,dev_C7,P7,1,false,,phong_dai;doi_lap,,,16171,v1
+A33566,dev_C7,P7,1,false,,phong_dai;doi_lap;giau_thong_tin,,,13157,v1
+A34395,dev_C7,P7,1,false,,giau_thong_tin;hua_tiet_lo,,,18573,v1
+A34569,dev_C7,P7,0,false,,,,,6482,v1
+A35982,dev_C7,P7,0,false,,,,,5004,v1
+A36970,dev_C7,P7,0,false,,,,,14690,v1
+A37508,dev_C7,P7,0,false,,,,,1727,v1
+A37536,dev_C7,P7,0,false,,,,,10602,v1
+A38764,dev_C7,P7,0,false,,,,,10250,v1
+A39337,dev_C7,P7,0,false,,,,,6032,v1
+A39694,dev_C7,P7,0,false,,,,,7535,v1
+A39829,dev_C7,P7,1,false,,phong_dai;cam_xuc,,,18244,v1
+A40094,dev_C7,P7,0,false,,,,,3080,v1
+A40343,dev_C7,P7,0,false,,,,,4541,v1
+A40429,dev_C7,P7,1,false,,phong_dai;doi_lap;cuc_diem,,,31135,v1
+A41386,dev_C7,P7,0,false,,,,,6791,v1
+A41730,dev_C7,P7,1,false,,giau_thong_tin;cam_xuc;phong_dai;cuc_diem,,,18541,v1
+A42193,dev_C7,P7,0,false,,,,,1821,v1
+A44673,dev_C7,P7,1,false,,phong_dai;doi_lap,,,12580,v1
+A45231,dev_C7,P7,0,false,,,,,13748,v1
+A45403,dev_C7,P7,0,false,,,,,6207,v1
+A45406,dev_C7,P7,0,false,,,,,3947,v1
+A45984,dev_C7,P7,0,false,,,,,3973,v1
+A46142,dev_C7,P7,0,false,,,,,4355,v1
+A46616,dev_C7,P7,0,false,,,,,2128,v1
+A47492,dev_C7,P7,0,false,,,,,3857,v1
+A48135,dev_C7,P7,0,false,,,,,10485,v1
+A48518,dev_C7,P7,0,false,,,,,3490,v1
+A49292,dev_C7,P7,0,false,,,,,11877,v1
+A51091,dev_C7,P7,1,false,,doi_lap;phong_dai;danh_sach,,,12681,v1
+A51744,dev_C7,P7,1,false,,hua_tiet_lo;danh_sach;giau_thong_tin,,,28261,v1
+A52091,dev_C7,P7,1,false,,phong_dai;cuc_diem;cam_xuc,,,27726,v1
+A52094,dev_C7,P7,0,false,,,,,4446,v1
+A53547,dev_C7,P7,1,false,,danh_sach;giau_thong_tin;phong_dai;hua_tiet_lo,,,38991,v1
+A53630,dev_C7,P7,1,false,,cau_hoi_treo;cuc_diem,,,32822,v1
+A54367,dev_C7,P7,1,false,,hua_tiet_lo,,,37949,v1
+A54967,dev_C7,P7,0,false,,,,,2965,v1
+A55452,dev_C7,P7,1,false,,phong_dai;doi_lap;giau_thong_tin,,,36194,v1
+A56355,dev_C7,P7,0,false,,,,,2657,v1
+A56405,dev_C7,P7,1,false,,giau_thong_tin;hua_tiet_lo;doi_lap,,,13537,v1
+A56575,dev_C7,P7,0,false,,,,,4135,v1
+A56735,dev_C7,P7,0,false,,,,,6871,v1
+A56829,dev_C7,P7,0,false,,,,,5831,v1
+A57023,dev_C7,P7,1,false,,hua_tiet_lo;giau_thong_tin,,,21610,v1
+A58021,dev_C7,P7,1,false,,phong_dai;cuc_diem;giau_thong_tin;doi_lap;danh_sach,,,26256,v1
+A58413,dev_C7,P7,1,false,,cau_hoi_treo;giau_thong_tin,,,17764,v1
+A59825,dev_C7,P7,0,false,,,,,3431,v1
+A60690,dev_C7,P7,1,false,,phong_dai;doi_lap,,,39788,v1
+A61189,dev_C7,P7,0,false,,,,,1729,v1
+A61557,dev_C7,P7,1,false,,danh_sach;giau_thong_tin,,,13337,v1
+A61602,dev_C7,P7,0,false,,,,,3077,v1
+A62553,dev_C7,P7,0,false,,,,,2518,v1
+A64179,dev_C7,P7,0,false,,,,,4269,v1
+A65339,dev_C7,P7,1,false,,danh_sach;giau_thong_tin;doi_lap,,,18305,v1
+A65544,dev_C7,P7,0,false,,,,,1837,v1
+A67062,dev_C7,P7,0,false,,,,,7611,v1
+A68038,dev_C7,P7,1,false,,giau_thong_tin;phong_dai;doi_lap,,,22172,v1
+A68312,dev_C7,P7,0,false,,,,,9470,v1
+A69048,dev_C7,P7,1,false,,phong_dai;danh_sach;hua_tiet_lo,,,35407,v1
+A69094,dev_C7,P7,1,false,,cam_xuc;phong_dai,,,36710,v1
+A69118,dev_C7,P7,1,false,,giau_thong_tin;phong_dai,,,51756,v1
+A70311,dev_C7,P7,1,false,,danh_sach;phong_dai;giau_thong_tin,,,14636,v1
+A71689,dev_C7,P7,0,false,,,,,7207,v1
+A71864,dev_C7,P7,1,false,,cam_xuc;phong_dai;doi_lap,,,22441,v1
+A72805,dev_C7,P7,0,false,,,,,1761,v1
+A73428,dev_C7,P7,0,false,,,,,3803,v1
+A73902,dev_C7,P7,0,false,,,,,3636,v1
+A73906,dev_C7,P7,0,false,,,,,4198,v1
+A73916,dev_C7,P7,0,false,,,,,5732,v1
+A74383,dev_C7,P7,0,false,,,,,7261,v1
+A74526,dev_C7,P7,0,false,,,,,3030,v1
+A74831,dev_C7,P7,1,false,,cam_xuc;hua_tiet_lo,,,32276,v1
+A76967,dev_C7,P7,0,false,,,,,3049,v1
+A77000,dev_C7,P7,1,false,,phong_dai;doi_lap;cuc_diem,,,27837,v1
+A79779,dev_C7,P7,1,false,,giau_thong_tin;phong_dai;cuc_diem,,,41465,v1
+A80390,dev_C7,P7,0,false,,,,,1904,v1
+A80748,dev_C7,P7,1,false,,doi_lap;hua_tiet_lo;cau_hoi_treo,,,14526,v1
+A80922,dev_C7,P7,0,false,,,,,5364,v1
+A81384,dev_C7,P7,0,false,,,,,6497,v1
+A81955,dev_C7,P7,0,false,,,,,10279,v1
+A82382,dev_C7,P7,0,false,,,,,5346,v1
+A82975,dev_C7,P7,0,false,,,,,5292,v1
+A84051,dev_C7,P7,1,false,,phong_dai;giau_thong_tin,,,25625,v1
+A84124,dev_C7,P7,0,false,,,,,4382,v1
+A84250,dev_C7,P7,0,false,,,,,3583,v1
+A84469,dev_C7,P7,1,false,,cam_xuc;doi_lap;danh_sach,,,30766,v1
+A84880,dev_C7,P7,0,false,,,,,16127,v1
+A85907,dev_C7,P7,1,false,,phong_dai;doi_lap;cuc_diem,,,22496,v1
+A86524,dev_C7,P7,0,false,,,,,1792,v1
+A87568,dev_C7,P7,0,false,,,,,2841,v1
+A88055,dev_C7,P7,1,false,,phong_dai;doi_lap;cam_xuc,,,11825,v1
+A88167,dev_C7,P7,0,false,,,,,5179,v1
+A89110,dev_C7,P7,1,false,,phong_dai;cau_hoi_treo,đặt câu hỏi liệu nữ thần tượng có 'thổi phồng' vị thế của mình,,206764,v1
+A89397,dev_C7,P7,0,false,,,,,23760,v1
+A89464,dev_C7,P7,0,false,,,,,9265,v1
+A89737,dev_C7,P7,0,false,,,,,45350,v1
+A90057,dev_C7,P7,1,false,,danh_sach;giau_thong_tin;phong_dai,,,12730,v1
+A91482,dev_C7,P7,0,false,,,,,3417,v1
+A92779,dev_C7,P7,1,false,,danh_sach;giau_thong_tin;phong_dai,,,40382,v1
+A92813,dev_C7,P7,1,false,,giau_thong_tin;phong_dai;doi_lap,,,24034,v1
+A93186,dev_C7,P7,0,false,,,,,3228,v1
+A93809,dev_C7,P7,0,false,,,,,52643,v1
+A93949,dev_C7,P7,0,false,,,,,9842,v1
+A94353,dev_C7,P7,0,false,,,,,1816,v1
+A94443,dev_C7,P7,1,false,,phong_dai;doi_lap,,,15954,v1
+A94477,dev_C7,P7,1,false,,phong_dai;giau_thong_tin,,,27045,v1
+A95059,dev_C7,P7,0,false,,,,,4206,v1
+A95106,dev_C7,P7,1,false,,phong_dai;doi_lap;giau_thong_tin,,,21346,v1
+A96279,dev_C7,P7,0,false,,,,,8309,v1
+A97001,dev_C7,P7,0,false,,,,,2606,v1
+A97541,dev_C7,P7,1,false,,danh_sach;giau_thong_tin;phong_dai,,,10434,v1
+A97673,dev_C7,P7,1,false,,doi_lap;cam_xuc,,,18682,v1
+A98180,dev_C7,P7,0,false,,,,,6382,v1
+A99092,dev_C7,P7,0,false,,,,,2255,v1
+A99539,dev_C7,P7,0,false,,,,,3286,v1
+A99656,dev_C7,P7,1,false,,phong_dai;cam_xuc;hua_tiet_lo,,,38082,v1
+A10158,dev_C8,P7,0,false,,,,,22916,v1
+A10865,dev_C8,P7,1,false,,phong_dai;doi_lap;cam_xuc,,,18577,v1
+A10983,dev_C8,P7,1,false,,giau_thong_tin;hua_tiet_lo;phong_dai;cau_hoi_treo,,,7394,v1
+A11505,dev_C8,P7,1,false,,cam_xuc;phong_dai;doi_lap,,,18430,v1
+A12421,dev_C8,P7,0,false,,,,,10669,v1
+A12606,dev_C8,P7,1,false,,phong_dai;doi_lap;giau_thong_tin,,,24559,v1
+A14631,dev_C8,P7,0,false,,,,,2642,v1
+A16339,dev_C8,P7,0,false,,,,,4304,v1
+A16396,dev_C8,P7,1,false,,phong_dai;doi_lap,,,22804,v1
+A17069,dev_C8,P7,1,false,,doi_lap;phong_dai,,,21353,v1
+A17117,dev_C8,P7,0,false,,,,,2714,v1
+A17351,dev_C8,P7,0,false,,,,,4806,v1
+A17360,dev_C8,P7,0,false,,,,,1428,v1
+A18940,dev_C8,P7,0,false,,,,,14433,v1
+A19044,dev_C8,P7,0,false,,,,,2495,v1
+A19754,dev_C8,P7,1,false,,danh_sach;giau_thong_tin;hua_tiet_lo,,,8876,v1
+A20320,dev_C8,P7,1,false,,giau_thong_tin;phong_dai;cau_hoi_treo;hua_tiet_lo,,,30820,v1
+A20993,dev_C8,P7,1,false,,giau_thong_tin;hua_tiet_lo;cam_xuc;phong_dai;doi_lap,,,11329,v1
+A21607,dev_C8,P7,0,false,,,,,10453,v1
+A21720,dev_C8,P7,0,false,,,,,2975,v1
+A21988,dev_C8,P7,1,false,,giau_thong_tin;phong_dai;doi_lap,,,24510,v1
+A22287,dev_C8,P7,1,false,,danh_sach;giau_thong_tin,,,45581,v1
+A23029,dev_C8,P7,0,false,,,,,12402,v1
+A23436,dev_C8,P7,0,false,,,,,3905,v1
+A24301,dev_C8,P7,1,false,,giau_thong_tin;phong_dai;cam_xuc;doi_lap;hua_tiet_lo,,,21295,v1
+A24683,dev_C8,P7,0,false,,,,,7885,v1
+A25393,dev_C8,P7,0,false,,,,,3220,v1
+A26829,dev_C8,P7,0,false,,,,,3146,v1
+A27501,dev_C8,P7,0,false,,,,,3597,v1
+A28117,dev_C8,P7,1,false,,phong_dai;cam_xuc;hua_tiet_lo;giau_thong_tin;doi_lap,,,14050,v1
+A32708,dev_C8,P7,1,false,,phong_dai;doi_lap;cuc_diem,,,17103,v1
+A36026,dev_C8,P7,0,false,,,,,2334,v1
+A36295,dev_C8,P7,0,false,,,,,6167,v1
+A36693,dev_C8,P7,0,false,,,,,1841,v1
+A36972,dev_C8,P7,0,false,,,,,39394,v1
+A36982,dev_C8,P7,1,false,,cam_xuc;phong_dai;doi_lap;giau_thong_tin,,,16618,v1
+A37749,dev_C8,P7,1,false,,phong_dai;danh_sach;hua_tiet_lo,,,30391,v1
+A38803,dev_C8,P7,0,false,,,,,2678,v1
+A39272,dev_C8,P7,0,false,,,,,2868,v1
+A39414,dev_C8,P7,1,false,,giau_thong_tin;cam_xuc,,,13797,v1
+A39701,dev_C8,P7,1,false,,giau_thong_tin;cam_xuc,,,18278,v1
+A39790,dev_C8,P7,0,false,,,,,48782,v1
+A40071,dev_C8,P7,1,false,,danh_sach;giau_thong_tin;hua_tiet_lo,,,24121,v1
+A41445,dev_C8,P7,1,false,,danh_sach;giau_thong_tin;hua_tiet_lo;phong_dai,,,13634,v1
+A41606,dev_C8,P7,0,false,,,,,1576,v1
+A41665,dev_C8,P7,1,false,,phong_dai;giau_thong_tin;danh_sach,,,297628,v1
+A43425,dev_C8,P7,0,false,,,,,5952,v1
+A44604,dev_C8,P7,0,false,,,,,1885,v1
+A44852,dev_C8,P7,0,false,,,,,2209,v1
+A45392,dev_C8,P7,1,false,,danh_sach;giau_thong_tin;phong_dai;cau_hoi_treo,,,28969,v1
+A45604,dev_C8,P7,1,false,,phong_dai;doi_lap;cam_xuc;giau_thong_tin,,,12143,v1
+A45729,dev_C8,P7,0,false,,,,,1909,v1
+A46065,dev_C8,P7,0,false,,,,,1697,v1
+A46156,dev_C8,P7,1,false,,giau_thong_tin;hua_tiet_lo;cam_xuc;phong_dai;doi_lap,,,45497,v1
+A46440,dev_C8,P7,0,false,,,,,1674,v1
+A47570,dev_C8,P7,0,false,,,,,9174,v1
+A47756,dev_C8,P7,0,false,,,,,1742,v1
+A47816,dev_C8,P7,1,false,,cuc_diem;phong_dai,,,29083,v1
+A47910,dev_C8,P7,1,false,,danh_sach;giau_thong_tin;hua_tiet_lo,,,8138,v1
+A49146,dev_C8,P7,0,false,,,,,1665,v1
+A49210,dev_C8,P7,1,false,,giau_thong_tin;phong_dai;doi_lap,,,18588,v1
+A49253,dev_C8,P7,0,false,,,,,1668,v1
+A49272,dev_C8,P7,1,false,,danh_sach;giau_thong_tin,,,11487,v1
+A50987,dev_C8,P7,0,false,,,,,2579,v1
+A53515,dev_C8,P7,1,false,,phong_dai,,,24493,v1
+A53885,dev_C8,P7,1,false,,giau_thong_tin,,,11923,v1
+A53896,dev_C8,P7,0,false,,,,,2796,v1
+A54603,dev_C8,P7,0,false,,,,,3756,v1
+A54712,dev_C8,P7,0,false,,,,,1850,v1
+A55416,dev_C8,P7,0,false,,,,,1965,v1
+A56357,dev_C8,P7,0,false,,,,,5511,v1
+A56371,dev_C8,P7,0,false,,,,,30554,v1
+A56697,dev_C8,P7,0,false,,,,,5618,v1
+A57001,dev_C8,P7,1,false,,danh_sach;giau_thong_tin;hua_tiet_lo;phong_dai,,,7410,v1
+A57045,dev_C8,P7,0,false,,,,,2430,v1
+A58653,dev_C8,P7,0,false,,,,,2297,v1
+A61027,dev_C8,P7,0,false,,,,,3371,v1
+A61087,dev_C8,P7,0,false,,,,,23949,v1
+A61747,dev_C8,P7,0,false,,,,,7667,v1
+A61826,dev_C8,P7,0,false,,,,,2583,v1
+A61913,dev_C8,P7,0,false,,,,,6768,v1
+A62040,dev_C8,P7,0,false,,,,,1834,v1
+A63076,dev_C8,P7,0,false,,,,,3669,v1
+A63083,dev_C8,P7,0,false,,,,,8892,v1
+A64009,dev_C8,P7,1,false,,giau_thong_tin;phong_dai;hua_tiet_lo,,,15179,v1
+A64525,dev_C8,P7,0,false,,,,,4498,v1
+A64831,dev_C8,P7,0,false,,,,,4877,v1
+A65155,dev_C8,P7,0,false,,,,,1722,v1
+A65917,dev_C8,P7,1,false,,giau_thong_tin;hua_tiet_lo,,,13282,v1
+A66082,dev_C8,P7,0,false,,,,,5212,v1
+A66378,dev_C8,P7,0,false,,,,,7892,v1
+A66925,dev_C8,P7,1,false,,phong_dai;giau_thong_tin,,,16477,v1
+A67203,dev_C8,P7,1,false,,phong_dai;cam_xuc,,,14252,v1
+A67221,dev_C8,P7,0,false,,,,,4616,v1
+A67398,dev_C8,P7,0,false,,,,,8851,v1
+A67566,dev_C8,P7,0,false,,,,,55034,v1
+A68323,dev_C8,P7,1,false,,phong_dai;giau_thong_tin;hua_tiet_lo;cam_xuc;doi_lap,,,42951,v1
+A69164,dev_C8,P7,1,false,,cam_xuc;giau_thong_tin;phong_dai,,,30580,v1
+A69966,dev_C8,P7,0,false,,,,,7817,v1
+A70280,dev_C8,P7,0,false,,,,,1908,v1
+A70470,dev_C8,P7,0,false,,,,,10212,v1
+A70494,dev_C8,P7,0,false,,,,,2045,v1
+A73727,dev_C8,P7,0,false,,,,,2753,v1
+A74065,dev_C8,P7,0,false,,,,,1894,v1
+A74070,dev_C8,P7,0,false,,,,,5630,v1
+A74552,dev_C8,P7,0,false,,,,,18511,v1
+A75596,dev_C8,P7,0,false,,,,,3747,v1
+A76480,dev_C8,P7,1,false,,phong_dai;danh_sach;hua_tiet_lo,,,24382,v1
+A77162,dev_C8,P7,0,false,,,,,6225,v1
+A77165,dev_C8,P7,1,false,,phong_dai;doi_lap;giau_thong_tin,,,12944,v1
+A77431,dev_C8,P7,1,false,,giau_thong_tin;hua_tiet_lo;phong_dai;doi_lap,,,84128,v1
+A77937,dev_C8,P7,0,false,,,,,4972,v1
+A78601,dev_C8,P7,0,false,,,,,4121,v1
+A79240,dev_C8,P7,0,false,,,,,5548,v1
+A79282,dev_C8,P7,1,false,,phong_dai;cam_xuc;doi_lap,,,13162,v1
+A79693,dev_C8,P7,0,false,,,,,1652,v1
+A80220,dev_C8,P7,0,false,,,,,7230,v1
+A80598,dev_C8,P7,0,false,,,,,5526,v1
+A81818,dev_C8,P7,1,false,,danh_sach;giau_thong_tin;hua_tiet_lo,,,7465,v1
+A81937,dev_C8,P7,1,false,,phong_dai;doi_lap;cam_xuc,,,13099,v1
+A82922,dev_C8,P7,1,false,,cam_xuc;phong_dai;doi_lap;giau_thong_tin,,,17176,v1
+A84195,dev_C8,P7,0,false,,,,,4606,v1
+A84812,dev_C8,P7,0,false,,,,,2736,v1
+A85170,dev_C8,P7,0,false,,,,,26172,v1
+A85777,dev_C8,P7,0,false,,,,,8100,v1
+A86944,dev_C8,P7,1,false,,giau_thong_tin;cau_hoi_treo,,,45068,v1
+A87016,dev_C8,P7,0,false,,,,,1536,v1
+A87324,dev_C8,P7,0,false,,,,,8939,v1
+A87344,dev_C8,P7,0,false,,,,,2706,v1
+A88271,dev_C8,P7,1,false,,phong_dai;doi_lap;cam_xuc,,,32142,v1
+A88369,dev_C8,P7,0,false,,,,,6140,v1
+A88555,dev_C8,P7,1,false,,danh_sach;giau_thong_tin;hua_tiet_lo,,,20247,v1
+A88951,dev_C8,P7,0,false,,,,,11792,v1
+A89277,dev_C8,P7,1,false,,giau_thong_tin;cau_hoi_treo;phong_dai,,,90474,v1
+A89584,dev_C8,P7,0,false,,,,,11077,v1
+A89601,dev_C8,P7,0,false,,,,,23738,v1
+A90102,dev_C8,P7,0,false,,,,,9456,v1
+A90263,dev_C8,P7,0,false,,,,,13749,v1
+A90717,dev_C8,P7,0,false,,,,,4056,v1
+A91178,dev_C8,P7,0,false,,,,,4548,v1
+A92663,dev_C8,P7,1,false,,phong_dai;cam_xuc,,,105640,v1
+A93032,dev_C8,P7,0,false,,,,,2896,v1
+A93207,dev_C8,P7,1,false,,phong_dai,,,33461,v1
+A93340,dev_C8,P7,1,false,,giau_thong_tin;phong_dai;cam_xuc,,,20420,v1
+A93627,dev_C8,P7,0,false,,,,,1698,v1
+A94263,dev_C8,P7,0,false,,,,,1801,v1
+A94437,dev_C8,P7,0,false,,,,,7602,v1
+A95119,dev_C8,P7,0,false,,,,,22273,v1
+A95131,dev_C8,P7,1,false,,hua_tiet_lo;cau_hoi_treo,,,20569,v1
+A95387,dev_C8,P7,1,false,,cau_hoi_treo;giau_thong_tin;phong_dai;hua_tiet_lo,,,14964,v1
+A95545,dev_C8,P7,1,false,,giau_thong_tin,,,13587,v1
+A96078,dev_C8,P7,1,false,,cam_xuc;phong_dai,,,10647,v1
+A96186,dev_C8,P7,0,false,,,,,3748,v1
+A96576,dev_C8,P7,0,false,,,,,6112,v1
+A97014,dev_C8,P7,0,false,,,,,2415,v1
+A10158,dev_C8,P8,0,false,,,,,3370,v1
+A10865,dev_C8,P8,1,false,,phong_dai;cam_xuc,,,97294,v1
+A10983,dev_C8,P8,1,false,,cam_xuc,,,14836,v1
+A11505,dev_C8,P8,0,false,,,,,11412,v1
+A12421,dev_C8,P8,1,false,,giau_thong_tin,,,21513,v1
+A12606,dev_C8,P8,1,false,,giau_thong_tin,,,4034,v1
+A14631,dev_C8,P8,0,false,,,,,4138,v1
+A16339,dev_C8,P8,0,false,,,,,22623,v1
+A16396,dev_C8,P8,0,false,,,,,4905,v1
+A17069,dev_C8,P8,1,false,,phong_dai;giau_thong_tin,,,20963,v1
+A17117,dev_C8,P8,0,false,,,,,106563,v1
+A17351,dev_C8,P8,0,false,,,,,5720,v1
+A17360,dev_C8,P8,0,false,,,,,3576,v1
+A18940,dev_C8,P8,1,false,,phong_dai;cam_xuc;giau_thong_tin,,,15717,v1
+A19044,dev_C8,P8,0,false,,,,,1484,v1
+A19754,dev_C8,P8,1,false,,phong_dai;cam_xuc;danh_sach,,,10536,v1
+A20320,dev_C8,P8,1,false,,giau_thong_tin;cau_hoi_treo;hua_tiet_lo;cam_xuc,,,50044,v1
+A20993,dev_C8,P8,1,false,,cam_xuc;doi_lap,,,20004,v1
+A21607,dev_C8,P8,0,false,,,,,4413,v1
+A21720,dev_C8,P8,0,false,,,,,1665,v1
+A21988,dev_C8,P8,1,false,,phong_dai;cam_xuc,,,30600,v1
+A22287,dev_C8,P8,1,false,,giau_thong_tin;hua_tiet_lo,,,30155,v1
+A23029,dev_C8,P8,0,false,,,,,2147,v1
+A23436,dev_C8,P8,0,false,,,,,4785,v1
+A24301,dev_C8,P8,1,false,,giau_thong_tin,,,6443,v1
+A24683,dev_C8,P8,1,false,,phong_dai,,,35160,v1
+A25393,dev_C8,P8,1,false,,cau_hoi_treo,,,11846,v1
+A26829,dev_C8,P8,0,false,,,,,2501,v1
+A27501,dev_C8,P8,0,false,,,,,2154,v1
+A28117,dev_C8,P8,1,false,,giau_thong_tin,,,12377,v1
+A32708,dev_C8,P8,0,false,,,,,29503,v1
+A36026,dev_C8,P8,0,false,,,,,2775,v1
+A36295,dev_C8,P8,0,false,,,,,7711,v1
+A36693,dev_C8,P8,0,false,,,,,5840,v1
+A36972,dev_C8,P8,0,false,,,,,2796,v1
+A36982,dev_C8,P8,1,false,,cam_xuc;phong_dai,,,33024,v1
+A37749,dev_C8,P8,1,false,,cam_xuc;phong_dai,,,44844,v1
+A38803,dev_C8,P8,0,false,,,,,6359,v1
+A39272,dev_C8,P8,0,false,,,,,2852,v1
+A39414,dev_C8,P8,1,false,,cam_xuc;phong_dai,,,63168,v1
+A39701,dev_C8,P8,1,false,,giau_thong_tin;phong_dai,,,51965,v1
+A39790,dev_C8,P8,0,false,,,,,37383,v1
+A40071,dev_C8,P8,1,false,,giau_thong_tin,,,10734,v1
+A41445,dev_C8,P8,1,false,,danh_sach;phong_dai,,,8965,v1
+A41606,dev_C8,P8,0,false,,,,,22632,v1
+A41665,dev_C8,P8,1,false,,danh_sach;phong_dai,,,15862,v1
+A43425,dev_C8,P8,0,false,,,,,9795,v1
+A44604,dev_C8,P8,0,false,,,,,4016,v1
+A44852,dev_C8,P8,0,false,,,,,7638,v1
+A45392,dev_C8,P8,1,false,,danh_sach;phong_dai,,,17936,v1
+A45604,dev_C8,P8,1,false,,giau_thong_tin;cam_xuc,,,11988,v1
+A45729,dev_C8,P8,0,false,,,,,29903,v1
+A46065,dev_C8,P8,1,false,,giau_thong_tin,,,121227,v1
+A46156,dev_C8,P8,1,false,,giau_thong_tin;cam_xuc,,,42041,v1
+A46440,dev_C8,P8,0,false,,,,,2257,v1
+A47570,dev_C8,P8,1,false,,cau_hoi_treo;giau_thong_tin,,,30313,v1
+A47756,dev_C8,P8,0,false,,,,,15325,v1
+A47816,dev_C8,P8,0,false,,,,,5346,v1
+A47910,dev_C8,P8,1,false,,danh_sach,,,65003,v1
+A49146,dev_C8,P8,0,false,,,,,20098,v1
+A49210,dev_C8,P8,0,false,,,,,37585,v1
+A49253,dev_C8,P8,0,false,,,,,3911,v1
+A49272,dev_C8,P8,1,false,,danh_sach,,,27289,v1
+A50987,dev_C8,P8,0,false,,,,,1851,v1
+A53515,dev_C8,P8,0,false,,,,,5420,v1
+A53885,dev_C8,P8,0,false,,,,,22493,v1
+A53896,dev_C8,P8,0,false,,,,,3444,v1
+A54603,dev_C8,P8,1,false,,giau_thong_tin,,,24313,v1
+A54712,dev_C8,P8,0,false,,,,,2260,v1
+A55416,dev_C8,P8,0,false,,,,,2366,v1
+A56357,dev_C8,P8,1,false,,giau_thong_tin,,,11680,v1
+A56371,dev_C8,P8,0,false,,,,,3628,v1
+A56697,dev_C8,P8,0,false,,,,,8185,v1
+A57001,dev_C8,P8,1,false,,danh_sach;cam_xuc;phong_dai,,,9613,v1
+A57045,dev_C8,P8,0,false,,,,,12717,v1
+A58653,dev_C8,P8,0,false,,,,,3352,v1
+A61027,dev_C8,P8,0,false,,,,,39115,v1
+A61087,dev_C8,P8,0,false,,,,,28092,v1
+A61747,dev_C8,P8,1,false,,phong_dai;cam_xuc,,,50941,v1
+A61826,dev_C8,P8,0,false,,,,,26082,v1
+A61913,dev_C8,P8,0,false,,,,,2107,v1
+A62040,dev_C8,P8,0,false,,,,,3055,v1
+A63076,dev_C8,P8,0,false,,,,,3358,v1
+A63083,dev_C8,P8,0,false,,,,,4684,v1
+A64009,dev_C8,P8,1,false,,giau_thong_tin;cam_xuc,,,38510,v1
+A64525,dev_C8,P8,0,false,,,,,6963,v1
+A64831,dev_C8,P8,0,false,,,,,2252,v1
+A65155,dev_C8,P8,1,false,,cau_hoi_treo,,,6711,v1
+A65917,dev_C8,P8,1,false,,giau_thong_tin,,,8184,v1
+A66082,dev_C8,P8,0,false,,,,,2400,v1
+A66378,dev_C8,P8,0,false,,,,,4839,v1
+A66925,dev_C8,P8,1,false,,giau_thong_tin,,,10186,v1
+A67203,dev_C8,P8,1,false,,phong_dai,,,6485,v1
+A67221,dev_C8,P8,0,false,,,,,4926,v1
+A67398,dev_C8,P8,0,false,,,,,4191,v1
+A67566,dev_C8,P8,0,false,,,,,21664,v1
+A68323,dev_C8,P8,1,false,,phong_dai;cam_xuc;giau_thong_tin,,,75194,v1
+A69164,dev_C8,P8,0,false,,,,,3513,v1
+A69966,dev_C8,P8,1,false,,giau_thong_tin;cam_xuc,,,15646,v1
+A70280,dev_C8,P8,0,false,,,,,15615,v1
+A70470,dev_C8,P8,1,false,,giau_thong_tin,,,132365,v1
+A70494,dev_C8,P8,1,false,,giau_thong_tin,,,6494,v1
+A73727,dev_C8,P8,0,false,,,,,2450,v1
+A74065,dev_C8,P8,0,false,,,,,1772,v1
+A74070,dev_C8,P8,0,false,,,,,2376,v1
+A74552,dev_C8,P8,0,false,,,,,1793,v1
+A75596,dev_C8,P8,0,false,,,,,3104,v1
+A76480,dev_C8,P8,1,false,,danh_sach;phong_dai,,,73444,v1
+A77162,dev_C8,P8,0,false,,,,,21236,v1
+A77165,dev_C8,P8,1,false,,phong_dai;cam_xuc;giau_thong_tin,,,10613,v1
+A77431,dev_C8,P8,1,false,,cau_hoi_treo,,,8540,v1
+A77937,dev_C8,P8,0,false,,,,,27244,v1
+A78601,dev_C8,P8,0,false,,,,,18510,v1
+A79240,dev_C8,P8,0,false,,,,,11434,v1
+A79282,dev_C8,P8,0,false,,,,,86150,v1
+A79693,dev_C8,P8,0,false,,,,,4556,v1
+A80220,dev_C8,P8,1,false,,phong_dai;cam_xuc;danh_sach,,,36915,v1
+A80598,dev_C8,P8,0,false,,,,,14694,v1
+A81818,dev_C8,P8,1,false,,danh_sach;phong_dai,,,13307,v1
+A81937,dev_C8,P8,1,false,,cam_xuc;phong_dai,,,37622,v1
+A82922,dev_C8,P8,0,false,,,,,36102,v1
+A84195,dev_C8,P8,0,false,,,,,6512,v1
+A84812,dev_C8,P8,0,false,,,,,3439,v1
+A85170,dev_C8,P8,0,false,,,,,51072,v1
+A85777,dev_C8,P8,0,false,,,,,3382,v1
+A86944,dev_C8,P8,1,false,,cau_hoi_treo,,,8573,v1
+A87016,dev_C8,P8,0,false,,,,,2388,v1
+A87324,dev_C8,P8,0,false,,,,,7867,v1
+A87344,dev_C8,P8,0,false,,,,,24783,v1
+A88271,dev_C8,P8,0,false,,,,,1830,v1
+A88369,dev_C8,P8,1,false,,phong_dai,,,8328,v1
+A88555,dev_C8,P8,0,false,,,,,6332,v1
+A88951,dev_C8,P8,0,false,,,,,6438,v1
+A89277,dev_C8,P8,1,false,,cau_hoi_treo,,,37595,v1
+A89584,dev_C8,P8,1,false,,phong_dai,,,8391,v1
+A89601,dev_C8,P8,0,false,,,,,2858,v1
+A90102,dev_C8,P8,0,false,,,,,3172,v1
+A90263,dev_C8,P8,0,false,,,,,14548,v1
+A90717,dev_C8,P8,0,false,,,,,1671,v1
+A91178,dev_C8,P8,1,false,,phong_dai,,,24253,v1
+A92663,dev_C8,P8,1,false,,giau_thong_tin,,,13150,v1
+A93032,dev_C8,P8,0,false,,,,,4789,v1
+A93207,dev_C8,P8,0,false,,,,,1387,v1
+A93340,dev_C8,P8,1,false,,phong_dai;cam_xuc,,,49079,v1
+A93627,dev_C8,P8,0,false,,,,,3017,v1
+A94263,dev_C8,P8,0,false,,,,,3686,v1
+A94437,dev_C8,P8,0,false,,,,,8119,v1
+A95119,dev_C8,P8,0,false,,,,,4850,v1
+A95131,dev_C8,P8,0,false,,,,,15798,v1
+A95387,dev_C8,P8,1,false,,cau_hoi_treo,,,57965,v1
+A95545,dev_C8,P8,1,false,,cam_xuc;phong_dai;cuc_diem,,,34442,v1
+A96078,dev_C8,P8,0,false,,,,,3462,v1
+A96186,dev_C8,P8,0,false,,,,,7198,v1
+A96576,dev_C8,P8,0,false,,,,,5943,v1
+A97014,dev_C8,P8,0,false,,,,,2367,v1
+A10597,dev_C9,P8,1,false,,phong_dai;cam_xuc,,,41729,v1
+A12837,dev_C9,P8,0,false,,,,,1371,v1
+A12902,dev_C9,P8,1,false,,giau_thong_tin,,,3652,v1
+A12977,dev_C9,P8,0,false,,,,,2290,v1
+A13179,dev_C9,P8,1,false,,danh_sach;phong_dai,,,16194,v1
+A13275,dev_C9,P8,0,false,,,,,1896,v1
+A13434,dev_C9,P8,0,false,,,,,10669,v1
+A13579,dev_C9,P8,1,false,,phong_dai;cam_xuc,,,6339,v1
+A15758,dev_C9,P8,0,false,,,,,6514,v1
+A15941,dev_C9,P8,0,false,,,,,2367,v1
+A16611,dev_C9,P8,0,false,,,,,15130,v1
+A16817,dev_C9,P8,0,false,,,,,2694,v1
+A17711,dev_C9,P8,0,false,,,,,17382,v1
+A19514,dev_C9,P8,1,false,,doi_lap;giau_thong_tin,,,16816,v1
+A19527,dev_C9,P8,0,false,,,,,19928,v1
+A19623,dev_C9,P8,0,false,,,,,3536,v1
+A19920,dev_C9,P8,1,false,,danh_sach;phong_dai;cam_xuc,,,6816,v1
+A21923,dev_C9,P8,1,false,,giau_thong_tin,,,4922,v1
+A22197,dev_C9,P8,1,false,,cau_hoi_treo,,,5109,v1
+A22546,dev_C9,P8,0,false,,,,,38066,v1
+A23184,dev_C9,P8,0,false,,,,,3457,v1
+A23390,dev_C9,P8,0,false,,,,,70545,v1
+A23532,dev_C9,P8,1,false,,phong_dai;danh_sach;giau_thong_tin,,,47097,v1
+A24308,dev_C9,P8,0,false,,,,,1956,v1
+A24475,dev_C9,P8,0,false,,,,,2966,v1
+A25316,dev_C9,P8,1,false,,phong_dai,,,10948,v1
+A26868,dev_C9,P8,0,false,,,,,4270,v1
+A27622,dev_C9,P8,0,false,,,,,6578,v1
+A28340,dev_C9,P8,1,false,,giau_thong_tin,,,5557,v1
+A28554,dev_C9,P8,0,false,,,,,5818,v1
+A29990,dev_C9,P8,0,false,,,,,19655,v1
+A30253,dev_C9,P8,1,false,,cau_hoi_treo,,,3993,v1
+A31243,dev_C9,P8,1,false,,giau_thong_tin,,,11866,v1
+A31733,dev_C9,P8,1,false,,giau_thong_tin,,,6192,v1
+A32044,dev_C9,P8,0,false,,,,,2034,v1
+A32080,dev_C9,P8,1,false,,phong_dai;giau_thong_tin,,,4987,v1
+A32574,dev_C9,P8,0,false,,,,,4322,v1
+A32805,dev_C9,P8,0,false,,,,,2854,v1
+A33051,dev_C9,P8,0,false,,,,,3589,v1
+A33974,dev_C9,P8,0,false,,,,,4139,v1
+A34410,dev_C9,P8,0,false,,,,,4036,v1
+A35053,dev_C9,P8,1,false,,phong_dai,,,4684,v1
+A35095,dev_C9,P8,0,false,,,,,45890,v1
+A36029,dev_C9,P8,1,false,,giau_thong_tin,,,7073,v1
+A36121,dev_C9,P8,1,false,,giau_thong_tin;cam_xuc,,,12047,v1
+A37190,dev_C9,P8,0,false,,,,,1594,v1
+A37893,dev_C9,P8,0,false,,,,,3440,v1
+A39328,dev_C9,P8,1,false,,danh_sach;phong_dai,,,5876,v1
+A39735,dev_C9,P8,0,false,,,,,1810,v1
+A39956,dev_C9,P8,1,false,,phong_dai,,,8808,v1
+A40049,dev_C9,P8,0,false,,,,,13820,v1
+A40717,dev_C9,P8,0,false,,,,,3296,v1
+A41509,dev_C9,P8,0,false,,,,,17763,v1
+A42322,dev_C9,P8,1,false,,giau_thong_tin,,,8908,v1
+A42553,dev_C9,P8,1,false,,danh_sach,,,5010,v1
+A43037,dev_C9,P8,0,false,,,,,2300,v1
+A43281,dev_C9,P8,0,false,,,,,1441,v1
+A44265,dev_C9,P8,0,false,,,,,3010,v1
+A44626,dev_C9,P8,1,false,,giau_thong_tin,,,16953,v1
+A44820,dev_C9,P8,0,false,,,,,2877,v1
+A45413,dev_C9,P8,1,false,,danh_sach;phong_dai,,,9628,v1
+A46157,dev_C9,P8,1,false,,danh_sach;phong_dai,,,3654,v1
+A48252,dev_C9,P8,0,false,,,,,2055,v1
+A48327,dev_C9,P8,0,false,,,,,5437,v1
+A48509,dev_C9,P8,1,false,,giau_thong_tin;phong_dai,,,21631,v1
+A48743,dev_C9,P8,0,false,,,,,1774,v1
+A49132,dev_C9,P8,0,false,,,,,3739,v1
+A50536,dev_C9,P8,1,false,,phong_dai;giau_thong_tin,,,6820,v1
+A52219,dev_C9,P8,1,false,,danh_sach;phong_dai,,,8117,v1
+A52357,dev_C9,P8,0,false,,,,,1491,v1
+A52472,dev_C9,P8,1,false,,giau_thong_tin,,,7572,v1
+A52540,dev_C9,P8,1,false,,phong_dai,,,7034,v1
+A53131,dev_C9,P8,0,false,,,,,4447,v1
+A53511,dev_C9,P8,1,false,,giau_thong_tin;cam_xuc,,,36737,v1
+A53752,dev_C9,P8,0,false,,,,,2483,v1
+A54223,dev_C9,P8,1,false,,phong_dai;cam_xuc,,,10063,v1
+A54327,dev_C9,P8,0,false,,,,,9558,v1
+A54513,dev_C9,P8,0,false,,,,,6222,v1
+A54624,dev_C9,P8,1,false,,phong_dai;giau_thong_tin,,,5214,v1
+A55791,dev_C9,P8,0,false,,,,,2830,v1
+A56547,dev_C9,P8,1,false,,cau_hoi_treo,,,47330,v1
+A58262,dev_C9,P8,0,false,,,,,1499,v1
+A58623,dev_C9,P8,0,false,,,,,2625,v1
+A60009,dev_C9,P8,1,false,,giau_thong_tin;cau_hoi_treo,,,7085,v1
+A60750,dev_C9,P8,0,false,,,,,3659,v1
+A61051,dev_C9,P8,0,false,,,,,2395,v1
+A62822,dev_C9,P8,1,false,,phong_dai;doi_lap,,,93410,v1
+A62879,dev_C9,P8,1,false,,giau_thong_tin;phong_dai;cam_xuc,,,11983,v1
+A63283,dev_C9,P8,0,false,,,,,97361,v1
+A63789,dev_C9,P8,1,false,,giau_thong_tin;cam_xuc,,,6795,v1
+A64098,dev_C9,P8,0,false,,,,,2268,v1
+A64605,dev_C9,P8,0,false,,,,,1690,v1
+A65055,dev_C9,P8,1,false,,giau_thong_tin,,,22586,v1
+A65077,dev_C9,P8,1,false,,phong_dai;danh_sach;doi_lap,,,47563,v1
+A65612,dev_C9,P8,0,false,,,,,2452,v1
+A65828,dev_C9,P8,0,false,,,,,20834,v1
+A66615,dev_C9,P8,0,false,,,,,2129,v1
+A66681,dev_C9,P8,0,false,,,,,25476,v1
+A67414,dev_C9,P8,0,false,,,,,2492,v1
+A67688,dev_C9,P8,0,false,,,,,3582,v1
+A67989,dev_C9,P8,1,false,,cau_hoi_treo,,,7396,v1
+A68234,dev_C9,P8,1,false,,phong_dai;giau_thong_tin,,,5459,v1
+A68862,dev_C9,P8,0,false,,,,,9772,v1
+A69074,dev_C9,P8,0,false,,,,,1304,v1
+A69939,dev_C9,P8,0,false,,,,,1574,v1
+A71465,dev_C9,P8,1,false,,danh_sach;phong_dai,,,7952,v1
+A71509,dev_C9,P8,0,false,,,,,32875,v1
+A71734,dev_C9,P8,1,false,,phong_dai,,,6241,v1
+A71921,dev_C9,P8,0,false,,,,,2198,v1
+A72221,dev_C9,P8,0,false,,,,,11207,v1
+A74152,dev_C9,P8,0,false,,,,,13114,v1
+A74658,dev_C9,P8,1,false,,giau_thong_tin,,,9077,v1
+A74948,dev_C9,P8,1,false,,giau_thong_tin;cau_hoi_treo,,,7175,v1
+A75207,dev_C9,P8,0,false,,,,,44210,v1
+A75804,dev_C9,P8,0,false,,,,,1652,v1
+A75922,dev_C9,P8,1,false,,danh_sach;phong_dai,,,6057,v1
+A76179,dev_C9,P8,0,false,,,,,27414,v1
+A76530,dev_C9,P8,0,false,,,,,2233,v1
+A76875,dev_C9,P8,0,false,,,,,11686,v1
+A77050,dev_C9,P8,1,false,,giau_thong_tin,,,8114,v1
+A77247,dev_C9,P8,0,false,,,,,1702,v1
+A78309,dev_C9,P8,1,false,,giau_thong_tin;cam_xuc;phong_dai,,,7613,v1
+A78325,dev_C9,P8,0,false,,,,,4586,v1
+A79523,dev_C9,P8,1,false,,danh_sach,,,4545,v1
+A80601,dev_C9,P8,1,false,,cau_hoi_treo,,,5055,v1
+A83370,dev_C9,P8,1,false,,giau_thong_tin;phong_dai,,,12425,v1
+A83387,dev_C9,P8,0,false,,,,,5459,v1
+A83840,dev_C9,P8,0,false,,,,,4235,v1
+A84774,dev_C9,P8,0,false,,,,,1931,v1
+A85647,dev_C9,P8,0,false,,,,,3517,v1
+A86266,dev_C9,P8,0,false,,,,,2000,v1
+A86480,dev_C9,P8,1,false,,giau_thong_tin;cam_xuc;phong_dai,,,46987,v1
+A86598,dev_C9,P8,0,false,,,,,5565,v1
+A87448,dev_C9,P8,1,false,,giau_thong_tin,,,11853,v1
+A87662,dev_C9,P8,0,false,,,,,1935,v1
+A87937,dev_C9,P8,1,false,,giau_thong_tin,,,5860,v1
+A89683,dev_C9,P8,0,false,,,,,2214,v1
+A90225,dev_C9,P8,1,false,,phong_dai;giau_thong_tin,,,91765,v1
+A90523,dev_C9,P8,0,false,,,,,2489,v1
+A90844,dev_C9,P8,0,false,,,,,11176,v1
+A90854,dev_C9,P8,0,false,,,,,9945,v1
+A91643,dev_C9,P8,0,false,,,,,2928,v1
+A92563,dev_C9,P8,0,false,,,,,87152,v1
+A92776,dev_C9,P8,0,false,,,,,1952,v1
+A92778,dev_C9,P8,1,false,,giau_thong_tin,,,51796,v1
+A93481,dev_C9,P8,1,false,,giau_thong_tin;phong_dai,,,64421,v1
+A93777,dev_C9,P8,1,false,,phong_dai,,,75350,v1
+A93830,dev_C9,P8,1,false,,phong_dai,,,79752,v1
+A95470,dev_C9,P8,0,false,,,,,3497,v1
+A96143,dev_C9,P8,0,false,,,,,6867,v1
+A98307,dev_C9,P8,1,false,,danh_sach;phong_dai,,,46076,v1
+A98603,dev_C9,P8,1,false,,giau_thong_tin,,,91052,v1
+A98764,dev_C9,P8,0,false,,,,,157409,v1
+A98922,dev_C9,P8,0,false,,,,,71597,v1
+A99924,dev_C9,P8,0,false,,,,,2170,v1
+A10597,dev_C9,P9,1,false,,giau_thong_tin,"Danh tính ""nam thần"" Hàn Quốc",,5351,v1
+A12837,dev_C9,P9,1,false,,giau_thong_tin,đoạn đường 2km làm một thập kỷ chưa xong,,21592,v1
+A12902,dev_C9,P9,1,false,,giau_thong_tin,cô dâu người Pháp xinh đẹp: Đôi lứa xứng đôi!,,6598,v1
+A12977,dev_C9,P9,1,false,,giau_thong_tin,,,20359,v1
+A13179,dev_C9,P9,1,false,,danh_sach,3 con giáp,,7272,v1
+A13275,dev_C9,P9,1,false,,hua_tiet_lo,tranh cãi lộ mật,,17010,v1
+A13434,dev_C9,P9,0,false,,,,,3176,v1
+A13579,dev_C9,P9,1,false,,,,,24581,v1
+A15758,dev_C9,P9,0,false,,,,,5375,v1
+A15941,dev_C9,P9,1,false,,giau_thong_tin,,,10316,v1
+A16611,dev_C9,P9,1,false,,phong_dai,,,11234,v1
+A16817,dev_C9,P9,1,false,,cau_hoi_treo,nói gì,,7998,v1
+A17711,dev_C9,P9,1,false,,doi_lap,Đang nắng lại mưa ào,,13906,v1
+A19514,dev_C9,P9,1,false,,giau_thong_tin,,,10518,v1
+A19527,dev_C9,P9,0,false,,,,,6348,v1
+A19623,dev_C9,P9,0,false,,,,,6192,v1
+A19920,dev_C9,P9,1,false,,danh_sach;phong_dai,5 nghề ở Việt Nam,,26311,v1
+A21923,dev_C9,P9,1,false,,giau_thong_tin;doi_lap,,,11483,v1
+A22197,dev_C9,P9,1,false,,cau_hoi_treo,,,9754,v1
+A22546,dev_C9,P9,1,false,,giau_thong_tin,“lương hưu bổ sung” từ cơ chế mới,,5352,v1
+A23184,dev_C9,P9,0,false,,,,,6336,v1
+A23390,dev_C9,P9,1,false,,phong_dai,,,9685,v1
+A23532,dev_C9,P9,1,false,,danh_sach,,,3927,v1
+A24308,dev_C9,P9,0,false,,,,,3209,v1
+A24475,dev_C9,P9,0,false,,,,,2032,v1
+A25316,dev_C9,P9,0,false,,,,,6290,v1
+A26868,dev_C9,P9,0,false,,,,,2601,v1
+A27622,dev_C9,P9,1,false,,phong_dai,,,5390,v1
+A28340,dev_C9,P9,1,false,,giau_thong_tin;phong_dai,"Hoa hậu 4 con, mẹ bỉm sữa cực sexy",,9394,v1
+A28554,dev_C9,P9,1,false,,giau_thong_tin,,,7836,v1
+A29990,dev_C9,P9,0,false,,,,,7669,v1
+A30253,dev_C9,P9,1,false,,cau_hoi_treo,theo lịch âm có gì đặc biệt?,,5151,v1
+A31243,dev_C9,P9,1,false,,giau_thong_tin,Một nước châu Á,,7235,v1
+A31733,dev_C9,P9,1,false,,giau_thong_tin,,,6238,v1
+A32044,dev_C9,P9,0,false,,,,,3770,v1
+A32080,dev_C9,P9,1,false,,giau_thong_tin;phong_dai,,,12970,v1
+A32574,dev_C9,P9,0,false,,,,,17143,v1
+A32805,dev_C9,P9,0,false,,,,,2286,v1
+A33051,dev_C9,P9,0,false,,,,,2179,v1
+A33974,dev_C9,P9,1,false,,phong_dai;giau_thong_tin,Dâu hào môn Đỗ Mỹ Linh bất ngờ làm thủ môn,,16718,v1
+A34410,dev_C9,P9,0,false,,,,,2128,v1
+A35053,dev_C9,P9,1,false,,phong_dai,giảm giá 'sập sàn',,8255,v1
+A35095,dev_C9,P9,1,false,,phong_dai,Dáng vóc đồng hồ cát gợi cảm,,9852,v1
+A36029,dev_C9,P9,0,false,,,,,5112,v1
+A36121,dev_C9,P9,1,false,,cuc_diem;giau_thong_tin,"Đặc sản nghe tên ""ngượng đỏ mặt"" chỉ có ở miền Trung",,10774,v1
+A37190,dev_C9,P9,0,false,,,,,3900,v1
+A37893,dev_C9,P9,0,false,,,,,5406,v1
+A39328,dev_C9,P9,1,false,,danh_sach,7 kiểu tóc ngang vai đẹp hơn tóc ngắn,,14730,v1
+A39735,dev_C9,P9,1,false,,,,,23075,v1
+A39956,dev_C9,P9,1,false,,giau_thong_tin,"Loại quả sạch ít ""ngậm"" hóa chất, vitamin C cao gấp 20 lần quả táo",,11328,v1
+A40049,dev_C9,P9,0,false,,,,,3994,v1
+A40717,dev_C9,P9,0,false,,,,,3313,v1
+A41509,dev_C9,P9,0,false,,,,,2730,v1
+A42322,dev_C9,P9,0,false,,,,,8936,v1
+A42553,dev_C9,P9,1,false,,danh_sach,5 cây cao cấp này,,6799,v1
+A43037,dev_C9,P9,0,false,,,,,5503,v1
+A43281,dev_C9,P9,0,false,,,,,4317,v1
+A44265,dev_C9,P9,0,false,,,,,6320,v1
+A44626,dev_C9,P9,0,false,,,,,2938,v1
+A44820,dev_C9,P9,0,false,,,,,2854,v1
+A45413,dev_C9,P9,1,false,,danh_sach,3 con giáp,,7309,v1
+A46157,dev_C9,P9,1,false,,danh_sach,3 con giáp nữ,,5366,v1
+A48252,dev_C9,P9,1,false,,giau_thong_tin,Dịch vụ trải nghiệm,,6230,v1
+A48327,dev_C9,P9,0,false,,,,,1610,v1
+A48509,dev_C9,P9,1,false,,doi_lap,,,5632,v1
+A48743,dev_C9,P9,0,false,,,,,2991,v1
+A49132,dev_C9,P9,1,false,,giau_thong_tin;hua_tiet_lo,2 hoa hậu Việt Nam nổi tiếng,,10078,v1
+A50536,dev_C9,P9,1,false,,phong_dai;giau_thong_tin,1 phim Hàn tuyệt đỉnh đến vậy,,23082,v1
+A52219,dev_C9,P9,1,false,,danh_sach,5 thói quen âm thầm,,4970,v1
+A52357,dev_C9,P9,1,false,,danh_sach,Những dấu hiệu giúp nhận diện sớm,,7206,v1
+A52472,dev_C9,P9,1,false,,giau_thong_tin,Thủ phạm âm thầm,,7098,v1
+A52540,dev_C9,P9,1,false,,phong_dai,thẳng tay “dọn sạch” dàn trai đẹp,,24754,v1
+A53131,dev_C9,P9,0,false,,,,,8936,v1
+A53511,dev_C9,P9,1,false,,doi_lap,"giúp việc làm hơn 7 tiếng mỗi ngày, lương 8 triệu/tháng",,26922,v1
+A53752,dev_C9,P9,1,false,,hua_tiet_lo,,,5463,v1
+A54223,dev_C9,P9,1,false,,doi_lap;giau_thong_tin,,,14169,v1
+A54327,dev_C9,P9,1,false,,giau_thong_tin,,,10073,v1
+A54513,dev_C9,P9,0,false,,,,,5651,v1
+A54624,dev_C9,P9,1,false,,cau_hoi_treo;hua_tiet_lo,Có thật 'xịn sò'?,,13194,v1
+A55791,dev_C9,P9,0,false,,,,,10136,v1
+A56547,dev_C9,P9,1,false,,cau_hoi_treo,,,10659,v1
+A58262,dev_C9,P9,0,false,,,,,2218,v1
+A58623,dev_C9,P9,1,false,,danh_sach,Hai nhóm người,,6611,v1
+A60009,dev_C9,P9,1,false,,cau_hoi_treo,,,3979,v1
+A60750,dev_C9,P9,0,false,,,,,3172,v1
+A61051,dev_C9,P9,0,false,,,,,15994,v1
+A62822,dev_C9,P9,0,true,"Không hiểu cụm từ ""thụt dầu""",,,,29945,v1
+A62879,dev_C9,P9,1,false,,doi_lap;giau_thong_tin;cam_xuc,,,13835,v1
+A63283,dev_C9,P9,0,false,,,,,7054,v1
+A63789,dev_C9,P9,1,false,,phong_dai;giau_thong_tin,,,35970,v1
+A64098,dev_C9,P9,1,false,,danh_sach,loạt mỹ nhân nổi tiếng,,11508,v1
+A64605,dev_C9,P9,0,false,,,,,3066,v1
+A65055,dev_C9,P9,1,false,,giau_thong_tin,,,12977,v1
+A65077,dev_C9,P9,1,false,,phong_dai;danh_sach,,,9708,v1
+A65612,dev_C9,P9,0,false,,,,,2654,v1
+A65828,dev_C9,P9,0,false,,,,,3118,v1
+A66615,dev_C9,P9,0,false,,,,,2744,v1
+A66681,dev_C9,P9,0,false,,,,,2383,v1
+A67414,dev_C9,P9,0,false,,,,,3620,v1
+A67688,dev_C9,P9,0,false,,,,,10689,v1
+A67989,dev_C9,P9,1,false,,hua_tiet_lo,,,6304,v1
+A68234,dev_C9,P9,1,false,,giau_thong_tin,2 Nam vương - 2 Á hậu hẹn hò đôi,,10098,v1
+A68862,dev_C9,P9,1,false,,cau_hoi_treo,,,6596,v1
+A69074,dev_C9,P9,1,false,,hua_tiet_lo,,,4541,v1
+A69939,dev_C9,P9,0,false,,,,,13982,v1
+A71465,dev_C9,P9,1,false,,danh_sach,5 cây giữ lộc trước nhà,,9700,v1
+A71509,dev_C9,P9,0,false,,,,,1880,v1
+A71734,dev_C9,P9,1,false,,giau_thong_tin,tấm thẻ ẩm thực “quyền lực” này,,8292,v1
+A71921,dev_C9,P9,0,false,,,,,1647,v1
+A72221,dev_C9,P9,1,false,,giau_thong_tin;cuc_diem,"Một khu vực sát vách Hà Nội là ""vùng trũng giá"" hiếm hoi",,10967,v1
+A74152,dev_C9,P9,0,false,,,,,4940,v1
+A74658,dev_C9,P9,1,false,,cau_hoi_treo,chọn màu quần áo thế nào,,14716,v1
+A74948,dev_C9,P9,1,false,,hua_tiet_lo,,,7130,v1
+A75207,dev_C9,P9,0,false,,,,,2294,v1
+A75804,dev_C9,P9,0,false,,,,,1994,v1
+A75922,dev_C9,P9,1,false,,danh_sach,3 con giáp,,5420,v1
+A76179,dev_C9,P9,1,false,,phong_dai;cuc_diem,"Hơn cả Elon Musk, ""gã khổng lồ Mỹ""",,13898,v1
+A76530,dev_C9,P9,0,false,,,,,1778,v1
+A76875,dev_C9,P9,0,false,,,,,2885,v1
+A77050,dev_C9,P9,1,false,,giau_thong_tin,hộ kinh doanh tính thuế thế nào: Cơ quan Thuế trả lời,,15182,v1
+A77247,dev_C9,P9,0,false,,,,,2998,v1
+A78309,dev_C9,P9,1,false,,giau_thong_tin;doi_lap,"hãng điện thoại Trung Quốc ""ít tiếng tăm"" bất ngờ lên số 1 thế giới",,30918,v1
+A78325,dev_C9,P9,0,false,,,,,4850,v1
+A79523,dev_C9,P9,1,false,,danh_sach,3 loại rau giúp hạ đường huyết,,7639,v1
+A80601,dev_C9,P9,1,false,,cau_hoi_treo,Trả giá thế nào?,,6988,v1
+A83370,dev_C9,P9,1,false,,doi_lap,dáng nuột nà sau sinh con đầu lòng,,181544,v1
+A83387,dev_C9,P9,1,false,,giau_thong_tin,,,7070,v1
+A83840,dev_C9,P9,1,false,,giau_thong_tin,thông tin mới,,9881,v1
+A84774,dev_C9,P9,1,false,,giau_thong_tin,Phản ứng của CĐV châu Á,,12423,v1
+A85647,dev_C9,P9,0,false,,,,,27566,v1
+A86266,dev_C9,P9,0,false,,,,,10828,v1
+A86480,dev_C9,P9,1,false,,giau_thong_tin,trạng thái không tưởng,,8058,v1
+A86598,dev_C9,P9,1,false,,doi_lap;cau_hoi_treo,,,11748,v1
+A87448,dev_C9,P9,1,false,,giau_thong_tin,,,8607,v1
+A87662,dev_C9,P9,0,false,,,,,2207,v1
+A87937,dev_C9,P9,1,false,,giau_thong_tin,bức ảnh này,,5638,v1
+A89683,dev_C9,P9,0,false,,,,,2774,v1
+A90225,dev_C9,P9,1,false,,phong_dai,,,11397,v1
+A90523,dev_C9,P9,1,false,,danh_sach,soán ngôi 5 hạng mục,,16385,v1
+A90844,dev_C9,P9,1,false,,phong_dai,,,15804,v1
+A90854,dev_C9,P9,1,false,,danh_sach,10 nhà khoa học Mỹ,,11927,v1
+A91643,dev_C9,P9,1,false,,giau_thong_tin,đồng hồ Galaxy Watch đời cũ,,89385,v1
+A92563,dev_C9,P9,1,false,,doi_lap;giau_thong_tin,,,8200,v1
+A92776,dev_C9,P9,0,false,,,,,5946,v1
+A92778,dev_C9,P9,0,false,,,,,4162,v1
+A93481,dev_C9,P9,1,false,,giau_thong_tin,Mỹ nhân da nâu hot nhất châu Á,,5900,v1
+A93777,dev_C9,P9,1,false,,danh_sach,3 con giáp,,5324,v1
+A93830,dev_C9,P9,0,false,,,,,3052,v1
+A95470,dev_C9,P9,1,false,,giau_thong_tin,thay đổi quan trọng,,5629,v1
+A96143,dev_C9,P9,0,false,,,,,8125,v1
+A98307,dev_C9,P9,1,false,,hua_tiet_lo;phong_dai,Không gì hot hơn,,15706,v1
+A98603,dev_C9,P9,1,false,,hua_tiet_lo,,,10466,v1
+A98764,dev_C9,P9,1,false,,cau_hoi_treo,,,3456,v1
+A98922,dev_C9,P9,0,false,,,,,3846,v1
+A99924,dev_C9,P9,0,false,,,,,1688,v1
