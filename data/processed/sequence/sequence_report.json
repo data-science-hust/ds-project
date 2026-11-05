@@ -1,0 +1,37 @@
+{
+  "dataset": "/Users/ngothinga/ds-project/data/processed/dataset.csv",
+  "tokenizer": "PyVi ViTokenizer",
+  "normalization": "Unicode NFC; collapse whitespace; preserve case and punctuation",
+  "vocabulary_fit_split": "train",
+  "max_length_selection_splits": [
+    "train",
+    "dev"
+  ],
+  "length_percentile": 99.0,
+  "max_length_cap": 256,
+  "max_length": 30,
+  "min_frequency": 1,
+  "vocabulary_size_including_reserved_tokens": 21591,
+  "splits": {
+    "train": {
+      "records": 20000,
+      "truncation_rate": 0.00735,
+      "features": "train.npz"
+    },
+    "dev": {
+      "records": 1400,
+      "truncation_rate": 0.0064285714285714285,
+      "features": "dev.npz"
+    },
+    "test_seen": {
+      "records": 1000,
+      "truncation_rate": 0.007,
+      "features": "test_seen.npz"
+    },
+    "test_unseen": {
+      "records": 1200,
+      "truncation_rate": 0.0,
+      "features": "test_unseen.npz"
+    }
+  }
+}
