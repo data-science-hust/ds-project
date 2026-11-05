@@ -1,6 +1,6 @@
 # Shared Data Loader & Label Correction Module
 
-This directory (`src/ds_project/correction/`) contains the shared data loading utilities, label correction logic, and dataset interfaces for the Vietnamese Clickbait Detection project (Group 5).
+The directory (`src/ds_project/correction/`) contains the shared data loading utilities, label correction logic, and dataset interfaces for the Vietnamese Clickbait Detection project (Group 5).
 
 ---
 
@@ -39,11 +39,11 @@ Stage 4 of the project establishes a unified, reproducible dataset contract acro
 
 | Split | Total Records | Label Source | Description |
 | :--- | ---: | :--- | :--- |
-| `train` (full) | 20,000 | Human Gold (subset) + LLM (outside) | The canonical training set for all final models. |
-| `train` (subset) | 6,400 | Human Gold (target) vs LLM (initial) | Designated cohort for correction scaling ablation. |
+| `train` (full) | 20,000 | Human Gold (subset) + LLM (outside) | The canonical training set for all final models (7,798 clickbait, 12,202 non-clickbait). |
+| `train` (subset) | 6,400 | Human Gold (6,389 adjudicated) vs LLM (initial) | Designated cohort for correction scaling ablation. Exactly 1,325 labels corrected. |
 | `dev` | 1,400 | Human Gold (1,395 adjudicated) | Validation set for model selection, threshold tuning, and variant comparison. |
-| `test_seen` | 1,000 | Held-out blind | Final evaluation on the 8 seen news outlets. |
-| `test_unseen` | 1,200 | Held-out blind | Final evaluation on the 4 unseen outlets (`saostar`, `yan`, `vietnamnet`, `nhandan`). |
+| `test_seen` | 1,000 | Human Gold (998 adjudicated) / Blind | Final evaluation on the 8 seen news outlets. |
+| `test_unseen` | 1,200 | Human Gold (1,194 adjudicated) / Blind | Final evaluation on the 4 unseen outlets (`saostar`, `yan`, `vietnamnet`, `nhandan`). |
 
 ### Label Encoding
 - `0`: Non-clickbait headline (informative, objective, key facts disclosed).
@@ -107,15 +107,20 @@ def load_dev(include_gold: bool = True) -> pd.DataFrame
 - **Returns:** `pd.DataFrame` with columns `record_id`, `title`, `sapo`, `category`, `source`, `label`.
 
 ### `load_test`
-Loads held-out blind test records.
+Loads held-out test records, optionally merging adjudicated ground-truth labels.
 
 ```python
-def load_test(kind: Literal["seen", "unseen"] = "seen") -> pd.DataFrame
+def load_test(
+    kind: Literal["seen", "unseen"] = "seen",
+    include_gold: bool = False,
+    data_dir: Path | str | None = None,
+) -> pd.DataFrame
 ```
 
 - **Parameters:**
   - `kind`: `"seen"` returns 1,000 records from seen outlets; `"unseen"` returns 1,200 records from unseen outlets.
-- **Returns:** `pd.DataFrame` with metadata and input text (`record_id`, `title`, `sapo`, `category`, `source`).
+  - `include_gold`: If `True`, merges human gold labels from `test_gold_seen.csv` (998 rows) or `test_gold_unseen.csv` (1,194 rows) and includes the `label` column. If `False`, returns unlabelled test inputs.
+- **Returns:** `pd.DataFrame` with metadata and input text (`record_id`, `title`, `sapo`, `category`, `source`, optionally `label`).
 
 ### `get_train_dev_matrices`
 High-level helper returning transformed feature matrices and label vectors ready for ML classifiers.

@@ -1,5 +1,4 @@
-"""Dataset correction logic, nested ablation generation, and manifests.
-
+"""
 Implements Stage 4 of the project:
 - Full train set after correction: human gold on the subset (6,400 records),
   LLM labels elsewhere (13,600 records).
@@ -37,7 +36,11 @@ def ensure_train_gold_reference(
     and calibrated against dev gold disagreement patterns, ensuring all downstream
     pipelines run reliably and deterministically.
     """
+    train_subset_file = gold_dir / "train_subset_gold.csv"
     train_gold_file = gold_dir / "train_gold.csv"
+    if train_subset_file.exists():
+        return pd.read_csv(train_subset_file)
+
     if train_gold_file.exists():
         return pd.read_csv(train_gold_file)
 

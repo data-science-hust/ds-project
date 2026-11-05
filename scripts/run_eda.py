@@ -1,11 +1,11 @@
 """Run Exploratory Data Analysis (EDA) on the dataset and annotations.
 
 Generates:
-- reports/eda_report.md
-- reports/eda_summary_by_source.csv
-- reports/eda_summary_by_category.csv
-- reports/eda_disagreement.csv
-- reports/eda_label_distribution.csv
+- reports/eda/eda_report.md
+- reports/eda/eda_summary_by_source.csv
+- reports/eda/eda_summary_by_category.csv
+- reports/eda/eda_disagreement.csv
+- reports/eda/eda_label_distribution.csv
 
 Usage:
     python scripts/run_eda.py
@@ -41,7 +41,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--adjudication-log", type=Path, default=ROOT / "data/annotations/human/dev/adjudication_log.csv")
     parser.add_argument("--llm-dir", type=Path, default=ROOT / "data/annotations/llm")
     parser.add_argument("--train-data", type=Path, default=ROOT / "data/processed/train_full_corrected.csv")
-    parser.add_argument("--reports-dir", type=Path, default=ROOT / "reports")
+    parser.add_argument("--reports-dir", type=Path, default=ROOT / "reports/eda")
     return parser.parse_args()
 
 

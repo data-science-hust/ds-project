@@ -162,35 +162,35 @@ Four LLM prompting variants (`gemma4_26b_a4b_thinking_off`) were evaluated on th
 
 | source | records | clickbait_count | clickbait_ratio | non_clickbait_count |
 | ---: | ---: | ---: | ---: | ---: |
-| afamily | 2,500 | 1,489 | 0.5956 | 1,011 |
-| kenh14 | 2,500 | 1,441 | 0.5764 | 1,059 |
-| 2sao | 2,500 | 1,413 | 0.5652 | 1,087 |
-| eva | 2,500 | 1,283 | 0.5132 | 1,217 |
-| cafef | 2,500 | 1,141 | 0.4564 | 1,359 |
-| thanhnien | 2,500 | 541 | 0.2164 | 1,959 |
-| dantri | 2,500 | 514 | 0.2056 | 1,986 |
-| tuoitre | 2,500 | 435 | 0.1740 | 2,065 |
+| afamily | 2,500 | 1,523 | 0.6092 | 977 |
+| kenh14 | 2,500 | 1,406 | 0.5624 | 1,094 |
+| 2sao | 2,500 | 1,404 | 0.5616 | 1,096 |
+| eva | 2,500 | 1,327 | 0.5308 | 1,173 |
+| cafef | 2,500 | 1,040 | 0.4160 | 1,460 |
+| thanhnien | 2,500 | 434 | 0.1736 | 2,066 |
+| dantri | 2,500 | 360 | 0.1440 | 2,140 |
+| tuoitre | 2,500 | 304 | 0.1216 | 2,196 |
 
 ### Clickbait Proportion by Category in Training Set
 
 | category | records | clickbait_count | clickbait_ratio | non_clickbait_count |
 | ---: | ---: | ---: | ---: | ---: |
-| Tử vi - Phong thủy | 589 | 477 | 0.8098 | 112 |
-| Đời sống - Gia đình | 3,201 | 1,985 | 0.6201 | 1,216 |
-| Giải trí - Văn hóa | 2,198 | 1,264 | 0.5751 | 934 |
-| Làm đẹp - Thời trang | 912 | 512 | 0.5614 | 400 |
-| Sức khỏe | 1,176 | 564 | 0.4796 | 612 |
-| Du lịch - Ẩm thực | 609 | 280 | 0.4598 | 329 |
-| Công nghệ - Khoa học | 698 | 289 | 0.4140 | 409 |
-| Giáo dục | 819 | 327 | 0.3993 | 492 |
-| Thể thao | 1,014 | 334 | 0.3294 | 680 |
-| Thế giới | 1,256 | 407 | 0.3240 | 849 |
-| Kinh tế - Tài chính | 2,017 | 643 | 0.3188 | 1,374 |
-| Xe | 173 | 43 | 0.2486 | 130 |
-| Khác | 311 | 77 | 0.2476 | 234 |
-| Thời sự - Xã hội | 4,109 | 896 | 0.2181 | 3,213 |
-| Bất động sản | 420 | 91 | 0.2167 | 329 |
-| Pháp luật | 498 | 68 | 0.1365 | 430 |
+| Tử vi - Phong thủy | 589 | 508 | 0.8625 | 81 |
+| Đời sống - Gia đình | 3,201 | 2,042 | 0.6379 | 1,159 |
+| Làm đẹp - Thời trang | 912 | 528 | 0.5789 | 384 |
+| Giải trí - Văn hóa | 2,198 | 1,262 | 0.5742 | 936 |
+| Sức khỏe | 1,176 | 588 | 0.5000 | 588 |
+| Du lịch - Ẩm thực | 609 | 291 | 0.4778 | 318 |
+| Công nghệ - Khoa học | 698 | 262 | 0.3754 | 436 |
+| Giáo dục | 819 | 303 | 0.3700 | 516 |
+| Kinh tế - Tài chính | 2,017 | 551 | 0.2732 | 1,466 |
+| Thể thao | 1,014 | 270 | 0.2663 | 744 |
+| Thế giới | 1,256 | 333 | 0.2651 | 923 |
+| Khác | 311 | 74 | 0.2379 | 237 |
+| Xe | 173 | 31 | 0.1792 | 142 |
+| Thời sự - Xã hội | 4,109 | 659 | 0.1604 | 3,450 |
+| Bất động sản | 420 | 64 | 0.1524 | 356 |
+| Pháp luật | 498 | 32 | 0.0643 | 466 |
 
 **Caution on Label Concentration:**
 While entertainment-centric outlets (e.g. `2sao`, `kenh14`, `afamily`) exhibit higher clickbait proportions

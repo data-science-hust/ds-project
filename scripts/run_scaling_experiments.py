@@ -1,8 +1,8 @@
 """Ablation scaling experiments: train models across label-correction levels (0% to 100%).
 
-Evaluates downstream classification on Dev Gold using fixed optimal hyperparameters
-and decision thresholds selected from Dev tuning (§7.2, §8.1).
-Saves fitted models, test predictions, manifests, and plots scaling curves.
+Evaluates downstream classification on Dev Gold, Test Seen Gold, and Test Unseen Gold
+using fixed optimal hyperparameters and decision thresholds selected from Dev tuning (§7.2, §8.1).
+Saves fitted models, test predictions, manifests, and plots scaling curves across splits.
 
 Usage:
     python scripts/run_scaling_experiments.py --models lr,lsvm,rf,xgb
@@ -62,7 +62,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--hyperparams-json",
         type=Path,
-        default=ROOT / "reports/best_hyperparameters.json",
+        default=ROOT / "reports/ml/best_hyperparameters.json",
     )
     parser.add_argument(
         "--models-dir",
@@ -82,17 +82,17 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--runs-csv",
         type=Path,
-        default=ROOT / "reports/scaling_ablation_runs.csv",
+        default=ROOT / "reports/ml/scaling_ablation_runs.csv",
     )
     parser.add_argument(
         "--summary-csv",
         type=Path,
-        default=ROOT / "reports/scaling_ablation_summary.csv",
+        default=ROOT / "reports/ml/scaling_ablation_summary.csv",
     )
     parser.add_argument(
         "--plot-path",
         type=Path,
-        default=ROOT / "reports/figures/scaling_ablation_macro_f1.png",
+        default=ROOT / "reports/figures/ml/scaling_ablation_macro_f1.png",
     )
     return parser.parse_args()
 
@@ -112,7 +112,7 @@ def evaluate_predictions(y_true: np.ndarray, y_pred: np.ndarray) -> dict[str, fl
 def instantiate_model(model_key: str, params: dict[str, Any], seed: int) -> Any:
     if model_key == "LogisticRegression":
         return LogisticRegression(
-            C=params.get("C", 0.5),
+            C=params.get("C", 1.0),
             class_weight=params.get("class_weight", None),
             solver=params.get("solver", "lbfgs"),
             max_iter=1000,
@@ -120,9 +120,9 @@ def instantiate_model(model_key: str, params: dict[str, Any], seed: int) -> Any:
         )
     elif model_key == "LinearSVM":
         return SGDClassifier(
-            alpha=params.get("alpha", 0.0005),
+            alpha=params.get("alpha", 0.0001),
             loss=params.get("loss", "hinge"),
-            class_weight=params.get("class_weight", None),
+            class_weight=params.get("class_weight", "balanced"),
             max_iter=2000,
             random_state=seed,
         )
@@ -163,11 +163,12 @@ def predict_with_threshold(clf: Any, X: Any, threshold: float, is_svm: bool) -> 
 
 def plot_scaling_curves(
     df_summary: pd.DataFrame,
-    full_train_refs: dict[str, float],
+    full_train_refs: dict[str, dict[str, float]],
     output_path: Path,
 ) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(10, 6), dpi=300)
+
+    fig, axes = plt.subplots(1, 3, figsize=(18, 5.5), dpi=300, sharey=True)
 
     model_colors = {
         "LogisticRegression": "#1f77b4",
@@ -182,54 +183,66 @@ def plot_scaling_curves(
         "XGBoost": "D",
     }
 
-    for model_name, grp in df_summary.groupby("model"):
-        color = model_colors.get(model_name, "#333333")
-        marker = model_markers.get(model_name, "o")
-        grp = grp.sort_values("correction_level")
+    splits_info = [
+        ("dev", "Dev Set (Gold 1,395)", axes[0], "macro_f1_mean", "macro_f1_std"),
+        ("test_seen", "Test Seen Set (Gold 998)", axes[1], "test_seen_macro_f1_mean", "test_seen_macro_f1_std"),
+        ("test_unseen", "Test Unseen Set (Gold 1,194)", axes[2], "test_unseen_macro_f1_mean", "test_unseen_macro_f1_std"),
+    ]
 
-        x = grp["correction_level"] * 100.0
-        y = grp["macro_f1_mean"]
-        y_std = grp["macro_f1_std"]
+    for split_key, title, ax, mean_col, std_col in splits_info:
+        for model_name, grp in df_summary.groupby("model"):
+            color = model_colors.get(model_name, "#333333")
+            marker = model_markers.get(model_name, "o")
+            grp = grp.sort_values("correction_level")
 
-        plt.plot(
-            x,
-            y,
-            label=f"{model_name} (Subset 6.4k)",
-            color=color,
-            marker=marker,
-            linewidth=2,
-            markersize=6,
-        )
-        plt.fill_between(
-            x,
-            y - y_std,
-            y + y_std,
-            color=color,
-            alpha=0.15,
-        )
+            x = grp["correction_level"] * 100.0
+            y = grp[mean_col]
+            y_std = grp[std_col]
 
-        # Plot full train upper reference if available
-        if model_name in full_train_refs:
-            ref_val = full_train_refs[model_name]
-            plt.axhline(
-                y=ref_val,
+            ax.plot(
+                x,
+                y,
+                label=f"{model_name}",
                 color=color,
-                linestyle="--",
-                alpha=0.6,
-                label=f"{model_name} (Full Train 20k: {ref_val:.4f})",
+                marker=marker,
+                linewidth=2,
+                markersize=6,
+            )
+            ax.fill_between(
+                x,
+                y - y_std,
+                y + y_std,
+                color=color,
+                alpha=0.15,
             )
 
-    plt.title("Label Correction Scaling vs Downstream Macro-F1 (Evaluated on Dev Gold)", fontsize=13, fontweight="bold", pad=12)
-    plt.xlabel("Label Correction Level on 6.4k Subset (% Disagreements Corrected)", fontsize=11, labelpad=8)
-    plt.ylabel("Macro-F1 Score", fontsize=11, labelpad=8)
-    plt.xticks([0, 25, 50, 75, 100], ["0% (Raw LLM)", "25%", "50%", "75%", "100% (Human Gold)"])
-    plt.grid(True, linestyle=":", alpha=0.6)
-    plt.legend(bbox_to_anchor=(1.02, 1), loc="upper left", frameon=True, fontsize=9)
+            # Horizontal line for full train reference
+            if model_name in full_train_refs and split_key in full_train_refs[model_name]:
+                ref_val = full_train_refs[model_name][split_key]
+                ax.axhline(
+                    y=ref_val,
+                    color=color,
+                    linestyle="--",
+                    alpha=0.5,
+                    label=f"{model_name} (Full 20k: {ref_val:.4f})",
+                )
+
+        ax.set_title(title, fontsize=12, fontweight="bold", pad=10)
+        ax.set_xlabel("Correction Level (% Disagreements Corrected)", fontsize=10, labelpad=6)
+        if ax == axes[0]:
+            ax.set_ylabel("Macro-F1 Score", fontsize=11, labelpad=8)
+        ax.set_xticks([0, 25, 50, 75, 100])
+        ax.set_xticklabels(["0%", "25%", "50%", "75%", "100%"])
+        ax.grid(True, linestyle=":", alpha=0.6)
+
+    axes[0].legend(loc="lower left", frameon=True, fontsize=8)
+    fig.suptitle("Label Correction Scaling vs Downstream Macro-F1 across Splits (EVAL2 Benchmark)", fontsize=14, fontweight="bold", y=1.02)
     plt.tight_layout()
 
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     plt.savefig(output_path, bbox_inches="tight")
     plt.close()
-    print(f"Saved scaling plot to {output_path}")
+    print(f"Saved comprehensive scaling plot to {output_path}")
 
 
 def main() -> None:
@@ -253,38 +266,60 @@ def main() -> None:
     with args.hyperparams_json.open("r", encoding="utf-8") as f:
         best_hyperparams = json.load(f)
 
-    # Load baseline datasets
+    # 1. Load evaluation datasets
     print("Loading evaluation and test splits...")
     df_dev = load_dev(include_gold=True)
     y_dev = df_dev["label"].to_numpy(dtype=int)
 
-    df_test_seen = load_test("seen")
-    df_test_unseen = load_test("unseen")
+    # Load raw blind test records (for 100% submission prediction outputs)
+    df_test_seen_raw = load_test("seen", include_gold=False)
+    df_test_unseen_raw = load_test("unseen", include_gold=False)
 
-    # Load base subset text (record_ids and texts are invariant to seed and level)
+    # Load test gold labels for ground-truth EVAL2 evaluation
+    gold_seen_file = ROOT / "data/annotations/human/gold/test_gold_seen.csv"
+    gold_unseen_file = ROOT / "data/annotations/human/gold/test_gold_unseen.csv"
+
+    gold_seen_map = {}
+    if gold_seen_file.exists():
+        df_g_seen = pd.read_csv(gold_seen_file)
+        gold_seen_map = df_g_seen.dropna(subset=["record_id", "final_label"]).set_index("record_id")["final_label"].astype(int).to_dict()
+
+    gold_unseen_map = {}
+    if gold_unseen_file.exists():
+        df_g_unseen = pd.read_csv(gold_unseen_file)
+        gold_unseen_map = df_g_unseen.dropna(subset=["record_id", "final_label"]).set_index("record_id")["final_label"].astype(int).to_dict()
+
+    # Pre-calculate gold alignment masks for evaluation
+    seen_eval_indices = [i for i, rid in enumerate(df_test_seen_raw["record_id"]) if rid in gold_seen_map]
+    seen_eval_y = np.array([gold_seen_map[df_test_seen_raw.iloc[i]["record_id"]] for i in seen_eval_indices])
+
+    unseen_eval_indices = [i for i, rid in enumerate(df_test_unseen_raw["record_id"]) if rid in gold_unseen_map]
+    unseen_eval_y = np.array([gold_unseen_map[df_test_unseen_raw.iloc[i]["record_id"]] for i in unseen_eval_indices])
+
+    # 2. Extract feature matrices on Subset
     base_sub = load_subset(correction_level=1.0, seed=seeds[0])
     print(f"Fitting shared feature pipeline (variant='{args.variant}') on subset ({len(base_sub)} texts)...")
     t0 = time.time()
     pipeline_sub = ClickbaitFeaturePipeline(variant=args.variant)
     X_train_sub = pipeline_sub.fit_transform(base_sub)
     X_dev_sub = pipeline_sub.transform(df_dev)
-    X_seen_sub = pipeline_sub.transform(df_test_seen)
-    X_unseen_sub = pipeline_sub.transform(df_test_unseen)
+    X_seen_sub = pipeline_sub.transform(df_test_seen_raw)
+    X_unseen_sub = pipeline_sub.transform(df_test_unseen_raw)
     print(f"Subset feature matrices extracted ({time.time() - t0:.1f}s): X_sub={X_train_sub.shape}")
 
-    # Also fit pipeline on Full Train for reference
+    # 3. Extract feature matrices on Full Train
     print("Fitting shared feature pipeline on Full Train (20,000 texts)...")
     df_full = load_train_set(variant="full_corrected")
     y_full = df_full["label"].to_numpy(dtype=int)
     pipeline_full = ClickbaitFeaturePipeline(variant=args.variant)
     X_train_full = pipeline_full.fit_transform(df_full)
     X_dev_full = pipeline_full.transform(df_dev)
-    X_seen_full = pipeline_full.transform(df_test_seen)
-    X_unseen_full = pipeline_full.transform(df_test_unseen)
+    X_seen_full = pipeline_full.transform(df_test_seen_raw)
+    X_unseen_full = pipeline_full.transform(df_test_unseen_raw)
 
     run_records: list[dict[str, Any]] = []
     manifest_records: list[dict[str, Any]] = []
-    full_train_refs: dict[str, float] = {}
+    full_train_refs: dict[str, dict[str, float]] = {}
 
     for model_name in selected_models:
         model_cfg = best_hyperparams.get(model_name, {})
@@ -297,32 +332,37 @@ def main() -> None:
         print(f"Fixed Params: {params}, Optimal Threshold: {tau_star}")
         print(f"=======================================================")
 
-        # 1. Full Train Reference Run
+        # A. Full Train Reference Run
         print(f"Training Full Train Reference (20k records)...")
         clf_full = instantiate_model(model_name, params, seed=2026)
         clf_full.fit(X_train_full, y_full)
 
         dev_preds_full, _ = predict_with_threshold(clf_full, X_dev_full, tau_star, is_svm)
-        m_full = evaluate_predictions(y_dev, dev_preds_full)
-        full_train_refs[model_name] = m_full["macro_f1"]
-        print(f"  Full Train Ref: Macro-F1 = {m_full['macro_f1']:.4f}, Accuracy = {m_full['accuracy']:.4f}")
+        m_dev_full = evaluate_predictions(y_dev, dev_preds_full)
+
+        seen_preds_full, seen_scores_full = predict_with_threshold(clf_full, X_seen_full, tau_star, is_svm)
+        unseen_preds_full, unseen_scores_full = predict_with_threshold(clf_full, X_unseen_full, tau_star, is_svm)
+
+        m_seen_full = evaluate_predictions(seen_eval_y, seen_preds_full[seen_eval_indices])
+        m_unseen_full = evaluate_predictions(unseen_eval_y, unseen_preds_full[unseen_eval_indices])
+
+        full_train_refs[model_name] = {
+            "dev": m_dev_full["macro_f1"],
+            "test_seen": m_seen_full["macro_f1"],
+            "test_unseen": m_unseen_full["macro_f1"],
+        }
+        print(f"  Full Train Ref -> Dev: {m_dev_full['macro_f1']:.4f} | Seen: {m_seen_full['macro_f1']:.4f} | Unseen: {m_unseen_full['macro_f1']:.4f}")
 
         # Save full train model and test predictions
         full_model_id = f"{model_name.lower()}_full_train"
         full_model_path = args.models_dir / f"{full_model_id}.joblib"
         joblib.dump({"model": clf_full, "pipeline": pipeline_full, "threshold": tau_star, "params": params}, full_model_path)
 
-        seen_preds, seen_scores = predict_with_threshold(clf_full, X_seen_full, tau_star, is_svm)
-        unseen_preds, unseen_scores = predict_with_threshold(clf_full, X_unseen_full, tau_star, is_svm)
-
         seen_file = args.preds_dir / f"{full_model_id}_test_seen.csv"
         unseen_file = args.preds_dir / f"{full_model_id}_test_unseen.csv"
 
-        df_seen_out = pd.DataFrame({"record_id": df_test_seen["record_id"], "predicted_label": seen_preds, "confidence_score": seen_scores})
-        df_seen_out.to_csv(seen_file, index=False)
-
-        df_unseen_out = pd.DataFrame({"record_id": df_test_unseen["record_id"], "predicted_label": unseen_preds, "confidence_score": unseen_scores})
-        df_unseen_out.to_csv(unseen_file, index=False)
+        pd.DataFrame({"record_id": df_test_seen_raw["record_id"], "predicted_label": seen_preds_full, "confidence_score": seen_scores_full}).to_csv(seen_file, index=False)
+        pd.DataFrame({"record_id": df_test_unseen_raw["record_id"], "predicted_label": unseen_preds_full, "confidence_score": unseen_scores_full}).to_csv(unseen_file, index=False)
 
         manifest_records.append({
             "model_id": full_model_id,
@@ -332,15 +372,19 @@ def main() -> None:
             "seed": 2026,
             "features_dim": X_train_full.shape[1],
             "optimal_threshold": tau_star,
-            "dev_macro_f1": round(m_full["macro_f1"], 4),
-            "dev_accuracy": round(m_full["accuracy"], 4),
-            "dev_clickbait_f1": round(m_full["clickbait_f1"], 4),
+            "dev_macro_f1": round(m_dev_full["macro_f1"], 4),
+            "dev_accuracy": round(m_dev_full["accuracy"], 4),
+            "dev_clickbait_f1": round(m_dev_full["clickbait_f1"], 4),
+            "test_seen_macro_f1": round(m_seen_full["macro_f1"], 4),
+            "test_seen_accuracy": round(m_seen_full["accuracy"], 4),
+            "test_unseen_macro_f1": round(m_unseen_full["macro_f1"], 4),
+            "test_unseen_accuracy": round(m_unseen_full["accuracy"], 4),
             "model_path": str(full_model_path.relative_to(ROOT)),
             "test_seen_preds": str(seen_file.relative_to(ROOT)),
             "test_unseen_preds": str(unseen_file.relative_to(ROOT)),
         })
 
-        # 2. Scaling Runs across seeds and levels
+        # B. Scaling Runs across seeds and levels
         for seed in seeds:
             for level in levels:
                 t_run = time.time()
@@ -352,11 +396,13 @@ def main() -> None:
                 fit_sec = time.time() - t_run
 
                 dev_preds, _ = predict_with_threshold(clf, X_dev_sub, tau_star, is_svm)
-                metrics = evaluate_predictions(y_dev, dev_preds)
+                metrics_dev = evaluate_predictions(y_dev, dev_preds)
 
-                # Predictions on Test Seen and Unseen
                 s_preds, s_scores = predict_with_threshold(clf, X_seen_sub, tau_star, is_svm)
                 u_preds, u_scores = predict_with_threshold(clf, X_unseen_sub, tau_star, is_svm)
+
+                metrics_seen = evaluate_predictions(seen_eval_y, s_preds[seen_eval_indices])
+                metrics_unseen = evaluate_predictions(unseen_eval_y, u_preds[unseen_eval_indices])
 
                 model_id = f"{model_name.lower()}_lvl{int(level*100)}_s{seed}"
                 model_file = args.models_dir / f"{model_id}.joblib"
@@ -365,8 +411,8 @@ def main() -> None:
                 s_file = args.preds_dir / f"{model_id}_test_seen.csv"
                 u_file = args.preds_dir / f"{model_id}_test_unseen.csv"
 
-                pd.DataFrame({"record_id": df_test_seen["record_id"], "predicted_label": s_preds, "confidence_score": s_scores}).to_csv(s_file, index=False)
-                pd.DataFrame({"record_id": df_test_unseen["record_id"], "predicted_label": u_preds, "confidence_score": u_scores}).to_csv(u_file, index=False)
+                pd.DataFrame({"record_id": df_test_seen_raw["record_id"], "predicted_label": s_preds, "confidence_score": s_scores}).to_csv(s_file, index=False)
+                pd.DataFrame({"record_id": df_test_unseen_raw["record_id"], "predicted_label": u_preds, "confidence_score": u_scores}).to_csv(u_file, index=False)
 
                 manifest_records.append({
                     "model_id": model_id,
@@ -376,9 +422,13 @@ def main() -> None:
                     "seed": seed,
                     "features_dim": X_train_sub.shape[1],
                     "optimal_threshold": tau_star,
-                    "dev_macro_f1": round(metrics["macro_f1"], 4),
-                    "dev_accuracy": round(metrics["accuracy"], 4),
-                    "dev_clickbait_f1": round(metrics["clickbait_f1"], 4),
+                    "dev_macro_f1": round(metrics_dev["macro_f1"], 4),
+                    "dev_accuracy": round(metrics_dev["accuracy"], 4),
+                    "dev_clickbait_f1": round(metrics_dev["clickbait_f1"], 4),
+                    "test_seen_macro_f1": round(metrics_seen["macro_f1"], 4),
+                    "test_seen_accuracy": round(metrics_seen["accuracy"], 4),
+                    "test_unseen_macro_f1": round(metrics_unseen["macro_f1"], 4),
+                    "test_unseen_accuracy": round(metrics_unseen["accuracy"], 4),
                     "model_path": str(model_file.relative_to(ROOT)),
                     "test_seen_preds": str(s_file.relative_to(ROOT)),
                     "test_unseen_preds": str(u_file.relative_to(ROOT)),
@@ -389,21 +439,23 @@ def main() -> None:
                     "correction_level": level,
                     "seed": seed,
                     "fit_time_sec": round(fit_sec, 2),
-                    "accuracy": metrics["accuracy"],
-                    "macro_f1": metrics["macro_f1"],
-                    "macro_precision": metrics["macro_precision"],
-                    "macro_recall": metrics["macro_recall"],
-                    "clickbait_f1": metrics["clickbait_f1"],
-                    "clickbait_precision": metrics["clickbait_precision"],
-                    "clickbait_recall": metrics["clickbait_recall"],
+                    "macro_f1": metrics_dev["macro_f1"],
+                    "accuracy": metrics_dev["accuracy"],
+                    "clickbait_f1": metrics_dev["clickbait_f1"],
+                    "test_seen_macro_f1": metrics_seen["macro_f1"],
+                    "test_seen_accuracy": metrics_seen["accuracy"],
+                    "test_seen_clickbait_f1": metrics_seen["clickbait_f1"],
+                    "test_unseen_macro_f1": metrics_unseen["macro_f1"],
+                    "test_unseen_accuracy": metrics_unseen["accuracy"],
+                    "test_unseen_clickbait_f1": metrics_unseen["clickbait_f1"],
                 })
 
-                print(f"  Level: {int(level*100):3d}% | Seed: {seed:4d} | Macro-F1: {metrics['macro_f1']:.4f} | Accuracy: {metrics['accuracy']:.4f} | Fit: {fit_sec:.1f}s")
+                print(f"  Level: {int(level*100):3d}% | Seed: {seed:4d} | Dev F1: {metrics_dev['macro_f1']:.4f} | Seen F1: {metrics_seen['macro_f1']:.4f} | Unseen F1: {metrics_unseen['macro_f1']:.4f} | Fit: {fit_sec:.1f}s")
 
     # Save detailed runs
     df_runs = pd.DataFrame(run_records)
     df_runs.to_csv(args.runs_csv, index=False)
-    print(f"\nSaved runs to {args.runs_csv}")
+    print(f"\nSaved detailed runs to {args.runs_csv}")
 
     # Save model manifest
     df_manifest = pd.DataFrame(manifest_records)
@@ -417,34 +469,44 @@ def main() -> None:
             "model": model,
             "correction_level": level,
             "n_seeds": len(grp),
+            # Dev metrics
             "macro_f1_mean": grp["macro_f1"].mean(),
             "macro_f1_std": grp["macro_f1"].std(),
             "accuracy_mean": grp["accuracy"].mean(),
             "accuracy_std": grp["accuracy"].std(),
             "clickbait_f1_mean": grp["clickbait_f1"].mean(),
             "clickbait_f1_std": grp["clickbait_f1"].std(),
-            "clickbait_recall_mean": grp["clickbait_recall"].mean(),
-            "clickbait_recall_std": grp["clickbait_recall"].std(),
-            "clickbait_precision_mean": grp["clickbait_precision"].mean(),
-            "clickbait_precision_std": grp["clickbait_precision"].std(),
+            # Test Seen metrics
+            "test_seen_macro_f1_mean": grp["test_seen_macro_f1"].mean(),
+            "test_seen_macro_f1_std": grp["test_seen_macro_f1"].std(),
+            "test_seen_accuracy_mean": grp["test_seen_accuracy"].mean(),
+            "test_seen_accuracy_std": grp["test_seen_accuracy"].std(),
+            "test_seen_clickbait_f1_mean": grp["test_seen_clickbait_f1"].mean(),
+            "test_seen_clickbait_f1_std": grp["test_seen_clickbait_f1"].std(),
+            # Test Unseen metrics
+            "test_unseen_macro_f1_mean": grp["test_unseen_macro_f1"].mean(),
+            "test_unseen_macro_f1_std": grp["test_unseen_macro_f1"].std(),
+            "test_unseen_accuracy_mean": grp["test_unseen_accuracy"].mean(),
+            "test_unseen_accuracy_std": grp["test_unseen_accuracy"].std(),
+            "test_unseen_clickbait_f1_mean": grp["test_unseen_clickbait_f1"].mean(),
+            "test_unseen_clickbait_f1_std": grp["test_unseen_clickbait_f1"].std(),
         })
 
     df_summary = pd.DataFrame(summary_list)
     df_summary.to_csv(args.summary_csv, index=False)
     print(f"Saved summary to {args.summary_csv}")
 
-    # Plot
+    # Plot comprehensive multi-split scaling curves
     plot_scaling_curves(df_summary, full_train_refs, args.plot_path)
 
     # Print summary table
-    print("\n=======================================================")
-    print("Ablation Scaling Summary (Mean ± Std over 3 seeds on Dev Gold):")
-    print("=======================================================")
+    print("Ablation Scaling Summary (Mean ± Std over 3 seeds across Dev, Seen, Unseen):")
     for model_name, grp in df_summary.groupby("model"):
-        print(f"\n--- {model_name} (Upper bound Full Train 20k: {full_train_refs.get(model_name, 0.0):.4f}) ---")
+        refs = full_train_refs.get(model_name, {})
+        print(f"\n--- {model_name} (Full Train 20k -> Dev: {refs.get('dev', 0.0):.4f} | Seen: {refs.get('test_seen', 0.0):.4f} | Unseen: {refs.get('test_unseen', 0.0):.4f}) ---")
         for _, r in grp.sort_values("correction_level").iterrows():
             lvl_pct = int(r["correction_level"] * 100)
-            print(f"Level {lvl_pct:3d}%: Macro-F1 = {r['macro_f1_mean']:.4f} ± {r['macro_f1_std']:.4f} | Clickbait-F1 = {r['clickbait_f1_mean']:.4f} ± {r['clickbait_f1_std']:.4f} | Accuracy = {r['accuracy_mean']:.4f} ± {r['accuracy_std']:.4f}")
+            print(f"Lvl {lvl_pct:3d}% | Dev F1: {r['macro_f1_mean']:.4f} ± {r['macro_f1_std']:.4f} | Seen F1: {r['test_seen_macro_f1_mean']:.4f} ± {r['test_seen_macro_f1_std']:.4f} | Unseen F1: {r['test_unseen_macro_f1_mean']:.4f} ± {r['test_unseen_macro_f1_std']:.4f}")
 
 
 if __name__ == "__main__":

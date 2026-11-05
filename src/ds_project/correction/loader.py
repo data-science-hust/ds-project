@@ -1,5 +1,4 @@
-"""Unified data and label loader for machine learning models.
-
+"""
 Provides standardized access to full train, correction ablation subsets,
 dev set with human gold, and test sets.
 """
@@ -49,7 +48,6 @@ def load_train_set(
             df["label"] = df["llm_label"]
         return df
 
-    # Fallback to merging dataset.csv with llm_train.csv
     df_dataset = load_dataset()
     df_train = df_dataset[df_dataset["split"] == "train"].copy()
     llm_path = ANNOTATIONS_DIR / "llm" / "llm_train.csv"
@@ -116,11 +114,27 @@ def load_dev(include_gold: bool = True) -> pd.DataFrame:
     return df_dev
 
 
-def load_test(kind: Literal["seen", "unseen"] = "seen") -> pd.DataFrame:
-    """Load test records (1,000 for seen, 1,200 for unseen)."""
+def load_test(kind: Literal["seen", "unseen"] = "seen", include_gold: bool = False) -> pd.DataFrame:
+    """Load test records (1,000 for seen, 1,200 for unseen).
+
+    If include_gold is True and gold annotations exist in data/annotations/human/gold/,
+    merges ground-truth labels and returns adjudicated test records.
+    """
     split_name = "test_seen" if kind == "seen" else "test_unseen"
     df_dataset = load_dataset()
-    return df_dataset[df_dataset["split"] == split_name].copy()
+    df_test = df_dataset[df_dataset["split"] == split_name].copy()
+
+    if include_gold:
+        gold_name = "test_gold_seen.csv" if kind == "seen" else "test_gold_unseen.csv"
+        gold_path = ANNOTATIONS_DIR / "human" / "gold" / gold_name
+        if gold_path.exists():
+            df_gold = pd.read_csv(gold_path)
+            gold_map = df_gold.dropna(subset=["record_id", "final_label"]).set_index("record_id")["final_label"].astype(int).to_dict()
+            df_test["label"] = [gold_map.get(rid, np.nan) for rid in df_test["record_id"]]
+            df_test = df_test.dropna(subset=["label"]).copy()
+            df_test["label"] = df_test["label"].astype(int)
+
+    return df_test
 
 
 def get_train_dev_matrices(

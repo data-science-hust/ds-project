@@ -34,7 +34,7 @@ from ds_project.features.pipeline import ClickbaitFeaturePipeline
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Benchmark ML input variants.")
     parser.add_argument("--train-variant", type=str, default="full_corrected")
-    parser.add_argument("--out-csv", type=Path, default=ROOT / "reports/ml_input_variants_benchmark.csv")
+    parser.add_argument("--out-csv", type=Path, default=ROOT / "reports/ml/ml_input_variants_benchmark.csv")
     parser.add_argument("--seed", type=int, default=2026)
     return parser.parse_args()
 

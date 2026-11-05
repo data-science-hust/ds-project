@@ -34,8 +34,8 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Tune hyperparameters for top models.")
     parser.add_argument("--variant", type=str, default="v3", choices=["v1", "v2", "v3"])
     parser.add_argument("--seed", type=int, default=2026)
-    parser.add_argument("--out-csv", type=Path, default=ROOT / "reports/hyperparameter_tuning_results.csv")
-    parser.add_argument("--out-json", type=Path, default=ROOT / "reports/best_hyperparameters.json")
+    parser.add_argument("--out-csv", type=Path, default=ROOT / "reports/ml/hyperparameter_tuning_results.csv")
+    parser.add_argument("--out-json", type=Path, default=ROOT / "reports/ml/best_hyperparameters.json")
     return parser.parse_args()
 
 
@@ -90,9 +90,7 @@ def main() -> None:
     records: list[dict[str, Any]] = []
     best_configs: dict[str, Any] = {}
 
-    # =========================================================================
     # 1. LOGISTIC REGRESSION TUNING
-    # =========================================================================
     print("\n--- Tuning Logistic Regression ---")
     lr_grid = [
         {"C": 0.1, "class_weight": None, "solver": "lbfgs"},
@@ -153,9 +151,7 @@ def main() -> None:
     print(f"Best LR: Macro-F1 = {best_lr_score:.4f} (params={best_lr_item['params']}, th={best_lr_item['optimal_threshold']})")
     best_configs["LogisticRegression"] = best_lr_item
 
-    # =========================================================================
     # 2. LINEAR SVM TUNING
-    # =========================================================================
     print("\n--- Tuning Linear SVM ---")
     lsvm_grid = [
         {"alpha": 1e-5, "loss": "hinge", "class_weight": None},
@@ -230,9 +226,7 @@ def main() -> None:
     print(f"Best Linear SVM: Macro-F1 = {best_lsvm_score:.4f} (params={best_lsvm_item['params']}, th={best_lsvm_item['optimal_threshold']})")
     best_configs["LinearSVM"] = best_lsvm_item
 
-    # =========================================================================
     # 3. XGBOOST TUNING
-    # =========================================================================
     print("\n--- Tuning XGBoost ---")
     xgb_grid = [
         {"max_depth": 5, "learning_rate": 0.1, "n_estimators": 150, "colsample_bytree": 0.8, "scale_pos_weight": 1.0},
@@ -292,9 +286,7 @@ def main() -> None:
     print(f"Best XGBoost: Macro-F1 = {best_xgb_score:.4f} (params={best_xgb_item['params']}, th={best_xgb_item['optimal_threshold']})")
     best_configs["XGBoost"] = best_xgb_item
 
-    # =========================================================================
     # 4. RANDOM FOREST TUNING
-    # =========================================================================
     print("\n--- Tuning Random Forest ---")
     rf_grid = [
         {"n_estimators": 200, "max_depth": 35, "min_samples_split": 5, "class_weight": None},

@@ -1,5 +1,4 @@
-"""Unified multi-version input pipeline for clickbait ML classifiers.
-
+"""
 Supports three input variants as defined in project specifications:
 - Version 1 (Baseline): TF-IDF Matrix (Word & Character N-grams)
 - Version 2 (Extended): 25 Warsaw Stylometric Features (StandardScaler normalized)

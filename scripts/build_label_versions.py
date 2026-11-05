@@ -33,7 +33,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--out-full-train", type=Path, default=ROOT / "data/processed/train_full_corrected.csv")
     parser.add_argument("--out-manifest", type=Path, default=ROOT / "data/manifests/correction_manifest.csv")
     parser.add_argument("--out-subset-versions", type=Path, default=ROOT / "data/manifests/subset_label_versions.csv")
-    parser.add_argument("--out-report", type=Path, default=ROOT / "reports/correction_report.md")
+    parser.add_argument("--out-report", type=Path, default=ROOT / "reports/correction/correction_report.md")
     return parser.parse_args()
 
 

@@ -1,7 +1,7 @@
 """Tune Random Forest hyperparameters and decision threshold on the Dev set.
 
-Appends results to reports/hyperparameter_tuning_results.csv and updates
-reports/best_hyperparameters.json.
+Appends results to reports/ml/hyperparameter_tuning_results.csv and updates
+reports/ml/best_hyperparameters.json.
 """
 
 from __future__ import annotations
@@ -56,8 +56,8 @@ def tune_threshold(y_true: np.ndarray, scores: np.ndarray) -> tuple[float, dict[
 
 def main() -> None:
     seed = 2026
-    csv_path = ROOT / "reports/hyperparameter_tuning_results.csv"
-    json_path = ROOT / "reports/best_hyperparameters.json"
+    csv_path = ROOT / "reports/ml/hyperparameter_tuning_results.csv"
+    json_path = ROOT / "reports/ml/best_hyperparameters.json"
 
     print("Loading datasets for Random Forest tuning...")
     df_train = load_train_set(variant="full_corrected")
