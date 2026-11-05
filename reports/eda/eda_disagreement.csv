@@ -1,0 +1,25 @@
+dimension,group,records,fp_0_to_1,fn_1_to_0,disagreements,disagreement_rate
+source,2sao,175,12,19,31,0.17714285714285713
+source,afamily,174,11,28,39,0.22413793103448276
+source,cafef,175,20,26,46,0.26285714285714284
+source,dantri,174,11,13,24,0.13793103448275862
+source,eva,173,7,34,41,0.23699421965317918
+source,kenh14,173,11,32,43,0.24855491329479767
+source,thanhnien,174,13,21,34,0.19540229885057472
+source,tuoitre,175,7,18,25,0.14285714285714285
+category,Bất động sản,30,1,4,5,0.16666666666666666
+category,Công nghệ - Khoa học,47,10,9,19,0.40425531914893614
+category,Du lịch - Ẩm thực,43,3,6,9,0.20930232558139536
+category,Giáo dục,57,5,6,11,0.19298245614035087
+category,Giải trí - Văn hóa,152,10,17,27,0.17763157894736842
+category,Khác,22,0,1,1,0.045454545454545456
+category,Kinh tế - Tài chính,141,16,21,37,0.2624113475177305
+category,Làm đẹp - Thời trang,64,2,8,10,0.15625
+category,Pháp luật,35,0,3,3,0.08571428571428572
+category,Sức khỏe,81,2,16,18,0.2222222222222222
+category,Thế giới,88,6,8,14,0.1590909090909091
+category,Thể thao,70,7,14,21,0.3
+category,Thời sự - Xã hội,287,19,28,47,0.16376306620209058
+category,Tử vi - Phong thủy,41,1,5,6,0.14634146341463414
+category,Xe,11,2,0,2,0.18181818181818182
+category,Đời sống - Gia đình,224,8,45,53,0.23660714285714285

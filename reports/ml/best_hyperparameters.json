@@ -1,0 +1,73 @@
+{
+  "LogisticRegression": {
+    "params": {
+      "C": 1.0,
+      "class_weight": null,
+      "solver": "lbfgs"
+    },
+    "optimal_threshold": 0.31,
+    "metrics": {
+      "accuracy": 0.8222222222222222,
+      "macro_f1": 0.8215597276665979,
+      "macro_precision": 0.8212826738448473,
+      "macro_recall": 0.8219595417986839,
+      "clickbait_f1": 0.8106870229007633,
+      "clickbait_precision": 0.8033282904689864,
+      "clickbait_recall": 0.8181818181818182
+    }
+  },
+  "LinearSVM": {
+    "params": {
+      "alpha": 0.0001,
+      "loss": "hinge",
+      "class_weight": "balanced"
+    },
+    "optimal_threshold": -0.35,
+    "metrics": {
+      "accuracy": 0.8172043010752689,
+      "macro_f1": 0.8165069231915958,
+      "macro_precision": 0.8162492269635127,
+      "macro_recall": 0.8168671538394808,
+      "clickbait_f1": 0.8051948051948052,
+      "clickbait_precision": 0.7984848484848485,
+      "clickbait_recall": 0.8120184899845917
+    }
+  },
+  "XGBoost": {
+    "params": {
+      "max_depth": 6,
+      "learning_rate": 0.15,
+      "n_estimators": 150,
+      "colsample_bytree": 0.8,
+      "scale_pos_weight": 1.0
+    },
+    "optimal_threshold": 0.31,
+    "metrics": {
+      "accuracy": 0.8086021505376344,
+      "macro_f1": 0.8078719548712002,
+      "macro_precision": 0.807622139764997,
+      "macro_recall": 0.8082232099703813,
+      "clickbait_f1": 0.7960275019098548,
+      "clickbait_precision": 0.7893939393939394,
+      "clickbait_recall": 0.802773497688752
+    }
+  },
+  "RandomForest": {
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 70,
+      "min_samples_split": 5,
+      "class_weight": null
+    },
+    "optimal_threshold": 0.35,
+    "metrics": {
+      "accuracy": 0.8057347670250896,
+      "macro_f1": 0.8048103865688356,
+      "macro_precision": 0.8047805885389778,
+      "macro_recall": 0.8048410216583979,
+      "clickbait_f1": 0.7913779830638953,
+      "clickbait_precision": 0.7907692307692308,
+      "clickbait_recall": 0.7919876733436055
+    }
+  }
+}
