@@ -1,7 +1,7 @@
 {
-  "dataset": "/Users/ngothinga/ds-project/data/processed/dataset.csv",
+  "dataset": "data/processed/dataset.csv",
   "tokenizer": "PyVi ViTokenizer",
-  "normalization": "Unicode NFC; collapse whitespace; preserve case and punctuation",
+  "normalization": "Unicode NFC; clean invisible chars; collapse whitespace; preserve case and punctuation",
   "vocabulary_fit_split": "train",
   "max_length_selection_splits": [
     "train",
@@ -11,7 +11,7 @@
   "max_length_cap": 256,
   "max_length": 30,
   "min_frequency": 1,
-  "vocabulary_size_including_reserved_tokens": 21591,
+  "vocabulary_size_including_reserved_tokens": 21590,
   "splits": {
     "train": {
       "records": 20000,
@@ -33,5 +33,6 @@
       "truncation_rate": 0.0,
       "features": "test_unseen.npz"
     }
-  }
+  },
+  "embeddings": null
 }
