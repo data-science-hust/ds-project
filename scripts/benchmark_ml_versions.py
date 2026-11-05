@@ -2,9 +2,9 @@
 
 Models evaluated:
 - Logistic Regression
-- Linear SVM (LinearSVC / SGDClassifier)
+- Linear SVM 
 - Random Forest
-(and XGBoost / LightGBM if installed in the environment).
+- XGBoost
 
 Usage:
     python scripts/benchmark_ml_versions.py
@@ -49,12 +49,6 @@ def get_available_classifiers(seed: int = 2026) -> dict[str, Any]:
     try:
         from xgboost import XGBClassifier
         models["XGBoost"] = XGBClassifier(n_estimators=100, max_depth=6, random_state=seed, eval_metric="logloss")
-    except ImportError:
-        pass
-
-    try:
-        from lightgbm import LGBMClassifier
-        models["LightGBM"] = LGBMClassifier(n_estimators=100, max_depth=6, random_state=seed)
     except ImportError:
         pass
 

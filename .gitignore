@@ -15,4 +15,6 @@ dist/
 
 # Data and reports are committed; only the crawler working directory is not.
 /data/crawl_work/
+
+# Checkpoints and models are not committed; only the final model artifacts are.
 /models/

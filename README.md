@@ -81,9 +81,19 @@ ds-project/
 │   │   ├── dedup.py                     # exact + near-duplicate grouping (dup_group)
 │   │   ├── categories.py                # 16 common groups, mapping lookup and proposals
 │   │   └── report.py                    # reports/data_report.md
-│   └── splitting/
-│       ├── split.py                     # stratified split, reserve list, blind tables, checks
-│       └── report.py                    # reports/split_report.md, split_counts.csv
+│   ├── splitting/
+│   │   ├── split.py                     # stratified split, reserve list, blind tables, checks
+│   │   └── report.py                    # reports/split_report.md, split_counts.csv
+│   ├── correction/
+│   │   ├── correction.py                # full train construction, nested correction permutations
+│   │   ├── loader.py                    # dataset loader API (train, subset, dev, test)
+│   │   └── README.md                    # developer documentation for shared data loader
+│   ├── eda/
+│   │   ├── analysis.py                  # distributions, length stats, agreement/disagreement metrics
+│   │   └── report.py                    # renders reports/eda/eda_report.md
+│   └── features/
+│       ├── pipeline.py                  # ClickbaitFeaturePipeline (v1 TF-IDF, v2 Warsaw, v3 Concat)
+│       └── stylometric.py               # 25 Warsaw stylometric features adapted for Vietnamese
 ├── scripts/
 │   ├── crawl_data.py                    # crawl one outlet (inventory, resume)
 │   ├── run_crawling_batch.py            # crawl all outlets to quota, in parallel
@@ -91,8 +101,13 @@ ds-project/
 │   ├── export_raw.py                    # final runs → data/raw/articles_raw.jsonl
 │   ├── propose_category_mapping.py      # add new raw categories to category_mapping.csv
 │   ├── build_clean.py                   # raw → clean + dedup + funnel reports
-│   └── build_split.py                   # clean → split, dataset.csv, blind tables
-├── tests/                               # unittest: test_crawling, test_clean, test_split
+│   ├── build_split.py                   # clean → split, dataset.csv, blind tables
+│   ├── build_label_versions.py          # build train_full_corrected.csv & nested subset manifests
+│   ├── run_eda.py                       # execute EDA and export summary tables & report
+│   ├── benchmark_ml_versions.py         # benchmark input variants (v1, v2, v3) on Dev
+│   ├── tune_hyperparameters.py          # optimize hyperparameters & decision threshold on Dev
+│   └── run_scaling_experiments.py       # EVAL2 correction scaling across seeds, save models & preds
+├── tests/                               # unittest: crawling, clean, split, correction, eda, features
 ├── docs/
 │   ├── pipeline.md                      # how to run each step, rules in detail
 │   └── data_contract.md                 # schema of every output file
@@ -107,21 +122,47 @@ ds-project/
 │   │   └── template_series.csv          # same-template title series (kept in one split)
 │   ├── processed/
 │   │   ├── articles_clean.parquet       # 29,777 valid records with dup_group, category
-│   │   └── dataset.csv                  # ★ 23,600 split records, all fields + annotation_id
+│   │   ├── dataset.csv                  # ★ 23,600 split records, all fields + annotation_id
+│   │   └── train_full_corrected.csv     # 20,000 full train records after human gold correction
 │   ├── manifests/
 │   │   ├── split_manifest.csv           # record_id → split, is_human_subset, split_group
 │   │   ├── annotation_map.csv           # annotation_id → record_id (internal)
-│   │   └── reserve_list.csv             # 5,834 replacement records, ranked
-│   └── annotations/blind/
-│       ├── blind_dev.csv                # 1,400 rows: annotation_id, title, category
-│       └── blind_train_subset_test.csv  # 8,600 rows: annotation_id, title, category
+│   │   ├── reserve_list.csv             # 5,834 replacement records, ranked
+│   │   ├── correction_manifest.csv      # audit trail of corrected records per level and seed
+│   │   ├── subset_label_versions.csv    # fast label lookup per seed and correction level
+│   │   └── model_manifest.csv           # registry of 64 trained models with params & split metrics
+│   └── annotations/
+│       ├── blind/                       # blind tables for human annotators
+│       │   ├── blind_dev.csv            # 1,400 rows: annotation_id, title, category
+│       │   └── blind_train_subset_test.csv # 8,600 rows: annotation_id, title, category
+│       ├── human/gold/                  # adjudicated ground-truth labels
+│       │   ├── train_subset_gold.csv    # 6,389 adjudicated records on train subset
+│       │   ├── dev_gold.csv             # 1,395 adjudicated records on dev set
+│       │   ├── test_gold_seen.csv       # 998 adjudicated records on test seen
+│       │   └── test_gold_unseen.csv     # 1,194 adjudicated records on test unseen
+│       └── llm/                         # LLM annotations (raw and prompt variants)
+├── predictions/                         # 128 EVAL2 prediction CSVs on test_seen and test_unseen
 └── reports/
     ├── crawl_stats.csv                  # crawl counts per outlet
     ├── data_report.md                   # raw → valid → after dedup → with sapo
     ├── funnel_by_source*.csv            # same funnel per outlet / per category
     ├── category_mapping_review.md       # mapping review notes
     ├── split_report.md                  # split counts, category balance, checks
-    └── split_counts.csv                 # records per source × category × split
+    ├── split_counts.csv                 # records per source × category × split
+    ├── correction/
+    │   └── correction_report.md         # label versions & nested correction audit report
+    ├── eda/
+    │   ├── eda_report.md                # comprehensive EDA findings, lengths & distributions
+    │   └── eda_*.csv                    # summary tables by source, category, disagreement, labels
+    ├── ml/
+    │   ├── ml_pipeline_report.md        # ML input variants, tuning & EVAL2 scaling analysis
+    │   ├── ml_input_variants_benchmark.csv # benchmark v1 vs v2 vs v3 across 5 models on Dev
+    │   ├── best_hyperparameters.json    # optimal parameters & thresholds on Dev
+    │   ├── hyperparameter_tuning_results.csv # sweep results on Dev
+    │   └── scaling_ablation_*.csv       # runs and summary metrics across seeds & splits
+    └── figures/
+        └── ml/
+            └── scaling_ablation_macro_f1.png # 3-panel Macro-F1 scaling curves (Dev, Seen, Unseen)
 ```
 
 ## Setup
