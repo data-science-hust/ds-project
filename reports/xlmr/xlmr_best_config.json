@@ -1,0 +1,18 @@
+{
+  "config_id": "lr3e-5_cw_balanced",
+  "model_name": "xlm-roberta-large",
+  "tune_seed": 2026,
+  "lr": 3e-05,
+  "class_weight": "balanced",
+  "epochs": 5,
+  "batch_size": 32,
+  "grad_accum": 1,
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01,
+  "max_grad_norm": 1.0,
+  "eval_interval_epochs": 0.5,
+  "selection_metric": "tuned_dev_macro_f1",
+  "tune_dev_macro_f1": 0.8418608581663486,
+  "tune_dev_macro_f1_050": 0.8398061927083842,
+  "tune_optimal_threshold": 0.52
+}

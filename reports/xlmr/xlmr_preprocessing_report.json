@@ -1,0 +1,71 @@
+{
+  "model_name": "xlm-roberta-large",
+  "dataset_path": "/home/tts/dongvv/ds-project/data/processed/dataset.csv",
+  "output_dir": "/home/tts/dongvv/ds-project/data/processed/xlmr",
+  "config_path": "/home/tts/dongvv/ds-project/data/processed/xlmr/preprocessor_config.json",
+  "max_length": 64,
+  "max_length_selection": {
+    "percentile": 100.0,
+    "max_cap": 128,
+    "multiple": 8,
+    "raw_selected_length": 62,
+    "rounded_length": 64,
+    "max_length": 64,
+    "train_dev_combined": {
+      "count": 21400,
+      "min": 5,
+      "median": 22.0,
+      "p95": 36.0,
+      "p99": 42.0,
+      "max": 62,
+      "truncation_count": 0,
+      "truncation_rate": 0.0
+    }
+  },
+  "splits": {
+    "train": {
+      "count": 20000,
+      "min": 5,
+      "median": 22.0,
+      "p95": 36.0,
+      "p99": 42.0,
+      "max": 62,
+      "truncation_count": 0,
+      "truncation_rate": 0.0,
+      "npz_path": "/home/tts/dongvv/ds-project/data/processed/xlmr/train.npz"
+    },
+    "dev": {
+      "count": 1400,
+      "min": 7,
+      "median": 22.0,
+      "p95": 36.0,
+      "p99": 41.0,
+      "max": 48,
+      "truncation_count": 0,
+      "truncation_rate": 0.0,
+      "npz_path": "/home/tts/dongvv/ds-project/data/processed/xlmr/dev.npz"
+    },
+    "test_seen": {
+      "count": 1000,
+      "min": 8,
+      "median": 22.0,
+      "p95": 36.0,
+      "p99": 42.0,
+      "max": 49,
+      "truncation_count": 0,
+      "truncation_rate": 0.0,
+      "npz_path": "/home/tts/dongvv/ds-project/data/processed/xlmr/test_seen.npz"
+    },
+    "test_unseen": {
+      "count": 1200,
+      "min": 5,
+      "median": 19.0,
+      "p95": 28.0,
+      "p99": 31.00999999999999,
+      "max": 37,
+      "truncation_count": 0,
+      "truncation_rate": 0.0,
+      "npz_path": "/home/tts/dongvv/ds-project/data/processed/xlmr/test_unseen.npz"
+    }
+  }
+}

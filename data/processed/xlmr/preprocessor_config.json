@@ -1,0 +1,32 @@
+{
+  "model_name": "xlm-roberta-large",
+  "max_length": 64,
+  "normalization": {
+    "unicode_form": "NFC",
+    "strip_zero_width": true,
+    "collapse_whitespace": true,
+    "preserve_case": true,
+    "preserve_punctuation": true,
+    "word_segmentation": null
+  },
+  "max_length_selection": {
+    "percentile": 100.0,
+    "max_cap": 128,
+    "multiple": 8,
+    "raw_selected_length": 62,
+    "rounded_length": 64,
+    "max_length": 64,
+    "train_dev_combined": {
+      "count": 21400,
+      "min": 5,
+      "median": 22.0,
+      "p95": 36.0,
+      "p99": 42.0,
+      "max": 62,
+      "truncation_count": 0,
+      "truncation_rate": 0.0
+    }
+  },
+  "tokenizer_class": "XLMRobertaTokenizer",
+  "vocab_size": 250002
+}
